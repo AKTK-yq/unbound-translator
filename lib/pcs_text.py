@@ -79,6 +79,60 @@ CHAR_TO_BYTE = {char: value for value, char in PCS_CHAR_TABLE.items()}
 CHAR_TO_BYTE["'"] = 0xB4
 
 
+# FireRed's Japanese font page reuses the one-byte PCS values below. Latin
+# characters outside these overridden ranges keep their existing byte values,
+# so explicit [japanese]/[latin] switches can coexist in one string.
+JAPANESE_PCS_CHAR_TABLE = dict(PCS_CHAR_TABLE)
+
+_JAPANESE_CHAR_RANGES = [
+    (
+        0x01,
+        "あいうえおかきくけこさしすせそたちつてとなにぬねの"
+        "はひふへほまみむめもやゆよらりるれろわをん"
+        "ぁぃぅぇぉゃゅょがぎぐげござじずぜぞだぢづでど"
+        "ばびぶべぼぱぴぷぺぽっ",
+    ),
+    (
+        0x51,
+        "アイウエオカキクケコサシスセソタチツテトナニヌネノ"
+        "ハヒフヘホマミムメモヤユヨラリルレロワヲン"
+        "ァィゥェォャュョガギグゲゴザジズゼゾダヂヅデド"
+        "バビブベボパピプペポッ",
+    ),
+]
+
+for _start, _chars in _JAPANESE_CHAR_RANGES:
+    for _index, _char in enumerate(_chars):
+        JAPANESE_PCS_CHAR_TABLE[_start + _index] = _char
+
+JAPANESE_PCS_CHAR_TABLE.update(
+    {
+        0x00: "　",
+        0xAB: "！",
+        0xAC: "？",
+        0xAD: "。",
+        0xAE: "ー",
+        0xB0: "‥",
+    }
+)
+
+JAPANESE_CHAR_TO_BYTE = {
+    char: value for value, char in JAPANESE_PCS_CHAR_TABLE.items()
+}
+# The Japanese ROM also uses ordinary spaces, digits, and Latin text on the
+# Japanese page. Keep convenient ASCII spellings for page-overridden symbols.
+JAPANESE_CHAR_TO_BYTE.update(
+    {
+        " ": 0x00,
+        "!": 0xAB,
+        "?": 0xAC,
+        ".": 0xAD,
+        "-": 0xAE,
+        "…": 0xB0,
+    }
+)
+
+
 FC_ARG_COUNTS: dict[int, int] = {
     0x04: 3,
     0x09: 0,
@@ -278,6 +332,7 @@ def decode_pcs(data: bytes | bytearray, offset: int = 0, max_length: int = 2048)
     end = min(len(data), offset + max_length)
     raw_count = 0
     control_count = 0
+    japanese_page = False
 
     while index < end:
         byte = data[index]
@@ -313,6 +368,10 @@ def decode_pcs(data: bytes | bytearray, offset: int = 0, max_length: int = 2048)
                 pieces.append(f"[{COLOR_NAMES[args[0]]}]")
             elif argc == 0 and command in FC_MACROS:
                 pieces.append(FC_MACROS[command])
+                if command == 0x15:
+                    japanese_page = True
+                elif command == 0x16:
+                    japanese_page = False
             else:
                 pieces.append("\\CC" + f"{command:02X}" + "".join(f"{arg:02X}" for arg in args))
                 if len(args) != argc:
@@ -359,7 +418,8 @@ def decode_pcs(data: bytes | bytearray, offset: int = 0, max_length: int = 2048)
             pieces.append(F9_MACROS.get(arg, f"\\9{arg:02X}"))
             continue
 
-        char = PCS_CHAR_TABLE.get(byte)
+        char_table = JAPANESE_PCS_CHAR_TABLE if japanese_page else PCS_CHAR_TABLE
+        char = char_table.get(byte)
         if char is None:
             pieces.append(_raw_byte(byte))
             raw_count += 1
@@ -402,8 +462,9 @@ class Charmap:
         self.char_to_bytes = {char: bytes([byte]) for char, byte in CHAR_TO_BYTE.items()}
         self.bytes_to_char = dict(PCS_CHAR_TABLE)
 
-    def encode_char(self, char: str) -> bytes | None:
-        byte = CHAR_TO_BYTE.get(char)
+    def encode_char(self, char: str, *, japanese_page: bool = False) -> bytes | None:
+        table = JAPANESE_CHAR_TO_BYTE if japanese_page else CHAR_TO_BYTE
+        byte = table.get(char)
         if byte is None:
             return None
         return bytes([byte])
@@ -428,6 +489,7 @@ class Charmap:
         text = self._sanitize(text)
         result = bytearray()
         index = 0
+        japanese_page = False
 
         while index < len(text):
             char = text[index]
@@ -452,6 +514,10 @@ class Charmap:
                     macro = BRACKET_MACROS.get(token)
                     if macro is not None:
                         result.extend(macro)
+                        if token == "[japanese]":
+                            japanese_page = True
+                        elif token == "[latin]":
+                            japanese_page = False
                         index = end + 1
                         continue
 
@@ -544,9 +610,17 @@ class Charmap:
                         index = cursor
                         continue
 
-            encoded = self.encode_char(char)
+            encoded = self.encode_char(char, japanese_page=japanese_page)
             if encoded is not None:
                 result.extend(encoded)
+            elif japanese_page:
+                raise UnicodeEncodeError(
+                    "pokemon-gen3-pcs",
+                    text,
+                    index,
+                    index + 1,
+                    "character is not available in the Japanese PCS page",
+                )
             index += 1
 
         result.append(TERMINATOR)
