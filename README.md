@@ -227,6 +227,8 @@ not be committed. Resume an interrupted translation by repeating the same comman
 Japanese is an experimental kana-only target. `--target ja` requests PokeAPI's `ja-hrkt` localization and instructs
 the LLM not to emit kanji. Run controlfix with `--target-lang ja`; it wraps by character and adds the Japanese/Latin
 font-page controls required by the ROM. There is no release-ready Japanese translation yet.
+The bounded 59-entry runtime validation build and its byte-audit commands are in
+[the Japanese Phase 4 guide](docs/ja-phase4.md).
 
 ### 4. Repair Controls And Layout
 

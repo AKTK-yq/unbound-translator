@@ -60,6 +60,31 @@ class PokeAPILocalizerTests(unittest.TestCase):
             self.assertEqual(localizer.translate_entry(entry), "Fulmine")
             self.assertEqual(len(opener.calls), 1)
 
+    def test_japanese_uses_pokeapi_kana_language(self):
+        url = "https://example.test/api/v2/move/85/"
+        payload = {
+            "names": [
+                localized("en", name="Thunderbolt"),
+                localized("ja", name="十万ボルト"),
+                localized("ja-hrkt", name="１０まんボルト"),
+            ]
+        }
+        with tempfile.TemporaryDirectory() as cache_dir:
+            opener = FakeOpener({url: payload})
+            localizer = PokeAPILocalizer(
+                "ja",
+                cache_dir,
+                base_url="https://example.test/api/v2",
+                opener=opener,
+            )
+            entry = {
+                "category": "move_names",
+                "table_index": 85,
+                "translation_source": "Thunderbolt",
+            }
+
+            self.assertEqual(localizer.translate_entry(entry), "10まんボルト")
+
     def test_name_mismatch_falls_back(self):
         url = "https://example.test/api/v2/item/1/"
         list_url = "https://example.test/api/v2/item/?limit=10000"

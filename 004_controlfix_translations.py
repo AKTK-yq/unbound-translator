@@ -24,6 +24,8 @@ TOKEN_RE = re.compile(
 )
 
 LAYOUT_TOKENS = {"\\n", "\\p", "\\l"}
+DYNAMIC_JAPANESE_TOKEN = r"(?:\[(?:player|rival|kun|buffer[123])\]|\\\\[0-9A-Fa-f]{2})"
+DYNAMIC_JAPANESE_TOKEN_RE = re.compile(DYNAMIC_JAPANESE_TOKEN)
 QUOTE_TOKENS = {"\\qo", "\\qc"}
 BATTLE_PROMPT_NAME_SECOND_LINE_IDS = {
     "tbl_battle_messages_00412_3FE6D5",
@@ -484,6 +486,8 @@ def should_skip_wrap(text):
 
 
 def wrap_width_for_entry(entry, args):
+    if getattr(args, "target_lang", "it") == "ja":
+        return min(args.wrap_width, 16)
     if entry.get("category") == "pokedex_descriptions":
         return args.pokedex_description_wrap_width
     if entry.get("category") == "mission_objectives":
@@ -537,16 +541,43 @@ def wrap_characters(text, width):
     current = []
     current_width = 0
     for unit in units:
+        if unit == " " and not current:
+            continue
         unit_width = visible_width(unit)
         if current and unit_width and current_width + unit_width > width:
-            lines.append("".join(current))
-            current = []
-            current_width = 0
+            if unit == " ":
+                lines.append("".join(current).rstrip(" "))
+                current = []
+                current_width = 0
+                continue
+            last_space = next(
+                (index for index in range(len(current) - 1, -1, -1) if current[index] == " "),
+                -1,
+            )
+            suffix = current[last_space + 1:] if last_space >= 0 else []
+            if last_space >= 0 and sum(map(visible_width, suffix)) + unit_width <= width:
+                lines.append("".join(current[:last_space]).rstrip(" "))
+                current = suffix
+                current_width = sum(map(visible_width, current))
+            elif unit in "。！？.!?" and len(current) > 1 and visible_width(current[-1]) == 1:
+                carry = current.pop()
+                lines.append("".join(current))
+                current = [carry]
+                current_width = 1
+            else:
+                lines.append("".join(current))
+                current = []
+                current_width = 0
         current.append(unit)
         current_width += unit_width
     if current:
-        lines.append("".join(current))
+        lines.append("".join(current).rstrip(" "))
     return lines, 0
+
+
+def normalize_japanese_layout_whitespace(text):
+    """Drop break-boundary spaces, retaining spaces inside Japanese phrases."""
+    return re.sub(r" *(\\n|\\l|\\p|\n) *", r"\1", text)
 
 
 def wrap_words_by_pixels(text, max_pixels):
@@ -836,14 +867,22 @@ def strip_japanese_page(text):
     prefix = "[japanese]"
     suffix = "[latin]"
     if text.startswith(prefix) and text.endswith(suffix):
-        return text[len(prefix):-len(suffix)]
+        text = text[len(prefix):-len(suffix)]
+        return re.sub(
+            rf"\[latin\]({DYNAMIC_JAPANESE_TOKEN})\[japanese\]",
+            r"\1",
+            text,
+        )
     return text
 
 
 def ensure_japanese_page(text):
-    if text.startswith("[japanese]") and text.endswith("[latin]"):
-        return text, False
-    return f"[japanese]{text}[latin]", True
+    plain = strip_japanese_page(text)
+    switched = DYNAMIC_JAPANESE_TOKEN_RE.sub(
+        lambda match: f"[latin]{match.group(0)}[japanese]", plain
+    )
+    fixed = f"[japanese]{switched}[latin]"
+    return fixed, fixed != text
 
 
 def mission_name_reference_width(entries):
@@ -1126,6 +1165,16 @@ def main():
         stats["translated"] += 1
 
         original = strip_hma_quotes(originals.get(entry.get("id"), entry.get("original", "")))
+        if (
+            args.target_lang == "ja"
+            and translated.startswith("[japanese]")
+            and translated.endswith("[latin]")
+            and ensure_japanese_page(translated)[0] == translated
+            and normalize_japanese_layout_whitespace(strip_japanese_page(translated))
+            == strip_japanese_page(translated)
+            and controls_match(strip_japanese_page(translated), original)
+        ):
+            continue
         before = translated
 
         text = translated
@@ -1218,6 +1267,9 @@ def main():
         )
         stats["battle_fragment_spacing_repairs"] += int(fragment_spacing_repaired)
         text = next_text
+
+        if args.target_lang == "ja":
+            text = normalize_japanese_layout_whitespace(text)
 
         if not controls_match(text, original):
             stats["remaining_control_mismatches"] += 1

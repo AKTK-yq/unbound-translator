@@ -26,6 +26,22 @@ LLM_TRANSLATE = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(LLM_TRANSLATE)
 
 
+def test_japanese_is_supported_and_prompt_requires_kana_only():
+    assert LLM_TRANSLATE.LANGUAGE_NAMES["ja"] == "Japanese"
+
+    prompt = LLM_TRANSLATE.make_system_prompt("Japanese")
+    assert "hiragana and katakana" in prompt
+    assert "kanji" in prompt
+
+
+def test_include_ids_filter_handles_ids_with_hex_suffixes():
+    entries = [{"id": "scr_1F0F7EC"}, {"id": "scr_1F0F800"}]
+    filtered = LLM_TRANSLATE.filter_entries_by_include(
+        entries, {"scr_1F0F7EC"}, [], set(), set()
+    )
+    assert filtered == entries[:1]
+
+
 def test_italian_glossary_is_valid_and_has_unique_sources():
     glossary = load_glossary(ROOT / "glossaries" / "it.json", expected_language="it")
     sources = [term.source for term in glossary.terms]
@@ -48,6 +64,21 @@ def test_italian_glossary_defines_canonical_difficulty_terms():
     assert targets["Vanilla"] == "Normale"
     assert targets["Difficult"] == "Difficile"
     assert targets["Insane"] == "Folle"
+
+
+def test_japanese_glossary_targets_match_inside_natural_sentences():
+    glossary = load_glossary(ROOT / "glossaries" / "ja.json", expected_language="ja")
+    targets = {term.source: term.target for term in glossary.terms}
+    assert targets["Text Speed"] == "はなしのはやさ"
+    assert "Vanilla" not in targets and "Difficult" not in targets
+    assert not glossary.missing_targets(
+        "Enter the Borrius Region!",
+        "ボーリウスちほうへの たびを はじめよう！",
+        "scripts",
+    )
+    assert glossary.missing_targets(
+        "Enter the Borrius Region!", "たびを はじめよう！", "scripts"
+    ) == [("ボーリウスちほう", 1, 0)]
 
 
 def test_italian_glossary_covers_every_extracted_mission_name():

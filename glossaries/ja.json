@@ -1,0 +1,32 @@
+{
+  "language": "ja",
+  "status": "reviewed-phase4-terms",
+  "note": "Kana-only Phase 4 reviewed terminology. Vanilla and Difficult remain unresolved.",
+  "terms": [
+    {"source": "Borrius Region", "target": "ボーリウスちほう", "kind": "region"},
+    {"source": "Borrius", "target": "ボーリウス", "kind": "region"},
+    {"source": "Dehara City", "target": "デハラシティ", "kind": "place"},
+    {"source": "Pokémon Unbound", "target": "ポケモン アンバウンド", "kind": "title"},
+    {"source": "Unbound", "target": "アンバウンド", "kind": "title"},
+    {"source": "A Hero's Journey", "target": "ヒーローのたび", "kind": "mission", "categories": ["mission_names"]},
+    {"source": "A Hero’s Journey", "target": "ヒーローのたび", "kind": "mission", "categories": ["mission_names"]},
+    {"source": "A Heroine's Journey", "target": "ヒロインのたび", "kind": "mission", "categories": ["mission_names"]},
+    {"source": "A Heroine’s Journey", "target": "ヒロインのたび", "kind": "mission", "categories": ["mission_names"]},
+    {"source": "Missions", "target": "ミッション", "kind": "ui", "categories": ["mission_log", "menu_pause"]},
+    {"source": "difficulty", "target": "むずかしさ", "kind": "term", "case_sensitive": false},
+    {"source": "boulder puzzle", "target": "いわを おす なぞとき", "kind": "term", "case_sensitive": false},
+    {"source": "puzzle", "target": "なぞとき", "kind": "term", "case_sensitive": false},
+    {"source": "stealth", "target": "こっそり すすむ", "kind": "term", "case_sensitive": false},
+    {"source": "character", "target": "キャラ", "kind": "term", "case_sensitive": false},
+    {"source": "journey", "target": "たび", "kind": "term", "case_sensitive": false},
+    {"source": "type matchup", "target": "タイプあいしょう", "kind": "term", "case_sensitive": false},
+    {"source": "reward", "target": "ごほうび", "kind": "term", "case_sensitive": false},
+    {"source": "Active", "target": "しんこうちゅう", "kind": "ui", "categories": ["mission_log"]},
+    {"source": "Location", "target": "ばしょ", "kind": "ui", "categories": ["mission_log"]},
+    {"source": "Type", "target": "しゅるい", "kind": "ui", "categories": ["mission_log"]},
+    {"source": "Save", "target": "レポート", "kind": "ui", "categories": ["menu_pause"]},
+    {"source": "Option", "target": "せってい", "kind": "ui", "categories": ["menu_pause"]},
+    {"source": "Options", "target": "せってい", "kind": "ui", "categories": ["menu_pause"]},
+    {"source": "Text Speed", "target": "はなしのはやさ", "kind": "ui", "categories": ["menu_options"]}
+  ]
+}

@@ -121,10 +121,15 @@ class TranslationGlossary:
         )
         missing = []
         for target, expected_count in expected.items():
-            pattern = _term_pattern(
-                GlossaryTerm(target, target, "target", case_sensitive=False)
-            )
-            actual_count = len(pattern.findall(visible_translation))
+            if any("\u3040" <= char <= "\u30ff" for char in target):
+                # Japanese has no mandatory word separators. A word-boundary
+                # regex rejects a target followed by a particle such as への.
+                actual_count = visible_translation.count(target)
+            else:
+                pattern = _term_pattern(
+                    GlossaryTerm(target, target, "target", case_sensitive=False)
+                )
+                actual_count = len(pattern.findall(visible_translation))
             if actual_count < expected_count:
                 missing.append((target, expected_count, actual_count))
         return missing

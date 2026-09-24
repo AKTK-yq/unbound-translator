@@ -33,6 +33,7 @@ def _args(**overrides):
         "mission_description_max_lines": 3,
         "item_description_wrap_width": 14,
         "item_description_max_lines": 3,
+        "target_lang": "it",
     }
     values.update(overrides)
     return SimpleNamespace(**values)
@@ -203,6 +204,83 @@ def test_wrap_translation_uses_dialogue_layout_for_scripts():
     assert not skipped
     assert long_words == 0
     assert wrapped == "uno due tre\nquattro\\lcinque sei"
+
+
+def test_japanese_wraps_by_character_without_spaces():
+    wrapped, changed, long_words, skipped = controlfix.wrap_translation(
+        "あいうえおかきくけこさしすせそ",
+        {"category": "scripts"},
+        "Hello",
+        _args(target_lang="ja", wrap_width=6),
+        {"scripts"},
+    )
+
+    assert changed
+    assert not skipped
+    assert long_words == 0
+    assert wrapped == "あいうえおか\nきくけこさし\\lすせそ"
+
+
+def test_japanese_page_controls_are_added_once_after_control_checks():
+    assert controlfix.ensure_japanese_page("こんにちは") == (
+        "[japanese]こんにちは[latin]",
+        True,
+    )
+    assert controlfix.ensure_japanese_page("[japanese]こんにちは[latin]") == (
+        "[japanese]こんにちは[latin]",
+        False,
+    )
+
+
+def test_japanese_switches_to_latin_for_dynamic_name_and_back():
+    expected = "[japanese]こんにちは[latin][player][japanese]さん[latin]"
+    assert controlfix.ensure_japanese_page("こんにちは[player]さん") == (expected, True)
+    assert controlfix.strip_japanese_page(expected) == "こんにちは[player]さん"
+    assert controlfix.ensure_japanese_page(expected) == (expected, False)
+
+    battle = r"\\0Fはどくをうけた！"
+    expected_battle = r"[japanese][latin]\\0F[japanese]はどくをうけた！[latin]"
+    assert controlfix.ensure_japanese_page(battle) == (expected_battle, True)
+    assert controlfix.strip_japanese_page(expected_battle) == battle
+
+
+def test_japanese_default_dialogue_width_is_conservative():
+    wrapped, changed, _long_words, skipped = controlfix.wrap_translation(
+        "あいうえおかきくけこさしすせそたちつてと",
+        {"category": "scripts"},
+        "Hello",
+        _args(target_lang="ja", wrap_width=35),
+        {"scripts"},
+    )
+    assert changed and not skipped
+    assert wrapped == "あいうえおかきくけこさしすせそた\nちつてと"
+
+
+def test_japanese_wrap_keeps_punctuation_with_previous_character():
+    assert controlfix.wrap_characters("あいうえ？", 4) == (["あいう", "え？"], 0)
+
+
+def test_japanese_wakachigaki_wrap_discards_only_break_spaces():
+    assert controlfix.wrap_characters("あいうえお かきくけこ", 6) == (
+        ["あいうえお", "かきくけこ"], 0
+    )
+    assert controlfix.wrap_characters("あいうえお。 かきくけこ", 6) == (
+        ["あいうえお。", "かきくけこ"], 0
+    )
+    assert controlfix.wrap_characters("あいう えお", 8) == (["あいう えお"], 0)
+    assert controlfix.wrap_characters("あいうえお かきくけこ", 8) == (
+        ["あいうえお", "かきくけこ"], 0
+    )
+
+
+def test_japanese_layout_breaks_strip_boundary_spaces_without_touching_buffers():
+    source = "あいう \\n かき \\l くけ \\p こさ [buffer1] しす"
+    assert controlfix.normalize_japanese_layout_whitespace(source) == (
+        "あいう\\nかき\\lくけ\\pこさ [buffer1] しす"
+    )
+    assert controlfix.normalize_japanese_layout_whitespace(
+        "あいう。 \\n かき！ \\l くけ？ \\p こさ"
+    ) == "あいう。\\nかき！\\lくけ？\\pこさ"
 
 
 def test_wrap_translation_uses_plain_line_breaks_for_plain_scripts_and_descriptions():

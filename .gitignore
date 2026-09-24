@@ -7,6 +7,8 @@ rom/*.gba
 out/*.json
 out/*.gba
 out/*.bps
+/out/unbound-ja-phase4-report.md
+/out/unbound-ja-phase4-reviewed-report.md
 
 # Local ROM graphics inspection artifacts
 /out/graphics-audit/

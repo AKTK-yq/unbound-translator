@@ -44,3 +44,121 @@ def test_controlfix_cli_regression_fixture_preserves_tokens_and_layout(tmp_path)
     assert report["stats"]["remaining_control_mismatches"] == 0
     assert report["stats"]["menu_line_break_repairs"] == 1
     assert report["stats"]["battle_prompt_layout_repairs"] == 1
+
+
+def test_controlfix_cli_wraps_japanese_and_adds_page_controls(tmp_path):
+    input_path = tmp_path / "ja-input.json"
+    source_path = tmp_path / "ja-source.json"
+    output_path = tmp_path / "ja-output.json"
+    report_path = tmp_path / "ja-report.json"
+    input_path.write_text(
+        json.dumps(
+            {
+                "entries": [
+                    {
+                        "id": "scr_ja_test",
+                        "category": "scripts",
+                        "original": "Choose a character.",
+                        "translated": "あいうえおかきくけこさしすせそ",
+                    }
+                ]
+            },
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    source_path.write_text(
+        json.dumps(
+            {
+                "entries": [
+                    {
+                        "id": "scr_ja_test",
+                        "category": "scripts",
+                        "original": "Choose a character.",
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "004_controlfix_translations.py"),
+            str(input_path),
+            "-o",
+            str(output_path),
+            "--source",
+            str(source_path),
+            "--report",
+            str(report_path),
+            "--target-lang",
+            "ja",
+            "--wrap-width",
+            "6",
+        ],
+        check=True,
+        cwd=REPO_ROOT,
+    )
+
+    entry = json.loads(output_path.read_text(encoding="utf-8"))["entries"][0]
+    assert entry["translated"] == (
+        "[japanese]あいうえおか\nきくけこさし\\lすせそ[latin]"
+    )
+    report = json.loads(report_path.read_text(encoding="utf-8"))
+    assert report["stats"]["remaining_control_mismatches"] == 0
+    assert report["stats"]["japanese_page_controls"] == 1
+
+    second_output = tmp_path / "ja-second.json"
+    second_report = tmp_path / "ja-second-report.json"
+    subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "004_controlfix_translations.py"),
+            str(output_path),
+            "-o",
+            str(second_output),
+            "--source",
+            str(source_path),
+            "--report",
+            str(second_report),
+            "--target-lang",
+            "ja",
+            "--wrap-width",
+            "6",
+        ],
+        check=True,
+        cwd=REPO_ROOT,
+    )
+    assert json.loads(second_output.read_text(encoding="utf-8")) == json.loads(
+        output_path.read_text(encoding="utf-8")
+    )
+    second_stats = json.loads(second_report.read_text(encoding="utf-8"))["stats"]
+    assert second_stats["remaining_control_mismatches"] == 0
+
+
+def test_controlfix_japanese_wakachigaki_and_buffer_are_byte_idempotent(tmp_path):
+    source_path = tmp_path / "source.json"
+    input_path = tmp_path / "input.json"
+    first_path = tmp_path / "first.json"
+    second_path = tmp_path / "second.json"
+    source_path.write_text(json.dumps({"entries": [
+        {"id": "script", "category": "scripts", "original": "Hello [buffer1]."}
+    ]}), encoding="utf-8")
+    input_path.write_text(json.dumps({"entries": [
+        {"id": "script", "category": "scripts", "original": "Hello [buffer1].",
+         "translated": "あいうえお。 かき [buffer1] くけこ！ さしす"}
+    ]}, ensure_ascii=False), encoding="utf-8")
+
+    for input_file, output_file in ((input_path, first_path), (first_path, second_path)):
+        subprocess.run([
+            sys.executable, str(REPO_ROOT / "004_controlfix_translations.py"),
+            str(input_file), "-o", str(output_file), "--source", str(source_path),
+            "--target-lang", "ja", "--wrap-width", "8",
+        ], check=True, cwd=REPO_ROOT)
+
+    assert first_path.read_bytes() == second_path.read_bytes()
+    text = json.loads(first_path.read_text(encoding="utf-8"))["entries"][0]["translated"]
+    assert "[latin][buffer1][japanese]" in text
+    assert not any(fragment in text for fragment in (" \n", "\n ", " \\l", "\\l ", " \\p", "\\p "))
