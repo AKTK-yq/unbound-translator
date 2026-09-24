@@ -42,8 +42,8 @@ The project is usable but still early and primarily tested with Italian.
 | Capability | Status |
 | --- | --- |
 | Release-ready translations | Indonesian (`ready-translations/id.json`), Italian (`ready-translations/it.json`) |
-| Translation CLI targets | `de`, `en`, `es`, `fr`, `id`, `it`, `pt`, `pt-br` |
-| Non-Latin scripts | Not supported yet; likely requires a font patch |
+| Translation CLI targets | `de`, `en`, `es`, `fr`, `id`, `it`, `ja` (experimental kana-only), `pt`, `pt-br` |
+| Non-Latin scripts | Japanese hiragana/katakana PoC supported; kanji and release builds are not supported yet |
 | Supported systems | Windows, macOS, and Linux |
 | Python | 3.10 or newer |
 | Release format | BPS patch only; `main` publishes stable releases and `qa` publishes prereleases |
@@ -223,6 +223,10 @@ wording does not fit, `full_target` preserves it while `target` contains the com
 
 PokeAPI responses are cached under `.cache/pokeapi` and looked up in parallel. The cache is ignored by Git and should
 not be committed. Resume an interrupted translation by repeating the same command with `--resume`.
+
+Japanese is an experimental kana-only target. `--target ja` requests PokeAPI's `ja-hrkt` localization and instructs
+the LLM not to emit kanji. Run controlfix with `--target-lang ja`; it wraps by character and adds the Japanese/Latin
+font-page controls required by the ROM. There is no release-ready Japanese translation yet.
 
 ### 4. Repair Controls And Layout
 

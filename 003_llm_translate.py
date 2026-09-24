@@ -41,6 +41,7 @@ LANGUAGE_NAMES = {
     "fr": "French",
     "id": "Indonesian",
     "it": "Italian",
+    "ja": "Japanese",
     "pt": "Portuguese",
     "pt-br": "Brazilian Portuguese",
 }
@@ -374,6 +375,17 @@ def target_language_name(target):
     return LANGUAGE_NAMES[target.lower()]
 
 
+def target_specific_prompt_rules(target):
+    if target.casefold() != "japanese":
+        return ""
+    return (
+        "- Use hiragana and katakana only for Japanese text; do not use kanji.\n"
+        "- Use ASCII digits and punctuation instead of full-width variants.\n"
+        "- Do not add [japanese] or [latin] page controls; controlfix adds them "
+        "deterministically.\n"
+    )
+
+
 def make_system_prompt(target):
     return (
         "You translate text extracted from Pokemon Unbound.\n"
@@ -410,6 +422,7 @@ def make_system_prompt(target):
         "- Do not add outer quotes unless they are part of the source text.\n"
         "- Keep Pokemon species names, move names, item names, and proper nouns "
         "unchanged when there is no natural translation.\n"
+        f"{target_specific_prompt_rules(target)}"
     )
 
 
@@ -454,6 +467,7 @@ def make_single_system_prompt(target):
         "Preserve every placeholder listed in glossary_replacements exactly once.\n"
         "Return only valid JSON in this exact shape:\n"
         '{"translated":"translated text"}\n'
+        f"{target_specific_prompt_rules(target)}"
     )
 
 
@@ -485,6 +499,7 @@ def make_plain_single_system_prompt(target):
         "\\p.\n"
         "Preserve every placeholder listed in glossary_replacements exactly once.\n"
         "Return only the translated text. Do not return JSON. Do not explain.\n"
+        f"{target_specific_prompt_rules(target)}"
     )
 
 
@@ -1288,7 +1303,7 @@ def parse_args():
         "--target",
         required=True,
         choices=sorted(LANGUAGE_NAMES),
-        help="Target Latin-script language code. Supported: %(choices)s.",
+        help="Target language code. Supported: %(choices)s.",
     )
     parser.add_argument(
         "--auth",

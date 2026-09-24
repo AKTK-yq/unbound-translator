@@ -8,7 +8,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-POKEAPI_LANGUAGE = {"pt-br": "pt-BR"}
+POKEAPI_LANGUAGE = {"ja": "ja-hrkt", "pt-br": "pt-BR"}
 
 # category: (resource endpoint, localized field kind, identifier strategy)
 CATEGORY_SPECS = {
@@ -111,6 +111,15 @@ def compact_text(text):
     return " ".join((text or "").replace("\f", " ").replace("\n", " ").split())
 
 
+def localized_text(text, language):
+    text = compact_text(text)
+    if language == "ja":
+        # PokeAPI's ja-hrkt names commonly use full-width digits. The Japanese
+        # PCS page uses the ordinary one-byte digit values.
+        text = unicodedata.normalize("NFKC", text)
+    return text
+
+
 def source_slug(source, category):
     alias = SOURCE_SLUG_ALIASES.get(category, {}).get(source.casefold())
     if alias:
@@ -140,7 +149,7 @@ def language_value(items, language, field):
         item_language = item.get("language", {}).get("name", "").casefold()
         value = item.get(field)
         if item_language == wanted and isinstance(value, str) and value.strip():
-            return compact_text(value)
+            return localized_text(value, language)
     return None
 
 
@@ -168,7 +177,7 @@ def paired_flavor_value(items, source, language):
                     item.get("language", {}).get("name", "").casefold() == wanted
                     and item.get(key, {}).get("name") == context
             ):
-                value = compact_text(item.get("flavor_text", ""))
+                value = localized_text(item.get("flavor_text", ""), language)
                 if value:
                     return value
     return None

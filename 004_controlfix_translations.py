@@ -521,6 +521,34 @@ def wrap_words(text, width):
     return lines, long_words
 
 
+def wrap_characters(text, width):
+    if width <= 0:
+        return [text], 0
+
+    units = []
+    last = 0
+    for start, end, token in token_spans(text):
+        units.extend(text[last:start])
+        units.append(token)
+        last = end
+    units.extend(text[last:])
+
+    lines = []
+    current = []
+    current_width = 0
+    for unit in units:
+        unit_width = visible_width(unit)
+        if current and unit_width and current_width + unit_width > width:
+            lines.append("".join(current))
+            current = []
+            current_width = 0
+        current.append(unit)
+        current_width += unit_width
+    if current:
+        lines.append("".join(current))
+    return lines, 0
+
+
 def wrap_words_by_pixels(text, max_pixels):
     words = text.split()
     lines = []
@@ -651,6 +679,8 @@ def fit_pokedex_description_lines(text, width, max_lines, max_total):
 
 
 def wrap_words_for_entry(text, entry, args):
+    if getattr(args, "target_lang", "it") == "ja":
+        return wrap_characters(text, wrap_width_for_entry(entry, args))
     if entry.get("category") == "pokedex_descriptions":
         return fit_pokedex_description_lines(
             text,
@@ -802,6 +832,20 @@ def wrap_translation(text, entry, original, args, wrap_categories):
     return wrapped, wrapped != text, long_words, False
 
 
+def strip_japanese_page(text):
+    prefix = "[japanese]"
+    suffix = "[latin]"
+    if text.startswith(prefix) and text.endswith(suffix):
+        return text[len(prefix):-len(suffix)]
+    return text
+
+
+def ensure_japanese_page(text):
+    if text.startswith("[japanese]") and text.endswith("[latin]"):
+        return text, False
+    return f"[japanese]{text}[latin]", True
+
+
 def mission_name_reference_width(entries):
     widths = []
     for entry in entries:
@@ -889,6 +933,11 @@ def main():
     parser.add_argument(
         "--report",
         help="Optional JSON report listing entries whose critical controls still differ.",
+    )
+    parser.add_argument(
+        "--target-lang",
+        default="it",
+        help="Target language hint used by wrapping and the PCS codec. Default: it.",
     )
     parser.add_argument(
         "--no-wrap",
@@ -1034,7 +1083,7 @@ def main():
     data = json.loads(Path(args.input).read_text(encoding="utf-8"))
     entries = list(iter_entries(data))
     originals = source_originals(args.source)
-    cmap = Charmap(target_lang="it")
+    cmap = Charmap(target_lang=args.target_lang)
     wrap_categories = {category.strip() for category in args.wrap_categories.split(",") if category.strip()}
     mission_max_width = args.mission_name_max_width or mission_name_reference_width(entries)
 
@@ -1064,6 +1113,7 @@ def main():
         "wrapped": 0,
         "wrap_long_words": 0,
         "wrap_skipped_technical": 0,
+        "japanese_page_controls": 0,
         "remaining_control_mismatches": 0,
     }
     remaining = []
@@ -1079,6 +1129,8 @@ def main():
         before = translated
 
         text = translated
+        if args.target_lang == "ja":
+            text = strip_japanese_page(text)
 
         text = normalize_outer_quotes(text)
 
@@ -1167,10 +1219,6 @@ def main():
         stats["battle_fragment_spacing_repairs"] += int(fragment_spacing_repaired)
         text = next_text
 
-        if text != before:
-            entry["translated"] = text
-            stats["changed"] += 1
-
         if not controls_match(text, original):
             stats["remaining_control_mismatches"] += 1
             if len(remaining) < 200:
@@ -1182,6 +1230,14 @@ def main():
                         "translated_controls": control_sequence(text),
                     }
                 )
+
+        if args.target_lang == "ja":
+            text, page_controls_added = ensure_japanese_page(text)
+            stats["japanese_page_controls"] += int(page_controls_added)
+
+        if text != before:
+            entry["translated"] = text
+            stats["changed"] += 1
 
     Path(args.output).write_text(
         json.dumps(data, ensure_ascii=False, indent=2) + "\n",
