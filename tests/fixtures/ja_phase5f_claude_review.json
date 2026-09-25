@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scr_1F1A99A",
+    "original": "\"It’s a bulb of some sort.\n\nTurn it [green][buffer1][black]?\"",
+    "reviewed_japanese": "なにかの でんきゅうの ようだ。 [green][buffer1][black]に しますか？",
+    "status": "needs_technical_fit",
+    "reason": "Phase 5Fで[buffer1]の中身がon/off（英字のまま）と証明された。これで「Turn it on/off?」の意味が確定し、bulbは植物の球根ではなく電球と分かったので、旧候補の「きゅうこん」を「でんきゅう」に直した。日本語の文は決められるが、自然に読めるのは[buffer1]に入るon/offの文字列（ROM 0x1F1A9C6と0x1F1A9C9）もオン/オフに訳した場合だけ。英字のままだと「onに しますか？」となり不自然。この2つの文字列の訳、slot（3/4 bytes）、同じ文字列を指すほかのpointer ownerの扱いは、Codexが技術的に合わせる必要があるため、needs_technical_fitとした。文の訳そのものは確定案。",
+    "context_used": "Phase 5F: bufferstring 0x85 00が[buffer1]に英字のon（0x1F1A9C6、pointer 0x1E74C91）とoff（0x1F1A9C9、pointer 0x1E74CBB）を書き込む。話者は人ではなく、調べた物のメッセージ。実際のイベントでの到達はエミュレータで未確認。",
+    "glossary_terms_used": [],
+    "new_glossary_candidates": [
+      {
+        "source": "on",
+        "proposed": "オン",
+        "context_scope": "scr_1F1A99A_bulb_switch_buffer",
+        "reason": "[buffer1]に入る値。スイッチの状態を表すカタカナ。Phase 5Bの設定画面のOn（オン）とも同じ表記。"
+      },
+      {
+        "source": "off",
+        "proposed": "オフ",
+        "context_scope": "scr_1F1A99A_bulb_switch_buffer",
+        "reason": "[buffer1]に入る値。Phase 5Bの設定画面のOff（オフ）とも同じ表記。"
+      }
+    ],
+    "translation_risk": "medium"
+  }
+]

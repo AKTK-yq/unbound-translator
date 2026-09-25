@@ -19,6 +19,30 @@ def decode(text: str):
 
 
 class AlignedPointerTextTests(unittest.TestCase):
+    def test_short_day_names_have_pointer_owners_but_cannot_relocate(self):
+        tables = [table for table in EXTRACTOR.POINTER_TABLES if table.category == "day_names"]
+        self.assertEqual([(table.start, table.count) for table in tables], [(0xA6D0AC, 7)])
+        for index in range(7):
+            target = 0xA4E554 + index * 4
+            self.assertIn(target, EXTRACTOR.NO_RELOCATION_POINTER_TARGETS)
+
+    def test_bulb_on_off_bufferstring_owners_are_complete(self):
+        expected = {
+            0x1F1A9C6: [0x1E74C91, 0x1E74CEE, 0x1E74D4B, 0x1E74DA8, 0x1E74E05],
+            0x1F1A9C9: [0x1E74CBB, 0x1E74D18, 0x1E74D75, 0x1E74DD2, 0x1E74E2F],
+        }
+        rom_path = Path(__file__).resolve().parents[1] / "rom/unbound.gba"
+        for target, owners in expected.items():
+            self.assertEqual(EXTRACTOR.MANUAL_TEXT_POINTER_SOURCES[target], owners)
+        if not rom_path.exists():
+            self.skipTest("private source ROM unavailable")
+        rom = rom_path.read_bytes()
+        for target, owners in expected.items():
+            for owner in owners:
+                self.assertEqual(rom[owner - 2:owner], b"\x85\x00")
+                self.assertEqual(int.from_bytes(rom[owner:owner + 4], "little"),
+                                 EXTRACTOR.GBA_POINTER_BASE + target)
+
     def test_nature_names_have_both_summary_pointer_tables(self):
         nature_tables = [
             table

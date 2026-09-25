@@ -70,7 +70,9 @@ def test_japanese_glossary_targets_match_inside_natural_sentences():
     glossary = load_glossary(ROOT / "glossaries" / "ja.json", expected_language="ja")
     targets = {term.source: term.target for term in glossary.terms}
     assert targets["Text Speed"] == "はなしのはやさ"
-    assert "Vanilla" not in targets and "Difficult" not in targets
+    assert targets["Vanilla"] == "バニラ" and targets["Difficult"] == "ハード"
+    assert glossary.matches("Vanilla", "scripts") == []
+    assert glossary.matches("Difficult", "scripts") == []
     assert not glossary.missing_targets(
         "Enter the Borrius Region!",
         "ボーリウスちほうへの たびを はじめよう！",

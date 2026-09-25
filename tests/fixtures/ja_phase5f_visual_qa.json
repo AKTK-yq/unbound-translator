@@ -1,0 +1,229 @@
+{
+  "phase": "5F",
+  "note": "Do not infer translation approval from this checklist",
+  "cases": [
+    {
+      "id": "scr_1F0F842",
+      "screen": "scripts",
+      "how_to_reach": "NEW GAME > appearance selection > jacket then trim selector",
+      "what_to_look_at": "\"Choose a trim colour.\"",
+      "ui_width_check": false,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        "NEW GAME appearance sequence after jacket; trim could mean edge/secondary garment color. Visual screen required."
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_pokedex_form_names_00001_166A8E1",
+      "screen": "pokedex_form_names",
+      "how_to_reach": "Use a progressed save to locate this label; exact route not proven",
+      "what_to_look_at": "\"High King\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        {
+          "form_table_records": [
+            {
+              "record_rom_offset": "0x1A35458",
+              "u16_index": 1211,
+              "pokemon_name_rom_offset": "0x166DD95"
+            },
+            {
+              "record_rom_offset": "0x1A35460",
+              "u16_index": 1213,
+              "pokemon_name_rom_offset": "0x166DDAB"
+            }
+          ],
+          "limit": "u16 relation proven; form/species display semantics not proven, especially shared names."
+        }
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_pokedex_form_names_00003_166A8EB",
+      "screen": "pokedex_form_names",
+      "how_to_reach": "Use a progressed save to locate this label; exact route not proven",
+      "what_to_look_at": "\"Unique Horn\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        {
+          "form_table_records": [
+            {
+              "record_rom_offset": "0x1A35468",
+              "u16_index": 1214,
+              "pokemon_name_rom_offset": "0x166DDB6"
+            },
+            {
+              "record_rom_offset": "0x1A35470",
+              "u16_index": 1220,
+              "pokemon_name_rom_offset": "0x166DDF8"
+            }
+          ],
+          "limit": "u16 relation proven; form/species display semantics not proven, especially shared names."
+        }
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_menu_list_labels_00005_4178FD",
+      "screen": "menu_list_labels",
+      "how_to_reach": "Open relevant records/menu list; exact route needs a progressed save",
+      "what_to_look_at": "\"VICTORIES\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        "Menu list label near EGGS/QUIT/HALL OF FAME; destination/number meaning not proven."
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_pokedex_form_names_00012_166A934",
+      "screen": "pokedex_form_names",
+      "how_to_reach": "Use a progressed save to locate this label; exact route not proven",
+      "what_to_look_at": "\"Sphere\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        {
+          "form_table_records": [
+            {
+              "record_rom_offset": "0x1A354B0",
+              "u16_index": 1237,
+              "pokemon_name_rom_offset": "0x166DEB3"
+            },
+            {
+              "record_rom_offset": "0x1A354B8",
+              "u16_index": 1238,
+              "pokemon_name_rom_offset": "0x166DEBE"
+            }
+          ],
+          "limit": "u16 relation proven; form/species display semantics not proven, especially shared names."
+        }
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "scr_1FAE999",
+      "screen": "scripts",
+      "how_to_reach": "Use a progressed save to locate this label; exact route not proven",
+      "what_to_look_at": "\"Gruff\"",
+      "ui_width_check": false,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        "Reused script name label with 14 pointer owners; person/nickname spelling not proven."
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_pokedex_form_names_00000_166A8DB",
+      "screen": "pokedex_form_names",
+      "how_to_reach": "Use a progressed save to locate this label; exact route not proven",
+      "what_to_look_at": "\"Djinn\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        {
+          "form_table_records": [
+            {
+              "record_rom_offset": "0x1A35450",
+              "u16_index": 1210,
+              "pokemon_name_rom_offset": "0x166DD8A"
+            }
+          ],
+          "limit": "u16 relation proven; form/species display semantics not proven, especially shared names."
+        }
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_pokedex_form_names_00005_166A8F7",
+      "screen": "pokedex_form_names",
+      "how_to_reach": "Use a progressed save to locate this label; exact route not proven",
+      "what_to_look_at": "\"Dancing\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        {
+          "form_table_records": [
+            {
+              "record_rom_offset": "0x1A35478",
+              "u16_index": 1224,
+              "pokemon_name_rom_offset": "0x166DE24"
+            }
+          ],
+          "limit": "u16 relation proven; form/species display semantics not proven, especially shared names."
+        }
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "scr_1F1057C",
+      "screen": "scripts",
+      "how_to_reach": "NEW GAME/options > Exp. Gain setting and level-cap explanation",
+      "what_to_look_at": "\"An optional hard level cap has\nbeen enabled.\n\nThis can easily be disabled by\nchanging the [green]Exp. Gain[black] Option in\\lthe Options Menu from [green]Capped Share[black].\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        {
+          "actual_options_label": "Exp. Gain",
+          "label_rom_offset": "0x1F4DB35",
+          "label_pointer_source": "0x1FB3960",
+          "choices": [
+            {
+              "text": "Exp. Share",
+              "rom_offset": "0x1F4DC57",
+              "owner": "0x1FB3A10"
+            },
+            {
+              "text": "Capped Exp. Share",
+              "rom_offset": "0x1F4DC62",
+              "owner": "0x1FB3A14"
+            }
+          ],
+          "limit": "Help prose says Capped Share; screen wording/width requires visual approval."
+        }
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_battle_messages_00004_A4A9A2",
+      "screen": "battle_messages",
+      "how_to_reach": "Trigger a critical hit in battle",
+      "what_to_look_at": "\"[black]\\CC0309A critical hit[white2]\\CC0306 on\n\\\\10!\"",
+      "ui_width_check": false,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        "Color controls surround English critical-hit phrase; Japanese grammar may alter color span."
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "tbl_mission_log_00001_1F5604A",
+      "screen": "mission_log",
+      "how_to_reach": "Open Mission Log and its sort selector",
+      "what_to_look_at": "\" A-Z\"; check full label fits and is not clipped",
+      "ui_width_check": true,
+      "screenshot_needed": true,
+      "possible_interpretations": [
+        "A-Z is a sort/UI label; whether comparison uses displayed bytes is unproven."
+      ],
+      "runtime_reachability_proven": false
+    },
+    {
+      "id": "options_text_pacing",
+      "screen": "Options help text",
+      "how_to_reach": "Open Options and move between Text Speed, battle/puzzle help",
+      "what_to_look_at": "Record text display at each Text Speed setting with and without A/B; compare same help line in English baseline and Phase 5E ROM",
+      "screenshot_needed": false,
+      "video_or_frame_capture_needed": true,
+      "possible_interpretations": [
+        "per-glyph cadence",
+        "page transition",
+        "menu redraw or cursor animation"
+      ],
+      "runtime_reachability_proven": true
+    }
+  ]
+}

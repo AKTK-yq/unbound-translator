@@ -1,190 +1,8 @@
 {
   "language": "ja",
-  "status": "phase5e-reviewed-terms",
-  "note": "Kana-only approved Phase 5D terms; scoped terms require their category or exact entry IDs.",
+  "status": "phase5d-proposed",
+  "note": "Proposal only; not yet merged into glossaries/ja.json. Terms with a context_scope other than global must not be applied as plain global substring replacements.",
   "terms": [
-    {
-      "source": "Borrius Region",
-      "target": "ボーリウスちほう",
-      "kind": "region"
-    },
-    {
-      "source": "Borrius",
-      "target": "ボーリウス",
-      "kind": "region"
-    },
-    {
-      "source": "Dehara City",
-      "target": "デハラシティ",
-      "kind": "place"
-    },
-    {
-      "source": "Pokémon Unbound",
-      "target": "ポケモン アンバウンド",
-      "kind": "title"
-    },
-    {
-      "source": "Unbound",
-      "target": "アンバウンド",
-      "kind": "title"
-    },
-    {
-      "source": "A Hero's Journey",
-      "target": "ヒーローのたび",
-      "kind": "mission",
-      "categories": [
-        "mission_names"
-      ]
-    },
-    {
-      "source": "A Hero’s Journey",
-      "target": "ヒーローのたび",
-      "kind": "mission",
-      "categories": [
-        "mission_names"
-      ]
-    },
-    {
-      "source": "A Heroine's Journey",
-      "target": "ヒロインのたび",
-      "kind": "mission",
-      "categories": [
-        "mission_names"
-      ]
-    },
-    {
-      "source": "A Heroine’s Journey",
-      "target": "ヒロインのたび",
-      "kind": "mission",
-      "categories": [
-        "mission_names"
-      ]
-    },
-    {
-      "source": "Missions",
-      "target": "ミッション",
-      "kind": "ui",
-      "categories": [
-        "mission_log",
-        "menu_pause"
-      ]
-    },
-    {
-      "source": "difficulty",
-      "target": "むずかしさ",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "boulder puzzle",
-      "target": "いわを おす なぞとき",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "puzzle",
-      "target": "なぞとき",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "stealth",
-      "target": "こっそり すすむ",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "character",
-      "target": "キャラ",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "journey",
-      "target": "たび",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "type matchup",
-      "target": "タイプあいしょう",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "reward",
-      "target": "ごほうび",
-      "kind": "term",
-      "case_sensitive": false
-    },
-    {
-      "source": "Active",
-      "target": "しんこうちゅう",
-      "kind": "ui",
-      "categories": [
-        "mission_log"
-      ]
-    },
-    {
-      "source": "Location",
-      "target": "ばしょ",
-      "kind": "ui",
-      "categories": [
-        "mission_log"
-      ]
-    },
-    {
-      "source": "Type",
-      "target": "しゅるい",
-      "kind": "ui",
-      "categories": [
-        "mission_log"
-      ]
-    },
-    {
-      "source": "Save",
-      "target": "レポート",
-      "kind": "ui",
-      "categories": [
-        "menu_pause"
-      ]
-    },
-    {
-      "source": "Option",
-      "target": "せってい",
-      "kind": "ui",
-      "categories": [
-        "menu_pause",
-        "menu_options",
-        "menu_game_settings",
-        "setting_names",
-        "start_menu_labels"
-      ],
-      "context_scope": "settings_ui",
-      "global_replace": false
-    },
-    {
-      "source": "Options",
-      "target": "せってい",
-      "kind": "ui",
-      "categories": [
-        "menu_pause",
-        "menu_options",
-        "menu_game_settings",
-        "setting_names",
-        "start_menu_labels"
-      ],
-      "context_scope": "settings_ui",
-      "global_replace": false
-    },
-    {
-      "source": "Text Speed",
-      "target": "はなしのはやさ",
-      "kind": "ui",
-      "categories": [
-        "menu_options"
-      ]
-    },
     {
       "source": "Jax",
       "target": "ジャックス",
@@ -435,10 +253,7 @@
       "status": "project_standard",
       "context_scope": "npc_label",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1FACB9D"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Bellin Town",
@@ -654,11 +469,7 @@
       "status": "project_standard",
       "context_scope": "route_number_template",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "map_names"
-      ],
-      "template": true
+      "case_sensitive": true
     },
     {
       "source": "The Shadows",
@@ -676,10 +487,7 @@
       "status": "project_standard",
       "context_scope": "organization_and_trainer_class",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "trainer_classes"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "The Black Emboar",
@@ -688,10 +496,7 @@
       "status": "project_standard",
       "context_scope": "organization_and_mission_title",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Black [player]",
@@ -700,13 +505,7 @@
       "status": "project_standard",
       "context_scope": "mission_gang_name_template",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F9FBCD",
-        "scr_1F9EAF1",
-        "scr_1F9F08F"
-      ],
-      "template": true
+      "case_sensitive": true
     },
     {
       "source": "Light of Ruin",
@@ -742,10 +541,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "The Endless Nightmare",
@@ -754,10 +550,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Home for a Hobo",
@@ -766,10 +559,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Extreme Hyperosmia",
@@ -778,10 +568,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Seasonal Research",
@@ -790,10 +577,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Tomb Raider",
@@ -802,10 +586,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "The Battle of Antisis",
@@ -814,10 +595,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "A Rift in Space",
@@ -826,10 +604,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "The Rogue Electivire",
@@ -838,10 +613,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Wingin’ It",
@@ -850,10 +622,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Shark Bait",
@@ -862,10 +631,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Pangs of Hunger",
@@ -874,10 +640,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Odd Odd Docks",
@@ -886,10 +649,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "The West Borrius Pokédex",
@@ -898,10 +658,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "mission_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Light of Ruin Leader",
@@ -910,10 +667,7 @@
       "status": "project_standard",
       "context_scope": "trainer_class",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "trainer_classes"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Terror Granbull",
@@ -922,10 +676,7 @@
       "status": "project_standard",
       "context_scope": "trainer_class",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "trainer_classes"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Black Ferrothorn Boss",
@@ -934,10 +685,7 @@
       "status": "project_standard",
       "context_scope": "trainer_class",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "trainer_classes"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Grunt",
@@ -973,10 +721,7 @@
       "status": "project_standard",
       "context_scope": "options_setting_label",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "setting_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Puzzle Difficulty",
@@ -985,10 +730,7 @@
       "status": "project_standard",
       "context_scope": "options_setting_label",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "setting_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Vanilla",
@@ -997,10 +739,7 @@
       "status": "project_standard",
       "context_scope": "battle_difficulty",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F10630"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Difficult",
@@ -1009,10 +748,7 @@
       "status": "project_standard",
       "context_scope": "battle_difficulty",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F10621"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Expert",
@@ -1021,10 +757,7 @@
       "status": "project_standard",
       "context_scope": "battle_difficulty",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F1063D"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Insane",
@@ -1033,10 +766,7 @@
       "status": "project_standard",
       "context_scope": "battle_and_safari_difficulty",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F10644"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Easy",
@@ -1045,10 +775,7 @@
       "status": "project_standard",
       "context_scope": "puzzle_and_safari_difficulty",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F1062B"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Challenging",
@@ -1057,10 +784,7 @@
       "status": "project_standard",
       "context_scope": "puzzle_difficulty",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F1064B"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Hard",
@@ -1096,11 +820,7 @@
       "status": "project_standard",
       "context_scope": "token_template",
       "global_replace": false,
-      "case_sensitive": true,
-      "entry_ids": [
-        "scr_1F103AA"
-      ],
-      "template": true
+      "case_sensitive": true
     },
     {
       "source": "randomizer",
@@ -1163,10 +883,7 @@
       "status": "project_standard",
       "context_scope": "start_menu_label",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "start_menu_labels"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Mining Scan",
@@ -1220,10 +937,7 @@
       "status": "project_standard",
       "context_scope": "ui_choice_label",
       "global_replace": false,
-      "case_sensitive": true,
-      "categories": [
-        "menu_game_settings"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "DexNav",
@@ -1250,10 +964,7 @@
       "status": "project_standard",
       "context_scope": "global",
       "global_replace": true,
-      "case_sensitive": true,
-      "categories": [
-        "item_names"
-      ]
+      "case_sensitive": true
     },
     {
       "source": "Stat Scanner",

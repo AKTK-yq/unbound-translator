@@ -1,0 +1,32 @@
+{
+  "rom": "out/unbound-ja-phase5e.gba",
+  "status": "human mGBA verification pending",
+  "note": "Routes marked unknown require a progressed save; table ownership proves ROM inclusion, not runtime reachability.",
+  "cases": [
+    {"priority": 1, "ids": ["tbl_map_names_00000_720F5C"], "route": "NEW GAME直後、最初の地域表示とタウンマップを確認。", "expected": "Frozen Heightsの地名が欠けずに表示。", "evidence": "map-name pointer table 0x003F1CAC; runtime screen must be confirmed"},
+    {"priority": 2, "ids": ["tbl_map_names_00001_3EED08"], "route": "序盤でBellin Townへ移動し、入口とタウンマップを確認。", "expected": "ベリンタウンが正常表示。", "evidence": "map-name pointer table 0x003F1CB0"},
+    {"priority": 3, "ids": ["tbl_map_names_00002_71CA60"], "route": "Dresco Townに到達し、入口とタウンマップを確認。", "expected": "ドレスコタウンが正常表示。", "evidence": "map-name pointer table 0x003F1CB4"},
+    {"priority": 4, "ids": ["tbl_map_names_00003_3EED22"], "route": "Crater Townに到達し、入口とタウンマップを確認。", "expected": "再配置されたクレータータウンが正常表示。", "evidence": "map-name pointer table 0x003F1CB8; relocated"},
+    {"priority": 5, "ids": ["scr_1F2CAF9"], "route": "Jaxが話者名として出る会話を進行済みセーブで表示。具体的な到達場所は未特定。", "expected": "ジャックスの名前ラベルが正常表示。", "evidence": "14-byte script name label; relocated; script owners in extracted JSON"},
+    {"priority": 6, "ids": ["scr_1F2CB11"], "route": "Zephが話者名として出るイベントを進行済みセーブで表示。導線未特定。", "expected": "ゼフの名前ラベルが正常表示。", "evidence": "script-owned name label; packed bufferstring owners added in Phase 5E"},
+    {"priority": 7, "ids": ["scr_1F2CB04"], "route": "Marlonの会話を進行済みセーブで表示。導線未特定。", "expected": "マーロンの名前ラベルが正常表示。", "evidence": "script-owned relocated name label"},
+    {"priority": 8, "ids": ["scr_1F2CB16"], "route": "Akloveの会話を進行済みセーブで表示。導線未特定。", "expected": "アクロブの名前ラベルが正常表示。", "evidence": "script-owned relocated name label"},
+    {"priority": 9, "ids": ["scr_1F164B9"], "route": "Végaの名前ラベルを進行済みセーブで表示。導線未特定。", "expected": "承認済み表記が文字化けしない。", "evidence": "relocated; packed bufferstring owners included"},
+    {"priority": 10, "ids": ["scr_1F17ADA"], "route": "Galavanの名前ラベルを進行済みセーブで表示。導線未特定。", "expected": "承認済み表記が文字化けしない。", "evidence": "relocated; packed bufferstring owners included"},
+    {"priority": 11, "ids": ["tbl_trainer_classes_00002_1F2CB7C"], "route": "Light of Ruin Leaderと戦う進行済みセーブで戦闘開始画面を確認。導線未特定。", "expected": "トレーナークラスが枠内に収まる。", "evidence": "trainer-class record pointer 0x0023E572"},
+    {"priority": 12, "ids": ["tbl_trainer_classes_00022_1FA1EE4"], "route": "Black Ferrothorn所属トレーナーと戦う進行済みセーブで確認。導線未特定。", "expected": "クラス名が正常表示。", "evidence": "trainer-class record pointer 0x0023E676"},
+    {"priority": 13, "ids": ["scr_1EF7E3F"], "route": "Mission LogでExtreme Hyperosmiaを受注済み・一覧表示。導線未特定。", "expected": "スーパーきゅうかくが内部空白なしで表示。", "evidence": "mission-name pointer 0x01E61B68"},
+    {"priority": 14, "ids": ["scr_1F80CA6"], "route": "Mission LogでTomb Raiderを受注済み・一覧表示。導線未特定。", "expected": "再配置されたトゥームレイダーが正常表示。", "evidence": "mission-name pointer 0x01E6C82D and packed owner 0x01E6C929"},
+    {"priority": 15, "ids": ["scr_1F073AB"], "route": "Mission LogでWingin’ Itを受注済み・一覧表示。導線未特定。", "expected": "再配置されたタイトルが正常表示。", "evidence": "mission-name pointer 0x01E6B0A8"},
+    {"priority": 16, "ids": ["scr_1F9FBBF"], "route": "Mission LogでOdd Odd Docksを受注済み・一覧表示。導線未特定。", "expected": "ナゾナゾふとうが内部空白なしで表示。", "evidence": "mission-name pointer 0x01EA7384"},
+    {"priority": 17, "ids": ["tbl_item_names_00363_EB92C0"], "route": "Oddish Leavesを入手した進行済みセーブでバッグを開く。入手場所は未特定。", "expected": "アイテム名はナゾノクサのはっぱ、内部空白なし。", "evidence": "item-name fixed slot 14 bytes at 0x00EB92C0"},
+    {"priority": 18, "ids": ["scr_746471", "scr_75318A"], "route": "Oddish Leavesに言及する会話を進行済みセーブで表示。導線未特定。", "expected": "通常文章内の既存の語間空白は維持。", "evidence": "item-name-only scope; baseline Phase 5C prose remains unchanged"},
+    {"priority": 19, "ids": ["tbl_setting_names_00002_1F4DB6A"], "route": "ゲーム内メニュー→Options→General Optionsを開く。", "expected": "settings UIのOption(s)はせっていとして扱い、普通の選択肢には波及しない。", "evidence": "settings label pointer 0x01EBCC60; glossary scope=settings_ui"},
+    {"priority": 20, "ids": ["scr_1F10621", "scr_1F10630"], "route": "Options→Battle Difficulty選択欄でDifficultとVanillaを順に見る。", "expected": "バトル難易度のみハード／バニラ。", "evidence": "explicit battle_difficulty entry scopes"},
+    {"priority": 21, "ids": ["scr_1F9FBCD"], "route": "Black [player]を含むミッション会話に到達したセーブで確認。導線未特定。", "expected": "ブラック→プレイヤー名→かなに戻る。", "evidence": "template target and Latin page around dynamic [player]"},
+    {"priority": 22, "ids": ["scr_1F103AA"], "route": "NEW GAME+で難易度設定説明を表示。通常NEW GAMEとは別のセーブが必要。", "expected": "New Game \\+の制御トークンと改ページが正常。", "evidence": "exact entry-scoped protected template"},
+    {"priority": 23, "ids": ["tbl_map_names_00005_71CA70"], "route": "Tehl Townに到達して入口とタウンマップを確認。", "expected": "テルタウンが正常表示。", "evidence": "map-name table pointer 0x003F1CC0"},
+    {"priority": 24, "ids": ["tbl_map_names_00007_721968"], "route": "Epidimy Townに到達して入口とタウンマップを確認。", "expected": "再配置された地名が正常表示。", "evidence": "map-name table pointer 0x003F1CC8"},
+    {"priority": 25, "ids": ["tbl_map_names_00011_3EED93"], "route": "Route 4に到達して入口とタウンマップを確認。", "expected": "4ばんどうろの数字が保持される。", "evidence": "Phase 5C translated map-name label; Route [N] glossary template regression"}
+  ]
+}

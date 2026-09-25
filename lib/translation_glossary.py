@@ -32,6 +32,10 @@ class GlossaryTerm:
     categories: tuple[str, ...] = ()
     full_target: str | None = None
     limits: tuple[GlossaryLimit, ...] = ()
+    context_scope: str = "global"
+    global_replace: bool = True
+    template: bool = False
+    entry_ids: tuple[str, ...] = ()
 
     def target_for(self, category=None):
         if self.full_target is None:
@@ -46,10 +50,22 @@ class GlossaryTerm:
 
 
 def _term_pattern(term):
+    if term.template and term.source == "Route [N]":
+        return re.compile(r"(?<!\w)Route (?P<N>[0-9]+)(?!\w)")
     prefix = r"(?<!\w)" if term.source[0].isalnum() else ""
     suffix = r"(?!\w)" if term.source[-1].isalnum() else ""
     flags = 0 if term.case_sensitive else re.IGNORECASE
     return re.compile(prefix + re.escape(term.source) + suffix, flags)
+
+
+def _target_for_match(term, matched_text, category):
+    target = term.target_for(category)
+    if term.template and term.source == "Route [N]":
+        route = re.fullmatch(r"Route ([0-9]+)", matched_text)
+        if route is None:
+            raise GlossaryError(f"invalid route template match: {matched_text!r}")
+        return target.replace("[N]", route.group(1))
+    return target
 
 
 class TranslationGlossary:
@@ -59,28 +75,40 @@ class TranslationGlossary:
         self.source_path = Path(source_path) if source_path else None
         self._patterns = tuple((term, _term_pattern(term)) for term in self.terms)
 
-    def matches(self, text, category=None):
+    def matches(self, text, category=None, *, entry_id=None):
         candidates = []
         for order, (term, pattern) in enumerate(self._patterns):
             if term.categories and category not in term.categories:
                 continue
+            if not term.global_replace:
+                if term.entry_ids:
+                    if entry_id not in term.entry_ids:
+                        continue
+                elif not term.categories:
+                    # Unscoped false terms are metadata, never automatic
+                    # substring replacements (notably Hard/Difficult/Log).
+                    continue
             for match in pattern.finditer(text):
-                candidates.append((match.start(), match.end(), order, term))
+                if (not term.global_replace and not term.entry_ids
+                        and term.context_scope != "settings_ui"
+                        and match.span() != (0, len(text))):
+                    continue
+                candidates.append((match.start(), match.end(), int(term.global_replace), order, term))
 
         # Earlier text wins; at one position, longest source wins. This lets a
         # specific place such as "Tomb of Borrius" override the nested region.
-        candidates.sort(key=lambda row: (row[0], -(row[1] - row[0]), row[2]))
+        candidates.sort(key=lambda row: (row[0], -(row[1] - row[0]), row[2], row[3]))
         selected = []
         occupied_until = -1
-        for start, end, _order, term in candidates:
+        for start, end, _global, _order, term in candidates:
             if start < occupied_until:
                 continue
             selected.append((start, end, term))
             occupied_until = end
         return selected
 
-    def protect(self, text, category=None):
-        matches = self.matches(text, category)
+    def protect(self, text, category=None, *, entry_id=None):
+        matches = self.matches(text, category, entry_id=entry_id)
         if not matches:
             return text, []
 
@@ -89,7 +117,7 @@ class TranslationGlossary:
         cursor = 0
         for index, (start, end, term) in enumerate(matches, start=1):
             placeholder = f"⟦glossary-{index}⟧"
-            target = term.target_for(category)
+            target = _target_for_match(term, text[start:end], category)
             parts.extend((text[cursor:start], placeholder))
             replacements.append(
                 {
@@ -105,7 +133,7 @@ class TranslationGlossary:
         parts.append(text[cursor:])
         return "".join(parts), replacements
 
-    def missing_targets(self, source_text, translated_text, category=None):
+    def missing_targets(self, source_text, translated_text, category=None, *, entry_id=None):
         # ROM control mnemonics may directly touch visible text, as in
         # ``\\qoAklove\\qc`` or ``\\auBorgo Magnolia``. Remove them before
         # applying word boundaries so their letters do not mask valid terms.
@@ -116,12 +144,19 @@ class TranslationGlossary:
             r"\s+", " ", CONTROL_TOKEN_RE.sub(" ", normalized_translation)
         )
         expected = Counter(
-            term.target_for(category)
-            for _start, _end, term in self.matches(source_text, category)
+            _target_for_match(term, source_text[start:end], category)
+            for start, end, term in self.matches(source_text, category, entry_id=entry_id)
+        )
+        page_neutral = normalized_translation.replace("[japanese]", "").replace(
+            "[latin]", ""
         )
         missing = []
         for target, expected_count in expected.items():
-            if any("\u3040" <= char <= "\u30ff" for char in target):
+            if "[player]" in target or "\\+" in target:
+                # A dynamic player name can require a temporary Latin page;
+                # page controls may interrupt the protected template literally.
+                actual_count = page_neutral.count(target)
+            elif any("\u3040" <= char <= "\u30ff" for char in target):
                 # Japanese has no mandatory word separators. A word-boundary
                 # regex rejects a target followed by a particle such as への.
                 actual_count = visible_translation.count(target)
@@ -152,6 +187,10 @@ def _load_term(row, index):
     categories = row.get("categories", [])
     full_target = row.get("full_target")
     limits = row.get("limits", [])
+    context_scope = row.get("context_scope", "global")
+    global_replace = row.get("global_replace", True)
+    template = row.get("template", False)
+    entry_ids = row.get("entry_ids", [])
     if not isinstance(note, str):
         raise GlossaryError(f"glossary term {index} note must be a string")
     if not isinstance(case_sensitive, bool):
@@ -162,6 +201,18 @@ def _load_term(row, index):
         raise GlossaryError(
             f"glossary term {index} categories must be an array of non-empty strings"
         )
+    if not isinstance(context_scope, str) or not context_scope:
+        raise GlossaryError(f"glossary term {index} context_scope must be a non-empty string")
+    if not isinstance(global_replace, bool):
+        raise GlossaryError(f"glossary term {index} global_replace must be boolean")
+    if not isinstance(template, bool):
+        raise GlossaryError(f"glossary term {index} template must be boolean")
+    if not isinstance(entry_ids, list) or not all(
+        isinstance(entry_id, str) and entry_id for entry_id in entry_ids
+    ) or len(entry_ids) != len(set(entry_ids)):
+        raise GlossaryError(f"glossary term {index} entry_ids must be unique strings")
+    if template and source == "Route [N]" and "[N]" not in target:
+        raise GlossaryError(f"glossary term {index} route template lost [N]")
     if full_target is not None and (
         not isinstance(full_target, str) or not full_target.strip()
     ):
@@ -221,6 +272,10 @@ def _load_term(row, index):
         tuple(categories),
         full_target,
         tuple(parsed_limits),
+        context_scope,
+        global_replace,
+        template,
+        tuple(entry_ids),
     )
 
 
@@ -244,8 +299,9 @@ def load_glossary(path, expected_language=None):
         raise GlossaryError("glossary terms must be an array")
     terms = [_load_term(row, index) for index, row in enumerate(rows)]
     duplicates = sorted(
-        source for source in {term.source for term in terms}
-        if sum(other.source == source for other in terms) > 1
+        f"{source} ({scope})" for source, scope in
+        {(term.source, term.context_scope) for term in terms}
+        if sum(other.source == source and other.context_scope == scope for other in terms) > 1
     )
     if duplicates:
         raise GlossaryError(f"duplicate glossary sources: {', '.join(duplicates)}")

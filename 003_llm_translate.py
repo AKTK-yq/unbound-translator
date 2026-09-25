@@ -210,6 +210,7 @@ def invalidate_nonconforming_glossary_translations(data, glossary):
             source,
             entry["translated"],
             entry.get("category", ""),
+            entry_id=entry.get("id"),
         ):
             del entry["translated"]
             invalidated += 1
@@ -1172,6 +1173,7 @@ def build_work_items(data, glossary=None):
             text, glossary_replacements = glossary.protect(
                 text,
                 entry.get("category", ""),
+                entry_id=entry.get("id"),
             )
 
         work.append(

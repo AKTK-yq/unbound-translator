@@ -90,9 +90,11 @@ def test_no_new_prose_translation_and_glossary_candidates_are_unapproved():
             assert codec.encode(f"[japanese]{row['approved_translation']}[latin]")
     glossary = load_glossary(ROOT / "glossaries/ja.json", expected_language="ja")
     candidates = glossary_candidates(MANIFEST["entries"], glossary)
-    assert candidates
     assert all(row["status"] == "glossary_candidate" and row["target"] is None for row in candidates)
-    assert any(row["source"] == "Bellin Town" for row in candidates)
+    # Phase 5E promoted Bellin Town and the other previously unapproved
+    # glossary candidates. An empty candidate list is now expected locally.
+    if any(term.source == "Bellin Town" for term in glossary.terms):
+        assert not any(row["source"] == "Bellin Town" for row in candidates)
 
 
 def test_runtime_subset_is_main_set_subset_with_broad_coverage():

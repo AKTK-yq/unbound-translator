@@ -91,6 +91,9 @@ NO_RELOCATION_POINTER_SOURCE_RANGES = (
 # the Pokédex freeze even when every discovered source is patched.
 NO_RELOCATION_POINTER_TARGETS = {
     0x1A357CC,  # "Unknown"
+    # Four-byte weekday slots have a pointer table, but may also be addressed
+    # by fixed-stride arithmetic. Preserve their original addresses.
+    *(0xA4E554 + index * 4 for index in range(7)),
 }
 
 
@@ -156,6 +159,10 @@ SEQUENTIAL_TABLES = [
 ]
 
 POINTER_TABLES = [
+    # The seven short weekday slots are also referenced by this contiguous
+    # pointer table. Merge owners into the fixed-table entries without making
+    # relocation legal; the consumer's indexing path is not yet proven.
+    PointerTable("day_names", "data.text.dayNames.shortPointers", 0xA6D0AC, 7),
     # Both summary implementations read the same 25 nature strings through
     # pointer tables.  Recording both owners lets translated nature names move
     # without leaving either summary screen pointing at their old fixed slots.
@@ -647,12 +654,33 @@ MANUAL_TEXT_TABLES = {
 # than 4-byte aligned. The generic source predicate cannot prove these, so
 # their manually identified text owners must preserve them explicitly.
 MANUAL_TEXT_POINTER_SOURCES = {
+    # Five paired bulb-event branches copy literal "on"/"off" into buffer1.
+    # One owner per string is found generically; preserve all packed 0x85 00
+    # operands before either short value can ever be safely relocated.
+    0x1F1A9C6: [0x1E74C91, 0x1E74CEE, 0x1E74D4B, 0x1E74DA8, 0x1E74E05],
+    0x1F1A9C9: [0x1E74CBB, 0x1E74D18, 0x1E74D75, 0x1E74DD2, 0x1E74E2F],
     # NEW GAME mode names are reused by Options. These packed bufferstring
     # operands are additional consumers beyond the aligned choice tables.
     0x1F10621: [0x1E6FCEB],  # Difficult: bufferstring 0
     0x1F1062B: [0x1E6FC43, 0x1E6FDED],  # Easy: packed bufferstring 0
     0x1F10630: [0x1E6FD0E],  # Vanilla: bufferstring 0
     0x1F1064B: [0x1E6FC32],  # Challenging: packed bufferstring 0
+    # Phase 5E: name labels and mission titles copied by packed
+    # ``85 00 <text pointer>`` operands. Each source was checked against the
+    # source ROM; aligned/script scans omit these byte-packed owners.
+    0x1F2CB11: [0x1E6C66E],
+    0x1F164B9: [0x1E54CFA, 0x1E54D66],
+    0x1F187A9: [0x1E54381, 0x1E553CB, 0x1E55437],
+    0x1F16D88: [0x1E53903, 0x1E54E57, 0x1E54EC3],
+    0x1F17512: [0x1E53B9A],
+    0x1FA3C48: [0x1E6C96A],
+    0x1F15C64: [0x1E54C09],
+    0x1F17ADA: [0x1E53E53, 0x1E55111, 0x1E5517D],
+    0x1F18108: [0x1E540EA, 0x1E5526E, 0x1E552DA],
+    0x1F9D3C7: [0x1E6C75B],
+    0x1F80CA6: [0x1E6C929],
+    0x1FACB78: [0x1E6C8A6],
+    0x1F6A015: [0x1E6C9A2],
     # The Options battle-difficulty warning starts before the old manual
     # range; its real pointer targets the full [red]WARNING! text.
     0x1F4E26F: [0x1EBD7FC],

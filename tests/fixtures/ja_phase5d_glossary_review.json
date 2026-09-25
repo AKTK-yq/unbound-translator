@@ -1,0 +1,1829 @@
+[
+  {
+    "source": "Jax",
+    "japanese": "ジャックス",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 主要キャラ。名前ラベルと本文で統一。",
+    "affected_entry_ids": [
+      "scr_1F2CAF9"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74ED63",
+      "scr_750370",
+      "scr_750814",
+      "scr_75097E",
+      "scr_750B5E",
+      "scr_75C28A",
+      "tbl_mission_objectives_00026_1F565EB"
+    ]
+  },
+  {
+    "source": "Marlon",
+    "japanese": "マーロン",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 一般的な英語名のカタカナ表記。",
+    "affected_entry_ids": [
+      "scr_1F2CB04"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74BFF6",
+      "scr_7503EA",
+      "tbl_mission_objectives_00002_1F56178",
+      "tbl_mission_objectives_00050_1F56A19"
+    ]
+  },
+  {
+    "source": "Zeph",
+    "japanese": "ゼフ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 シャドウズのボス。",
+    "affected_entry_ids": [
+      "scr_1F2CB11",
+      "scr_74AE91"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74BFF6",
+      "scr_74C058"
+    ]
+  },
+  {
+    "source": "Ivory",
+    "japanese": "アイボリー",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 英語のivoryの定着したカタカナ表記。",
+    "affected_entry_ids": [
+      "scr_1F2CB0B"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74B022",
+      "scr_74BFF6",
+      "scr_74C058",
+      "scr_7503EA",
+      "scr_7504B7"
+    ]
+  },
+  {
+    "source": "Aklove",
+    "japanese": "アクラブ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 綴り末尾のloveを「ラブ」と読んだ。ヴが無いので「アクラヴ」は使えない。",
+    "affected_entry_ids": [
+      "scr_1F2CB16"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Prof. Log",
+    "japanese": "ログはかせ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 Prof.はシリーズ慣例の「はかせ」（例：オーキドはかせ）にした。",
+    "affected_entry_ids": [
+      "scr_1F2CAEF"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_mission_objectives_00000_1F56117",
+      "tbl_mission_objectives_00001_1F5614A",
+      "tbl_mission_objectives_00002_1F56178",
+      "tbl_mission_objectives_00006_1F56220"
+    ]
+  },
+  {
+    "source": "Log",
+    "japanese": "ログ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "speaker_label_person",
+    "reason": "Prof. Logが発言するときの名前ラベル「Log:」。英語のlogは一般語でもあり、「Mission Log」にも含まれる。そのため全文一括置換はしない。",
+    "affected_entry_ids": [],
+    "review_warning": "単純に全文置換するとMission Log等も変わってしまう。話者ラベル「Log:」とPROF. Logにだけ適用する。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_416425",
+      "scr_750AF3",
+      "tbl_start_menu_labels_00002_A4E4BF"
+    ]
+  },
+  {
+    "source": "Véga",
+    "japanese": "ベガ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 ヴがcharmapに無いのでベガとした。「Vega」と綴られる場合も同じ表記。",
+    "affected_entry_ids": [
+      "scr_1F164B9"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_7416E8",
+      "scr_74190A",
+      "scr_741A37"
+    ]
+  },
+  {
+    "source": "Arthur",
+    "japanese": "アーサー",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 英語名の定着した表記。",
+    "affected_entry_ids": [
+      "scr_1F2FCAE"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_750738",
+      "scr_750814",
+      "scr_75097E"
+    ]
+  },
+  {
+    "source": "Aros",
+    "japanese": "アロス",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 主人公の父で、でんせつの アルセウスつかい。",
+    "affected_entry_ids": [
+      "scr_1F3EA60",
+      "scr_7527C2"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Krook",
+    "japanese": "クルック",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "ポケモンのニックネームとみられる。英語の読み（crook）に合わせた。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74C358"
+    ]
+  },
+  {
+    "source": "Tessy",
+    "japanese": "テッシー",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 南部なまりの人物。",
+    "affected_entry_ids": [
+      "scr_1F187A9"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Alice",
+    "japanese": "アリス",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 ",
+    "affected_entry_ids": [
+      "scr_1F16D88"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Mel",
+    "japanese": "メル",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 カウボーイ風の口調の人物。",
+    "affected_entry_ids": [
+      "scr_1F17512"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Mirskle",
+    "japanese": "ミルスクル",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 読みが一つに決まらない造語。綴りどおりに読んだ。",
+    "affected_entry_ids": [
+      "scr_1F15C64"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Galavan",
+    "japanese": "ギャラバン",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 Gal-a-vanの読み。「ガラバン」も考えられる。",
+    "affected_entry_ids": [
+      "scr_1F17ADA"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Big Mo",
+    "japanese": "ビッグモー",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 あだ名。人名と同じく中黒なしで続けて書く。",
+    "affected_entry_ids": [
+      "scr_1F18108"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "James",
+    "japanese": "ジェームズ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 英語名の定着した表記。",
+    "affected_entry_ids": [
+      "scr_1F9D3C7"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Benjamin",
+    "japanese": "ベンジャミン",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 英語名の定着した表記。",
+    "affected_entry_ids": [
+      "scr_1F18D94"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Eldon",
+    "japanese": "エルドン",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 ",
+    "affected_entry_ids": [
+      "scr_1FA3E0A"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Zygardia",
+    "japanese": "ジガルディア",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 ジガルデ（公式名）に掛けた名前なので、「ジガル」の音をそろえた。",
+    "affected_entry_ids": [
+      "scr_1F885BF"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Zygfried",
+    "japanese": "ジグフリード",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 Siegfriedに掛けた名前。ジガルデの「ジ」に合わせて「ジグ」とした。",
+    "affected_entry_ids": [
+      "scr_1F88037"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Fred",
+    "japanese": "フレッド",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 本文で「The name’s Fred.」と名乗る。",
+    "affected_entry_ids": [
+      "scr_1F80D06"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Milo",
+    "japanese": "マイロ",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 英語での一般的な読み。「ミロ」も考えられる。",
+    "affected_entry_ids": [
+      "scr_1F7E1E7"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Francis",
+    "japanese": "フランシス",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 用途は未確認（名前の一覧）だが、名前の表記は決められる。",
+    "affected_entry_ids": [
+      "scr_1F0EF10"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Fresia",
+    "japanese": "フレシア",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 用途は未確認。Freesiaにちなむ名前とみられる。",
+    "affected_entry_ids": [
+      "scr_1F0EF18"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Ace",
+    "japanese": "エース",
+    "type": "person",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の人名。公式の日本語名は無いため、英語の読みに近いカタカナをプロジェクト表記とした。 Francis/Fresiaと並ぶ名前の一覧にある人名として扱う。",
+    "affected_entry_ids": [
+      "scr_1F0EF1F"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Gruff",
+    "japanese": "グラフ",
+    "type": "person",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "npc_label",
+    "reason": "Gruffが人名なのか「荒っぽい人」を指す呼び名（Nerd=オタクと同じ種類）なのかが分からない。「グラフ」は「graph」と紛らわしい。呼び名なら「こわもて」等の案になる。",
+    "affected_entry_ids": [
+      "scr_1FAE999"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Nerd",
+    "japanese": "オタク",
+    "type": "npc_label",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "npc_label",
+    "reason": "Phase 5Cで、人名ではなく人物の呼び名と確認した。性別を示さない語にした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1FACB9D"
+    ]
+  },
+  {
+    "source": "Bellin Town",
+    "japanese": "ベリンタウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 ",
+    "affected_entry_ids": [
+      "tbl_map_names_00001_3EED08"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_mission_objectives_00000_1F56117"
+    ]
+  },
+  {
+    "source": "Crater Town",
+    "japanese": "クレータータウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 Crater＝クレーター（定着した外来語）。",
+    "affected_entry_ids": [
+      "tbl_map_names_00003_3EED22"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004",
+      "scr_74159F",
+      "scr_74190A",
+      "scr_75097E",
+      "scr_750C98",
+      "scr_750D8E",
+      "tbl_mission_objectives_00009_1F5629E"
+    ]
+  },
+  {
+    "source": "Dresco Town",
+    "japanese": "ドレスコタウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 ",
+    "affected_entry_ids": [
+      "tbl_map_names_00002_71CA60"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74528C",
+      "tbl_mission_objectives_00006_1F56220"
+    ]
+  },
+  {
+    "source": "Frozen Heights",
+    "japanese": "フローズンハイツ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 Heights（高台の町）は、町名として「ハイツ」のままにした。",
+    "affected_entry_ids": [
+      "tbl_map_names_00000_720F5C"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_750AF3"
+    ]
+  },
+  {
+    "source": "Tehl Town",
+    "japanese": "テルタウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 Tehlの発音は/tɛl/とみて「テル」とした（Phase 5Bの候補「テール」から変更）。",
+    "affected_entry_ids": [
+      "tbl_map_names_00005_71CA70"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Blizzard City",
+    "japanese": "ブリザードシティ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 ",
+    "affected_entry_ids": [
+      "tbl_map_names_00004_71FC80"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_mission_objectives_00010_1F562D1"
+    ]
+  },
+  {
+    "source": "Fallshore City",
+    "japanese": "フォールショアシティ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 ",
+    "affected_entry_ids": [
+      "tbl_map_names_00006_720E74"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Epidimy Town",
+    "japanese": "エピディミータウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 造語（epidemicに由来か）。綴りどおりに読んだ。",
+    "affected_entry_ids": [
+      "tbl_map_names_00007_721968"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_75BC3E"
+    ]
+  },
+  {
+    "source": "Tarmigan Town",
+    "japanese": "ターミガンタウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 ptarmigan（雷鳥）の読み。",
+    "affected_entry_ids": [
+      "tbl_map_names_00008_3EED67"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Vivill Town",
+    "japanese": "ビビルタウン",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の地名。公式の日本語名は無い。Town/Cityはシリーズ慣例の「タウン/シティ」とし、固有部分は英語の読みに近いカタカナにした。 ヴィが無いので「ビビル」とした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_744E2C",
+      "tbl_mission_objectives_00035_1F5679D"
+    ]
+  },
+  {
+    "source": "Vivill Woods",
+    "japanese": "ビビルのもり",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Woodsはシリーズ慣例の「○○のもり」形式にした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_753510"
+    ]
+  },
+  {
+    "source": "Icicle Cave",
+    "japanese": "つららのどうくつ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "英語の意味が分かる地名は、シリーズ慣例（例：おつきみやま、トキワのもり）にならって、意味を日本語にした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_75D44B",
+      "scr_75D5FC",
+      "tbl_mission_objectives_00004_1F561CE"
+    ]
+  },
+  {
+    "source": "Valley Cave",
+    "japanese": "たにまのどうくつ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "英語の意味が分かる地名は、シリーズ慣例（例：おつきみやま、トキワのもり）にならって、意味を日本語にした。 「バレー」はバレーボールと紛らわしい。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_mission_objectives_00010_1F562D1"
+    ]
+  },
+  {
+    "source": "Cinder Volcano",
+    "japanese": "シンダーかざん",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Cinder（燃えかす）は、訳すと不自然なのでカタカナのままにした。Volcanoは「かざん」。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74503F",
+      "scr_7453EE",
+      "scr_750370",
+      "scr_75097E",
+      "scr_750B5E",
+      "tbl_mission_objectives_00007_1F5624B"
+    ]
+  },
+  {
+    "source": "Thundercap Mt.",
+    "japanese": "サンダーキャップやま",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Mt.は「やま」とした（例：おつきみやま）。固有部分はカタカナ。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_746093",
+      "scr_75097E"
+    ]
+  },
+  {
+    "source": "KBT Expressway",
+    "japanese": "KBTハイウェイ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "英字の略称はそのまま残した。Expressway＝ハイウェイ。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1EEDAA2",
+      "tbl_menu_mining_00000_1F82262",
+      "tbl_mission_objectives_00009_1F5629E"
+    ]
+  },
+  {
+    "source": "SES Expressway",
+    "japanese": "SESハイウェイ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "英字の略称はそのまま残した。Expressway＝ハイウェイ。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_745316",
+      "scr_745C2E",
+      "scr_745D52",
+      "scr_750D8E"
+    ]
+  },
+  {
+    "source": "Crystal Peak",
+    "japanese": "クリスタルピーク",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_menu_mining_00000_1F82262"
+    ]
+  },
+  {
+    "source": "Flower Paradise",
+    "japanese": "フラワーパラダイス",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_745382",
+      "scr_74549C"
+    ]
+  },
+  {
+    "source": "Seaport City",
+    "japanese": "シーポートシティ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Challenge Road",
+    "japanese": "チャレンジロード",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "作中で通称として紹介される道。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_745775"
+    ]
+  },
+  {
+    "source": "Dehara Game Corner",
+    "japanese": "デハラゲームコーナー",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "既存glossaryのDehara＋シリーズ共通の「ゲームコーナー」。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_mission_objectives_00026_1F565EB"
+    ]
+  },
+  {
+    "source": "Antisis",
+    "japanese": "アンティシス",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Phase 5Cの近くの文にAntisis Portがあり、地名と分かった。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Route [N]",
+    "japanese": "[N]ばんどうろ",
+    "type": "location",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "route_number_template",
+    "reason": "シリーズの道路名形式（例：1ばんどうろ）をテンプレートとした。入力資料で公式と確認できないので、officialではなくproject_standard。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "The Shadows",
+    "japanese": "シャドウズ",
+    "type": "organization",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "organization_name_only",
+    "reason": "悪の組織名。英語では「in the shadows」（影に）との掛け言葉にもなるので、組織名のときだけ置き換える。一般語のshadow(s)は「かげ」。",
+    "affected_entry_ids": [
+      "scr_74AE91"
+    ],
+    "review_warning": "一般語のshadowsまで全文置換しないこと。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74ED63",
+      "scr_7503EA",
+      "scr_750738",
+      "scr_750814"
+    ]
+  },
+  {
+    "source": "Black Ferrothorn",
+    "japanese": "ブラックナットレイ",
+    "type": "organization",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "organization_and_trainer_class",
+    "reason": "ナットレイ（Ferrothornの公式名）を含む組織名。トレーナー区分名としても同じ表記。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00022_1FA1EE4"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F9F08F"
+    ]
+  },
+  {
+    "source": "The Black Emboar",
+    "japanese": "ブラックエンブオー",
+    "type": "organization",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "organization_and_mission_title",
+    "reason": "エンブオー（Emboarの公式名）を含む組織名で、ミッション名でもある。英語のTheは日本語では落とした。のちにBlack [player]へ改名される。",
+    "affected_entry_ids": [
+      "scr_1F9D358"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Black [player]",
+    "japanese": "ブラック[player]",
+    "type": "template_term",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "mission_gang_name_template",
+    "reason": "Phase 5Cで、主人公の名前を付けた組織名と確定した。[player] tokenを必ず残すテンプレートで、固定の固有名詞として置換しない。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1F9EAF1",
+      "scr_1F9F08F",
+      "scr_1F9FBCD"
+    ]
+  },
+  {
+    "source": "Light of Ruin",
+    "japanese": "はめつのひかり",
+    "type": "organization",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "組織名を意味で訳した（破滅の光）。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Undying Lucario",
+    "japanese": "ふじみのルカリオ",
+    "type": "organization",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "ルカリオ（Lucarioの公式名）を含む組織名。Undying＝ふじみ。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F1206E"
+    ]
+  },
+  {
+    "source": "Gem Family",
+    "japanese": "ジュエルファミリー",
+    "type": "organization",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Gemはシリーズの道具名にならって「ジュエル」（例：あくのジュエル）。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F2296E"
+    ]
+  },
+  {
+    "source": "The Terror Granbull",
+    "japanese": "きょうふのグランブル",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 グランブルは公式名。Theは日本語では落とした。",
+    "affected_entry_ids": [
+      "scr_1FAE704"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "The Endless Nightmare",
+    "japanese": "おわらないあくむ",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 少年が悪夢から覚めない話。",
+    "affected_entry_ids": [
+      "scr_1FA3C48"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Home for a Hobo",
+    "japanese": "やどなしにすみかを",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 近くの文から、住む場所のないもの（Miltankの可能性が高い）に家を見つける話とみられる。誰がhoboかに関係なく意味が通るようにした。",
+    "affected_entry_ids": [
+      "scr_1FA7688"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Extreme Hyperosmia",
+    "japanese": "スーパーきゅうかく",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 Hyperosmia（嗅覚過敏）とExtremeの誇張を、かなで読める形にした。カタカナとひらがなの切れ目で、空白なしでも読める（Phase 5Bの候補「するどすぎる はな」から変更）。",
+    "affected_entry_ids": [
+      "scr_1EF7E3F"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Seasonal Research",
+    "japanese": "きせつのちょうさ",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。",
+    "affected_entry_ids": [
+      "scr_1F7D054"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Tomb Raider",
+    "japanese": "トゥームレイダー",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 ゲーム作品名のもじりと判断し、その日本語版タイトルの表記に合わせた。内容（古代の墓の探索）とも合う。",
+    "affected_entry_ids": [
+      "scr_1F80CA6"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "The Battle of Antisis",
+    "japanese": "アンティシスのたたかい",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 Antisisは地名。",
+    "affected_entry_ids": [
+      "scr_1FA1F21"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "A Rift in Space",
+    "japanese": "くうかんのさけめ",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。",
+    "affected_entry_ids": [
+      "scr_1FAC0F4"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "The Rogue Electivire",
+    "japanese": "あばれエレキブル",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 エレキブルは公式名。",
+    "affected_entry_ids": [
+      "scr_1FACB78"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Wingin’ It",
+    "japanese": "はねをのばして",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 原題はwing it（ぶっつけ本番）と翼の掛け言葉。日本語の慣用句「羽を伸ばす」で、鳥ポケモンの翼と「のびのび」の意味を両方残した（Phase 5Cの候補「つばさ おひろめ」から変更）。",
+    "affected_entry_ids": [
+      "scr_1F073AB"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Shark Bait",
+    "japanese": "サメのえさ",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 近くの文から内容は特定できないが、直訳でもタイトルとして成り立つ（英語でも「格好の餌食」の比喩）。",
+    "affected_entry_ids": [
+      "scr_1F6A015"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Pangs of Hunger",
+    "japanese": "しょくよくふしん",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 食欲のない女性を元気づける話。タイトルの皮肉を、話の中身に沿った語にした。",
+    "affected_entry_ids": [
+      "scr_1F6AEF7"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Odd Odd Docks",
+    "japanese": "ナゾナゾふとう",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 港でナゾノクサの はっぱを密輸する話。原題はOdd＝Oddishの掛け言葉なので、「ナゾ」の繰り返しで同じ掛け言葉にした。",
+    "affected_entry_ids": [
+      "scr_1F9FBBF"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "The West Borrius Pokédex",
+    "japanese": "にしボーリウスずかん",
+    "type": "mission_title",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自のミッション名。ミッション名は見出しなので空白なし。 既存glossaryのBorrius=ボーリウスから作った。Phase 5Bで確定済み。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F23170"
+    ]
+  },
+  {
+    "source": "Light of Ruin Leader",
+    "japanese": "はめつのひかりリーダー",
+    "type": "trainer_class",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "trainer_class",
+    "reason": "Unbound独自のトレーナー区分名。区分名はラベルなので空白なし。 Phase 5Bの候補「はめつのひかりの リーダー」から空白を除き、「の」の重なりもなくした。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00002_1F2CB7C"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Terror Granbull",
+    "japanese": "きょうふのグランブル",
+    "type": "trainer_class",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "trainer_class",
+    "reason": "Unbound独自のトレーナー区分名。区分名はラベルなので空白なし。 ミッション名The Terror Granbullと同じ表記。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00014_1FAE6F4"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Black Ferrothorn Boss",
+    "japanese": "ブラックナットレイのボス",
+    "type": "trainer_class",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "trainer_class",
+    "reason": "Unbound独自のトレーナー区分名。区分名はラベルなので空白なし。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00026_1FA1EF5"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Grunt",
+    "japanese": "したっぱ",
+    "type": "trainer_class",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "npc_label",
+    "reason": "シリーズで定着した呼び方を使ったが、入力資料で公式表記を確認できないため、officialではなくproject_standardとした。 悪の組織の下っ端。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1F2CB27",
+      "scr_1F2CB34",
+      "scr_75C6DE",
+      "scr_75C74E",
+      "scr_75D2AB"
+    ]
+  },
+  {
+    "source": "Scientist",
+    "japanese": "けんきゅういん",
+    "type": "trainer_class",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "npc_label",
+    "reason": "シリーズで定着した呼び方を使ったが、入力資料で公式表記を確認できないため、officialではなくproject_standardとした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1F2CB1D"
+    ]
+  },
+  {
+    "source": "Officer",
+    "japanese": "おまわりさん",
+    "type": "trainer_class",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "npc_label",
+    "reason": "シリーズで定着した呼び方を使ったが、入力資料で公式表記を確認できないため、officialではなくproject_standardとした。 警察官の区分。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1FAE991"
+    ]
+  },
+  {
+    "source": "Battle Difficulty",
+    "japanese": "バトルのむずかしさ",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "options_setting_label",
+    "reason": "既存glossaryのdifficulty=むずかしさから作った。Phase 5C（selection外）で適用済み。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Puzzle Difficulty",
+    "japanese": "なぞときのむずかしさ",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "options_setting_label",
+    "reason": "既存glossaryのpuzzle/difficultyから作った。Phase 5Cで適用済み。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Vanilla",
+    "japanese": "バニラ",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "battle_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。 原作どおりのバランスを表す改造ゲーム用語として、名前のまま残した。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F10323",
+      "scr_1F10630"
+    ]
+  },
+  {
+    "source": "Difficult",
+    "japanese": "ハード",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "battle_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。 「むずかしい」だと形容詞と区別がつかない。サファリのHardと表記が同じになるが、メニューが別なので許容し、全文一括置換はしない。",
+    "affected_entry_ids": [
+      "tbl_menu_game_settings_00000_1F4E274"
+    ],
+    "review_warning": "Hard（サファリ）と同じ表記。英語の一般語difficultまで置換しないこと。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0FFA4",
+      "scr_1F100B9",
+      "scr_1F10323",
+      "scr_1F10621"
+    ]
+  },
+  {
+    "source": "Expert",
+    "japanese": "エキスパート",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "battle_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0FD05",
+      "scr_1F100B9",
+      "scr_1F1063D",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Insane",
+    "japanese": "インセイン",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "battle_and_safari_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。 サファリの難易度でも同じ文字列を使う。最上位の難易度名として海外ゲームの日本語版でも使われる。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F101AC",
+      "scr_1F10644",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Easy",
+    "japanese": "イージー",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "puzzle_and_safari_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。 なぞときとサファリで同じ文字列を使う。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F1062B"
+    ]
+  },
+  {
+    "source": "Challenging",
+    "japanese": "チャレンジ",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "puzzle_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。 ハードと重ならないようにした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F1064B"
+    ]
+  },
+  {
+    "source": "Hard",
+    "japanese": "ハード",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "safari_difficulty",
+    "reason": "Phase 5Cで決めた難易度名。4段階すべてカタカナにして、一目で区別でき、本文中でも名前だと分かるようにした。 サファリの難易度（Easy/Medium/Hard/Insane）。戦闘のDifficultと同じ表記。",
+    "affected_entry_ids": [],
+    "review_warning": "Difficult（戦闘）と同じ表記。一般語のhardまで置換しないこと。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F10638"
+    ]
+  },
+  {
+    "source": "Medium",
+    "japanese": "ノーマル",
+    "type": "difficulty",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "safari_difficulty",
+    "reason": "サファリの難易度の2番目。この表記を使うentryは今のところ無い。Easy/Hard/Insaneのカタカナに合わせた。",
+    "affected_entry_ids": [],
+    "review_warning": "使うentryが無い。サファリのMediumの文字列を抽出して選ぶときにのみ使う。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Sandbox Mode",
+    "japanese": "サンドボックスモード",
+    "type": "game_mode",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "ゲームモード名。外来語として定着している。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004",
+      "scr_1F109DA",
+      "scr_1F10A07",
+      "tbl_menu_game_settings_00000_1F10DC2"
+    ]
+  },
+  {
+    "source": "New Game \\+",
+    "japanese": "ニューゲーム\\+",
+    "type": "game_mode",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "token_template",
+    "reason": "「\\+」は保護tokenなのでそのまま残す。New Gameの部分は、モード名として「ニューゲーム」とした（タイトルメニューのNew Gameは「さいしょから」）。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "randomizer",
+    "japanese": "ランダマイザー",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "改造ゲームの用語として定着している。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F1068D",
+      "scr_1F106BE",
+      "scr_1F106F5",
+      "scr_1F10724",
+      "scr_1F10764",
+      "scr_1F1079C",
+      "scr_1F107D3",
+      "scr_1F10802"
+    ]
+  },
+  {
+    "source": "rebalanced variant",
+    "japanese": "リバランスばん",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Phase 5Bで確定済みの本文でこの表記を使っている。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F10885",
+      "scr_1F108B4"
+    ]
+  },
+  {
+    "source": "hard level cap",
+    "japanese": "レベルじょうげん",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "オプションのレベル上限。Phase 5Bで確定済みの本文でこの表記を使っている。",
+    "affected_entry_ids": [
+      "scr_1F1057C"
+    ],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F1043F",
+      "scr_1F104C4"
+    ]
+  },
+  {
+    "source": "lighter version",
+    "japanese": "ライトばん",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "story_version",
+    "reason": "ストーリーの版の名前。darker versionと対になる。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_menu_game_settings_00001_1F10DE7",
+      "tbl_menu_game_settings_00002_1F10E5B"
+    ]
+  },
+  {
+    "source": "darker version",
+    "japanese": "ダークばん",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "story_version",
+    "reason": "ストーリーの版の名前。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "tbl_menu_game_settings_00001_1F10DE7",
+      "tbl_menu_game_settings_00002_1F10E5B"
+    ]
+  },
+  {
+    "source": "Costume Box",
+    "japanese": "いしょうボックス",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "スタートメニューの項目。「コスチュームボックス」は長すぎる。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_start_menu_labels_00003_A4E4CB"
+    ]
+  },
+  {
+    "source": "Available Partners",
+    "japanese": "えらべるパートナー",
+    "type": "ui_term",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "start_menu_label",
+    "reason": "Phase 5Cで確定。レイドなどで一緒に戦うパートナーを選ぶ画面。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_start_menu_labels_00000_A4E4A2"
+    ]
+  },
+  {
+    "source": "Mining Scan",
+    "japanese": "マイニングスキャン",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Rボタンモードの名前。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "tbl_menu_mining_00000_1F82262"
+    ]
+  },
+  {
+    "source": "Cube",
+    "japanese": "キューブ",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "unbound_bag_feature",
+    "reason": "Unbound独自の道具収納機能。英語の一般語cubeは置換しない。",
+    "affected_entry_ids": [],
+    "review_warning": "一般語のcubeまで置換しないこと。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F039DA",
+      "scr_1F10A07",
+      "tbl_menu_battle_00003_A4C7B7",
+      "tbl_menu_cube_00004_4162F5"
+    ]
+  },
+  {
+    "source": "Cube Space",
+    "japanese": "キューブスペース",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_74FB43",
+      "tbl_menu_game_settings_00003_1F4E454"
+    ]
+  },
+  {
+    "source": "Cloud Burst",
+    "japanese": "クラウドバースト",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "ミニゲーム名。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0E744"
+    ]
+  },
+  {
+    "source": "Mission Log",
+    "japanese": "ミッションログ",
+    "type": "ui_term",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "既存glossaryのMissions=ミッションに合わせた。Phase 5Bで確定済み。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "tbl_start_menu_labels_00002_A4E4BF"
+    ]
+  },
+  {
+    "source": "Default",
+    "japanese": "デフォルト",
+    "type": "ui_term",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "ui_choice_label",
+    "reason": "一般的なUIの語で、固有名詞ではない。バトル曲や背景の既定を選ぶ選択肢。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1F10619"
+    ]
+  },
+  {
+    "source": "DexNav",
+    "japanese": "ずかんナビ",
+    "type": "feature",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "ORASでの日本語名にならったが、入力資料で公式表記を確認できないため、project_standardとした。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004",
+      "tbl_start_menu_labels_00001_A4E4B8"
+    ]
+  },
+  {
+    "source": "Exp. Gain",
+    "japanese": null,
+    "type": "ui_term",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "options_setting_label",
+    "reason": "オプション項目名。オプション画面の該当entryがselection外で、画面上の表示と合わせる必要がある。",
+    "affected_entry_ids": [
+      "scr_1F1057C"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Capped Share",
+    "japanese": null,
+    "type": "ui_term",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "options_choice_label",
+    "reason": "Exp. Gainの選択肢名（近くにCapped Exp. Shareもある）。がくしゅうそうち（Exp. Share）との関係と画面表示を確認する必要がある。",
+    "affected_entry_ids": [
+      "scr_1F1057C"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Darkness Badge",
+    "japanese": "ダークネスバッジ",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "ジムバッジ名。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_741A37",
+      "scr_745A55",
+      "scr_750D8E"
+    ]
+  },
+  {
+    "source": "Oddish Leaves",
+    "japanese": "ナゾノクサのはっぱ",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。 ナゾノクサはOddishの公式名。",
+    "affected_entry_ids": [
+      "scr_753107"
+    ],
+    "review_warning": "Phase 5Bで確定済みの本文（scr_746471、scr_75318A）は「ナゾノクサの はっぱ」と空白入りで書いている。道具名の方針に合わせて空白なしに直すかを決める必要がある。",
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_746471",
+      "scr_75318A"
+    ]
+  },
+  {
+    "source": "Stat Scanner",
+    "japanese": "ステータススキャナー",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Porta-PC",
+    "japanese": "ポータブルPC",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。 「けいたいPC」も考えたが、外来語の方が道具名らしい。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Time Turner",
+    "japanese": "タイムターナー",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Baby Monitor",
+    "japanese": "ベビーモニター",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Trainer Catalogue",
+    "japanese": "トレーナーカタログ",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Catching Charm",
+    "japanese": "ほかくのおまもり",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "medium",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。 シリーズの「ひかるおまもり」「まるいおまもり」にならった。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Frontier Card",
+    "japanese": "フロンティアカード",
+    "type": "item",
+    "status": "project_standard",
+    "confidence": "high",
+    "context_scope": "global",
+    "reason": "Unbound独自の道具名。道具名なので空白なし。",
+    "affected_entry_ids": [],
+    "new_in_phase5d": false,
+    "already_used_in_confirmed_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "High King",
+    "japanese": null,
+    "type": "form_name",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "pokedex_form_name",
+    "reason": "図鑑のフォーム名。どのポケモンのフォームか、公式のフォーム名があるかを確認できない。",
+    "affected_entry_ids": [
+      "tbl_pokedex_form_names_00001_166A8E1"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Unique Horn",
+    "japanese": null,
+    "type": "form_name",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "pokedex_form_name",
+    "reason": "図鑑のフォーム名。どのポケモンのフォームか、公式のフォーム名があるかを確認できない。",
+    "affected_entry_ids": [
+      "tbl_pokedex_form_names_00003_166A8EB"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Sphere",
+    "japanese": null,
+    "type": "form_name",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "pokedex_form_name",
+    "reason": "図鑑のフォーム名。どのポケモンのフォームか、公式のフォーム名があるかを確認できない。",
+    "affected_entry_ids": [
+      "tbl_pokedex_form_names_00012_166A934"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Djinn",
+    "japanese": null,
+    "type": "form_name",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "pokedex_form_name",
+    "reason": "図鑑のフォーム名。どのポケモンのフォームか、公式のフォーム名があるかを確認できない。",
+    "affected_entry_ids": [
+      "tbl_pokedex_form_names_00000_166A8DB"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  },
+  {
+    "source": "Dancing",
+    "japanese": null,
+    "type": "form_name",
+    "status": "unresolved",
+    "confidence": "low",
+    "context_scope": "pokedex_form_name",
+    "reason": "図鑑のフォーム名。どのポケモンのフォームか、公式のフォーム名があるかを確認できない。",
+    "affected_entry_ids": [
+      "tbl_pokedex_form_names_00005_166A8F7"
+    ],
+    "new_in_phase5d": true,
+    "already_used_in_confirmed_ids": []
+  }
+]

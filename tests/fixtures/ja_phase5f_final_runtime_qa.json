@@ -1,0 +1,31 @@
+{
+  "phase": "5F-final",
+  "rom": "out/unbound-ja-phase5f-final.gba",
+  "status": "human_runtime_pending",
+  "event_location": {
+    "description": "Five interactive light-bulb switch events; two ROM map-event arrays point to their scripts.",
+    "map_header_rom_offsets": ["0x0034FB28", "0x003513A8"],
+    "event_array_rom_offsets": ["0x00B7079C", "0x00B9CACC"],
+    "region_hint": "Both map headers contain section byte 0x62, which indexes the ROM map-name table to Antisis Port. Exact room and access route are not yet human-verified.",
+    "how_to_reach": "Use a progressed save with access to the bulb-switch puzzle in the Antisis Port section. If the screen is not there, trace the two map headers above; do not assume a NEW GAME route.",
+    "event_script_rom_offsets": ["0x01E74C86", "0x01E74CE3", "0x01E74D40", "0x01E74D9D", "0x01E74DFA"],
+    "event_tile_coordinates_from_records": [[5, 20], [19, 25], [3, 14], [2, 8], [19, 17]]
+  },
+  "cases": [
+    {
+      "buffer_value": "オン",
+      "buffer_source_rom_offset": "0x01F1A9C6",
+      "how_to_trigger": "Interact with a bulb while the script chooses its on branch; toggle state if needed.",
+      "expected_text": "なにかの でんきゅうの ようだ。\nオンに しますか？",
+      "what_to_visually_verify": ["でんきゅう, not きゅうこん", "オン is kana, not Latin on", "green color applies to オン only", "following に しますか？ remains Japanese", "line break and confirmation advance are normal"]
+    },
+    {
+      "buffer_value": "オフ",
+      "buffer_source_rom_offset": "0x01F1A9C9",
+      "how_to_trigger": "Toggle the same bulb, then interact again to choose its off branch.",
+      "expected_text": "なにかの でんきゅうの ようだ。\nオフに しますか？",
+      "what_to_visually_verify": ["オフ is kana, not Latin off", "green color applies to オフ only", "following Japanese page and punctuation are intact", "all five bulb positions work", "save/load retains switch state"]
+    }
+  ],
+  "note": "Expected wording is semantic. Actual line wrap follows controlfix; no emulator check has been performed."
+}

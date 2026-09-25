@@ -217,6 +217,10 @@ term is queued for translation again. Use `--glossary PATH` to test another glos
 diagnosis. `glossaries/it.json` is the initial Italian proposal and should be reviewed before its wording is treated as
 final.
 
+Context-sensitive entries can use `context_scope`, `global_replace: false`, `categories`, and `entry_ids` to
+limit replacement to a reviewed UI/table context; `template` preserves Route numbers and control tokens.
+Unapproved terms should remain outside the glossary until their runtime context is verified.
+
 Glossary entries with rigid limits record category-specific `max_length` values and their measurement unit. If full
 wording does not fit, `full_target` preserves it while `target` contains the compact reviewable in-game value;
 `use_compact_target` marks only limits requiring that value. Other contexts use `full_target`.

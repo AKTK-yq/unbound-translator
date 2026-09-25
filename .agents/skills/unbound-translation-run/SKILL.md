@@ -39,6 +39,13 @@ compact approved wording in `target`, complete wording in `full_target`, and set
 failing limit. Translator uses compact `target` only for those categories and restores `full_target` elsewhere. Never
 store silent truncation as glossary wording.
 
+Japanese Phase 5E terms may also carry `context_scope`, `global_replace`, `template`, and `entry_ids`.
+`global_replace: false` requires an exact allowed entry ID or a whole-string match in an allowed category;
+the `settings_ui` scope may match within a settings label such as `General Options`.
+It must not replace a substring in unrelated prose. `Route [N]` substitutes only the decimal route number.
+`Black [player]` and `New Game \\+` retain their protected control tokens; a temporary Latin page around
+`[player]` does not make the template missing. Keep item-name-only spacing rules scoped to `item_names`.
+
 Matched source occurrences become protected glossary placeholders before an LLM call. The translator rejects a model
 response that loses, duplicates, or invents one, then restores the glossary target into `translated`. During resume,
 existing translations missing required targets are cleared and queued again. Use `--glossary PATH` for review variants;
