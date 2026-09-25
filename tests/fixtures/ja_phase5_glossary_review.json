@@ -1,0 +1,1038 @@
+[
+  {
+    "source": "Bellin Town",
+    "proposed": "ベリンタウン",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにし、Townは公式の「タウン」形式にした。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00001_3EED08",
+      "tbl_mission_objectives_00000_1F56117"
+    ]
+  },
+  {
+    "source": "Crater Town",
+    "proposed": "クレータータウン",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "Crater＝クレーター。文中でも同じ表記を使用。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00003_3EED22",
+      "scr_750C28",
+      "scr_1F0F004",
+      "scr_75097E",
+      "scr_74190A",
+      "scr_750C98",
+      "scr_750D8E",
+      "tbl_mission_objectives_00009_1F5629E",
+      "scr_74159F"
+    ]
+  },
+  {
+    "source": "Dresco Town",
+    "proposed": "ドレスコタウン",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "造語のため英語発音をカタカナにした。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00002_71CA60",
+      "tbl_mission_objectives_00006_1F56220",
+      "scr_74528C"
+    ]
+  },
+  {
+    "source": "Frozen Heights",
+    "proposed": "フローズンハイツ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語をそのままカタカナにした（意訳するなら「こおりのたかだい」等）。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00000_720F5C",
+      "scr_750AF3"
+    ]
+  },
+  {
+    "source": "Tehl Town",
+    "proposed": "テールタウン",
+    "type": "地名",
+    "confidence": "low",
+    "reason": "Tehlの読みが不確か（テール／テル）。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00005_71CA70"
+    ]
+  },
+  {
+    "source": "Blizzard City",
+    "proposed": "ブリザードシティ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "Cityは公式の「シティ」形式にした。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00004_71FC80",
+      "tbl_mission_objectives_00010_1F562D1"
+    ]
+  },
+  {
+    "source": "Fallshore City",
+    "proposed": "フォールショアシティ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00006_720E74"
+    ]
+  },
+  {
+    "source": "Epidimy Town",
+    "proposed": "エピディミータウン",
+    "type": "地名",
+    "confidence": "low",
+    "reason": "造語で、読みが不確か。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00007_721968",
+      "scr_75BC3E"
+    ]
+  },
+  {
+    "source": "Tarmigan Town",
+    "proposed": "ターミガンタウン",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "ptarmiganに由来するとみて「ターミガン」とした。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_map_names_00008_3EED67"
+    ]
+  },
+  {
+    "source": "The Terror Granbull",
+    "proposed": "きょうふのグランブル",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ミッション名、兼トレーナー区分名。Granbullは公式名のグランブル。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1FAE704"
+    ]
+  },
+  {
+    "source": "The Endless Nightmare",
+    "proposed": "おわらないあくむ",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ミッション名。意訳。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1FA3C48"
+    ]
+  },
+  {
+    "source": "Home for a Hobo",
+    "proposed": "やどなしに すみかを",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。Hoboは差別的な含みがあるため、中立的に意訳した。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1FA7688"
+    ]
+  },
+  {
+    "source": "Extreme Hyperosmia",
+    "proposed": "するどすぎる はな",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。「嗅覚過敏」を漢字なしで意訳した。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1EF7E3F"
+    ]
+  },
+  {
+    "source": "Seasonal Research",
+    "proposed": "きせつの ちょうさ",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ミッション名。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F7D054"
+    ]
+  },
+  {
+    "source": "Tomb Raider",
+    "proposed": "はかあらし",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。同名のゲーム作品のパロディである可能性がある。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F80CA6"
+    ]
+  },
+  {
+    "source": "The Battle of Antisis",
+    "proposed": "アンティシスの たたかい",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。Antisisは地名か人名かが不明。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1FA1F21"
+    ]
+  },
+  {
+    "source": "A Rift in Space",
+    "proposed": "くうかんの さけめ",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ミッション名。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1FAC0F4"
+    ]
+  },
+  {
+    "source": "The Rogue Electivire",
+    "proposed": "あばれエレキブル",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ミッション名。Electivireは公式名のエレキブル。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1FACB78"
+    ]
+  },
+  {
+    "source": "Wingin’ It",
+    "proposed": "ぶっつけほんばん",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。「翼」との語呂合わせの可能性があり、意訳の方針が要確認。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F073AB"
+    ]
+  },
+  {
+    "source": "Shark Bait",
+    "proposed": "サメの えさ",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。比喩の可能性あり。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F6A015"
+    ]
+  },
+  {
+    "source": "Pangs of Hunger",
+    "proposed": "くうふくの いたみ",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ミッション名。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F6AEF7"
+    ]
+  },
+  {
+    "source": "The Black Emboar",
+    "proposed": "ブラックエンブオー",
+    "type": "組織",
+    "confidence": "medium",
+    "reason": "組織名の可能性がある。Emboarは公式名のエンブオー。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F9D358"
+    ]
+  },
+  {
+    "source": "Odd Odd Docks",
+    "proposed": "あやしい ふとう",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "ミッション名。語呂合わせで、意訳の方針が要確認。",
+    "phase5a_candidate": true,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F9FBBF"
+    ]
+  },
+  {
+    "source": "Jax",
+    "proposed": "ジャックス",
+    "type": "人名",
+    "confidence": "medium",
+    "reason": "主要人物の名前ラベルと本文に出る。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2CAF9",
+      "tbl_mission_objectives_00026_1F565EB",
+      "scr_75097E",
+      "scr_750814",
+      "scr_750B5E",
+      "scr_750370",
+      "scr_75C28A",
+      "scr_74ED63"
+    ]
+  },
+  {
+    "source": "Marlon",
+    "proposed": "マーロン",
+    "type": "人名",
+    "confidence": "high",
+    "reason": "英語名の一般的なカタカナ表記。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2CB04",
+      "tbl_mission_objectives_00002_1F56178",
+      "tbl_mission_objectives_00050_1F56A19",
+      "scr_7503EA",
+      "scr_74BFF6"
+    ]
+  },
+  {
+    "source": "Zeph",
+    "proposed": "ゼフ",
+    "type": "人名",
+    "confidence": "medium",
+    "reason": "シャドウズのボス。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2CB11",
+      "scr_74AE91",
+      "scr_74BFF6",
+      "scr_74C058"
+    ]
+  },
+  {
+    "source": "Ivory",
+    "proposed": "アイボリー",
+    "type": "人名",
+    "confidence": "high",
+    "reason": "英語名の一般的なカタカナ表記。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2CB0B",
+      "scr_7503EA",
+      "scr_74BFF6",
+      "scr_7504B7",
+      "scr_74B022",
+      "scr_74C058"
+    ]
+  },
+  {
+    "source": "Aklove",
+    "proposed": "アクラブ",
+    "type": "人名",
+    "confidence": "low",
+    "reason": "読みが不確か。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2CB16"
+    ]
+  },
+  {
+    "source": "Prof. Log",
+    "proposed": "ログはかせ",
+    "type": "人名",
+    "confidence": "medium",
+    "reason": "Prof.は公式の「はかせ」（オーキドはかせ等）。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2CAEF",
+      "tbl_mission_objectives_00000_1F56117",
+      "tbl_mission_objectives_00001_1F5614A",
+      "tbl_mission_objectives_00002_1F56178",
+      "tbl_mission_objectives_00006_1F56220"
+    ]
+  },
+  {
+    "source": "Log",
+    "proposed": "ログ",
+    "type": "人名",
+    "confidence": "medium",
+    "reason": "話者名ラベル。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_416425",
+      "tbl_start_menu_labels_00002_A4E4BF",
+      "scr_750AF3"
+    ]
+  },
+  {
+    "source": "Véga",
+    "proposed": "ベガ",
+    "type": "人名",
+    "confidence": "medium",
+    "reason": "ヴは日本語charmapに無いためベガとした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F164B9",
+      "scr_7416E8",
+      "scr_74190A",
+      "scr_741A37"
+    ]
+  },
+  {
+    "source": "Arthur",
+    "proposed": "アーサー",
+    "type": "人名",
+    "confidence": "high",
+    "reason": "英語名の一般的なカタカナ表記。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2FCAE",
+      "scr_75097E",
+      "scr_750814",
+      "scr_750738"
+    ]
+  },
+  {
+    "source": "Aros",
+    "proposed": "アロス",
+    "type": "人名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F3EA60",
+      "scr_7527C2"
+    ]
+  },
+  {
+    "source": "Krook",
+    "proposed": "クルック",
+    "type": "人名",
+    "confidence": "low",
+    "reason": "ポケモンのニックネームとみられる。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_74C358"
+    ]
+  },
+  {
+    "source": "The Shadows",
+    "proposed": "シャドウズ",
+    "type": "組織",
+    "confidence": "medium",
+    "reason": "悪の組織の名前。「かげ」との掛け言葉がある場面もある。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_74AE91",
+      "scr_7503EA",
+      "scr_750814",
+      "scr_750738",
+      "scr_74ED63"
+    ]
+  },
+  {
+    "source": "Black Ferrothorn",
+    "proposed": "ブラックナットレイ",
+    "type": "組織",
+    "confidence": "medium",
+    "reason": "Ferrothornは公式名のナットレイ。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F9F08F",
+      "tbl_trainer_classes_00022_1FA1EE4",
+      "tbl_trainer_classes_00026_1FA1EF5"
+    ]
+  },
+  {
+    "source": "Light of Ruin",
+    "proposed": "はめつのひかり",
+    "type": "組織",
+    "confidence": "low",
+    "reason": "組織名。意訳。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_trainer_classes_00002_1F2CB7C"
+    ]
+  },
+  {
+    "source": "Undying Lucario",
+    "proposed": "ふじみのルカリオ",
+    "type": "組織",
+    "confidence": "low",
+    "reason": "組織名。Lucarioは公式名のルカリオ。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F1206E"
+    ]
+  },
+  {
+    "source": "Gem Family",
+    "proposed": "ジュエルファミリー",
+    "type": "組織",
+    "confidence": "low",
+    "reason": "Gem＝公式の「ジュエル」。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F2296E"
+    ]
+  },
+  {
+    "source": "Vivill Town",
+    "proposed": "ビビルタウン",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_mission_objectives_00035_1F5679D",
+      "scr_744E2C"
+    ]
+  },
+  {
+    "source": "Vivill Woods",
+    "proposed": "ビビルのもり",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "公式の「○○のもり」形式にした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_753510"
+    ]
+  },
+  {
+    "source": "Icicle Cave",
+    "proposed": "つららのどうくつ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "記述的な名前なので意訳した。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_mission_objectives_00004_1F561CE",
+      "scr_75D44B",
+      "scr_75D5FC"
+    ]
+  },
+  {
+    "source": "Valley Cave",
+    "proposed": "たにまのどうくつ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "記述的な名前なので意訳した。「バレー」はバレーボールと紛れる。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_mission_objectives_00010_1F562D1"
+    ]
+  },
+  {
+    "source": "Cinder Volcano",
+    "proposed": "シンダーかざん",
+    "type": "地名",
+    "confidence": "low",
+    "reason": "Cinderはカタカナのまま、Volcanoは「かざん」とした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_75097E",
+      "scr_750B5E",
+      "scr_74503F",
+      "scr_7453EE",
+      "scr_750370",
+      "tbl_mission_objectives_00007_1F5624B"
+    ]
+  },
+  {
+    "source": "Thundercap Mt.",
+    "proposed": "サンダーキャップやま",
+    "type": "地名",
+    "confidence": "low",
+    "reason": "Mt.は「やま」とした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_75097E",
+      "scr_746093"
+    ]
+  },
+  {
+    "source": "KBT Expressway",
+    "proposed": "KBTハイウェイ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "Expressway＝ハイウェイ。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_menu_mining_00000_1F82262",
+      "scr_1EEDAA2",
+      "tbl_mission_objectives_00009_1F5629E"
+    ]
+  },
+  {
+    "source": "SES Expressway",
+    "proposed": "SESハイウェイ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "Expressway＝ハイウェイ。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_745C2E",
+      "scr_745D52",
+      "scr_750D8E",
+      "scr_745316"
+    ]
+  },
+  {
+    "source": "Crystal Peak",
+    "proposed": "クリスタルピーク",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_menu_mining_00000_1F82262"
+    ]
+  },
+  {
+    "source": "Flower Paradise",
+    "proposed": "フラワーパラダイス",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_745382",
+      "scr_74549C"
+    ]
+  },
+  {
+    "source": "Seaport City",
+    "proposed": "シーポートシティ",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Challenge Road",
+    "proposed": "チャレンジロード",
+    "type": "地名",
+    "confidence": "medium",
+    "reason": "作中では通称として紹介される。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_745775"
+    ]
+  },
+  {
+    "source": "Dehara Game Corner",
+    "proposed": "デハラゲームコーナー",
+    "type": "地名",
+    "confidence": "high",
+    "reason": "Dehara（glossary）＋公式の「ゲームコーナー」。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_mission_objectives_00026_1F565EB"
+    ]
+  },
+  {
+    "source": "Cube Space",
+    "proposed": "キューブスペース",
+    "type": "機能名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_menu_game_settings_00003_1F4E454",
+      "scr_74FB43"
+    ]
+  },
+  {
+    "source": "Cube",
+    "proposed": "キューブ",
+    "type": "機能名",
+    "confidence": "medium",
+    "reason": "バッグに相当するUnbound独自の機能。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_menu_cube_00004_4162F5",
+      "scr_1F10A07",
+      "scr_1F039DA",
+      "tbl_menu_battle_00003_A4C7B7"
+    ]
+  },
+  {
+    "source": "Cloud Burst",
+    "proposed": "クラウドバースト",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "ミニゲーム名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0E744"
+    ]
+  },
+  {
+    "source": "Darkness Badge",
+    "proposed": "ダークネスバッジ",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "ジムバッジ名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_745A55",
+      "scr_750D8E",
+      "scr_741A37"
+    ]
+  },
+  {
+    "source": "Oddish Leaves",
+    "proposed": "ナゾノクサの はっぱ",
+    "type": "その他",
+    "confidence": "medium",
+    "reason": "Oddishは公式名のナゾノクサ。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_753107",
+      "scr_746471",
+      "scr_75318A"
+    ]
+  },
+  {
+    "source": "Mining Scan",
+    "proposed": "マイニングスキャン",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_menu_mining_00000_1F82262"
+    ]
+  },
+  {
+    "source": "Sandbox Mode",
+    "proposed": "サンドボックスモード",
+    "type": "機能名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07",
+      "scr_1F109DA",
+      "tbl_menu_game_settings_00000_1F10DC2"
+    ]
+  },
+  {
+    "source": "New Game +",
+    "proposed": "ニューゲーム+（\\+ token）",
+    "type": "機能名",
+    "confidence": "medium",
+    "reason": "+の記号は\\+ tokenのまま残す。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": []
+  },
+  {
+    "source": "Stat Scanner",
+    "proposed": "ステータススキャナー",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Porta-PC",
+    "proposed": "ポータブルPC",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Time Turner",
+    "proposed": "タイムターナー",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004",
+      "scr_1F10A07"
+    ]
+  },
+  {
+    "source": "Baby Monitor",
+    "proposed": "ベビーモニター",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Trainer Catalogue",
+    "proposed": "トレーナーカタログ",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Catching Charm",
+    "proposed": "ほかくのおまもり",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。公式名が無い可能性がある。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "Frontier Card",
+    "proposed": "フロンティアカード",
+    "type": "その他",
+    "confidence": "low",
+    "reason": "道具名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F0F004"
+    ]
+  },
+  {
+    "source": "randomizer",
+    "proposed": "ランダマイザー",
+    "type": "機能名",
+    "confidence": "medium",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F1068D",
+      "scr_1F106BE",
+      "scr_1F106F5",
+      "scr_1F10724",
+      "scr_1F10764",
+      "scr_1F1079C",
+      "scr_1F107D3",
+      "scr_1F10802"
+    ]
+  },
+  {
+    "source": "rebalanced variant",
+    "proposed": "リバランスばん",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F108B4",
+      "scr_1F10885"
+    ]
+  },
+  {
+    "source": "hard level cap",
+    "proposed": "レベルじょうげん",
+    "type": "機能名",
+    "confidence": "medium",
+    "reason": "オプション項目名との一致が要確認。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F1057C",
+      "scr_1F104C4",
+      "scr_1F1043F"
+    ]
+  },
+  {
+    "source": "lighter/darker version",
+    "proposed": "ライトばん/ダークばん",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "ストーリー版の名前。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_menu_game_settings_00002_1F10E5B",
+      "tbl_menu_game_settings_00001_1F10DE7"
+    ]
+  },
+  {
+    "source": "Costume Box",
+    "proposed": "いしょうボックス",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "英語発音をカタカナにした。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_start_menu_labels_00003_A4E4CB"
+    ]
+  },
+  {
+    "source": "Available Partners",
+    "proposed": "パートナーいちらん",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "機能の内容が不明。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "tbl_start_menu_labels_00000_A4E4A2"
+    ]
+  },
+  {
+    "source": "Vanilla",
+    "proposed": "バニラ",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "難易度モード名（未解決）。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F10323",
+      "scr_1F10630"
+    ]
+  },
+  {
+    "source": "Difficult",
+    "proposed": "むずかしい",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "難易度モード名（未解決）。本文では「」または色で強調。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F10323",
+      "scr_1F0FFA4",
+      "scr_1F100B9",
+      "scr_1F10621",
+      "tbl_menu_game_settings_00000_1F4E274"
+    ]
+  },
+  {
+    "source": "Expert",
+    "proposed": "エキスパート",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "難易度モード名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F100B9",
+      "scr_1F0FD05",
+      "scr_1F10A07",
+      "scr_1F1063D"
+    ]
+  },
+  {
+    "source": "Insane",
+    "proposed": "インセイン",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "難易度モード名。意訳するなら「げきむず」等。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F101AC",
+      "scr_1F10A07",
+      "scr_1F10644"
+    ]
+  },
+  {
+    "source": "Easy",
+    "proposed": "かんたん",
+    "type": "機能名",
+    "confidence": "low",
+    "reason": "難易度モード名。",
+    "phase5a_candidate": false,
+    "official_confirmed": false,
+    "evidence_ids": [
+      "scr_1F1062B"
+    ]
+  }
+]

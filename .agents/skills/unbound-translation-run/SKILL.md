@@ -10,7 +10,9 @@ description: Prepare, run, resume, or diagnose Pokemon Unbound translation JSON.
 - Input must be prepared JSON with `translation_source` and protected placeholder metadata. Never translate raw
   extraction output directly.
 - Output preserves the input JSON shape and fills `translated`; it is not injection-ready until controlfix runs.
-- Supported targets are Latin-script `de`, `en`, `es`, `fr`, `id`, `it`, `pt`, and `pt-br`.
+- Supported Latin-script targets are `de`, `en`, `es`, `fr`, `id`, `it`, `pt`, and `pt-br`. Experimental `ja` uses
+  kana-only PCS and PokeAPI `ja-hrkt`; it is not release-ready. See `docs/ja-phase5a.md` for the bounded,
+  untranslated review-data workflow.
 
 ## Workflow
 

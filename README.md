@@ -225,10 +225,13 @@ PokeAPI responses are cached under `.cache/pokeapi` and looked up in parallel. T
 not be committed. Resume an interrupted translation by repeating the same command with `--resume`.
 
 Japanese is an experimental kana-only target. `--target ja` requests PokeAPI's `ja-hrkt` localization and instructs
-the LLM not to emit kanji. Run controlfix with `--target-lang ja`; it wraps by character and adds the Japanese/Latin
+the LLM not to emit kanji. Run controlfix with `--target-lang ja`; it prefers wakachigaki spaces, falls back to character wrapping, and adds the Japanese/Latin
 font-page controls required by the ROM. There is no release-ready Japanese translation yet.
 The bounded 59-entry runtime validation build and its byte-audit commands are in
-[the Japanese Phase 4 guide](docs/ja-phase4.md).
+[the Japanese Phase 4 guide](docs/ja-phase4.md). The untranslated 750-entry Phase 5A dataset,
+Claude handoff, and capacity analysis are described in [the Phase 5A guide](docs/ja-phase5a.md).
+The reviewed 596-entry technical ROM, excluded-entry audit, and human runtime checklist are in
+[the Phase 5B guide](docs/ja-phase5b.md); this is not a release-ready translation.
 
 ### 4. Repair Controls And Layout
 

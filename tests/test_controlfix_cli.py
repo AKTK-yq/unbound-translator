@@ -162,3 +162,24 @@ def test_controlfix_japanese_wakachigaki_and_buffer_are_byte_idempotent(tmp_path
     text = json.loads(first_path.read_text(encoding="utf-8"))["entries"][0]["translated"]
     assert "[latin][buffer1][japanese]" in text
     assert not any(fragment in text for fragment in (" \n", "\n ", " \\l", "\\l ", " \\p", "\\p "))
+
+
+def test_japanese_reordered_leading_buffer_is_not_duplicated(tmp_path):
+    source = {"entries": [{"id": "reordered", "category": "menu_common",
+                           "original": '"[buffer1] could not be found nearby.\\nTry elsewhere!"'}]}
+    reviewed = {"entries": [{**source["entries"][0],
+                             "translated": "ちかくに [buffer1]は いないようだ。 ちがう ばしょを さがしてみよう！"}]}
+    source_path = tmp_path / "source.json"
+    input_path = tmp_path / "reviewed.json"
+    first = tmp_path / "first.json"
+    second = tmp_path / "second.json"
+    source_path.write_text(json.dumps(source, ensure_ascii=False), encoding="utf-8")
+    input_path.write_text(json.dumps(reviewed, ensure_ascii=False), encoding="utf-8")
+    for inp, out in ((input_path, first), (first, second)):
+        subprocess.run([sys.executable, str(REPO_ROOT / "004_controlfix_translations.py"),
+                        str(inp), "-o", str(out), "--source", str(source_path),
+                        "--target-lang", "ja"], cwd=REPO_ROOT, check=True,
+                       stdout=subprocess.DEVNULL)
+    text = json.loads(first.read_text(encoding="utf-8"))["entries"][0]["translated"]
+    assert text.count("[buffer1]") == 1
+    assert first.read_bytes() == second.read_bytes()

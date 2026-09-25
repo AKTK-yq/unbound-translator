@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+from collections import Counter
 import json
 import re
 from pathlib import Path
@@ -58,6 +59,10 @@ DEFAULT_WRAP_CATEGORIES = (
     "scripts,plain_scripts,pokedex_descriptions,move_descriptions,ability_descriptions,item_descriptions,"
     "mission_descriptions,mission_objectives,menu_pokemon_summary,battle_messages,trade_messages"
 )
+JA_OPTIONS_DIFFICULTY_WARNING_IDS = {
+    "tbl_menu_game_settings_00000_1F4E26F",
+    "tbl_menu_game_settings_00001_1F4E328",
+}
 DESCRIPTION_CATEGORIES = {
     "move_descriptions",
     "ability_descriptions",
@@ -194,6 +199,15 @@ def starts_with_tokens(text, tokens):
 def ensure_original_prefix(text, original):
     prefix = leading_critical_tokens(original)
     if not prefix:
+        return text, False
+
+    # Dynamic buffers may move within a natural Japanese sentence. If the
+    # reviewed translation already preserves their counts, prepending the
+    # English leading buffer would duplicate runtime-expanded text.
+    original_counts = Counter(token for _start, _end, token in token_spans(original, critical_token))
+    translated_counts = Counter(token for _start, _end, token in token_spans(text, critical_token))
+    if all(token not in COLOR_TOKENS and translated_counts[token] >= original_counts[token]
+           for token in prefix):
         return text, False
 
     prefix_text = "".join(prefix)
@@ -840,7 +854,14 @@ def restore_battle_prompt_layout(text, _original, entry):
 
 
 def wrap_translation(text, entry, original, args, wrap_categories):
-    if args.no_wrap or entry.get("category") not in wrap_categories:
+    if args.no_wrap:
+        return text, False, 0, False
+    if args.target_lang == "ja" and entry.get("id") in JA_OPTIONS_DIFFICULTY_WARNING_IDS:
+        plain_text, _removed_layout = remove_layout_tokens(text)
+        lines, long_words = wrap_characters(plain_text, min(args.wrap_width, 16))
+        wrapped = join_script_lines(lines)
+        return wrapped, wrapped != text, long_words, False
+    if entry.get("category") not in wrap_categories:
         return text, False, 0, False
     if (
         entry.get("category") == "ability_descriptions"

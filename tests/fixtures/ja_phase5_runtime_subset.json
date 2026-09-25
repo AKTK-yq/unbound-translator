@@ -1,0 +1,650 @@
+{
+  "metadata": {
+    "phase": "5A",
+    "entry_count": 80,
+    "source_manifest": "tests/fixtures/ja_phase5_selection.json",
+    "note": "Priority order for human QA after Phase 5B translations; inclusion does not assert current runtime observation"
+  },
+  "entries": [
+    {
+      "id": "scr_1F0F79C",
+      "category": "plain_scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F7EC",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 3 mGBA observation plus current NEW GAME script operand",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F800",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 3 mGBA observation plus current NEW GAME script operand",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F814",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 3 mGBA observation plus current NEW GAME script operand",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F82A",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F842",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F858",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F874",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F89C",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F8AD",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F91A",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F9DD",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F9FA",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0FA63",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0FB2B",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0FB85",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0FC3F",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0FE27",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0FF35",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F10323",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "A",
+      "reason": "Phase 4 runtime-tested NEW GAME flow; exact branch may vary",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF08",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF10",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF18",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF1F",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF23",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF49",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0EF76",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F004",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F5A6",
+      "category": "plain_scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_1F0F64D",
+      "category": "plain_scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "scr_74159F",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_741625",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_7416E8",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_741765",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_7418A6",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_74190A",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_740088",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "scr_7401A9",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    },
+    {
+      "id": "tbl_battle_messages_00011_3FB359",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages.expAndFaint; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00017_3FB400",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages.expAndFaint; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00002_3FB525",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00012_3FB5E2",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00343_3FD57B",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00000_3FB248",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages.expAndFaint; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00001_3FB265",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages.expAndFaint; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_battle_messages_00003_3FB28E",
+      "category": "battle_messages",
+      "renderer": "battle_text_printer",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.battle.text.messages.expAndFaint; row reachability varies",
+      "qa_route": "conditional battle"
+    },
+    {
+      "id": "tbl_mission_log_00000_1F56040",
+      "category": "mission_log",
+      "renderer": "mission_log",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "tbl_mission_log_00001_1F5604A",
+      "category": "mission_log",
+      "renderer": "mission_log",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "tbl_mission_log_00002_1F56055",
+      "category": "mission_log",
+      "renderer": "mission_log",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "tbl_mission_log_00003_1F5605C",
+      "category": "mission_log",
+      "renderer": "mission_log",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "scr_1EF7E3F",
+      "category": "mission_names",
+      "renderer": "mission_ui",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "scr_1F073AB",
+      "category": "mission_names",
+      "renderer": "mission_ui",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "scr_1EEDAA2",
+      "category": "mission_descriptions",
+      "renderer": "mission_ui",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "scr_1F016FD",
+      "category": "mission_descriptions",
+      "renderer": "mission_ui",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "tbl_mission_objectives_00000_1F56117",
+      "category": "mission_objectives",
+      "renderer": "mission_ui",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.missions.objectives.mainStory; row reachability varies",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "tbl_mission_objectives_00001_1F5614A",
+      "category": "mission_objectives",
+      "renderer": "mission_ui",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.missions.objectives.mainStory; row reachability varies",
+      "qa_route": "Mission Log"
+    },
+    {
+      "id": "tbl_menu_pause_00002_415A66",
+      "category": "menu_pause",
+      "renderer": "menu_pause",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.text.menu.pause; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_options_00000_419DCC",
+      "category": "menu_options",
+      "renderer": "menu_options",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.options; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_pc_00027_417BB6",
+      "category": "menu_pc",
+      "renderer": "menu_pc",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.pc; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_shop_00000_416738",
+      "category": "menu_shop",
+      "renderer": "menu_shop",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.shop; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_save_00003_41B60E",
+      "category": "menu_save",
+      "renderer": "menu_save",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.save; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_pokemon_00000_4171DF",
+      "category": "menu_pokemon",
+      "renderer": "menu_pokemon",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.pokemon; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_common_00004_4161A0",
+      "category": "menu_common",
+      "renderer": "menu_common",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_item_storage_00002_417774",
+      "category": "menu_item_storage",
+      "renderer": "menu_item_storage",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.text.menu.itemStorage.range; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_game_settings_00000_1F10DC2",
+      "category": "menu_game_settings",
+      "renderer": "menu_game_settings",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.gameSettings.introSetup; row reachability varies",
+      "qa_route": "NEW GAME"
+    },
+    {
+      "id": "tbl_menu_battle_00000_3FE725",
+      "category": "menu_battle",
+      "renderer": "menu_battle",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.battle; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_link_controls_00001_1BC4CE",
+      "category": "menu_link_controls",
+      "renderer": "menu_link_controls",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.linkControls; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_save_prompts_00000_1C55C9",
+      "category": "menu_save_prompts",
+      "renderer": "menu_save_prompts",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.save.prompts; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_pokedex_00000_415FAD",
+      "category": "menu_pokedex",
+      "renderer": "menu_pokedex",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.pokedex.controls; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_cube_00000_4162CD",
+      "category": "menu_cube",
+      "renderer": "menu_cube",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.cube; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_pokemon_options_00001_41698D",
+      "category": "menu_pokemon_options",
+      "renderer": "menu_pokemon_options",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.text.menu.pokemon.options; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_pcoptions_00002_4176E2",
+      "category": "menu_pcoptions",
+      "renderer": "menu_pcoptions",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.pcoptions; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_pokemon_names_00002_166A9A2",
+      "category": "pokemon_names",
+      "renderer": "pokemon_name_table",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.pokemon.names; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_move_names_00001_A40A1D",
+      "category": "move_names",
+      "renderer": "move_name_table",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.pokemon.moves.names; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_item_names_00001_87622C",
+      "category": "item_names",
+      "renderer": "item_name_table",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.items.stats; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_ability_names_00001_A363A9",
+      "category": "ability_names",
+      "renderer": "ability_name_table",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.abilities.names; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_type_names_00000_A4EAD4",
+      "category": "type_names",
+      "renderer": "type_name_table",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.pokemon.type.names; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_nature_names_00000_463DBC",
+      "category": "nature_names",
+      "renderer": "nature_name_table",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.pokemon.natures.names; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "tbl_menu_link_controls_00002_1BC50D",
+      "category": "menu_link_controls",
+      "renderer": "menu_link_controls",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned structured table data.menus.text.linkControls; row reachability varies",
+      "qa_route": "menu/data lookup"
+    },
+    {
+      "id": "scr_1BDFD7",
+      "category": "scripts",
+      "renderer": "event_dialogue",
+      "runtime_confidence": "B",
+      "reason": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; map unproven"
+    }
+  ]
+}

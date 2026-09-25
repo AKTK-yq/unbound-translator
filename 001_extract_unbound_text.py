@@ -647,6 +647,15 @@ MANUAL_TEXT_TABLES = {
 # than 4-byte aligned. The generic source predicate cannot prove these, so
 # their manually identified text owners must preserve them explicitly.
 MANUAL_TEXT_POINTER_SOURCES = {
+    # NEW GAME mode names are reused by Options. These packed bufferstring
+    # operands are additional consumers beyond the aligned choice tables.
+    0x1F10621: [0x1E6FCEB],  # Difficult: bufferstring 0
+    0x1F1062B: [0x1E6FC43, 0x1E6FDED],  # Easy: packed bufferstring 0
+    0x1F10630: [0x1E6FD0E],  # Vanilla: bufferstring 0
+    0x1F1064B: [0x1E6FC32],  # Challenging: packed bufferstring 0
+    # The Options battle-difficulty warning starts before the old manual
+    # range; its real pointer targets the full [red]WARNING! text.
+    0x1F4E26F: [0x1EBD7FC],
     # Starter confirmation buffers use packed ``0x85 0x01 <text pointer>``
     # commands. Dragon's pointer is aligned and found generically, while the
     # adjacent Rock and Steel owners are unaligned and must be kept explicit.
@@ -763,7 +772,7 @@ POST_POINTER_MANUAL_TEXT_RANGES = [
     ManualTextRange("menu_pokemon_summary", "data.menus.text.pokemonSummary", 0x419782, 0x419C51),
     ManualTextRange("mission_log", "data.menus.text.missionLog.notifications", 0x1FB003F, 0x1FB00A8),
     ManualTextRange("mission_objectives", "data.missions.objectives.mainStory", 0x1F56117, 0x1F56B77),
-    ManualTextRange("menu_game_settings", "data.menus.text.gameSettings.extraPrompts", 0x1F4E274, 0x1F4E515),
+    ManualTextRange("menu_game_settings", "data.menus.text.gameSettings.extraPrompts", 0x1F4E26F, 0x1F4E515),
     ManualTextRange("start_menu_labels", "data.menus.text.cube.components", 0xA4E4A2, 0xA4E4E4),
     ManualTextRange("menu_battle", "data.menus.text.battle.settings", 0x1F94185, 0x1F94480),
     ManualTextRange("mission_log", "data.menus.text.missionLog.menu", 0x1F56040, 0x1F56117),

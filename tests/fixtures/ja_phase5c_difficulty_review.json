@@ -1,0 +1,288 @@
+[
+  {
+    "source": "Battle Difficulty",
+    "runtime_context": "Options戦闘難易度の設定レコード 0x01FB3948 の項目名（tbl_setting_names_00013_1F4DB23、slot 18、Phase 5 selection外）",
+    "reviewed_japanese": "バトルのむずかしさ",
+    "status": "confirmed",
+    "reason": "glossaryのdifficulty=むずかしさに合わせた。「バトル」と「なぞとき」を並べれば、2つの設定の違いが一目で分かる。UIラベルなので空白なし（9文字）。「なんいど」は、かなだけでは読みにくいため使わない。",
+    "glossary_candidate": true,
+    "id": "tbl_setting_names_00013_1F4DB23",
+    "confidence": "high",
+    "in_phase5_selection": false
+  },
+  {
+    "source": "Puzzle Difficulty",
+    "runtime_context": "Optionsなぞとき難易度の設定レコード 0x01FB37B8 の項目名（tbl_setting_names_00014_1F4DC09、slot 18、selection外）",
+    "reviewed_japanese": "なぞときのむずかしさ",
+    "status": "confirmed",
+    "reason": "puzzle=なぞとき、difficulty=むずかしさ（glossary）。Battle Difficultyと対になる形。10文字で、幅はCodexが確認する。",
+    "glossary_candidate": true,
+    "id": "tbl_setting_names_00014_1F4DC09",
+    "confidence": "high",
+    "in_phase5_selection": false
+  },
+  {
+    "source": "The battle difficulty for all battles.",
+    "runtime_context": "Options戦闘難易度のヘルプ文（tbl_menu_game_settings_00035_1F4E037、slot 39、selection外）",
+    "reviewed_japanese": "すべての バトルに かかる むずかしさです。",
+    "status": "confirmed",
+    "reason": "「全バトルに適用される難易度」の意味を残した。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00035_1F4E037",
+    "confidence": "high",
+    "in_phase5_selection": false
+  },
+  {
+    "source": "The difficulty of overworld puzzles.",
+    "runtime_context": "Optionsなぞとき難易度のヘルプ文（tbl_menu_game_settings_00018_1F4DE12、slot 37、selection外）",
+    "reviewed_japanese": "マップで とく なぞときの むずかしさです。",
+    "status": "confirmed",
+    "reason": "overworld（戦闘外のマップ）を「マップで とく」とした。技の「フィールド」とは紛らわしいので避けた。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00018_1F4DE12",
+    "confidence": "medium",
+    "in_phase5_selection": false
+  },
+  {
+    "source": "Vanilla",
+    "runtime_context": "戦闘難易度の選択肢。Options選択肢表 0x01FB3A18 と、NEW GAMEのmultichoice 0x01E6FE3F で共用。モード名bufferの出どころでもある",
+    "reviewed_japanese": "バニラ",
+    "status": "confirmed",
+    "reason": "Vanilla＝原作どおりのバランス。改造ゲームで一般的な「バニラ」を名前として残した。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": true,
+    "id": "scr_1F10630",
+    "confidence": "medium"
+  },
+  {
+    "source": "Difficult",
+    "runtime_context": "戦闘難易度の選択肢。Options選択肢表 0x01FB3A18 と、NEW GAMEのmultichoice 0x01E6FE3F で共用。モード名bufferの出どころでもある",
+    "reviewed_japanese": "ハード",
+    "status": "confirmed",
+    "reason": "Difficult。「むずかしい」は形容詞と区別できず、「むずかしいの むずかしさ」のように重なるため、ゲームで一般的な「ハード」にした。4段階すべてカタカナにして、一目で区別できるようにした。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": true,
+    "id": "scr_1F10621",
+    "confidence": "medium"
+  },
+  {
+    "source": "Expert",
+    "runtime_context": "戦闘難易度の選択肢。Options選択肢表 0x01FB3A18 と、NEW GAMEのmultichoice 0x01E6FE3F で共用。モード名bufferの出どころでもある",
+    "reviewed_japanese": "エキスパート",
+    "status": "confirmed",
+    "reason": "Expert。カタカナの名前として自然なので残した。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。 現在のslot 7では収まらず、relocationが必要（Codexが判定）。",
+    "glossary_candidate": true,
+    "id": "scr_1F1063D",
+    "confidence": "medium"
+  },
+  {
+    "source": "Insane",
+    "runtime_context": "戦闘難易度の選択肢。Options選択肢表 0x01FB3A18 と、NEW GAMEのmultichoice 0x01E6FE3F で共用。モード名bufferの出どころでもある",
+    "reviewed_japanese": "インセイン",
+    "status": "confirmed",
+    "reason": "Insane。最上位の難易度名として海外ゲームの日本語版でも使われる。意訳（げきむず等）より、名前として残すほうが一貫する。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。 この文字列はサファリの難易度でも共用されている。slot 7ではrelocationが必要。",
+    "glossary_candidate": true,
+    "id": "scr_1F10644",
+    "confidence": "medium"
+  },
+  {
+    "source": "Easy",
+    "runtime_context": "Optionsなぞとき選択肢表 0x01FB3A4C の1番目、サファリ難易度と共用",
+    "reviewed_japanese": "イージー",
+    "status": "confirmed",
+    "reason": "Easy。Optionsのなぞとき難易度（Easy/Challenging）とサファリの難易度で共用されている文字列。戦闘難易度に合わせてカタカナにした。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": true,
+    "id": "scr_1F1062B",
+    "confidence": "medium"
+  },
+  {
+    "source": "Challenging",
+    "runtime_context": "Optionsなぞとき選択肢表 0x01FB3A4C の2番目、なぞとき結果の[buffer1]の出どころ",
+    "reviewed_japanese": "チャレンジ",
+    "status": "confirmed",
+    "reason": "Challenging。Optionsのなぞとき難易度の2番目の選択肢。「ハード」と重ならないよう、ゲームでなじみのある「チャレンジ」とした。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": true,
+    "id": "scr_1F1064B",
+    "confidence": "medium"
+  },
+  {
+    "source": "Hard",
+    "runtime_context": "サファリ難易度（Easy/Medium/Hard/Insane）の選択肢とみられる",
+    "reviewed_japanese": "ハード",
+    "status": "confirmed",
+    "reason": "Hard。周辺はサファリの難易度（Easy/Medium/Hard/Insane）で、戦闘難易度の選択肢ではない。戦闘のDifficultと同じ「ハード」になるが、別のメニューなので衝突しない。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": true,
+    "id": "scr_1F10638",
+    "confidence": "medium"
+  },
+  {
+    "source": "Default",
+    "runtime_context": "バトル曲・背景の既定を選ぶ選択肢（難易度ではないと判明）",
+    "reviewed_japanese": "デフォルト",
+    "status": "confirmed",
+    "reason": "Phase 5Bでは難易度名とみていたが、周辺はバトル曲名（Battle! Kanto Trainer等）の一覧で、曲や背景の「既定」を選ぶ選択肢だと分かった。UIラベルとして「デフォルト」にした。",
+    "glossary_candidate": false,
+    "id": "scr_1F10619",
+    "confidence": "medium"
+  },
+  {
+    "source": "Medium",
+    "runtime_context": "サファリ難易度の2番目の選択肢（116件にもselectionにも無い）",
+    "reviewed_japanese": null,
+    "status": "not_in_scope",
+    "reason": "Easy/Hard/Insaneをカタカナにしたので、揃えるなら「ノーマル」を提案する。ただし、対象entryが無いので訳は作っていない。",
+    "glossary_candidate": true
+  },
+  {
+    "source": "Difficult explanation / confirmation",
+    "runtime_context": "NEW GAMEの難易度選択の説明・確認文（script pointerあり）",
+    "reviewed_japanese": "この モードは ポケモンバトルの けいけんが ある ていど ある プレイヤー むけに つくられています。 クリアするのに どりょくちや こたいちを きにする ひつようは ありませんが たたかう まえに さくせんを たてた ほうが よいでしょう。 [green]ハード[black]で つづけますか？",
+    "status": "confirmed",
+    "reason": "Difficultの説明と確認。「バトル経験が中程度」「EV/IVは不要」「戦う前に作戦を立てるべき」の3点を残した。原文の「Difficult Difficulty」は「ハードで」とし、むずかしさを繰り返さないようにした。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": false,
+    "id": "scr_1F0FFA4"
+  },
+  {
+    "source": "Expert explanation / confirmation",
+    "runtime_context": "NEW GAMEの難易度選択の説明・確認文（script pointerあり）",
+    "reviewed_japanese": "この モードは どりょくちを しっかり ふった チームで クリアする ことを ぜんていに つくられています。 そのような チームが あれば じゅうような バトルの あいだで チームを いれかえる ひつようは おそらく ないでしょう。 ほんとうに [green]エキスパート[black]で いいですか？",
+    "status": "confirmed",
+    "reason": "Expertの説明と確認。「努力値を振り切ったチームが前提」「その場合は重要な戦いの間でチームを入れ替える必要はおそらくない」を残した。SUREの強調は「ほんとうに」で表した。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": false,
+    "id": "scr_1F100B9"
+  },
+  {
+    "source": "Expert recommendation",
+    "runtime_context": "NEW GAMEの難易度選択の説明・確認文（script pointerあり）",
+    "reviewed_japanese": "[green]エキスパート[black]が あなたへの おすすめの むずかしさです。 うでに じしんが あれば はじめの うちは どりょくちを ふる ひつようは ありません。 しかし ぼうけんが すすむと どりょくちを ふる ことが ひつように なり バトルでも ある ていどの さくせんが もとめられます。 エキスパートで つづけますか？",
+    "status": "confirmed",
+    "reason": "Expertを勧める文。「序盤は努力値の育成が不要」「後半から必要になる」「作戦も求められる」の時間差を残した。最後の2つめのExpertは原文でも色がないので、色は付けていない。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": false,
+    "id": "scr_1F0FD05"
+  },
+  {
+    "source": "Insane warning / confirmation",
+    "runtime_context": "NEW GAMEの難易度選択の説明・確認文（script pointerあり）",
+    "reviewed_japanese": "[lightgreen]けいこく！[black] この ゲームモードは ほぼ ふかのうな ちょうせんとして つくられています！ ふこうへいだったり うんざり するような ちょうせんに かんじる ばめんが なんども あるでしょう。 それが ねらいです！ この むずかしさを えらぶなら なんども なんども まける かくごを してください！ そして すすむと きめたなら すべて じぶんの せきにんです\\. ほんとうに [green]インセイン[black]で あそびますか？",
+    "status": "confirmed",
+    "reason": "Insaneの警告と確認。「ほぼ不可能」「不公平でうんざりする場面」「それが意図」「何度も負ける覚悟」「自己責任」を、強さを落とさずにすべて残した。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": false,
+    "id": "scr_1F101AC"
+  },
+  {
+    "source": "Vanilla explanation",
+    "runtime_context": "Vanilla専用の説明文は、116件にも難易度監査26件にも無い",
+    "reviewed_japanese": null,
+    "status": "not_found",
+    "reason": "Vanillaを選んだときは、説明なしで結果文（scr_1F10323）に進むとみられる。説明文を捏造していない。",
+    "glossary_candidate": false
+  },
+  {
+    "source": "[red]WARNING![black]\n\nOnce your battle difficulty is reduced,\nit cannot be raised to anywhere above\\lDifficult until the game is cleared!\n\nAre you SURE you want to lower your\nbattle difficulty?",
+    "runtime_context": "Options難易度低下の警告・分岐A（完全な文字列: ROM 0x01F4E26F / GBA 0x09F4E26F、185 bytes、pointer owner 0x01EBD7FC）。修正後のID tbl_menu_game_settings_00000_1F4E26F",
+    "reviewed_japanese": "[red]けいこく！[black] バトルの むずかしさを いちど さげると ゲームクリアまで ハードより うえには あげられません！ ほんとうに バトルの むずかしさを さげますか？",
+    "status": "confirmed",
+    "reason": "完全な英語原文から新しく訳した（旧欠損entryの訳は使っていない）。意味は「一度下げると、ゲームクリアまでDifficult（＝ハード）より上には戻せない」。分岐Bの「あげなおせません」（下げた後は二度と上げられない）とは制限の範囲が違うので、「ハードより うえには あげられません」として区別した。WARNING=けいこく、SUREの強調は「ほんとうに」。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00000_1F4E26F",
+    "old_clipped_id_not_translated": "tbl_menu_game_settings_00000_1F4E274",
+    "old_duplicate_script_id": "scr_1F4E26F"
+  },
+  {
+    "source": "\"[red]WARNING![black]\n\nOnce your battle difficulty is\nreduced, it cannot be raised again\\luntil the game is cleared!\n\nAre you SURE you want to lower\nyour battle difficulty?\"",
+    "runtime_context": "Options難易度低下の警告・分岐B（0x01F4E328、Phase 5Bで確定・適用済み）",
+    "reviewed_japanese": "[red]けいこく！[black] バトルの むずかしさを いちど さげると ゲームクリアまで あげなおせません！ ほんとうに バトルの むずかしさを さげますか？",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。分岐A（ハードより上には戻せない）と意味が違うことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00001_1F4E328"
+  },
+  {
+    "source": "\"[green][buffer1][black] is the recommended\ndifficulty for you.\n\nWhile you are allowed to pick a\nhigher difficulty, doing so may\\lharm your gameplay experience.\n\nAre you okay to continue with the\n[green][buffer1][black] difficulty?\"",
+    "runtime_context": "おすすめ難易度の確認文。[buffer1]に Vanilla/Difficult が入る（bufferstring 0x01E6FD0C/0x01E6FCE9）",
+    "reviewed_japanese": "[green][buffer1][black]が あなたへの おすすめの むずかしさです。 もっと うえの むずかしさも えらべますが たのしめなく なるかも しれません。 [green][buffer1][black]で つづけますか？",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "scr_1F0FC3F"
+  },
+  {
+    "source": "\"Choose your preferred battle\ndifficulty.\n\nA higher difficulty means stronger\nTrainers and smarter wild Pokémon.\"",
+    "runtime_context": "戦闘難易度の選択を促す文（NEW GAME）",
+    "reviewed_japanese": "バトルの むずかしさを えらんで ください。 むずかしいほど トレーナーは つよく やせいの ポケモンは かしこく なります。",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "scr_1F0FF35"
+  },
+  {
+    "source": "\"Choose your preferred puzzle\ndifficulty.\n\nA harder difficulty means harder\nthought and stealth puzzles.\"",
+    "runtime_context": "なぞとき難易度の選択を促す文（NEW GAME）",
+    "reviewed_japanese": "なぞときの むずかしさを えらんで ください。 むずかしいほど あたまを つかう なぞときや こっそり すすむ なぞときが てごわく なります。",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "scr_1F0FE27"
+  },
+  {
+    "source": "\"The game’s puzzle difficulty has\nbeen set to [green][buffer1][black].\n\nIf you change it at any point using\nthe Options Menu, be sure to leave\\lthe area for the changes to take\\leffect.\"",
+    "runtime_context": "なぞとき難易度の結果文（[buffer1]はなぞとき用の別bufferstring）",
+    "reviewed_japanese": "なぞときの むずかしさは [green][buffer1][black]に なりました。 せっていから へんこうした ときは へんこうを はんえいさせるため かならず その エリアを でてください。",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "scr_1F0FE8E"
+  },
+  {
+    "source": "\"The game’s difficulty has been set\nto [green][buffer1][black].\n\nSince New Game \\+ is activated, this\nmay be changed freely at any point\\lusing the [green]Options[black] Menu.\"",
+    "runtime_context": "NEW GAME+の難易度結果文（[buffer1]＝選んだモード名）",
+    "reviewed_japanese": "ゲームの むずかしさは [green][buffer1][black]に なりました。 ニューゲーム\\+が ゆうこうなので [green]せってい[black]から いつでも じゆうに へんこう できます。",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "scr_1F103AA"
+  },
+  {
+    "source": "\"NOTE!\n\nIn order for the changes to the\npuzzle difficulty to take effect,\\lyou [green]may[black] need to leave and come\\lback to the current area.[pause]\"",
+    "runtime_context": "Optionsなぞとき変更の注意",
+    "reviewed_japanese": "ちゅうい！ なぞときの むずかしさの へんこうを はんえいさせるには いまの エリアを いちど でて もどる ひつようが [green]ある ばあいが あります[black]。[pause]",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00002_1F4E3CB"
+  },
+  {
+    "source": "\"NOTE!\n\nUnlike normal, in Cube Space, the\nchanges to the puzzle difficulty\\ltake effect [green]immediately[black].\n\nYou DO NOT need to reload the area.[pause]\"",
+    "runtime_context": "キューブスペースでのなぞとき変更の注意",
+    "reviewed_japanese": "ちゅうい！ キューブスペースでは いつもと ちがい なぞときの むずかしさの へんこうが [green]すぐに[black] はんえいされます。 エリアを よみこみなおす ひつようは ありません。[pause]",
+    "status": "confirmed_phase5b",
+    "reason": "Phase 5Bの確定訳。モード名を本文に書かず、[buffer1]から表示する形なので、決めた難易度名（カタカナ）と組み合わせても文として成り立つことを確認した。変更なし。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00003_1F4E454"
+  },
+  {
+    "source": "\"The game’s difficulty has been set\nto [green][buffer1][black].\n\nFeel free to switch between Vanilla\nand Difficult at any point using\\lthe Options Menu.\"",
+    "runtime_context": "NEW GAMEの難易度結果文。[buffer1]は選んだモード名（routine 0x01EC78B8）",
+    "reviewed_japanese": "ゲームの むずかしさは [green][buffer1][black]に なりました。 せっていから いつでも バニラと ハードを きりかえられます。",
+    "status": "confirmed",
+    "reason": "Phase 5Cで[buffer1]が選んだ難易度名だと確定した（プレイヤー名ではない）。本文中のVanilla/Difficultは、決めた名前に置き換えた。かなのモード名はカタカナで目立つので、「」（charmapに無い）は使っていない。Options Menu=せってい。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": false,
+    "id": "scr_1F10323"
+  },
+  {
+    "source": "Sandbox Mode explanation (difficulty clause)",
+    "runtime_context": "サンドボックスモード説明の8項目め（Expert/Insaneに言及）",
+    "reviewed_japanese": "サンドボックスモードでは つぎの へんこうが あります: 1. ステータススキャナーで どりょくち こたいち せいかく レベル とくせい せいべつ わざ しんかを へんこう できます。 2. ずかんナビ ダウジングマシン ステータススキャナー ポータブルPC じてんしゃ タイムターナーを すぐに つかえます。 3. せんとうちゅうの チームプレビューで つねに あいての チームが わかります。 4. ずかんが さいしょから うまっていて ずかんナビで かんたんに スキャン できます。 5. すべての ポケモンの ほかくりつが 100パーセントに なります。 6. しょうもうする どうぐは トレーナーせんの あと かならず もどってきます。 7. ひでんマシンが キューブに あれば ひでんわざを いつでも つかえます。 8. ゲームちゅう どの じてんでも むずかしさを エキスパートより したには さげられません。 ニューゲーム\\+の ときに かぎり エキスパートと インセインを じゆうに きりかえられます。 9. クリアごの ないようは かぎられています。 でんどういりの あと じゅうような バトルは すべて バトルフロンティアで ちょうせん できます。 また バトルタワーで さいしゅうしんかの ポケモンを かえます。 ただし たんさくは これいじょう ありません。",
+    "status": "confirmed",
+    "reason": "Phase 5Bで保留した理由は難易度名だけだったため、決めた名前で確定した。「CANNOT」「LIMITED」の強調は「さげられません」「かぎられています」で表した。道具名などはPhase 5Bの暫定表記（glossary候補）。「)」「%」は日本語charmapに無いため「1.」「パーセント」にした。難易度名はPhase 5Cで決めた一案（バニラ/ハード/エキスパート/インセイン）を使った。glossary_candidateで未承認。承認時に名前を変えたら、関連entryを一括で置き換える。",
+    "glossary_candidate": false,
+    "id": "scr_1F10A07"
+  },
+  {
+    "source": "tbl_menu_game_settings_00000_1F4E274 (clipped)",
+    "runtime_context": "旧欠損entry。完全な文字列の5 byte途中から始まる",
+    "reviewed_japanese": null,
+    "status": "do_not_translate",
+    "reason": "完全な文字列（tbl_menu_game_settings_00000_1F4E26F）に移す。この旧IDは翻訳・注入しない。",
+    "glossary_candidate": false,
+    "id": "tbl_menu_game_settings_00000_1F4E274"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "rom": "out/unbound-ja-phase5c.gba",
+  "status": "human mGBA verification pending",
+  "cases": [
+    {"priority": 1, "ids": ["tbl_setting_names_00013_1F4DB23", "tbl_menu_game_settings_00035_1F4E037"], "route": "NEW GAMEを開始し、操作可能になったらメニュー→Options→Game Settings→Battle Difficultyへ進む。項目名と下部ヘルプを確認。", "expected": "バトルのむずかしさ／バトルのむずかしさの説明が表示され、欠けない。", "evidence": "Options record ROM 0x01FB3948 has label and help pointers"},
+    {"priority": 2, "ids": ["scr_1F10630"], "route": "Options→Battle Difficultyの選択欄を開く。", "expected": "Vanillaがバニラ。", "evidence": "choice table ROM 0x01FB3A18"},
+    {"priority": 3, "ids": ["scr_1F10621"], "route": "同じ選択欄で次の難易度を見る。", "expected": "Difficultがハード。Puzzle/SafariのHardとは文脈を混同しない。", "evidence": "choice table ROM 0x01FB3A1C"},
+    {"priority": 4, "ids": ["scr_1F1063D"], "route": "同じ選択欄でExpertを選ぶ前後を見る。", "expected": "エキスパートが末尾まで表示され、選択後も文字化けしない。", "evidence": "relocated choice; pointer owners include ROM 0x01FB3A20 and 0x01FB54D4"},
+    {"priority": 5, "ids": ["scr_1F10644"], "route": "同じ選択欄でInsaneを選ぶ前後を見る。", "expected": "インセインが末尾まで表示される。", "evidence": "relocated choice; pointer owner ROM 0x01FB3A24"},
+    {"priority": 6, "ids": ["tbl_menu_game_settings_00000_1F4E26F", "tbl_menu_game_settings_00001_1F4E328"], "route": "Optionsで現在より低いBattle Difficultyを選び、警告の全ページを確認。必要なら別セーブを使用する。", "expected": "完全な警告と別警告を取り違えず、色・改行・ページ送り・確認選択が正常。", "evidence": "complete warning pointer ROM 0x01EBD7FC; alternate ROM 0x01EBD7F8"},
+    {"priority": 7, "ids": ["tbl_setting_names_00014_1F4DC09", "tbl_menu_game_settings_00018_1F4DE12"], "route": "Options→Game Settings→Puzzle Difficultyへ進む。", "expected": "なぞときのむずかしさとヘルプが表示される。", "evidence": "Options record ROM 0x01FB37B8"},
+    {"priority": 8, "ids": ["scr_1F1062B", "scr_1F1064B"], "route": "Options→Puzzle Difficultyの選択欄を開きEasy/Challengingを順に確認。", "expected": "イージー／チャレンジ。選択後もバッファ経由の説明が正常。", "evidence": "choice table ROM 0x01FB3A4C; packed bufferstring owners ROM 0x01E6FC43, 0x01E6FDED, 0x01E6FC32"},
+    {"priority": 9, "ids": ["scr_1F10638", "scr_1FACB9D"], "route": "Options→Puzzle DifficultyのHardを確認する。Safari側のHardは該当エリアへ到達したセーブで別に確認する（導線未特定）。", "expected": "どちらもハードだが、BattleのDifficultとは別entry。", "evidence": "Puzzle source ROM 0x01F10638; Safari source ROM 0x01FACB9D; exact owners in full audit"},
+    {"priority": 10, "ids": ["scr_1F10323", "scr_1F0FC3F", "scr_1F103AA"], "route": "NEW GAMEの難易度診断／推薦・決定を進め、可能なら複数モードを選ぶ。", "expected": "[buffer1]に選んだ日本語モード名が入り、前後のかな・色・ページ状態が正常。", "evidence": "selector variable 0x50DF, name pointer table ROM 0x01FB54CC; visual confirmation pending"},
+    {"priority": 11, "ids": ["scr_1F0FE27", "scr_1F0FE8E", "scr_1F0FF35", "scr_1F0FFA4", "scr_1F100B9", "scr_1F101AC"], "route": "NEW GAMEのPuzzle/Battle難易度の全分岐を、別セーブまたは新規開始で確認。", "expected": "タイトル・説明・確認文・スクロール・選択肢が正常。", "evidence": "NEW GAME script branch and Options list share mode text; each branch must be visited"},
+    {"priority": 12, "ids": ["scr_1F9FBCD", "scr_1F9EAF1", "scr_1F9F08F"], "route": "Black [player]系のミッション会話に到達したセーブで各会話を確認。序盤からの正確な到達導線は未特定。", "expected": "ブラック＋英語プレイヤー名＋かなの順に正しく表示される。", "evidence": "Phase 5C reviewed text uses Japanese→Latin [player]→Japanese; exact runtime scene pending"},
+    {"priority": 13, "ids": ["tbl_mission_log_00017_1F560DA"], "route": "該当ミッションのログを、場所名[buffer1]が入る進行段階で開く。具体的ミッション名・到達段階は未特定。", "expected": "英語の場所名の後にかなが正常表示。", "evidence": "buffer producer=location name per Claude review; runtime destination unverified"},
+    {"priority": 14, "ids": ["scr_1F1062B", "scr_1F1063D", "scr_1F10644"], "route": "上記Options/PuzzleとNEW GAMEをもう一度往復する。", "expected": "再配置済みラベルと追加ownerからの読み取りが両方正常。", "evidence": "strict binary audit verifies vetted FF payload and all recorded owners"},
+    {"priority": 15, "ids": ["tbl_menu_game_settings_00002_1F4E3CB", "tbl_menu_game_settings_00003_1F4E454"], "route": "OptionsでPuzzle Difficultyを変更し、通常エリアとCube Spaceで通知を確認。Cube Spaceへの到達手順は未特定。", "expected": "注意文、色、ページ送り、pauseが正常。", "evidence": "two distinct Options notification entries"}
+  ]
+}

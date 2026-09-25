@@ -1,0 +1,613 @@
+{
+  "metadata": {
+    "phase": "ja-phase4",
+    "source_selection": "tests/fixtures/ja_phase4_selection.json",
+    "source_report": "out/unbound-ja-phase4-report.md",
+    "reviewer": "claude",
+    "scope": "translation-quality review only; no encode/controlfix/injection/runtime judgment",
+    "entry_count": 59,
+    "status_values": {
+      "confirmed": "final reviewed wording",
+      "needs_context": "reviewed_japanese is null; see candidates"
+    },
+    "policy": {
+      "script": "kana-only: hiragana, katakana, supported Japanese symbols, ASCII; no kanji",
+      "wakachigaki": "Use word/bunsetsu spacing in normal prose. No internal spaces in menu items, proper nouns, Pokemon/move/item names, place names, or short UI labels.",
+      "space_encoding": "Half-width and full-width spaces both encode to Japanese-page 0x00.",
+      "unsupported_symbols": "「」、： are not in the Japanese charmap; 、 is replaced by the codec with ASCII ','. Do not use them.",
+      "difficulty": "General difficulty = むずかしさ. Difficulty mode names go in 「」 in prose only once the displayed buffer name is confirmed and the brackets can be encoded.",
+      "first_person": "Do not add ぼく/おれ/わたし when the speaker is unknown.",
+      "tokens": "Never change buffer, placeholder, FE/FA/FB, or other control tokens."
+    },
+    "terminology": {
+      "official_ui": {
+        "Save": "レポート",
+        "Options": "せってい",
+        "Text Speed": "はなしのはやさ",
+        "Bag": "バッグ",
+        "Yes/No": "はい/いいえ"
+      },
+      "unbound_proper_nouns": {
+        "Borrius": "ボーリウス",
+        "Borrius Region": "ボーリウスちほう",
+        "Dehara City": "デハラシティ",
+        "Unbound": "アンバウンド",
+        "Pokémon Unbound": "ポケモン アンバウンド",
+        "A Hero's Journey": "ヒーローのたび",
+        "A Heroine's Journey": "ヒロインのたび",
+        "Missions": "ミッション"
+      },
+      "unified_terms": {
+        "difficulty": "むずかしさ",
+        "puzzle": "なぞとき",
+        "stealth (puzzle)": "こっそり すすむ",
+        "boulder puzzle": "いわを おす なぞとき",
+        "character": "キャラ",
+        "journey": "たび",
+        "type matchup": "タイプあいしょう",
+        "reward": "ごほうび",
+        "Active (mission)": "しんこうちゅう",
+        "Location (mission)": "ばしょ",
+        "Type (mission)": "しゅるい",
+        "save (in-game action)": "レポートを かく"
+      },
+      "pending_context": {
+        "Vanilla (difficulty mode)": "バニラ",
+        "Difficult (difficulty mode)": "むずかしい",
+        "trim (colour)": null
+      }
+    },
+    "follow_up_checks": [
+      "tbl_menu_options_00001_419DD3 grows to ~12 bytes vs slot 11 and 7 glyphs; verify relocation and option-column width.",
+      "scr_1F0F7EC is ~20/20 bytes.",
+      "Previously relocated entries (battle 00011/00012/00017/00343, menu_pause Save/Option, scr_1F0F89C) changed size; re-allocate.",
+      "Verify controlfix does not leave leading spaces after line breaks and prefers breaking at wakachigaki spaces.",
+      "Verify mission tab widths for しんこうちゅう and ミッション."
+    ]
+  },
+  "entries": [
+    {
+      "id": "scr_1F0F79C",
+      "category": "plain_scripts",
+      "original": "\"With that in mind, you are almost\nready to enter the Borrius Region!\nBut first\\.\"",
+      "old_japanese": "これでボーリウスちほうへのたびのじゅんびはほぼできました。でもそのまえに\\.",
+      "reviewed_japanese": "これで ボーリウスちほうへの たびの じゅんびは ほぼ できました。 でも その まえに\\.",
+      "status": "confirmed",
+      "reason": "わかちがき適用。地名「ボーリウスちほう」は分割しない。\\. は位置不変。"
+    },
+    {
+      "id": "scr_1F0F7EC",
+      "category": "scripts",
+      "original": "\"Choose a character.\"",
+      "old_japanese": "あなたがあそぶキャラをえらんでください。",
+      "reviewed_japanese": "キャラを えらんで ください。",
+      "status": "confirmed",
+      "reason": "原文にない「あなたがあそぶ」を削除し短縮。「キャラ」で統一。推定20/20バイト。"
+    },
+    {
+      "id": "scr_1F0F800",
+      "category": "scripts",
+      "original": "\"Choose a skin tone.\"",
+      "old_japanese": "はだのいろをえらんで",
+      "reviewed_japanese": "はだの いろを えらんで",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0F814",
+      "category": "scripts",
+      "original": "\"Choose a hair colour.\"",
+      "old_japanese": "かみのいろをえらんで",
+      "reviewed_japanese": "かみの いろを えらんで",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0F82A",
+      "category": "scripts",
+      "original": "\"Choose a jacket colour.\"",
+      "old_japanese": "ジャケットのいろをえらんで",
+      "reviewed_japanese": "ジャケットの いろを えらんで",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0F842",
+      "category": "scripts",
+      "original": "\"Choose a trim colour.\"",
+      "old_japanese": "ふちのいろをえらんで",
+      "reviewed_japanese": null,
+      "status": "needs_context",
+      "reason": "trimが指す部位（ふち/ふちどり/アクセント）がゲーム画面で未確認。",
+      "candidates": [
+        "ふちどりの いろを えらんで",
+        "アクセントの いろを えらんで"
+      ]
+    },
+    {
+      "id": "scr_1F0F858",
+      "category": "scripts",
+      "original": "\"Is this who you’ll play as?\"",
+      "old_japanese": "このキャラであそびますか？",
+      "reviewed_japanese": "この キャラで あそびますか？",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0F874",
+      "category": "scripts",
+      "original": "\"Last, but not least, what is\nyour name?\"",
+      "old_japanese": "さいごにあなたのなまえをおしえてください。",
+      "reviewed_japanese": "さいごに あなたの なまえを おしえて ください。",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0F89C",
+      "category": "scripts",
+      "original": "\"Your name is [player]?\"",
+      "old_japanese": "[player]でよろしいですか？",
+      "reviewed_japanese": "[player]で よろしいですか？",
+      "status": "confirmed",
+      "reason": "わかちがき適用。既存relocation対象。"
+    },
+    {
+      "id": "scr_1F0F8AD",
+      "category": "scripts",
+      "original": "\"Now, let’s determine the best way\nfor you to play the game.\n\nIs this your first time playing\nPokémon Unbound?\"",
+      "old_japanese": "つぎはあなたにあったあそびかたをきめましょう。ポケモン アンバウンドをあそぶのははじめてですか？",
+      "reviewed_japanese": "つぎは あなたに あった あそびかたを きめましょう。 ポケモン アンバウンドを あそぶのは はじめてですか？",
+      "status": "confirmed",
+      "reason": "わかちがき適用。作品名「ポケモン アンバウンド」で固定。"
+    },
+    {
+      "id": "scr_1F0F91A",
+      "category": "scripts",
+      "original": "\"Are you using the Eclipse, GPemu,\nJohnGBA, or No$GBA emulators?\"",
+      "old_japanese": "Eclipse, GPemu, JohnGBA, No$GBAのどれかをつかっていますか？",
+      "reviewed_japanese": "Eclipse, GPemu, JohnGBA, No$GBAの どれかを つかって いますか？",
+      "status": "confirmed",
+      "reason": "わかちがき適用。英字固有名は不変。"
+    },
+    {
+      "id": "scr_1F0F9DD",
+      "category": "scripts",
+      "original": "\"Do you forget to save often?\"",
+      "old_japanese": "セーブをわすれがちですか？",
+      "reviewed_japanese": "レポートを かきわすれがちですか？",
+      "status": "confirmed",
+      "reason": "ゲーム内セーブを公式用語「レポートを かく」に統一。"
+    },
+    {
+      "id": "scr_1F0F9FA",
+      "category": "scripts",
+      "original": "\"Do you enjoy challenging puzzles?\n\nThis includes puzzles ranging from\nstealth puzzles to boulder puzzles.\"",
+      "old_japanese": "むずかしいなぞときはすきですか？かくれたりいわをおしたりするなぞときもあります。",
+      "reviewed_japanese": "むずかしい なぞときは すきですか？ こっそり すすんだり いわを おしたり する なぞときも あります。",
+      "status": "confirmed",
+      "reason": "stealthを「こっそり すすむ」に統一。わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0FA63",
+      "category": "scripts",
+      "original": "\"Do you know about the common type\nmatchups, such as the Fairy-type\\lbeing weak to the Poison-type?\"",
+      "old_japanese": "フェアリーがどくにじゃくてんなことなどタイプのあいしょうをしっていますか？",
+      "reviewed_japanese": "フェアリータイプは どくタイプに よわい などの タイプあいしょうを しって いますか？",
+      "status": "confirmed",
+      "reason": "「じゃくてんな」の文法不自然を修正。公式表現「〜タイプに よわい」「タイプあいしょう」。「、」は日本語ページ非対応のため空白で代替。"
+    },
+    {
+      "id": "scr_1F0FB2B",
+      "category": "scripts",
+      "original": "\"Are you looking for a casual\ngameplay experience without\\lworrying too much about battles?\"",
+      "old_japanese": "バトルをあまりきにせずきがるにあそびたいですか？",
+      "reviewed_japanese": "バトルを あまり きにせず きがるに あそびたいですか？",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_1F0FB85",
+      "category": "scripts",
+      "original": "\"Are you okay training a new Pokémon\nfor your team every so often?\"",
+      "old_japanese": "ときどきチームのポケモンをあたらしくそだててもいいですか？",
+      "reviewed_japanese": "ときどき あたらしい ポケモンを そだてて チームに いれても だいじょうぶですか？",
+      "status": "confirmed",
+      "reason": "「今のチームを育て直す」と読める誤解と、許可を求める言い方になっていた点を修正。"
+    },
+    {
+      "id": "scr_1F0FC3F",
+      "category": "scripts",
+      "original": "\"[green][buffer1][black] is the recommended\ndifficulty for you.\n\nWhile you are allowed to pick a\nhigher difficulty, doing so may\\lharm your gameplay experience.\n\nAre you okay to continue with the\n[green][buffer1][black] difficulty?\"",
+      "old_japanese": "[green][buffer1][black]があなたへのおすすめです。もっとむずかしいレベルもえらべますがたのしめなくなるかもしれません。[green][buffer1][black]でつづけますか？",
+      "reviewed_japanese": "[green][buffer1][black]が あなたへの おすすめの むずかしさです。 もっと うえの むずかしさも えらべますが たのしめなく なるかも しれません。 [green][buffer1][black]で つづけますか？",
+      "status": "confirmed",
+      "reason": "difficultyを「むずかしさ」に統一（「レベル」はポケモンのLvと紛らわしい）。モード名は本文に書かずbuffer表示のみのため確定。"
+    },
+    {
+      "id": "scr_1F0FE27",
+      "category": "scripts",
+      "original": "\"Choose your preferred puzzle\ndifficulty.\n\nA harder difficulty means harder\nthought and stealth puzzles.\"",
+      "old_japanese": "なぞときのむずかしさをえらんでください。むずかしいほどかんがえるなぞやかくれるなぞがてごわくなります。",
+      "reviewed_japanese": "なぞときの むずかしさを えらんで ください。 むずかしいほど あたまを つかう なぞときや こっそり すすむ なぞときが てごわく なります。",
+      "status": "confirmed",
+      "reason": "「なぞとき」「こっそり すすむ」に統一。「かくれるなぞ」の誤読を解消。"
+    },
+    {
+      "id": "scr_1F0FF35",
+      "category": "scripts",
+      "original": "\"Choose your preferred battle\ndifficulty.\n\nA higher difficulty means stronger\nTrainers and smarter wild Pokémon.\"",
+      "old_japanese": "バトルのむずかしさをえらんでください。むずかしいほどトレーナーややせいのポケモンがつよくなります。",
+      "reviewed_japanese": "バトルの むずかしさを えらんで ください。 むずかしいほど トレーナーは つよく やせいの ポケモンは かしこく なります。",
+      "status": "confirmed",
+      "reason": "欠落していたsmarter（かしこく）を補完。「トレーナーややせい」の誤読を解消。"
+    },
+    {
+      "id": "scr_1F10323",
+      "category": "scripts",
+      "original": "\"The game’s difficulty has been set\nto [green][buffer1][black].\n\nFeel free to switch between Vanilla\nand Difficult at any point using\\lthe Options Menu.\"",
+      "old_japanese": "ゲームのむずかしさは[green][buffer1][black]になりました。オプションからいつでもバニラとむずかしいをきりかえられます。",
+      "reviewed_japanese": null,
+      "status": "needs_context",
+      "reason": "[buffer1]で実際に表示される難易度名と本文「バニラ/むずかしい」の一致が未確認。方針上モード名は「」で囲むが、「」は現在の日本語charmapでエンコード不可（\\qo/\\qcの日本語ページ字形も未確認）。Options=せってい は適用済み。",
+      "candidates": [
+        "ゲームの むずかしさは [green][buffer1][black]に なりました。 せっていから いつでも 「バニラ」と 「むずかしい」を きりかえられます。",
+        "ゲームの むずかしさは [green][buffer1][black]に なりました。 せっていから いつでも バニラと むずかしいを きりかえられます。"
+      ]
+    },
+    {
+      "id": "scr_740088",
+      "category": "scripts",
+      "original": "\"Hey, you!\n\nMy Gramma makes really good food\nfor dinner!\n\nYou should stay and try it\nsometime!\"",
+      "old_japanese": "ねえきみ！おばあちゃんのばんごはんはとってもおいしいんだ！いつかたべにきてよ！",
+      "reviewed_japanese": "ねえ きみ！ おばあちゃんの ばんごはんは とっても おいしいんだ！ こんど たべて いってよ！",
+      "status": "confirmed",
+      "reason": "stayの意味（その場で食べていく）に修正。原文Grammaから子供口調を維持。"
+    },
+    {
+      "id": "scr_7401A9",
+      "category": "scripts",
+      "original": "\"My daddy trained our Pokémon a lot!\nIt’s really strong now!\"",
+      "old_japanese": "パパがポケモンをたくさんきたえたんだ！いまはすごくつよいよ！",
+      "reviewed_japanese": "パパが うちの ポケモンを たくさん きたえたんだ！ いまは すごく つよいよ！",
+      "status": "confirmed",
+      "reason": "ourを「うちの」で補完（人物像を固定しない語）。"
+    },
+    {
+      "id": "scr_740753",
+      "category": "scripts",
+      "original": "\"Are you my mommy?\"",
+      "old_japanese": "あなたがママなの？",
+      "reviewed_japanese": "あなたが ママなの？",
+      "status": "confirmed",
+      "reason": "一人称なし・中立口調。話者（子供/ポケモン）は未確認だが訳は成立。"
+    },
+    {
+      "id": "scr_74145B",
+      "category": "scripts",
+      "original": "\"Heeeeey\\.\n\nYou come to challenge the gym?\"",
+      "old_japanese": "やあああ\\.ジムにちょうせんしにきたのかい？",
+      "reviewed_japanese": "やあーーー\\.ジムに ちょうせんしに きたのかい？",
+      "status": "confirmed",
+      "reason": "伸ばしたあいさつを長音符で表現。\\. 直後に空白は入れない。"
+    },
+    {
+      "id": "scr_744C3D",
+      "category": "scripts",
+      "original": "\"It’s some sort of plant with oddly\nshaped leaves.\"",
+      "old_japanese": "ふしぎなかたちのはをしたしょくぶつだ。",
+      "reviewed_japanese": "ふしぎな かたちの はっぱを した しょくぶつだ。",
+      "status": "confirmed",
+      "reason": "「は」(葉/歯/助詞)の曖昧さを「はっぱ」で解消。"
+    },
+    {
+      "id": "scr_744F54",
+      "category": "scripts",
+      "original": "\"I enjoy doing nice things for\ntravellers.\n\nIt’s a hobby of mine.\"",
+      "old_japanese": "たびびとをたすけるのがすきなんだ。これがわたしのしゅみさ。",
+      "reviewed_japanese": "たびびとに しんせつに するのが すきでね。 しゅみの ひとつなんだ。",
+      "status": "confirmed",
+      "reason": "原文一人称は訳に不要なため省略。人物像を固定しない口調に調整。"
+    },
+    {
+      "id": "scr_7450DB",
+      "category": "scripts",
+      "original": "\"Look, look!\n\nI can see Dehara City from here!\"",
+      "old_japanese": "みてみて！ここからデハラシティがみえるよ！",
+      "reviewed_japanese": "みてみて！ ここから デハラシティが みえるよ！",
+      "status": "confirmed",
+      "reason": "わかちがき適用。「デハラシティ」は分割しない。"
+    },
+    {
+      "id": "scr_745D0D",
+      "category": "scripts",
+      "original": "\"Let’s get started then!\"",
+      "old_japanese": "じゃあはじめよう！",
+      "reviewed_japanese": "じゃあ はじめよう！",
+      "status": "confirmed",
+      "reason": "わかちがき適用。"
+    },
+    {
+      "id": "scr_745D25",
+      "category": "scripts",
+      "original": "\"That was a great battle! My\nPokémon had fun!\"",
+      "old_japanese": "いいバトルだったね！ぼくのポケモンもたのしそうだった！",
+      "reviewed_japanese": "いい バトルだったね！ ポケモンも たのしそうだった！",
+      "status": "confirmed",
+      "reason": "話者不明のため「ぼく」を削除。"
+    },
+    {
+      "id": "tbl_pokemon_names_00001_166A997",
+      "category": "pokemon_names",
+      "original": "\"Bulbasaur\"",
+      "old_japanese": "フシギダネ",
+      "reviewed_japanese": "フシギダネ",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_pokemon_names_00025_166AA9F",
+      "category": "pokemon_names",
+      "original": "\"Pikachu\"",
+      "old_japanese": "ピカチュウ",
+      "reviewed_japanese": "ピカチュウ",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_pokemon_names_00344_166B854",
+      "category": "pokemon_names",
+      "original": "\"Cacnea\"",
+      "old_japanese": "サボネア",
+      "reviewed_japanese": "サボネア",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_move_names_00015_A40AD3",
+      "category": "move_names",
+      "original": "\"Cut\"",
+      "old_japanese": "いあいぎり",
+      "reviewed_japanese": "いあいぎり",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_move_names_00033_A40BBD",
+      "category": "move_names",
+      "original": "\"Tackle\"",
+      "old_japanese": "たいあたり",
+      "reviewed_japanese": "たいあたり",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_move_names_00085_A40E61",
+      "category": "move_names",
+      "original": "\"Thunderbolt\"",
+      "old_japanese": "10まんボルト",
+      "reviewed_japanese": "10まんボルト",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_item_names_00004_8762B0",
+      "category": "item_names",
+      "original": "\"Poké Ball\"",
+      "old_japanese": "モンスターボール",
+      "reviewed_japanese": "モンスターボール",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_item_names_00013_87643C",
+      "category": "item_names",
+      "original": "\"Potion\"",
+      "old_japanese": "キズぐすり",
+      "reviewed_japanese": "キズぐすり",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_item_names_00014_876468",
+      "category": "item_names",
+      "original": "\"Antidote\"",
+      "old_japanese": "どくけし",
+      "reviewed_japanese": "どくけし",
+      "status": "confirmed",
+      "reason": "PokeAPI公式表記。空白なし。"
+    },
+    {
+      "id": "tbl_battle_messages_00011_3FB359",
+      "category": "battle_messages",
+      "original": "\"Use next Pokémon?\"",
+      "old_japanese": "つぎのポケモンをだしますか？",
+      "reviewed_japanese": "つぎの ポケモンを つかいますか？",
+      "status": "confirmed",
+      "reason": "公式文に合わせた。"
+    },
+    {
+      "id": "tbl_battle_messages_00002_3FB525",
+      "category": "battle_messages",
+      "original": "\"Can’t escape!\n\n\"",
+      "old_japanese": "にげられない！",
+      "reviewed_japanese": "にげられない！",
+      "status": "confirmed",
+      "reason": "公式と同じ。"
+    },
+    {
+      "id": "tbl_battle_messages_00012_3FB5E2",
+      "category": "battle_messages",
+      "original": "\"\\\\0F is hurt\nby poison!\"",
+      "old_japanese": "\\\\0Fはどくのダメージをうけた！",
+      "reviewed_japanese": "\\\\0Fは どくの ダメージを うけた！",
+      "status": "confirmed",
+      "reason": "わかちがき適用。token不変。"
+    },
+    {
+      "id": "tbl_battle_messages_00017_3FB400",
+      "category": "battle_messages",
+      "original": "\"\\\\0F\nfainted!\n\n\"",
+      "old_japanese": "\\\\0Fはたおれた！",
+      "reviewed_japanese": "\\\\0Fは たおれた！",
+      "status": "confirmed",
+      "reason": "わかちがき適用。token不変。"
+    },
+    {
+      "id": "tbl_battle_messages_00343_3FD57B",
+      "category": "battle_messages",
+      "original": "\"\\\\0F used\n[player]\"",
+      "old_japanese": "\\\\0Fのわざは[player]！",
+      "reviewed_japanese": "\\\\0Fの [player]！",
+      "status": "confirmed",
+      "reason": "公式書式「ピカチュウの 10まんボルト！」の形に変更し「のわざは」を削除。token不変。"
+    },
+    {
+      "id": "tbl_menu_pause_00001_416285",
+      "category": "menu_pause",
+      "original": "\"Bag\"",
+      "old_japanese": "バッグ",
+      "reviewed_japanese": "バッグ",
+      "status": "confirmed",
+      "reason": "公式と同じ。"
+    },
+    {
+      "id": "tbl_menu_pause_00002_415A66",
+      "category": "menu_pause",
+      "original": "\"Pokémon\"",
+      "old_japanese": "ポケモン",
+      "reviewed_japanese": "ポケモン",
+      "status": "confirmed",
+      "reason": "公式と同じ。"
+    },
+    {
+      "id": "tbl_menu_pause_00007_416291",
+      "category": "menu_pause",
+      "original": "\"Save\"",
+      "old_japanese": "セーブ",
+      "reviewed_japanese": "レポート",
+      "status": "confirmed",
+      "reason": "方針: Save = レポート。"
+    },
+    {
+      "id": "tbl_menu_pause_00008_416296",
+      "category": "menu_pause",
+      "original": "\"Option\"",
+      "old_japanese": "オプション",
+      "reviewed_japanese": "せってい",
+      "status": "confirmed",
+      "reason": "方針: Options = せってい。"
+    },
+    {
+      "id": "tbl_menu_common_00019_41623D",
+      "category": "menu_common",
+      "original": "\"Yes\nNo\"",
+      "old_japanese": "はい\nいいえ",
+      "reviewed_japanese": "はい\nいいえ",
+      "status": "confirmed",
+      "reason": "公式と同じ。"
+    },
+    {
+      "id": "tbl_menu_options_00001_419DD3",
+      "category": "menu_options",
+      "original": "\"Text Speed\"",
+      "old_japanese": "もじのはやさ",
+      "reviewed_japanese": "はなしのはやさ",
+      "status": "confirmed",
+      "reason": "方針: Text Speed = はなしのはやさ。メニュー項目なので空白なし。推定12バイトでslot 11を超える（relocation必要）。"
+    },
+    {
+      "id": "tbl_menu_options_00007_419E17",
+      "category": "menu_options",
+      "original": "\"Slow\"",
+      "old_japanese": "おそい",
+      "reviewed_japanese": "おそい",
+      "status": "confirmed",
+      "reason": "公式と同じ。"
+    },
+    {
+      "id": "tbl_menu_options_00009_419E20",
+      "category": "menu_options",
+      "original": "\"Fast\"",
+      "old_japanese": "はやい",
+      "reviewed_japanese": "はやい",
+      "status": "confirmed",
+      "reason": "公式と同じ。"
+    },
+    {
+      "id": "tbl_menu_pokemon_00000_4171DF",
+      "category": "menu_pokemon",
+      "original": "\"Choose a Pokémon.\"",
+      "old_japanese": "ポケモンをえらんで。",
+      "reviewed_japanese": "ポケモンを えらんで。",
+      "status": "confirmed",
+      "reason": "ラベルではなく案内文なので、わかちがき適用。"
+    },
+    {
+      "id": "tbl_mission_log_00000_1F56040",
+      "category": "mission_log",
+      "original": "\" Missions\"",
+      "old_japanese": " ミッション",
+      "reviewed_japanese": " ミッション",
+      "status": "confirmed",
+      "reason": "先頭空白は原文どおり維持。"
+    },
+    {
+      "id": "tbl_mission_log_00002_1F56055",
+      "category": "mission_log",
+      "original": "\"\\btn03Type\"",
+      "old_japanese": "\\btn03しゅるい",
+      "reviewed_japanese": "\\btn03しゅるい",
+      "status": "confirmed",
+      "reason": "不変。ポケモンのタイプと区別するため「しゅるい」。"
+    },
+    {
+      "id": "tbl_mission_log_00003_1F5605C",
+      "category": "mission_log",
+      "original": "\"Active\"",
+      "old_japanese": "しんこうちゅう",
+      "reviewed_japanese": "しんこうちゅう",
+      "status": "confirmed",
+      "reason": "不変。"
+    },
+    {
+      "id": "tbl_mission_log_00014_1F560B1",
+      "category": "mission_log",
+      "original": "\"Location: [buffer1]\"",
+      "old_japanese": "ばしょ [buffer1]",
+      "reviewed_japanese": "ばしょ [buffer1]",
+      "status": "confirmed",
+      "reason": "不変。「：」は日本語ページ非対応のため空白区切り。"
+    },
+    {
+      "id": "tbl_mission_log_00017_1F560DA",
+      "category": "mission_log",
+      "original": "\"Return to [buffer1] to\nreceive your reward!\"",
+      "old_japanese": "ごほうびをうけとるには[buffer1]のところへもどろう！",
+      "reviewed_japanese": null,
+      "status": "needs_context",
+      "reason": "[buffer1]が人物名か地名か未確認。「のところへ」は人物向け。",
+      "candidates": [
+        "ごほうびを うけとるには [buffer1]の ところへ もどろう！",
+        "[buffer1]に もどって ごほうびを うけとろう！"
+      ]
+    },
+    {
+      "id": "scr_1F2CB91",
+      "category": "mission_names",
+      "original": "\"A Hero’s Journey\"",
+      "old_japanese": "ヒーローへのみち",
+      "reviewed_japanese": "ヒーローのたび",
+      "status": "confirmed",
+      "reason": "journeyを「たび」に統一。ミッション名はラベル扱いで空白なし。"
+    },
+    {
+      "id": "scr_1F2CBA2",
+      "category": "mission_names",
+      "original": "\"A Heroine’s Journey\"",
+      "old_japanese": "ヒロインへのみち",
+      "reviewed_japanese": "ヒロインのたび",
+      "status": "confirmed",
+      "reason": "journeyを「たび」に統一。ミッション名はラベル扱いで空白なし。"
+    }
+  ]
+}
