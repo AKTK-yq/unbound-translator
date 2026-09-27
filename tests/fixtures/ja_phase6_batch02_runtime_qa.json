@@ -1,0 +1,682 @@
+{
+  "metadata": {
+    "phase": "6B-2",
+    "count": 30,
+    "scope": "applied Batch 02 scripts only; no confirmed battle/mission table rows",
+    "limitations": [
+      "30 provisional-FA rows are English and excluded",
+      "49 unknown-buffer rows remain English; no resolved-value candidate is applied",
+      "No Batch 02 relocation is approved after compact-width gating; use Batch 01 relocation QA",
+      "No official-name difference occurred in applied Batch 02 entries",
+      "Map/event reachability is not proven; human mGBA QA remains pending"
+    ]
+  },
+  "entries": [
+    {
+      "priority": 1,
+      "id": "scr_1F0C6CB",
+      "category": "scripts",
+      "rom_offset": "0x01F0C6CB",
+      "gba_address": "0x09F0C6CB",
+      "pointer_owners": [
+        "0x1E6E5F9"
+      ],
+      "original": "\"Oh\\.\n\nYou’re [player], right?\n\nI’ve heard about you from\n[rival].\n\nHe told me about how you helped\nhim out earlier.\n\nIt’s rare for my brother to\nrespect anyone, but he seems to\\lrespect you.\"",
+      "expected_japanese": "[japanese]あ\\. [latin][player][japanese]だよね？\n[latin][rival][japanese]から きみの\\lことを きいたよ。 まえに\n\nたすけてくれたって。 わたしの\nきょうだいが だれかを\\lみとめるなんて めずらしい。でも\n\nきみの ことは みとめている\nみたい。[latin]",
+      "test_focus": "reviewed_FA_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 4,
+        "FD": 2,
+        "FE": 3
+      },
+      "buffers": [
+        "[player]",
+        "[rival]"
+      ],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 2,
+      "id": "scr_1F0C92A",
+      "category": "scripts",
+      "rom_offset": "0x01F0C92A",
+      "gba_address": "0x09F0C92A",
+      "pointer_owners": [
+        "0x1E6E662"
+      ],
+      "original": "\"That man - Zeph was finally released\nfrom prison.\n\nIt seems he had enough money to\npost bail.\n\nAlthough he didn’t serve his full\nsentence, when he picked up his\\lson, I could tell he was trying to\\lmake amends for all he had done.\"",
+      "expected_japanese": "[japanese]あの おとこ、ゼフが ついに\nろうやから でてきた。\\lほしゃくきんを はらう おかねが\n\nあったようだ。 けいきを ぜんぶ\nおえたわけでは ない。でも\\lむすこを むかえに きた とき\n\nこれまでの ことを つぐなおうと\nしているのが わかったよ。[latin]",
+      "test_focus": "reviewed_FA_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 2,
+        "FB": 2,
+        "FE": 3
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 3,
+      "id": "scr_1F0EBE7",
+      "category": "scripts",
+      "rom_offset": "0x01F0EBE7",
+      "gba_address": "0x09F0EBE7",
+      "pointer_owners": [
+        "0x1E6F879"
+      ],
+      "original": "\"Once Happy Hour is started, for the\nnext hour you’ll receive Coin\\lpayouts from [green]Cloud Burst[blue] twice.\n\nThis means you’ll essentially earn\n[green]double the Coins[blue] each game!\"",
+      "expected_japanese": "[japanese]ハッピーアワーが\nはじまると、つぎの 1じかんは\\l[green]クラウドバースト[blue]で もらえる\n\nコインが 2ばいに なる。\nつまり 1かい ごとに [green]2ばいの\\lコイン[blue]を かせげるんだ！[latin]",
+      "test_focus": "reviewed_FA_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 1,
+        "FC": 4,
+        "FC_01": 4,
+        "FE": 2
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 4,
+      "id": "scr_1F110D5",
+      "category": "scripts",
+      "rom_offset": "0x01F110D5",
+      "gba_address": "0x09F110D5",
+      "pointer_owners": [
+        "0x1E70340"
+      ],
+      "original": "\"On the brink of defeat, the Borrian\nking summoned a dark force to help\\lturn the tides of battle\\.\"",
+      "expected_japanese": "[japanese]はいぼく すんぜん、ボーリウスの\nおうは せんきょうを かえるため\\lやみの ちからを よびだした\\.[latin]",
+      "test_focus": "reviewed_FA_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 5,
+      "id": "scr_1F11136",
+      "category": "scripts",
+      "rom_offset": "0x01F11136",
+      "gba_address": "0x09F11136",
+      "pointer_owners": [
+        "0x1E70378"
+      ],
+      "original": "\"The foreign army’s advantage was\nlost almost instantly.\n\nAs soon as it entered the battlefield,\nthe dark force used its power to\\lcreate portals and transport the\\linvading army back home\\.\"",
+      "expected_japanese": "[japanese]がいこくぐんの ゆうせいは\nたちまち うしなわれた。\\lせんじょうに あらわれた やみの\n\nちからは とびらを\nつくり、しんりゃくぐんを\\lふるさとへ おくりかえした\\.[latin]",
+      "test_focus": "reviewed_FA_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 2,
+        "FB": 1,
+        "FE": 2
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 6,
+      "id": "scr_1F0B632",
+      "category": "scripts",
+      "rom_offset": "0x01F0B632",
+      "gba_address": "0x09F0B632",
+      "pointer_owners": [
+        "0x1E6E1EF"
+      ],
+      "original": "\"Is it true?\nYou’re leaving home, [player]?\n\nThen don’t forget to take any items\nout of your PC before you go!\"",
+      "expected_japanese": "[japanese]ほんとうに? いえを\nでていくの、[latin][player][japanese]?\\lじゃあ でかけるまえに PCから\n\nアイテムを だすのを\nわすれないでね![latin]",
+      "test_focus": "known_token_or_dynamic_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FD": 1,
+        "FE": 2
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 7,
+      "id": "scr_1F0B6EA",
+      "category": "scripts",
+      "rom_offset": "0x01F0B6EA",
+      "gba_address": "0x09F0B6EA",
+      "pointer_owners": [
+        "0x1E6E1F8"
+      ],
+      "original": "\"Congrats on becoming the Champion,\n[player]!\n\nI bet those items in your PC really\nhelped you out, eh?\"",
+      "expected_japanese": "[japanese]チャンピオンに なったこと、\nおめでとう、[latin][player][japanese]!\\lPCの なかの アイテムたちが\n\nきっと やくにたったんじゃない?[latin]",
+      "test_focus": "known_token_or_dynamic_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FD": 1,
+        "FE": 2
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 8,
+      "id": "scr_1F0BA23",
+      "category": "scripts",
+      "rom_offset": "0x01F0BA23",
+      "gba_address": "0x09F0BA23",
+      "pointer_owners": [
+        "0x1E6E41C"
+      ],
+      "original": "\"[player]!\nWhere have you been?\n\nI was really worried about you!\n\n\\.\n\nWow\\.\n\nThat sounds awfully frightening!\nI’m really glad you’re safe now!\n\nBefore you do anything else, you\nshould take a nice, long rest.\"",
+      "expected_japanese": "[japanese][latin][player][japanese]! どこに\nいたの? すごく\\lしんぱいしたのよ! \\. わあ\\.\n\nそれは とても こわそうね!\nぶじで ほんとうに よかった!\\lなにか するまえに、まず\n\nしっかり やすんでね。[latin]",
+      "test_focus": "known_token_or_dynamic_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 5,
+        "FD": 1,
+        "FE": 3
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 9,
+      "id": "scr_1F0BC27",
+      "category": "scripts",
+      "rom_offset": "0x01F0BC27",
+      "gba_address": "0x09F0BC27",
+      "pointer_owners": [
+        "0x1E6E471"
+      ],
+      "original": "\"[black][player] received the Super Cube’s\nMission Log component from Mom!\"",
+      "expected_japanese": "[japanese][black][latin][player][japanese]は\nおかあさんから\\lスーパーキューブの\n\nミッションログコンポーネントを\nうけとった![latin]",
+      "test_focus": "known_token_or_dynamic_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FC": 1,
+        "FC_01": 1,
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 10,
+      "id": "scr_1F0BE5E",
+      "category": "scripts",
+      "rom_offset": "0x01F0BE5E",
+      "gba_address": "0x09F0BE5E",
+      "pointer_owners": [
+        "0x1E6E4CD"
+      ],
+      "original": "\"[black][player] received the Super Cube’s\nbattle component from Mom!\"",
+      "expected_japanese": "[japanese][black][latin][player][japanese]は\nおかあさんから\\lスーパーキューブの\n\nバトルコンポーネントを\nうけとった![latin]",
+      "test_focus": "known_token_or_dynamic_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FC": 1,
+        "FC_01": 1,
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 11,
+      "id": "scr_1F0B1D7",
+      "category": "scripts",
+      "rom_offset": "0x01F0B1D7",
+      "gba_address": "0x09F0B1D7",
+      "pointer_owners": [
+        "0x1E6D05F"
+      ],
+      "original": "\"You’re almost at the exit!\"",
+      "expected_japanese": "[japanese]でぐちは もうすぐだよ![latin]",
+      "test_focus": "short_label_or_choice",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 12,
+      "id": "scr_1F0B1F2",
+      "category": "scripts",
+      "rom_offset": "0x01F0B1F2",
+      "gba_address": "0x09F0B1F2",
+      "pointer_owners": [
+        "0x1E6D063"
+      ],
+      "original": "\"Just a little further!\"",
+      "expected_japanese": "[japanese]あと すこしだ![latin]",
+      "test_focus": "short_label_or_choice",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 13,
+      "id": "scr_1F0B2BC",
+      "category": "scripts",
+      "rom_offset": "0x01F0B2BC",
+      "gba_address": "0x09F0B2BC",
+      "pointer_owners": [
+        "0x1E6D07A"
+      ],
+      "original": "\"Na na na na na na na\\.\nHe lost!\"",
+      "expected_japanese": "[japanese]ナナナナナナナ\\. かれの まけだ![latin]",
+      "test_focus": "short_label_or_choice",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 14,
+      "id": "scr_1F0DA88",
+      "category": "scripts",
+      "rom_offset": "0x01F0DA88",
+      "gba_address": "0x09F0DA88",
+      "pointer_owners": [
+        "0x1E6ED5C"
+      ],
+      "original": "\"Thank you.\nHere are your Coins!\"",
+      "expected_japanese": "[japanese]ありがとうございます。 コインを\nどうぞ！[latin]",
+      "test_focus": "short_label_or_choice",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 15,
+      "id": "scr_1F0DB12",
+      "category": "scripts",
+      "rom_offset": "0x01F0DB12",
+      "gba_address": "0x09F0DB12",
+      "pointer_owners": [
+        "0x1E6ED9A"
+      ],
+      "original": "\"You can’t afford the Coins.\"",
+      "expected_japanese": "[japanese]コインが たりません。[latin]",
+      "test_focus": "short_label_or_choice",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 16,
+      "id": "scr_1F0925A",
+      "category": "scripts",
+      "rom_offset": "0x01F0925A",
+      "gba_address": "0x09F0925A",
+      "pointer_owners": [
+        "0x1E6BA82"
+      ],
+      "original": "\"I’m so rich, my swimming pool has\nits own swimming pool!\n\nAnd yet\\.\\CC0820 and yet, all the money\nin the world doesn’t make me happy.\n\nTrue wealth lies in a more\nluxurious currency - Exp. Points!\n\nSo, are you willing to show me your\ndrive to become truly wealthy?\"",
+      "expected_japanese": "[japanese]わたし は とても おかねもち\nで、じぶん の プール に また\\lプール が ある ほど です！\n\nそれでも\\.\\CC0820 それでも、せかいじゅう\nの おかね でも わたし を\\lしあわせ には できません。\n\nほんとうの とみ は もっと\nごうかな つうか、 すなわち\\lけいけんち に こそ あります！\n\nさあ、ほんとうの おかねもち に\nなりたい という いよく を\\lわたし に みせて くれません\n\nか？[latin]",
+      "test_focus": "choice_or_question",
+      "placement": "in_place",
+      "controls": {
+        "FB": 3,
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 4
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 17,
+      "id": "scr_1F098B9",
+      "category": "scripts",
+      "rom_offset": "0x01F098B9",
+      "gba_address": "0x09F098B9",
+      "pointer_owners": [
+        "0x1E6BC00"
+      ],
+      "original": "\"No? Then could you spare any change\nbefore you leave?\"",
+      "expected_japanese": "[japanese]いいえ？ では でかける まえ\nに、こぜに を めぐんで\\lくれません か？[latin]",
+      "test_focus": "choice_or_question",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 18,
+      "id": "scr_1F09AFF",
+      "category": "scripts",
+      "rom_offset": "0x01F09AFF",
+      "gba_address": "0x09F09AFF",
+      "pointer_owners": [
+        "0x1E6BCC4"
+      ],
+      "original": "\"Did you hear?\n\nSomeone took care of the\ntroublemakers on Route 9!\"",
+      "expected_japanese": "[japanese]きいた? 9ばんどうろの\nもんだいを おこしていた\\lひとたちを だれかが かたづけて\n\nくれたんだって![latin]",
+      "test_focus": "choice_or_question",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 19,
+      "id": "scr_1F07781",
+      "category": "scripts",
+      "rom_offset": "0x01F07781",
+      "gba_address": "0x09F07781",
+      "pointer_owners": [
+        "0x1E6B229"
+      ],
+      "original": "\"Wingderful!\n\nI’ve seen all those beautiful wings\nI’d never seen before!\n\nAs promised, I’d like to share my\nwings with you!\"",
+      "expected_japanese": "[japanese]ウィングダフル！ みたことのない\nうつくしい つばさを ぜんぶ\\lみせてもらったよ！\n\nやくそくどおり、わたしの\nつばさを わけてあげるね！[latin]",
+      "test_focus": "multi_page_story_or_NPC",
+      "placement": "in_place",
+      "controls": {
+        "FB": 2,
+        "FE": 2
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 20,
+      "id": "scr_1F08541",
+      "category": "scripts",
+      "rom_offset": "0x01F08541",
+      "gba_address": "0x09F08541",
+      "pointer_owners": [
+        "0x1E6B576"
+      ],
+      "original": "\"Our records show that you have made\nenough purchases.\n\nWe can now begin our capitalist\nrevolution.\n\nHere, take these.\n\nYou will need them in our fight\nagainst the communist swine.\"",
+      "expected_japanese": "[japanese]きろく による と、じゅうぶんな\nかいもの を された よう\\lです。 これで しほんしゅぎ\n\nかくめい を はじめられます。\nさあ、これ を うけとって\\lください。 きょうさんしゅぎ\n\nぶた ども と の たたかい に\nひつよう に なります。[latin]",
+      "test_focus": "multi_page_story_or_NPC",
+      "placement": "in_place",
+      "controls": {
+        "FB": 3,
+        "FE": 3
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 21,
+      "id": "scr_1F087C3",
+      "category": "scripts",
+      "rom_offset": "0x01F087C3",
+      "gba_address": "0x09F087C3",
+      "pointer_owners": [
+        "0x1E6B649"
+      ],
+      "original": "\"Hurry!\n\nYou must stop the Pokémon before\ntheir numbers become too great.\"",
+      "expected_japanese": "[japanese]いそいで！ すう が おおく\nなりすぎる まえ に、ポケモン\\lを とめなければ なりません。[latin]",
+      "test_focus": "multi_page_story_or_NPC",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 22,
+      "id": "scr_1F077FA",
+      "category": "scripts",
+      "rom_offset": "0x01F077FA",
+      "gba_address": "0x09F077FA",
+      "pointer_owners": [
+        "0x1E6B111"
+      ],
+      "original": "\"After seeing all those beautiful\nwings, I’m all winged out for life!\"",
+      "expected_japanese": "[japanese]あんな うつくしい つばさを\nみてしまったら、もう\\lいっしょうぶんの つばさは\n\nじゅうぶんだよ！[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 23,
+      "id": "scr_1F0765B",
+      "category": "scripts",
+      "rom_offset": "0x01F0765B",
+      "gba_address": "0x09F0765B",
+      "pointer_owners": [
+        "0x1E6B1DC"
+      ],
+      "original": "\"Those are some mighty fine wings\\.\"",
+      "expected_japanese": "[japanese]それは なかなか りっぱな\nつばさだね\\.[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 24,
+      "id": "scr_1F07A82",
+      "category": "scripts",
+      "rom_offset": "0x01F07A82",
+      "gba_address": "0x09F07A82",
+      "pointer_owners": [
+        "0x1E6B2CB"
+      ],
+      "original": "\"Trainers like you don’t come\naround every day.\"",
+      "expected_japanese": "[japanese]きみのような トレーナーは、そう\nそういないよ。[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 25,
+      "id": "scr_1F080A8",
+      "category": "scripts",
+      "rom_offset": "0x01F080A8",
+      "gba_address": "0x09F080A8",
+      "pointer_owners": [
+        "0x1E6B4D1"
+      ],
+      "original": "\"Another proletarian brainwashed by\nthe capitalist machine of tyranny.\"",
+      "expected_japanese": "[japanese]また ひとり、しほんかの\nあくぎゃくな しくみに\\lあやつられた ろうどうしゃが\n\nふえたね。[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 26,
+      "id": "scr_1F08489",
+      "category": "scripts",
+      "rom_offset": "0x01F08489",
+      "gba_address": "0x09F08489",
+      "pointer_owners": [
+        "0x1E6B5E5"
+      ],
+      "original": "\"You are just another pawn of the\ncommunist swines.\"",
+      "expected_japanese": "[japanese]あなた も けっきょく\nきょうさんしゅぎ ぶた ども の\\lこま に すぎません。[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 27,
+      "id": "scr_1F0880B",
+      "category": "scripts",
+      "rom_offset": "0x01F0880B",
+      "gba_address": "0x09F0880B",
+      "pointer_owners": [
+        "0x1E6B6FF"
+      ],
+      "original": "\"If Pokémon multiply and take over\nthe world, it’s your fault!\"",
+      "expected_japanese": "[japanese]もし ポケモン が ふえつづけて\nせかい を のっとったら、 それ\\lは あなた の せい です！[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 28,
+      "id": "scr_1F08A3F",
+      "category": "scripts",
+      "rom_offset": "0x01F08A3F",
+      "gba_address": "0x09F08A3F",
+      "pointer_owners": [
+        "0x1E6B70C"
+      ],
+      "original": "\"Pokémon should not be allowed to\nrule over humans.\"",
+      "expected_japanese": "[japanese]ポケモン に にんげん を\nしはい させて は いけません。[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 29,
+      "id": "scr_1F08BE6",
+      "category": "scripts",
+      "rom_offset": "0x01F08BE6",
+      "gba_address": "0x09F08BE6",
+      "pointer_owners": [
+        "0x1E6B769"
+      ],
+      "original": "\"Go out and find me the most\ndelectable trash out there!\"",
+      "expected_japanese": "[japanese]そと に でて、いちばん\nおいしそうな ゴミ を さがして\\lきて ください！[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 30,
+      "id": "scr_1F08DA1",
+      "category": "scripts",
+      "rom_offset": "0x01F08DA1",
+      "gba_address": "0x09F08DA1",
+      "pointer_owners": [
+        "0x1E6B89A"
+      ],
+      "original": "\"The Trash-Man is satisfied with the\ntrash you have gathered for him.\"",
+      "expected_japanese": "[japanese]ゴミマン は、あなた が\nあつめて くれた ゴミ に\\lまんぞく して います。[latin]",
+      "test_focus": "general_script",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "route": "Map/event caller not proved; use progressed save or script trace to locate this event",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    }
+  ]
+}

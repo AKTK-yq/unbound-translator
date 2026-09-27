@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "count": 4,
+    "rom_status": "not_built",
+    "runtime_status": "unverified"
+  },
+  "cases": [
+    {
+      "entry_id": "scr_1F0BB4B",
+      "location_event": "Mom / departure dialogue (text-inferred)",
+      "how_to_reach": "NEW GAME序盤、家を出る前後に母親へ話す。イベント分岐・マップは未確認。",
+      "runtime_reachability": "candidate_only_not_played",
+      "source_english_behavior": "Sniff\\.\n\nI always knew that the day would\ncome when you would leave home\\.\n\nIt said so on TV.\n\nIf only your father could see you\nnow\\.\\CC0820 he’d be so proud!\n\nWell, if you’re going to run\nerrands for Prof. Log, you’ll\\lneed this!",
+      "expected_japanese_display_sequence": [
+        "JP_SEGMENT_0_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_1_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_2_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_3_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_4_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_5_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_6_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_7_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_8_UNREVIEWED"
+      ],
+      "japanese_sequence_status": "unreviewed_template_not_in_ROM; current_Batch02_ROM_displays_English",
+      "input_required_at": [
+        "0x01F0BB51",
+        "0x01F0BB92",
+        "0x01F0BBA4",
+        "0x01F0BBE0",
+        "0x01F0BC1B"
+      ],
+      "line_scroll_at": [
+        "0x01F0BC1B"
+      ],
+      "failure_signs": "押下前に次の区間が表示される、空行だけをスクロールする、文字が重なる／欠ける、FA後の文が消える。"
+    },
+    {
+      "entry_id": "scr_1F0BC67",
+      "location_event": "Mom / Mission Log explanation (text-inferred)",
+      "how_to_reach": "NEW GAME序盤、Super CubeとMission Logの説明イベントを進める。実到達は未確認。",
+      "runtime_reachability": "candidate_only_not_played",
+      "source_english_behavior": "That’s a [green]Mission Log[red] function for\nyour Super Cube!\n\nIt keeps track of anything you’ve\nbeen asked to do!\n\nTo use it, just open it up from\nthe [green]Start Menu[red].\n\nAnd now that you have one, why\ndon’t we have it keep a record of\\lProf Log’s request for you?",
+      "expected_japanese_display_sequence": [
+        "JP_SEGMENT_0_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_1_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_2_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_3_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_4_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_5_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_6_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_7_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_8_UNREVIEWED"
+      ],
+      "japanese_sequence_status": "unreviewed_template_not_in_ROM; current_Batch02_ROM_displays_English",
+      "input_required_at": [
+        "0x01F0BC9F",
+        "0x01F0BCD3",
+        "0x01F0BD09",
+        "0x01F0BD4A"
+      ],
+      "line_scroll_at": [
+        "0x01F0BD4A"
+      ],
+      "failure_signs": "押下前に次の区間が表示される、空行だけをスクロールする、文字が重なる／欠ける、FA後の文が消える。"
+    },
+    {
+      "entry_id": "scr_1F0BD67",
+      "location_event": "Mom / Super Cube component (text-inferred)",
+      "how_to_reach": "NEW GAME序盤、自室のSuper Cube部品に関する母親の説明を進める。実到達は未確認。",
+      "runtime_reachability": "candidate_only_not_played",
+      "source_english_behavior": "Oh, and before I forget, you left\na key component of your Super Cube\\lon the floor of your room.\n\nI know it wasn’t necessary before,\nbut now that you have your very\\lown Pokémon, you’ll need it if\\lyou want to use those stat boosting\\litems in battle.",
+      "expected_japanese_display_sequence": [
+        "JP_SEGMENT_0_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_1_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_2_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_3_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_4_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_5_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_6_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_7_UNREVIEWED"
+      ],
+      "japanese_sequence_status": "unreviewed_template_not_in_ROM; current_Batch02_ROM_displays_English",
+      "input_required_at": [
+        "0x01F0BDAB",
+        "0x01F0BDC6",
+        "0x01F0BE09",
+        "0x01F0BE28",
+        "0x01F0BE4C"
+      ],
+      "line_scroll_at": [
+        "0x01F0BDAB",
+        "0x01F0BE09",
+        "0x01F0BE28",
+        "0x01F0BE4C"
+      ],
+      "failure_signs": "押下前に次の区間が表示される、空行だけをスクロールする、文字が重なる／欠ける、FA後の文が消える。"
+    },
+    {
+      "entry_id": "scr_1F0C11C",
+      "location_event": "Costume Box tutorial (text-inferred)",
+      "how_to_reach": "NEW GAME序盤、Costume Box受領・説明イベントを進める。実到達は未確認。",
+      "runtime_reachability": "candidate_only_not_played",
+      "source_english_behavior": "That’s a [green]Costume Box[red]!\n\nYou can use it to change clothes at\nany point in your journey.\n\nI’ve filled it with different colours\nfor you to choose from, but if you\\lfind more outfits, make sure you\\lstore them in there as well.\n\nStay safe out there, honey!\n\nBring Prof. Log his package!",
+      "expected_japanese_display_sequence": [
+        "JP_SEGMENT_0_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_1_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_2_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_3_UNREVIEWED",
+        "FE",
+        "JP_SEGMENT_4_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_5_UNREVIEWED",
+        "FA",
+        "JP_SEGMENT_6_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_7_UNREVIEWED",
+        "FB",
+        "JP_SEGMENT_8_UNREVIEWED"
+      ],
+      "japanese_sequence_status": "unreviewed_template_not_in_ROM; current_Batch02_ROM_displays_English",
+      "input_required_at": [
+        "0x01F0C137",
+        "0x01F0C176",
+        "0x01F0C1BF",
+        "0x01F0C1E0",
+        "0x01F0C1FD",
+        "0x01F0C219"
+      ],
+      "line_scroll_at": [
+        "0x01F0C1BF",
+        "0x01F0C1E0"
+      ],
+      "failure_signs": "押下前に次の区間が表示される、空行だけをスクロールする、文字が重なる／欠ける、FA後の文が消える。"
+    }
+  ]
+}

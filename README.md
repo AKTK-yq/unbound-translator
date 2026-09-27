@@ -236,6 +236,7 @@ The bounded 59-entry runtime validation build and its byte-audit commands are in
 Claude handoff, and capacity analysis are described in [the Phase 5A guide](docs/ja-phase5a.md).
 The reviewed 596-entry technical ROM, excluded-entry audit, and human runtime checklist are in
 [the Phase 5B guide](docs/ja-phase5b.md); this is not a release-ready translation.
+For new Japanese dialogue containing FA (`\l`), use ROM-derived display segments and reviewed layout; freeform FA placement is held by controlfix. The Phase 6B-2.5 rule, Batch 03 segmented handoff, and runtime limits are in [the FA control guide](docs/ja-phase6-fa-control.md).
 
 ### 4. Repair Controls And Layout
 

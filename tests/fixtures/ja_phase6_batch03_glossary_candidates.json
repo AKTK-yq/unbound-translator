@@ -1,0 +1,391 @@
+[
+  {
+    "source": "Cube V2",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3C6E8"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Cube V3",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3C66D",
+      "scr_1F3C6E8",
+      "scr_1F3CC4D"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "East Borrius",
+    "proposed_japanese": "ひがしボーリウス",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F14B72"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Epidimy",
+    "proposed_japanese": "エピデミー",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F35F2D"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Euler",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F30263",
+      "scr_1F30506",
+      "scr_1F3068C"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Fall Badge",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F17796",
+      "scr_1F17835",
+      "scr_1F1785D"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Fey",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F32DD5",
+      "scr_1F32EB9",
+      "scr_1F3BF66",
+      "scr_1F3D205",
+      "scr_1F3D2FD",
+      "scr_1F3D5D1",
+      "scr_1F3D679",
+      "scr_1F3D770",
+      "scr_1F3D7B4",
+      "scr_1F3D9D4",
+      "scr_1F3E173",
+      "scr_1F3E2FE"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Fisherman",
+    "proposed_japanese": "つりびと",
+    "type": "trainer_class",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F14C4E"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Great Desert",
+    "proposed_japanese": "だいさばく",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F14516",
+      "scr_1F14870",
+      "scr_1F14989"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Grim Woods",
+    "proposed_japanese": "グリムのもり",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F32467"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Guardian of Borrius",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F30B16"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Gurun Town",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F158DA",
+      "scr_1F159D8"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Icy Hole",
+    "proposed_japanese": "アイシーホール",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F21738"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Leaf Badge",
+    "proposed_japanese": "リーフバッジ",
+    "type": "badge",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F15EFF",
+      "scr_1F15FAA",
+      "scr_1F15FD6"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Magnolia Fields",
+    "proposed_japanese": "マグノリアフィールズ",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F25980"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Prof. Euler Log",
+    "proposed_japanese": "オイラー ログはかせ",
+    "type": "person",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F2FCB5"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Quick HMs",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3403C"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Ruins of Void",
+    "proposed_japanese": "むうの いせき",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F2FE44",
+      "scr_1F389BB",
+      "scr_1F38C8F"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Sankren bolganone",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3102E"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Science Society",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3CB76",
+      "scr_1F3D2FD"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Shadow Admin",
+    "proposed_japanese": "シャドウかんぶ",
+    "type": "organization_role",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3437C"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Shadow Grunts",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F389BB"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Shadow Warrior",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F32D77",
+      "scr_1F32DD5",
+      "scr_1F3CAC0"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Shadow Warrior Project",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F3BD5C",
+      "scr_1F3C04D",
+      "scr_1F3CAC0",
+      "scr_1F3CD22"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Shadow Warriors",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F31102",
+      "scr_1F3129D",
+      "scr_1F313CD",
+      "scr_1F319A3",
+      "scr_1F31A70",
+      "scr_1F3CE79",
+      "scr_1F3D1A1",
+      "scr_1F3D205",
+      "scr_1F3D2FD",
+      "scr_1F3D834",
+      "scr_1F3D9D4",
+      "scr_1F3DF07",
+      "scr_1F3E248",
+      "scr_1F3E2FE"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Shadows",
+    "proposed_japanese": "シャドウズ",
+    "type": "organization",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F2F9D7",
+      "scr_1F30263",
+      "scr_1F30506",
+      "scr_1F3068C",
+      "scr_1F309BE",
+      "scr_1F30C2D",
+      "scr_1F316EF",
+      "scr_1F339B2",
+      "scr_1F341C7",
+      "scr_1F34454",
+      "scr_1F372C3"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Tarmigan Mansion",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F370D2",
+      "scr_1F372C3"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Tomb of Borrius",
+    "proposed_japanese": "ボーリウスの はか",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F14D23",
+      "scr_1F14DFC",
+      "scr_1F14E8B"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Vision Badge",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F167A0",
+      "scr_1F16852",
+      "scr_1F1687D"
+    ],
+    "proposal_origin": "Batch 03 review"
+  },
+  {
+    "source": "Wings Badge",
+    "proposed_japanese": null,
+    "type": "unclassified_proper_name",
+    "confidence": "provisional",
+    "reason": "Reviewer candidate only; exact scene/scope and PCS fit require separate approval.",
+    "affected_entry_ids": [
+      "scr_1F17172",
+      "scr_1F171F2"
+    ],
+    "proposal_origin": "Batch 03 review"
+  }
+]

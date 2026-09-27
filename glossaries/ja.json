@@ -424,8 +424,11 @@
       "target": "エース",
       "kind": "person",
       "status": "project_standard",
-      "context_scope": "global",
-      "global_replace": true,
+      "context_scope": "exact_character_name",
+      "global_replace": false,
+      "entry_ids": [
+        "scr_1F0EF1F"
+      ],
       "case_sensitive": true
     },
     {

@@ -1,0 +1,866 @@
+[
+  {
+    "entry_id": "scr_1F14623",
+    "English term": "Gems",
+    "term_type": "item",
+    "Japanese candidate if used": "ジェム",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F14623",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F14516",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F1472A",
+    "English term": "Gems",
+    "term_type": "item",
+    "Japanese candidate if used": "ジェム",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F1472A",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F147A3",
+    "English term": "Gem",
+    "term_type": "item",
+    "Japanese candidate if used": "ジェム",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F147BF",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F147F8",
+    "English term": "Gems",
+    "term_type": "item",
+    "Japanese candidate if used": "ジェム",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F14870",
+    "English term": "Gem",
+    "term_type": "item",
+    "Japanese candidate if used": "ジェム",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F14870",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F14989",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F14825",
+    "English term": "Hard Stones",
+    "term_type": "item",
+    "Japanese candidate if used": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F1516B",
+    "English term": "Psychic",
+    "term_type": "move_or_type",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F151F0",
+    "English term": "Dowsing Machine",
+    "term_type": "item",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F153ED",
+    "English term": "Dusknoir",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F156BD",
+    "English term": "Odd Keystone",
+    "term_type": "item",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F156BD",
+    "English term": "Spiritomb",
+    "term_type": "pokemon",
+    "Japanese candidate if used": "ミカルゲ",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F15C6C",
+    "English term": "Rose Incense",
+    "term_type": "item",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F15D42",
+    "English term": "Gloom",
+    "term_type": "pokemon",
+    "Japanese candidate if used": "クサイハナ",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16082",
+    "English term": "Grass Knot",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F1687D",
+    "English term": "Cut",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16992",
+    "English term": "Thief",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16CCC",
+    "English term": "Groudon",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16CCC",
+    "English term": "Kyogre",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16B96",
+    "English term": "Groudon",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16B96",
+    "English term": "Hoopa",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F16B96",
+    "English term": "Kyogre",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F1721D",
+    "English term": "Rock Smash",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F172DD",
+    "English term": "Aerial Ace",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F1785D",
+    "English term": "Strength",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F2C066",
+    "English term": "Moomoo Milk",
+    "term_type": "item",
+    "Japanese candidate if used": "モーモーミルク",
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F2F718",
+    "English term": "Cacnea",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F2F718",
+    "English term": "Cut",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F2F759",
+    "English term": "Articuno",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F2F82B",
+    "English term": "Articuno",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F30071",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F30263",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F303B0",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F30933",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F309BE",
+    "English term": "Articuno",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F309BE",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F309BE",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F30E6A",
+    "English term": "Bagon",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F30E6A",
+    "English term": "Salamence",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F30E6A",
+    "English term": "Starly",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3102E",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31172",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31226",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F313EB",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3164B",
+    "English term": "Cut",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3164B",
+    "English term": "Staravia",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F316EF",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F317D8",
+    "English term": "Aerial Ace",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F317D8",
+    "English term": "Staravia",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31807",
+    "English term": "Duskull",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31807",
+    "English term": "Payback",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3181D",
+    "English term": "Cacnea",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3181D",
+    "English term": "Feint Attack",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31841",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F318B2",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31A70",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31AF5",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31D5C",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31E19",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31EF3",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F31F9F",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F32141",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F323B2",
+    "English term": "Staravia",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F328FE",
+    "English term": "Houndoom",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3296E",
+    "English term": "Houndoom",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F329AE",
+    "English term": "Houndoom",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F32A8E",
+    "English term": "Strength",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F33055",
+    "English term": "Hoopa",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3394E",
+    "English term": "Alakazam",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3394E",
+    "English term": "Psychic",
+    "term_type": "move_or_type",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F33975",
+    "English term": "Alakazam",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F339B2",
+    "English term": "Rock Smash",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F33CC0",
+    "English term": "Strength",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F33F55",
+    "English term": "Rock Smash",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F34012",
+    "English term": "Gliscor",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F34012",
+    "English term": "Rock Smash",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3402B",
+    "English term": "Gliscor",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3403C",
+    "English term": "Rock Smash",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F341A9",
+    "English term": "Aerial Ace",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F341A9",
+    "English term": "Staraptor",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F342C8",
+    "English term": "Alakazam",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F34315",
+    "English term": "Alakazam",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F34747",
+    "English term": "Staraptor",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F343A8",
+    "English term": "Staraptor",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F36FE6",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F370D2",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F372C3",
+    "English term": "Articuno",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F372C3",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F37486",
+    "English term": "Staraptor",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F387F2",
+    "English term": "Ability Capsule",
+    "term_type": "item",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F389BB",
+    "English term": "Articuno",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F389BB",
+    "English term": "Moltres",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F389BB",
+    "English term": "Zapdos",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F38C8F",
+    "English term": "Surf",
+    "term_type": "move",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3BBF1",
+    "English term": "Hoopa",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3BCB8",
+    "English term": "Hoopa",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3C04D",
+    "English term": "Hoopa",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3C04D",
+    "English term": "Poké Ball",
+    "term_type": "item",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3CD22",
+    "English term": "Hoopa",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3E1FB",
+    "English term": "Groudon",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3E1FB",
+    "English term": "Red Orb",
+    "term_type": "item",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3E2FE",
+    "English term": "Krookodile",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  },
+  {
+    "entry_id": "scr_1F3E469",
+    "English term": "Groudon",
+    "term_type": "pokemon",
+    "Japanese candidate if used": null,
+    "needs_pokeapi_verification": true,
+    "reason": "Exact source-English PokeAPI ja-hrkt match was not checked in Batch 03; provisional kana, if any, is not official approval."
+  }
+]

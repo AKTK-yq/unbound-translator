@@ -1,0 +1,18 @@
+{
+  "rom_md5": "9cad8e771940e7f7094d13911552cef0",
+  "render_text_rom_offset": "0x00005790",
+  "dispatch_rom_offset": "0x00005848",
+  "jump_table_rom_offset": "0x00005860",
+  "targets_gba": {
+    "0xFA": "0x08005B26",
+    "0xFB": "0x08005B22",
+    "0xFE": "0x08005880"
+  },
+  "state_store_bytes_rom_0x5B22": "02 20 00 E0 03 20 30 77",
+  "fire_red_reference": {
+    "fa": "wait, reset currentX, scroll one font height plus line spacing; currentY unchanged",
+    "fb": "wait, clear window, reset currentX and currentY",
+    "fe": "reset currentX and advance currentY one line without input wait"
+  },
+  "unbound_state_body_equivalence": "not_independently_proved"
+}

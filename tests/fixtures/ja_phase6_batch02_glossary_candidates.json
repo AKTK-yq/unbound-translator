@@ -1,0 +1,218 @@
+[
+  {
+    "source": "Antisis City",
+    "proposed_japanese": "アンティシスシティ",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Carryover proposal from Batch 01 handoff; still unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F13B6A"
+    ],
+    "proposal_origin": "Batch 01 carryover"
+  },
+  {
+    "source": "Battle Tower Frontier Brain",
+    "proposed_japanese": "バトルタワーの フロンティアブレーン",
+    "type": "other",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0C34F",
+      "scr_1F0C3AF",
+      "scr_1F0C40F"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Devil Duo",
+    "proposed_japanese": "デビルデュオ",
+    "type": "organization",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0A892",
+      "scr_1F0A9FD",
+      "scr_1F0AABD",
+      "scr_1F0ABA6",
+      "scr_1F0AD1C",
+      "scr_1F0ADCC"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Eternal Flower",
+    "proposed_japanese": "えいえんのはな",
+    "type": "feature",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F11C5F"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Frost Mountain",
+    "proposed_japanese": "フロストマウンテン",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0A708"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Great Desert",
+    "proposed_japanese": "だいさばく",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Carryover proposal from Batch 01 handoff; still unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F11DE8",
+      "scr_1F11EA8",
+      "scr_1F143CA"
+    ],
+    "proposal_origin": "Batch 01 carryover"
+  },
+  {
+    "source": "Grim Woods",
+    "proposed_japanese": "ぶきみなもり",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Carryover proposal from Batch 01 handoff; still unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F12FF4",
+      "scr_1F13463"
+    ],
+    "proposal_origin": "Batch 01 carryover"
+  },
+  {
+    "source": "Guardian of Borrius",
+    "proposed_japanese": "ボーリウスの しゅごしゃ",
+    "type": "other",
+    "confidence": "provisional",
+    "reason": "Carryover proposal from Batch 01 handoff; still unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0D701"
+    ],
+    "proposal_origin": "Batch 01 carryover"
+  },
+  {
+    "source": "Gurun Town",
+    "proposed_japanese": "グルンタウン",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F138D4"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Happy Hour",
+    "proposed_japanese": "ハッピーアワー",
+    "type": "feature",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0EB6D",
+      "scr_1F0EBE7",
+      "scr_1F0EC94",
+      "scr_1F0ED13",
+      "scr_1F0EDB9",
+      "scr_1F0EE09",
+      "scr_1F0EE56",
+      "scr_1F0EEE8"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Inverse Trainer House",
+    "proposed_japanese": "インバーストレーナーハウス",
+    "type": "other",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F099C2"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "King Borrius the Third",
+    "proposed_japanese": "ボーリウス3せい",
+    "type": "other",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F123E2"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Melony",
+    "proposed_japanese": "メロニー",
+    "type": "person",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0C6C4"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Ruins of Void",
+    "proposed_japanese": "ボイドいせき",
+    "type": "location",
+    "confidence": "provisional",
+    "reason": "Carryover proposal from Batch 01 handoff; still unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0C2CC"
+    ],
+    "proposal_origin": "Batch 01 carryover"
+  },
+  {
+    "source": "Science Society",
+    "proposed_japanese": "かがくきょうかい",
+    "type": "organization",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F13DB9",
+      "scr_1F1404F"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Super Cube",
+    "proposed_japanese": "スーパーキューブ",
+    "type": "feature",
+    "confidence": "provisional",
+    "reason": "Carryover proposal from Batch 01 handoff; still unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0BC27"
+    ],
+    "proposal_origin": "Batch 01 carryover"
+  },
+  {
+    "source": "Trash-Man",
+    "proposed_japanese": "ゴミマン",
+    "type": "other",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F08AC4"
+    ],
+    "proposal_origin": "Batch 02 new"
+  },
+  {
+    "source": "Zeph Jr.",
+    "proposed_japanese": "ゼフジュニア",
+    "type": "person",
+    "confidence": "provisional",
+    "reason": "New Batch 02 proposal; unapproved. Batch 02 proposal only; not added to approved glossary. Verify story context, usage and fit before approval.",
+    "affected_entry_ids": [
+      "scr_1F0CA42"
+    ],
+    "proposal_origin": "Batch 02 new"
+  }
+]

@@ -44,7 +44,8 @@ def test_approved_glossary_retains_scopes_and_excludes_unresolved():
     assert terms["Difficult"].global_replace is False
     assert terms["Hard"].context_scope == "safari_difficulty"
     assert terms["Hard"].global_replace is False
-    assert sum(not term.global_replace for term in glossary.terms) == 31
+    assert sum(not term.global_replace for term in glossary.terms) == 32
+    assert terms["Ace"].entry_ids == ("scr_1F0EF1F",)
     assert glossary.matches("Difficult", "scripts") == []
     assert glossary.matches("Hard", "scripts") == []
     assert glossary.matches("Difficult", "scripts", entry_id="scr_1F10621")

@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "phase": "6B-1",
+    "entry_count": 26,
+    "note": "Human QA candidates only. No per-entry runtime reachability has been proved."
+  },
+  "entries": [
+    {
+      "priority": 1,
+      "id": "scr_741AF1",
+      "category": "scripts",
+      "rom_offset": "0x00741AF1",
+      "pointer_owners": [
+        "0x7411C9"
+      ],
+      "original": "\"Route 15\n\n\\al Route 2, Icicle Cave\n\\ar Vivill Town\"",
+      "expected_japanese": "15ばんどうろ \\al 2ばんどうろ つららのどうくつ \\ar ビビルタウン",
+      "route": "標識を探す。該当地図・座標は未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "positional_sign_unverified",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 2,
+      "id": "scr_745108",
+      "category": "scripts",
+      "rom_offset": "0x00745108",
+      "pointer_owners": [
+        "0x7402DA"
+      ],
+      "original": "\"Grim Woods\n\n\\al Cinder Volcano\n\\ar Dresco Town\"",
+      "expected_japanese": "ぶきみなもり \\al シンダーかざん \\ar ドレスコタウン",
+      "route": "標識を探す。該当地図・座標は未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "positional_sign_unverified",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": true,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 3,
+      "id": "scr_745518",
+      "category": "scripts",
+      "rom_offset": "0x00745518",
+      "pointer_owners": [
+        "0x7B8919"
+      ],
+      "original": "\"Route 3\n\n\\au Flower Paradise\n\\ad Dresco Town\"",
+      "expected_japanese": "3ばんどうろ \\au フラワーパラダイス \\ad ドレスコタウン",
+      "route": "標識を探す。該当地図・座標は未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "positional_sign_unverified",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 4,
+      "id": "scr_74C1DA",
+      "category": "scripts",
+      "rom_offset": "0x0074C1DA",
+      "pointer_owners": [
+        "0x74C1D3"
+      ],
+      "original": "\"\\au Pokemon Day Care\"",
+      "expected_japanese": "\\au ポケモンそだてや",
+      "route": "標識を探す。該当地図・座標は未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "positional_sign_unverified",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 5,
+      "id": "scr_1F0260F",
+      "category": "scripts",
+      "rom_offset": "0x01F0260F",
+      "pointer_owners": [
+        "0x1E68BFC",
+        "0x1E81E21"
+      ],
+      "original": "\"Choose from Party\"",
+      "expected_japanese": "てもちから えらぶ",
+      "route": "選択肢を開く。会話NPCと地図は未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 6,
+      "id": "scr_1F02621",
+      "category": "scripts",
+      "rom_offset": "0x01F02621",
+      "pointer_owners": [
+        "0x1E68C0A",
+        "0x1E81E2F"
+      ],
+      "original": "\"All in Party\"",
+      "expected_japanese": "てもち すべて",
+      "route": "選択肢を開く。会話NPCと地図は未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "compact_label_growth_unverified",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 7,
+      "id": "scr_74039B",
+      "category": "scripts",
+      "rom_offset": "0x0074039B",
+      "pointer_owners": [
+        "0x78943C"
+      ],
+      "original": "\"[green]Cac!\"",
+      "expected_japanese": "[green]サボッ！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "compact_label_growth_unverified",
+      "controls": {
+        "FC": 1,
+        "FC_01": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 8,
+      "id": "scr_7403BD",
+      "category": "scripts",
+      "rom_offset": "0x007403BD",
+      "pointer_owners": [
+        "0x7403B5"
+      ],
+      "original": "\"Taaaaales!\"",
+      "expected_japanese": "テイルーーズ！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "compact_label_growth_unverified",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 9,
+      "id": "scr_7459AF",
+      "category": "scripts",
+      "rom_offset": "0x007459AF",
+      "pointer_owners": [
+        "0x74135E"
+      ],
+      "original": "\"Whooooa\\.\"",
+      "expected_japanese": "うわーーー\\.",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "compact_label_growth_unverified",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 10,
+      "id": "scr_7464E9",
+      "category": "scripts",
+      "rom_offset": "0x007464E9",
+      "pointer_owners": [
+        "0x745A2C"
+      ],
+      "original": "\"[black]Krook: [green]Dile!\"",
+      "expected_japanese": "[black]クルック: [green]ダイル！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "compact_label_growth_unverified",
+      "controls": {
+        "FC": 2,
+        "FC_01": 2
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 11,
+      "id": "scr_74660E",
+      "category": "scripts",
+      "rom_offset": "0x0074660E",
+      "pointer_owners": [
+        "0x7639C7"
+      ],
+      "original": "\"Skull!\"",
+      "expected_japanese": "スカル！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "compact_label_growth_unverified",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 12,
+      "id": "scr_74FB23",
+      "category": "scripts",
+      "rom_offset": "0x0074FB23",
+      "pointer_owners": [
+        "0x74FA34"
+      ],
+      "original": "\"???: [blue][buffer3]’s unconcious, Hoopa.\"",
+      "expected_japanese": "???: [blue][buffer3]は きを うしなってる フーパ。",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FC": 1,
+        "FC_01": 1,
+        "FD": 1
+      },
+      "buffers": [
+        "[buffer3]"
+      ],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": true
+    },
+    {
+      "priority": 13,
+      "id": "scr_74FF2A",
+      "category": "scripts",
+      "rom_offset": "0x0074FF2A",
+      "pointer_owners": [
+        "0x74FE5C"
+      ],
+      "original": "\"Is his name [rival]?\"",
+      "expected_japanese": "なまえは [rival]？",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FD": 1
+      },
+      "buffers": [
+        "[rival]"
+      ],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 14,
+      "id": "scr_75C577",
+      "category": "scripts",
+      "rom_offset": "0x0075C577",
+      "pointer_owners": [
+        "0x74FE79"
+      ],
+      "original": "\"Come on, [player].\nLet’s find another way out of here.\"",
+      "expected_japanese": "いこう [player]。 べつの でぐちを さがそう。",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 15,
+      "id": "scr_75C5E2",
+      "category": "scripts",
+      "rom_offset": "0x0075C5E2",
+      "pointer_owners": [
+        "0x74FE8B"
+      ],
+      "original": "\"Hurry up, [player], choose a\nPokémon.\"",
+      "expected_japanese": "いそいで [player] ポケモンを えらんで。",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 16,
+      "id": "scr_75CDE5",
+      "category": "scripts",
+      "rom_offset": "0x0075CDE5",
+      "pointer_owners": [
+        "0x75CBA9"
+      ],
+      "original": "\"The [buffer1] joined [player]’s party!\"",
+      "expected_japanese": "[buffer1]が [player]の なかまに なった！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "relocation",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FD": 2
+      },
+      "buffers": [
+        "[buffer1]",
+        "[player]"
+      ],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 17,
+      "id": "scr_74FECD",
+      "category": "scripts",
+      "rom_offset": "0x0074FECD",
+      "pointer_owners": [
+        "0x74FDF5"
+      ],
+      "original": "\"He’s unconscious.\n\nWhat’s this?\n\nThere’s something written on his\nshirt.\n\nIt’s his name!\nIt is\\.\"",
+      "expected_japanese": "きを うしなっている。 これは？ シャツに なにか かいてある。 なまえだ！ なまえは\\.",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FB": 3,
+        "FE": 2
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 18,
+      "id": "scr_7525D0",
+      "category": "scripts",
+      "rom_offset": "0x007525D0",
+      "pointer_owners": [
+        "0x7525C8"
+      ],
+      "original": "\"Welcome to the Dresco Town Trainer\nHouse!\n\nFeel free to battle our five\ntrainers as many times as you want.\n\nIf you wish to rebattle someone,\nplease leave and come back in.\n\nEnjoy your time!\"",
+      "expected_japanese": "ドレスコタウンの トレーナーハウスへ ようこそ！ 5にんの トレーナーと なんどでも バトルできます。 もういちど たたかいたい ときは いちど そとに でて また はいってください。 ごゆっくり どうぞ！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FB": 3,
+        "FE": 3
+      },
+      "buffers": [],
+      "has_glossary_candidate": true,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 19,
+      "id": "scr_75C454",
+      "category": "scripts",
+      "rom_offset": "0x0075C454",
+      "pointer_owners": [
+        "0x74FE3E"
+      ],
+      "original": "\"What?\nYou don’t know?\n\nSo you must be in the same\nsituation as I am\\.\n\nHave you seen any sort of exit\naround?\n\n\\.\n\nThere is one, but it’s blocked by\na man dressed in black\\.\n\nTake me there.\n\nI’m going to try to break through.\"",
+      "expected_japanese": "え？ しらないの？ じゃあ おなじ じょうきょうなんだね\\. でぐちを みなかった？ \\. ひとつ あるけど くろずくめの おとこに ふさがれている\\. そこへ つれていって。 とっぱ してみる。",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FB": 6,
+        "FE": 4
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 20,
+      "id": "scr_75DA05",
+      "category": "scripts",
+      "rom_offset": "0x0075DA05",
+      "pointer_owners": [
+        "0x75D7D2",
+        "0x7694E2"
+      ],
+      "original": "\"Ahh!\n\nThere it is again!\n\nIt’s come to steal more food!\"",
+      "expected_japanese": "ああっ！ また きた！ また たべものを ぬすみに きたんだ！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FB": 2
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 21,
+      "id": "scr_74037F",
+      "category": "scripts",
+      "rom_offset": "0x0074037F",
+      "pointer_owners": [
+        "0x78942E"
+      ],
+      "original": "\"Marlon: [blue]Cacnea, use Cut!\"",
+      "expected_japanese": "マーロン: [blue]サボネア いあいぎりだ！",
+      "route": "Marlon/Jaxのストーリーイベント。正確なsceneは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FC": 1,
+        "FC_01": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": true
+    },
+    {
+      "priority": 22,
+      "id": "scr_74572A",
+      "category": "scripts",
+      "rom_offset": "0x0074572A",
+      "pointer_owners": [
+        "0x745710"
+      ],
+      "original": "\"Here we go!\n\nAbra, Kadabra, Reuniclus!\"",
+      "expected_japanese": "いくよ！ ケーシィ ユンゲラー ランクルス！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "dialogue_window_unverified",
+      "controls": {
+        "FB": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": true
+    },
+    {
+      "priority": 23,
+      "id": "scr_74BC3B",
+      "category": "scripts",
+      "rom_offset": "0x0074BC3B",
+      "pointer_owners": [
+        "0x1A9883",
+        "0x1A989A"
+      ],
+      "original": "\"You came from Icicle Cave?\nMay I have a Swinub?\"",
+      "expected_japanese": "つららのどうくつから きたの？ ウリムーを もらえない？",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": false,
+      "has_pokeapi_verified_name": true
+    },
+    {
+      "priority": 24,
+      "id": "scr_740001",
+      "category": "scripts",
+      "rom_offset": "0x00740001",
+      "pointer_owners": [
+        "0x78D5F9"
+      ],
+      "original": "\"Dark Forest, Cinder Volcano, Crater\nTown, and Route 6\"",
+      "expected_japanese": "くらやみのもりと シンダーかざんと クレータータウンと 6ばんどうろ",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": true,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 25,
+      "id": "scr_7536D4",
+      "category": "scripts",
+      "rom_offset": "0x007536D4",
+      "pointer_owners": [
+        "0x74B9BF"
+      ],
+      "original": "\"Normally when the road is clear,\nyou can visit Dewp’s Bike Shop and\\lget some handy bikes!\"",
+      "expected_japanese": "ふだんは みちが とおれれば デュープの じてんしゃやで べんりな じてんしゃが てに はいるんだ！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {
+        "FA": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "has_glossary_candidate": true,
+      "has_pokeapi_verified_name": false
+    },
+    {
+      "priority": 26,
+      "id": "scr_75B4BC",
+      "category": "scripts",
+      "rom_offset": "0x0075B4BC",
+      "pointer_owners": [
+        "0x75450E"
+      ],
+      "original": "\"Stay safe in the Great Desert!\"",
+      "expected_japanese": "だいさばくでは きを つけて！",
+      "route": "NPC/eventを進行済みsaveで探す。場所・branchは未確認",
+      "route_confidence": "unverified",
+      "placement": "in_place",
+      "width_status": "within_source_max_line_pixels",
+      "controls": {},
+      "buffers": [],
+      "has_glossary_candidate": true,
+      "has_pokeapi_verified_name": false
+    }
+  ]
+}

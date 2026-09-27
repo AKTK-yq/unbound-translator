@@ -1,0 +1,1089 @@
+{
+  "metadata": {
+    "phase": "6A",
+    "entry_count": 120,
+    "note": "Candidates only. Exact runtime reachability and ROM fit require Phase 6B verification."
+  },
+  "entries": [
+    {
+      "id": "tbl_menu_game_settings_00004_1F10F55",
+      "category": "menu_game_settings",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.gameSettings.introSetup; row reachability varies",
+      "qa_route": "NEW GAME settings; branch conditional",
+      "technical_risk": "high",
+      "renderer_group": "menu_game_settings"
+    },
+    {
+      "id": "scr_740001",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_740037",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74037F",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74039B",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7403BD",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7418F2",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_741AF1",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_744EF5",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745108",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745518",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74572A",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745750",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745900",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7459AF",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7459B8",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7459E1",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745B6D",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745CCF",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_745DED",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7464C8",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_7464E9",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74660E",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74ABE7",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74AC0A",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B195",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B1B8",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B1E7",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "medium",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B29E",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B2DF",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B31C",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "scr_74B381",
+      "category": "scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "tbl_battle_messages_00003_3FB534",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00004_3FB545",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00005_3FB555",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00006_3FB565",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00008_3FB592",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00009_3FB5A8",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00010_3FB5BC",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00011_3FB5CD",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00014_3FB610",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00015_3FB626",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00016_3FB641",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00017_3FB650",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "scr_1EE55D4",
+      "category": "mission_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "high",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EE7188",
+      "category": "mission_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "high",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EEA888",
+      "category": "mission_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "high",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EE55DE",
+      "category": "mission_descriptions",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EE71A0",
+      "category": "mission_descriptions",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EEA8A9",
+      "category": "mission_descriptions",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EEA909",
+      "category": "mission_descriptions",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "scr_1EEC79B",
+      "category": "mission_descriptions",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned pointer; exact runtime branch untested",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "tbl_mission_objectives_00003_1F561AB",
+      "category": "mission_objectives",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.missions.objectives.mainStory; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "tbl_mission_objectives_00005_1F56201",
+      "category": "mission_objectives",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.missions.objectives.mainStory; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "tbl_mission_objectives_00008_1F5627F",
+      "category": "mission_objectives",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.missions.objectives.mainStory; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "tbl_mission_objectives_00011_1F56313",
+      "category": "mission_objectives",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.missions.objectives.mainStory; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_ui"
+    },
+    {
+      "id": "tbl_mission_log_00007_1F56082",
+      "category": "mission_log",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_log"
+    },
+    {
+      "id": "tbl_mission_log_00008_1F56089",
+      "category": "mission_log",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_log"
+    },
+    {
+      "id": "tbl_mission_log_00009_1F5608F",
+      "category": "mission_log",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.missionLog.menu; row reachability varies",
+      "qa_route": "Mission Log",
+      "technical_risk": "low",
+      "renderer_group": "mission_log"
+    },
+    {
+      "id": "tbl_menu_link_controls_00000_1BC4AC",
+      "category": "menu_link_controls",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.linkControls; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_link_controls"
+    },
+    {
+      "id": "tbl_menu_link_controls_00003_1BC54C",
+      "category": "menu_link_controls",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.linkControls; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_link_controls"
+    },
+    {
+      "id": "tbl_menu_battle_00001_3FE747",
+      "category": "menu_battle",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.battle; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_battle"
+    },
+    {
+      "id": "tbl_menu_common_00000_41617A",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00001_416181",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00002_416188",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00003_416190",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00006_4161A9",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00008_4161BC",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00015_4161E9",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00016_4161EF",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00018_4161F9",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00020_416244",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_common_00021_416262",
+      "category": "menu_common",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.text.menu.common; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_common"
+    },
+    {
+      "id": "tbl_menu_shop_00003_416749",
+      "category": "menu_shop",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.shop; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_shop"
+    },
+    {
+      "id": "tbl_menu_battle_00000_41697E",
+      "category": "menu_battle",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.battle.partyOptions; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_battle"
+    },
+    {
+      "id": "tbl_menu_battle_00001_416984",
+      "category": "menu_battle",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.battle.partyOptions; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_battle"
+    },
+    {
+      "id": "tbl_menu_battle_00002_4169A3",
+      "category": "menu_battle",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.battle.partyOptions; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "menu_battle"
+    },
+    {
+      "id": "tbl_battle_messages_00018_3FB663",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00021_3FB6A7",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00022_3FB6BF",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00026_3FB70F",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00101_3FBE4E",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00106_3FBEBE",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00107_3FBEE2",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00150_3FC357",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00122_3FC048",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00185_3FC75D",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00216_3FCA49",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "high",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00028_3FB76A",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00030_3FB7A3",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_battle_messages_00031_3FB7BF",
+      "category": "battle_messages",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+      "qa_route": "battle condition",
+      "technical_risk": "medium",
+      "renderer_group": "battle_text_printer"
+    },
+    {
+      "id": "tbl_trainer_classes_00003_23E57F",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_classes_00004_23E58C",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_classes_00005_23E599",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_classes_00006_23E5A6",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_start_menu_labels_00001_A4E4E4",
+      "category": "start_menu_labels",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.menus.text.cube; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "settings_or_menu_ui"
+    },
+    {
+      "id": "tbl_item_names_00269_EB92FC",
+      "category": "item_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.items.stats; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "item_name_table"
+    },
+    {
+      "id": "tbl_trainer_classes_00007_23E5B3",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_classes_00008_23E5C0",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_classes_00009_23E5CD",
+      "category": "trainer_classes",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.classes.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00006_23EBBC",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00007_23EBE4",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00008_23EC0C",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00009_23EC34",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00010_23EC5C",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "scr_1C5A04",
+      "category": "plain_scripts",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+      "qa_route": "NPC/event; exact map unproven",
+      "technical_risk": "high",
+      "renderer_group": "event_dialogue"
+    },
+    {
+      "id": "tbl_trainer_names_00011_23EC84",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00012_23ECAC",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00013_23ECD4",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00014_23ECFC",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00015_23ED24",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00016_23ED4C",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00017_23ED74",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00018_23ED9C",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00019_23EDC4",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00020_23EDEC",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00021_23EE14",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00022_23EE3C",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00023_23EE64",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    },
+    {
+      "id": "tbl_trainer_names_00024_23EE8C",
+      "category": "trainer_names",
+      "runtime_confidence": "B",
+      "runtime_evidence": "Extractor-owned structured table data.trainers.names; row reachability varies",
+      "qa_route": "menu/data lookup",
+      "technical_risk": "high",
+      "renderer_group": "name_table_ui"
+    }
+  ]
+}

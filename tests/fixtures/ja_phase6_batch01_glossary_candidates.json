@@ -1,0 +1,255 @@
+[
+  {
+    "source": "Dark Forest",
+    "proposed_japanese": "くらやみのもり",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "意味のある地名なので、Phase 5Dの方針（例：つららのどうくつ）にならって意味で訳した。",
+    "affected_entry_ids": [
+      "scr_740001"
+    ]
+  },
+  {
+    "source": "Grim Woods",
+    "proposed_japanese": "ぶきみなもり",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "Grim＝不気味。Woods＝もり。",
+    "affected_entry_ids": [
+      "scr_745108",
+      "scr_1F00FC4"
+    ]
+  },
+  {
+    "source": "Great Desert",
+    "proposed_japanese": "だいさばく",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "意味で訳した。",
+    "affected_entry_ids": [
+      "scr_75B4BC"
+    ]
+  },
+  {
+    "source": "Ruins of Void",
+    "proposed_japanese": "ボイドいせき",
+    "type": "location",
+    "confidence": "low",
+    "reason": "Voidはカタカナのまま（ヴが無いのでボイド）。意味で訳すなら「むのいせき」。",
+    "affected_entry_ids": [
+      "scr_1F0115C"
+    ]
+  },
+  {
+    "source": "Magnolia Town",
+    "proposed_japanese": "マグノリアタウン",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Townはシリーズの慣例どおり「タウン」。",
+    "affected_entry_ids": [
+      "scr_1F047E3"
+    ]
+  },
+  {
+    "source": "Polder Town",
+    "proposed_japanese": "ポルダータウン",
+    "type": "location",
+    "confidence": "high",
+    "reason": "英語の読みに近いカタカナ。",
+    "affected_entry_ids": [
+      "scr_1F055AD"
+    ]
+  },
+  {
+    "source": "East Borrius",
+    "proposed_japanese": "ひがしボーリウス",
+    "type": "location",
+    "confidence": "high",
+    "reason": "承認済みの「にしボーリウスずかん」と対になる。",
+    "affected_entry_ids": [
+      "scr_1F04C63",
+      "scr_1F055AD"
+    ]
+  },
+  {
+    "source": "Antisis City",
+    "proposed_japanese": "アンティシスシティ",
+    "type": "location",
+    "confidence": "high",
+    "reason": "承認済みのAntisis=アンティシス＋シティ。",
+    "affected_entry_ids": [
+      "scr_1F0374B",
+      "scr_1F04906",
+      "scr_1F049E7"
+    ]
+  },
+  {
+    "source": "Antisis Port",
+    "proposed_japanese": "アンティシスのみなと",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "Portは「みなと」とした。",
+    "affected_entry_ids": [
+      "scr_1F0489F"
+    ]
+  },
+  {
+    "source": "Fallshore Market",
+    "proposed_japanese": "フォールショアマーケット",
+    "type": "location",
+    "confidence": "high",
+    "reason": "英語の読みに近いカタカナ。",
+    "affected_entry_ids": [
+      "scr_1F0489F"
+    ]
+  },
+  {
+    "source": "Fallshore Gym",
+    "proposed_japanese": "フォールショアジム",
+    "type": "location",
+    "confidence": "high",
+    "reason": "英語の読みに近いカタカナ。",
+    "affected_entry_ids": [
+      "scr_1F03A3C"
+    ]
+  },
+  {
+    "source": "Fall Badge",
+    "proposed_japanese": "フォールバッジ",
+    "type": "item",
+    "confidence": "high",
+    "reason": "ジムバッジ名。",
+    "affected_entry_ids": [
+      "scr_1F03A3C"
+    ]
+  },
+  {
+    "source": "Inverse Battle House",
+    "proposed_japanese": "さかさバトルハウス",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Inverse Battleは、シリーズの呼び方「さかさバトル」にならった（入力資料では公式と確認できないのでproject_standard）。",
+    "affected_entry_ids": [
+      "scr_1F04A5E",
+      "scr_1F06885"
+    ]
+  },
+  {
+    "source": "Inverse Battle",
+    "proposed_japanese": "さかさバトル",
+    "type": "feature",
+    "confidence": "high",
+    "reason": "シリーズの呼び方にならった。",
+    "affected_entry_ids": [
+      "scr_1F04A5E",
+      "scr_1F06885",
+      "scr_1F0694F"
+    ]
+  },
+  {
+    "source": "Evolution House",
+    "proposed_japanese": "しんかハウス",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "英語の読みに近いカタカナ。",
+    "affected_entry_ids": [
+      "scr_1F05CAD"
+    ]
+  },
+  {
+    "source": "Mission HQ",
+    "proposed_japanese": "ミッションほんぶ",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "HQ＝本部。",
+    "affected_entry_ids": [
+      "scr_1F06B65"
+    ]
+  },
+  {
+    "source": "Trainer House",
+    "proposed_japanese": "トレーナーハウス",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Phase 5Bで確定した文中の表記と同じ。",
+    "affected_entry_ids": [
+      "scr_7525D0",
+      "scr_1F0090B"
+    ]
+  },
+  {
+    "source": "Dewp’s Bike Shop",
+    "proposed_japanese": "デュープの じてんしゃや",
+    "type": "location",
+    "confidence": "low",
+    "reason": "Dewpの読みが不確か。",
+    "affected_entry_ids": [
+      "scr_7536D4"
+    ]
+  },
+  {
+    "source": "the Soil",
+    "proposed_japanese": "ソイル",
+    "type": "location",
+    "confidence": "low",
+    "reason": "場所の名前か集まりの名前か、文脈からは確定できない。",
+    "affected_entry_ids": [
+      "scr_1F02458"
+    ]
+  },
+  {
+    "source": "Super Cube",
+    "proposed_japanese": "スーパーキューブ",
+    "type": "item",
+    "confidence": "medium",
+    "reason": "承認済みのCube=キューブに合わせた。",
+    "affected_entry_ids": [
+      "scr_1F01074"
+    ]
+  },
+  {
+    "source": "Link Stone",
+    "proposed_japanese": "リンクストーン",
+    "type": "item",
+    "confidence": "medium",
+    "reason": "Unbound独自の進化用の道具。",
+    "affected_entry_ids": [
+      "scr_1F02CD0",
+      "scr_1F057F0",
+      "scr_1F058BD"
+    ]
+  },
+  {
+    "source": "Dream Mist",
+    "proposed_japanese": "ドリームミスト",
+    "type": "item",
+    "confidence": "medium",
+    "reason": "Unbound独自の道具。",
+    "affected_entry_ids": [
+      "scr_1F027CD"
+    ]
+  },
+  {
+    "source": "Fishing Dude",
+    "proposed_japanese": "つりにいちゃん",
+    "type": "npc_label",
+    "confidence": "low",
+    "reason": "自分を「This dude」と呼ぶ釣り人。呼び名なので、人物像は固定しない。",
+    "affected_entry_ids": [
+      "scr_1F040B8"
+    ]
+  },
+  {
+    "source": "Guardian of Borrius",
+    "proposed_japanese": "ボーリウスの しゅごしゃ",
+    "type": "other",
+    "confidence": "medium",
+    "reason": "作中の称号。",
+    "affected_entry_ids": [
+      "scr_1F03CBD",
+      "scr_1F03EC8",
+      "scr_1F03F7E",
+      "scr_1F04004"
+    ]
+  }
+]

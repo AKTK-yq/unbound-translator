@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 
 from lib.gen3_font import text_pixel_width
+from lib.fa_control import reconstruct_reviewed_segments
 from lib.pcs_text import Charmap
 from lib.translation_tokens import remove_layout_tokens, visible_width
 
@@ -1175,17 +1176,69 @@ def main():
         "wrap_skipped_technical": 0,
         "japanese_page_controls": 0,
         "remaining_control_mismatches": 0,
+        "fa_placement_review_required": 0,
+        "fa_segmented_rebuilt": 0,
     }
     remaining = []
 
     for entry in entries:
         stats["entries"] += 1
         translated = entry.get("translated")
-        if not translated:
+        if not translated and not entry.get("translated_segments"):
             continue
         stats["translated"] += 1
 
         original = strip_hma_quotes(originals.get(entry.get("id"), entry.get("original", "")))
+        if args.target_lang == "ja" and "\\l" in original:
+            segments = entry.get("control_segments")
+            translated_segments = entry.get("translated_segments")
+            # Legacy already-controlfixed entries remain idempotent. New FA
+            # drafts must carry reviewed segments; a freeform FA at any text
+            # index does not prove the original display boundary was kept.
+            legacy_controlfixed = (
+                entry.get("fa_placement_policy") != "require_segments"
+                and isinstance(translated, str)
+                and translated.startswith("[japanese]")
+                and translated.endswith("[latin]")
+                and controls_match(strip_japanese_page(translated), original)
+            )
+            if not legacy_controlfixed:
+                try:
+                    rebuilt = reconstruct_reviewed_segments(
+                        original, segments, translated_segments
+                    )
+                    boundary_sequence = [segment["after_control"] for segment in segments
+                                         if segment["after_control"]]
+                    if entry.get("fa_placement_policy") == "require_segments":
+                        if boundary_sequence != entry.get("source_boundary_sequence"):
+                            raise ValueError("ROM-derived boundary sequence missing or changed")
+                        counts = entry.get("controls") or {}
+                        if any(boundary_sequence.count(code) != counts.get(code, 0)
+                               for code in ("FE", "FA", "FB")):
+                            raise ValueError("Boundary counts differ from extracted source")
+                    for source_segment, target_segment in zip(segments, translated_segments):
+                        if control_sequence(source_segment["text"]) != control_sequence(target_segment):
+                            raise ValueError("Critical tokens crossed a source boundary")
+                    if entry.get("fa_layout_reviewed") is not True:
+                        raise ValueError("FA segment layout has not been reviewed")
+                    rebuilt = normalize_japanese_layout_whitespace(rebuilt)
+                    if not controls_match(rebuilt, original):
+                        raise ValueError("Rebuilt critical controls differ from source")
+                    entry["translated"], _ = ensure_japanese_page(rebuilt)
+                    cmap.encode(entry["translated"])
+                    entry["fa_placement_status"] = "RESOLVED_SEGMENTED"
+                    stats["fa_segmented_rebuilt"] += 1
+                    continue
+                except (TypeError, KeyError, ValueError) as exc:
+                    if translated:
+                        entry["fa_unplaced_candidate"] = translated
+                    entry["translated"] = None
+                    entry["fa_placement_status"] = "FA_PLACEMENT_REVIEW_REQUIRED"
+                    entry["fa_placement_reason"] = str(exc)
+                    stats["fa_placement_review_required"] += 1
+                    continue
+        if not translated:
+            continue
         if (
             args.target_lang == "ja"
             and translated.startswith("[japanese]")

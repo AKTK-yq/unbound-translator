@@ -83,6 +83,29 @@ def test_japanese_glossary_targets_match_inside_natural_sentences():
     ) == [("ボーリウスちほう", 1, 0)]
 
 
+def test_japanese_ace_name_does_not_match_aerial_ace_or_trainer_class():
+    glossary = load_glossary(ROOT / "glossaries" / "ja.json", expected_language="ja")
+    assert glossary.matches("Aerial Ace", "scripts", entry_id="scr_75C267") == []
+    assert glossary.matches("Ace Trainer", "trainer_classes") == []
+    assert glossary.matches("Ace", "scripts", entry_id="scr_1F0EF1F")[0][:2] == (0, 3)
+
+
+def test_japanese_sensitive_terms_do_not_leak_into_prose():
+    glossary = load_glossary(ROOT / "glossaries" / "ja.json", expected_language="ja")
+    for phrase in ("Log book", "Hard battle", "Difficult route", "Option to leave", "Cube of ice"):
+        assert glossary.matches(phrase, "scripts", entry_id="unrelated") == []
+    assert [term.source for _, _, term in glossary.matches("Mission Log", "scripts")] == ["Mission Log"]
+
+
+def test_specific_compound_beats_shorter_glossary_term():
+    glossary = TranslationGlossary("ja", [
+        GlossaryTerm("Ace", "エース", "person"),
+        GlossaryTerm("Aerial Ace", "つばめがえし", "move"),
+    ])
+    matches = glossary.matches("Aerial Ace", "scripts")
+    assert [(start, end, term.source) for start, end, term in matches] == [(0, 10, "Aerial Ace")]
+
+
 def test_italian_glossary_covers_every_extracted_mission_name():
     glossary = load_glossary(ROOT / "glossaries" / "it.json", expected_language="it")
     prepared = json.loads(
