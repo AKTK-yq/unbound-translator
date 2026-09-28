@@ -1,0 +1,601 @@
+[
+  {
+    "source": "Ruins of Void",
+    "proposed_japanese": "ボイドいせき",
+    "type": "location",
+    "confidence": "low",
+    "reason": "Batch 01の候補と同じ案。",
+    "affected_entry_ids": [
+      "scr_1F41B1F",
+      "scr_1F41C4C",
+      "scr_1F67E9C",
+      "tbl_mission_objectives_00027_1F56612"
+    ]
+  },
+  {
+    "source": "Fey",
+    "proposed_japanese": "フェイ",
+    "type": "person",
+    "confidence": "medium",
+    "reason": "組織の人物名。本文では女性（she）。",
+    "affected_entry_ids": [
+      "scr_1F41F58",
+      "scr_1F49D19"
+    ]
+  },
+  {
+    "source": "Ultimate Weapon",
+    "proposed_japanese": "さいしゅうへいき",
+    "type": "other",
+    "confidence": "medium",
+    "reason": "アクラブの兵器。",
+    "affected_entry_ids": [
+      "scr_1F48854",
+      "scr_1F48FBD",
+      "scr_1F498F5",
+      "scr_1F4A574"
+    ]
+  },
+  {
+    "source": "Melony",
+    "proposed_japanese": "メロニー",
+    "type": "person",
+    "confidence": "medium",
+    "reason": "ライバルのきょうだいとみられる名前。",
+    "affected_entry_ids": [
+      "scr_1F48B25",
+      "scr_1F4ABC8"
+    ]
+  },
+  {
+    "source": "Shadow Warriors",
+    "proposed_japanese": "シャドウウォリアー",
+    "type": "other",
+    "confidence": "medium",
+    "reason": "シャドウズの人造兵士。",
+    "affected_entry_ids": [
+      "scr_1F48ED0",
+      "scr_1F49F6D",
+      "tbl_mission_objectives_00029_1F5666C"
+    ]
+  },
+  {
+    "source": "Agent",
+    "proposed_japanese": "エージェント",
+    "type": "other",
+    "confidence": "medium",
+    "reason": "Agent Véga の肩書き。",
+    "affected_entry_ids": [
+      "scr_1F49D19"
+    ]
+  },
+  {
+    "source": "Redwood Village",
+    "proposed_japanese": "レッドウッドビレッジ",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "最後のジムがある場所。",
+    "affected_entry_ids": [
+      "scr_1F4AD47"
+    ]
+  },
+  {
+    "source": "Magnolia Town",
+    "proposed_japanese": "マグノリアタウン",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Batch 01の候補と同じ。",
+    "affected_entry_ids": [
+      "scr_1F4AD47"
+    ]
+  },
+  {
+    "source": "Polder Town",
+    "proposed_japanese": "ポルダータウン",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Batch 01の候補と同じ。",
+    "affected_entry_ids": [
+      "scr_1F52A74"
+    ]
+  },
+  {
+    "source": "Raid Den",
+    "proposed_japanese": "レイドの すあな",
+    "type": "feature",
+    "confidence": "medium",
+    "reason": "レイドバトルの巣穴。",
+    "affected_entry_ids": [
+      "scr_1F57497",
+      "scr_1F574FD",
+      "scr_1F5755D",
+      "scr_1F575B8",
+      "scr_1F5761C",
+      "scr_1F57675",
+      "scr_1F576D3",
+      "scr_1F5771F",
+      "scr_1F57777",
+      "scr_1F577D2",
+      "scr_1F57826",
+      "scr_1F5787F",
+      "scr_1F578DB",
+      "scr_1F57925",
+      "scr_1F57988",
+      "scr_1F579E4",
+      "scr_1F57A38",
+      "scr_1F57A95",
+      "scr_1F57AF4",
+      "scr_1F57B53",
+      "scr_1F57BAA",
+      "scr_1F57BCA",
+      "scr_1F57C22",
+      "scr_1F57C7F",
+      "scr_1F57CB8",
+      "scr_1F57D0C",
+      "scr_1F57D45",
+      "scr_1F57D7E",
+      "scr_1F57DB7",
+      "scr_1F57DF1",
+      "scr_1F57E3C"
+    ]
+  },
+  {
+    "source": "Grim Woods",
+    "proposed_japanese": "ぶきみなもり",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "Batch 01の候補と同じ。",
+    "affected_entry_ids": [
+      "scr_1F574FD",
+      "scr_1F13071"
+    ]
+  },
+  {
+    "source": "Cliff Cave",
+    "proposed_japanese": "がけのどうくつ",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "意味のある地名なので意訳した（Phase 5Dの方針）。",
+    "affected_entry_ids": [
+      "scr_1F57777"
+    ]
+  },
+  {
+    "source": "Tomb of Borrius",
+    "proposed_japanese": "ボーリウスのはか",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "承認済みのBorrius=ボーリウスを使った。",
+    "affected_entry_ids": [
+      "scr_1F578DB",
+      "scr_1F14CE2"
+    ]
+  },
+  {
+    "source": "Antisis City",
+    "proposed_japanese": "アンティシスシティ",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Batch 01の候補と同じ。",
+    "affected_entry_ids": [
+      "scr_1F57988"
+    ]
+  },
+  {
+    "source": "Braille tablet",
+    "proposed_japanese": "てんじの せきばん",
+    "type": "other",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F57BCA",
+      "scr_1F57C7F",
+      "scr_1F57D0C",
+      "scr_1F57D45",
+      "scr_1F57D7E",
+      "scr_1F57DB7",
+      "scr_1F57DF1",
+      "scr_1F57E3C"
+    ]
+  },
+  {
+    "source": "Maxima",
+    "proposed_japanese": "マキシマ",
+    "type": "person",
+    "confidence": "low",
+    "reason": "名前ラベルだけのentry（保留中）。",
+    "affected_entry_ids": [
+      "scr_1F7A406"
+    ]
+  },
+  {
+    "source": "Gimme a V",
+    "proposed_japanese": "Vサイン",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "応援のかけ声とvictoryの掛け言葉を「Vサイン」にした。",
+    "affected_entry_ids": [
+      "scr_1EE55D4"
+    ]
+  },
+  {
+    "source": "Classic Leaders Gauntlet",
+    "proposed_japanese": "クラシックリーダーズガントレット",
+    "type": "feature",
+    "confidence": "low",
+    "reason": "施設・形式の名前。",
+    "affected_entry_ids": [
+      "scr_1EE55DE"
+    ]
+  },
+  {
+    "source": "If We Were Meant to Fly",
+    "proposed_japanese": "もしもそらをとべたら",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EE7188"
+    ]
+  },
+  {
+    "source": "Sweet Pie",
+    "proposed_japanese": "スイートパイ",
+    "type": "mission_title",
+    "confidence": "high",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EEA888"
+    ]
+  },
+  {
+    "source": "Juicy Pie",
+    "proposed_japanese": "ジューシーパイ",
+    "type": "mission_title",
+    "confidence": "high",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EEA892"
+    ]
+  },
+  {
+    "source": "Ultimate Pie",
+    "proposed_japanese": "きゅうきょくのパイ",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EEA89C"
+    ]
+  },
+  {
+    "source": "Hunter of the Swamp",
+    "proposed_japanese": "ぬまのハンター",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EEC787"
+    ]
+  },
+  {
+    "source": "Cootes Bog",
+    "proposed_japanese": "クーツぬま",
+    "type": "location",
+    "confidence": "low",
+    "reason": "Cootesの読みが不確か。",
+    "affected_entry_ids": [
+      "scr_1EEC79B"
+    ]
+  },
+  {
+    "source": "Major Miner",
+    "proposed_japanese": "メジャーマイナー",
+    "type": "mission_title",
+    "confidence": "low",
+    "reason": "major/minorの掛け言葉を、カタカナで残した。",
+    "affected_entry_ids": [
+      "scr_1EEDA96"
+    ]
+  },
+  {
+    "source": "One Purple Balloon",
+    "proposed_japanese": "むらさきのふうせん",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "フワンテの話。",
+    "affected_entry_ids": [
+      "scr_1EF1124"
+    ]
+  },
+  {
+    "source": "Blazing Emeralds",
+    "proposed_japanese": "もえるエメラルド",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EF154A"
+    ]
+  },
+  {
+    "source": "And Den There Were None",
+    "proposed_japanese": "そしてすあなもなくなった",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "「そして誰もいなくなった」のもじり。",
+    "affected_entry_ids": [
+      "scr_1EF5BD2"
+    ]
+  },
+  {
+    "source": "The Daily Grind",
+    "proposed_japanese": "まいにちのルーティン",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EF6184"
+    ]
+  },
+  {
+    "source": "Pyukumuku Chucker",
+    "proposed_japanese": "ナマコブシなげ",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "SMの「ナマコブシなげ」にならった（名前は要照合）。",
+    "affected_entry_ids": [
+      "scr_1EFA8A1"
+    ]
+  },
+  {
+    "source": "The Strongest There Is",
+    "proposed_japanese": "さいきょうのそんざい",
+    "type": "mission_title",
+    "confidence": "low",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EFD366"
+    ]
+  },
+  {
+    "source": "Basic Literacy",
+    "proposed_japanese": "よみかきのきほん",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1EFF75B"
+    ]
+  },
+  {
+    "source": "Don’t Turn Off the Power",
+    "proposed_japanese": "でんげんをきらないで",
+    "type": "mission_title",
+    "confidence": "high",
+    "reason": "保存中メッセージの表現に合わせた。",
+    "affected_entry_ids": [
+      "scr_1F016E4"
+    ]
+  },
+  {
+    "source": "No Survivors",
+    "proposed_japanese": "いきのこりゼロ",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F06B10"
+    ]
+  },
+  {
+    "source": "Bye-Bye, Butterfree",
+    "proposed_japanese": "バイバイバタフリー",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "アニメの有名な回にならった。",
+    "affected_entry_ids": [
+      "scr_1F0784D"
+    ]
+  },
+  {
+    "source": "The Communist Revolution",
+    "proposed_japanese": "きょうさんしゅぎかくめい",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "Phase 5Bの説明文と同じ語。",
+    "affected_entry_ids": [
+      "scr_1F07E65"
+    ]
+  },
+  {
+    "source": "The Capitalist Revolution",
+    "proposed_japanese": "しほんしゅぎかくめい",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F08287"
+    ]
+  },
+  {
+    "source": "Population Control",
+    "proposed_japanese": "こたいすうちょうせい",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F08646"
+    ]
+  },
+  {
+    "source": "The Trash-Man",
+    "proposed_japanese": "ゴミマン",
+    "type": "mission_title",
+    "confidence": "low",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F08A72"
+    ]
+  },
+  {
+    "source": "Darwin Was Right",
+    "proposed_japanese": "ダーウィンはただしかった",
+    "type": "mission_title",
+    "confidence": "high",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F08DE6"
+    ]
+  },
+  {
+    "source": "Exp. Millionaire",
+    "proposed_japanese": "けいけんちミリオネア",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F0920D"
+    ]
+  },
+  {
+    "source": "Honey Gather",
+    "proposed_japanese": "あまいミツあつめ",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "あまいミツは要照合。",
+    "affected_entry_ids": [
+      "scr_1F0A079"
+    ]
+  },
+  {
+    "source": "Neighbourly Assistance",
+    "proposed_japanese": "となりのひとだすけ",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F0CA7E"
+    ]
+  },
+  {
+    "source": "A Life of No Regrets",
+    "proposed_japanese": "こうかいのないじんせい",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F0E72F"
+    ]
+  },
+  {
+    "source": "Warmonger",
+    "proposed_japanese": "せんそうずき",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F12064"
+    ]
+  },
+  {
+    "source": "Weed Whacker",
+    "proposed_japanese": "くさかりや",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F13064"
+    ]
+  },
+  {
+    "source": "As Hard as They Come",
+    "proposed_japanese": "とびきりかたい",
+    "type": "mission_title",
+    "confidence": "medium",
+    "reason": "承認済みのHard（サファリの難易度）とは別の意味。",
+    "affected_entry_ids": [
+      "scr_1F14247"
+    ]
+  },
+  {
+    "source": "Treasure Hunter",
+    "proposed_japanese": "トレジャーハンター",
+    "type": "mission_title",
+    "confidence": "high",
+    "reason": "英語の読みに近い表記。",
+    "affected_entry_ids": [
+      "scr_1F14CD2"
+    ]
+  },
+  {
+    "source": "Am I Blind?",
+    "proposed_japanese": "めがみえない？",
+    "type": "mission_title",
+    "confidence": "low",
+    "reason": "点字の石板の話。語呂を残すかは要検討。",
+    "affected_entry_ids": [
+      "scr_1F1F8AB"
+    ]
+  },
+  {
+    "source": "The National Pokédex",
+    "proposed_japanese": "ぜんこくずかん",
+    "type": "mission_title",
+    "confidence": "high",
+    "reason": "シリーズの用語。",
+    "affected_entry_ids": [
+      "scr_1F23189"
+    ]
+  },
+  {
+    "source": "East Borrius",
+    "proposed_japanese": "ひがしボーリウス",
+    "type": "location",
+    "confidence": "high",
+    "reason": "Batch 01の候補と同じ。",
+    "affected_entry_ids": [
+      "scr_1F26B63"
+    ]
+  },
+  {
+    "source": "Magnolia Cafe",
+    "proposed_japanese": "マグノリアカフェ",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "Batch 01の候補Magnolia Townと同じ表記。",
+    "affected_entry_ids": [
+      "scr_1F2817A"
+    ]
+  },
+  {
+    "source": "Frost Mountain",
+    "proposed_japanese": "フロストやま",
+    "type": "location",
+    "confidence": "low",
+    "reason": "サンダーキャップやまと同じ形（カタカナ＋やま）。",
+    "affected_entry_ids": [
+      "tbl_mission_objectives_00011_1F56313"
+    ]
+  },
+  {
+    "source": "Cut Master",
+    "proposed_japanese": "いあいぎりめいじん",
+    "type": "npc_label",
+    "confidence": "low",
+    "reason": "人物の呼び名。",
+    "affected_entry_ids": [
+      "tbl_mission_objectives_00013_1F56374"
+    ]
+  },
+  {
+    "source": "Tarmigan Mansion",
+    "proposed_japanese": "ターミガンやしき",
+    "type": "location",
+    "confidence": "medium",
+    "reason": "承認済みのTarmigan Town=ターミガンタウンに合わせた。",
+    "affected_entry_ids": [
+      "tbl_mission_objectives_00020_1F564D8"
+    ]
+  }
+]

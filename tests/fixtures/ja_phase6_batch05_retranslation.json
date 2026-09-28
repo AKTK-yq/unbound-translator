@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "count": 6,
+    "status": "TRANSLATION_INCOMPLETE"
+  },
+  "entries": [
+    {
+      "id": "tbl_menu_link_controls_00000_41DF4C",
+      "English": "\"A Button: Registration Counter\"",
+      "failed_or_provisional_Japanese": null,
+      "exact_failure": "Claude draft had an unsupported Japanese PCS glyph; revision unavailable at CLI session limit",
+      "unsupported_glyph": "not_recorded_in_review_fixture",
+      "issue": [
+        "width_runtime_unverified",
+        "unsupported_japanese_glyph",
+        "claude_cli_session_limit_prevented_revision"
+      ],
+      "context_metadata": {
+        "category": "menu_link_controls",
+        "scene_id": "data.menus.text.linkControls.range",
+        "speaker": "unknown",
+        "context_before": [],
+        "context_after": [],
+        "rom_offset": 4317004,
+        "slot_size": 31,
+        "controls": {},
+        "pointer_owners": [
+          "0xB000"
+        ]
+      },
+      "recommended_retranslation_constraint": "Translate anew in kana-only PCS-safe glyphs; preserve source controls/tokens; do not infer short-label width or approve a fixed slot from byte length alone",
+      "no_codex_translation": true
+    },
+    {
+      "id": "tbl_menu_link_controls_00001_41DF6B",
+      "English": "\"A Button: Title Screen\"",
+      "failed_or_provisional_Japanese": null,
+      "exact_failure": "Claude draft had an unsupported Japanese PCS glyph; revision unavailable at CLI session limit",
+      "unsupported_glyph": "not_recorded_in_review_fixture",
+      "issue": [
+        "width_runtime_unverified",
+        "unsupported_japanese_glyph",
+        "claude_cli_session_limit_prevented_revision"
+      ],
+      "context_metadata": {
+        "category": "menu_link_controls",
+        "scene_id": "data.menus.text.linkControls.range",
+        "speaker": "unknown",
+        "context_before": [],
+        "context_after": [],
+        "rom_offset": 4317035,
+        "slot_size": 23,
+        "controls": {},
+        "pointer_owners": [
+          "0xAFA4"
+        ]
+      },
+      "recommended_retranslation_constraint": "Translate anew in kana-only PCS-safe glyphs; preserve source controls/tokens; do not infer short-label width or approve a fixed slot from byte length alone",
+      "no_codex_translation": true
+    },
+    {
+      "id": "tbl_setting_names_00008_1F4DADB",
+      "English": "\"Bike&Surf Music\"",
+      "failed_or_provisional_Japanese": null,
+      "exact_failure": "Claude draft had an unsupported Japanese PCS glyph; revision unavailable at CLI session limit",
+      "unsupported_glyph": "not_recorded_in_review_fixture",
+      "issue": [
+        "official_name_verification_required",
+        "width_runtime_unverified",
+        "unsupported_japanese_glyph",
+        "claude_cli_session_limit_prevented_revision"
+      ],
+      "context_metadata": {
+        "category": "setting_names",
+        "scene_id": "data.menus.text.gameSettings.range.names",
+        "speaker": "unknown",
+        "context_before": [],
+        "context_after": [],
+        "rom_offset": 32824027,
+        "slot_size": 16,
+        "controls": {},
+        "pointer_owners": [
+          "0x1FB3854"
+        ]
+      },
+      "recommended_retranslation_constraint": "Translate anew in kana-only PCS-safe glyphs; preserve source controls/tokens; do not infer short-label width or approve a fixed slot from byte length alone",
+      "no_codex_translation": true
+    },
+    {
+      "id": "tbl_menu_game_settings_00010_1F4DD41",
+      "English": "\"Low (Faster)\"",
+      "failed_or_provisional_Japanese": null,
+      "exact_failure": "Claude draft had an unsupported Japanese PCS glyph; revision unavailable at CLI session limit",
+      "unsupported_glyph": "not_recorded_in_review_fixture",
+      "issue": [
+        "width_runtime_unverified",
+        "unsupported_japanese_glyph",
+        "claude_cli_session_limit_prevented_revision"
+      ],
+      "context_metadata": {
+        "category": "menu_game_settings",
+        "scene_id": "data.menus.text.gameSettings.range",
+        "speaker": "unknown",
+        "context_before": [],
+        "context_after": [],
+        "rom_offset": 32824641,
+        "slot_size": 13,
+        "controls": {},
+        "pointer_owners": [
+          "0x1FB39CC"
+        ]
+      },
+      "recommended_retranslation_constraint": "Translate anew in kana-only PCS-safe glyphs; preserve source controls/tokens; do not infer short-label width or approve a fixed slot from byte length alone",
+      "no_codex_translation": true
+    },
+    {
+      "id": "tbl_menu_game_settings_00011_1F4DD4E",
+      "English": "\"Medium (Default)\"",
+      "failed_or_provisional_Japanese": null,
+      "exact_failure": "Claude draft had an unsupported Japanese PCS glyph; revision unavailable at CLI session limit",
+      "unsupported_glyph": "not_recorded_in_review_fixture",
+      "issue": [
+        "width_runtime_unverified",
+        "unsupported_japanese_glyph",
+        "claude_cli_session_limit_prevented_revision"
+      ],
+      "context_metadata": {
+        "category": "menu_game_settings",
+        "scene_id": "data.menus.text.gameSettings.range",
+        "speaker": "unknown",
+        "context_before": [],
+        "context_after": [],
+        "rom_offset": 32824654,
+        "slot_size": 17,
+        "controls": {},
+        "pointer_owners": [
+          "0x1FB39D0"
+        ]
+      },
+      "recommended_retranslation_constraint": "Translate anew in kana-only PCS-safe glyphs; preserve source controls/tokens; do not infer short-label width or approve a fixed slot from byte length alone",
+      "no_codex_translation": true
+    },
+    {
+      "id": "tbl_menu_game_settings_00012_1F4DD5F",
+      "English": "\"High (Slower)\"",
+      "failed_or_provisional_Japanese": null,
+      "exact_failure": "Claude draft had an unsupported Japanese PCS glyph; revision unavailable at CLI session limit",
+      "unsupported_glyph": "not_recorded_in_review_fixture",
+      "issue": [
+        "width_runtime_unverified",
+        "unsupported_japanese_glyph",
+        "claude_cli_session_limit_prevented_revision"
+      ],
+      "context_metadata": {
+        "category": "menu_game_settings",
+        "scene_id": "data.menus.text.gameSettings.range",
+        "speaker": "unknown",
+        "context_before": [],
+        "context_after": [],
+        "rom_offset": 32824671,
+        "slot_size": 14,
+        "controls": {},
+        "pointer_owners": [
+          "0x1FB39D4"
+        ]
+      },
+      "recommended_retranslation_constraint": "Translate anew in kana-only PCS-safe glyphs; preserve source controls/tokens; do not infer short-label width or approve a fixed slot from byte length alone",
+      "no_codex_translation": true
+    }
+  ]
+}

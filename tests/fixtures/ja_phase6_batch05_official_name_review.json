@@ -1,0 +1,905 @@
+[
+  {
+    "entry_id": "tbl_battle_messages_00066_3FBAF3",
+    "category": "battle_messages",
+    "original": "\"\\\\10 was squeezed\nby \\\\0F’s Bind!\"",
+    "english_terms": [
+      {
+        "english_term": "Bind",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10は　\\\\0Fの　しめつけるで　しめあげられた！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00069_3FBB4C",
+    "category": "battle_messages",
+    "original": "\"\\\\10 was Wrapped by\n\\\\0F!\"",
+    "english_terms": [],
+    "japanese_candidate": "\\\\10は　\\\\0Fに　まきつかれた！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00070_3FBB62",
+    "category": "battle_messages",
+    "original": "\"\\\\0F Clamped\n\\\\10!\"",
+    "english_terms": [],
+    "japanese_candidate": "\\\\0Fは　\\\\10を　からで　はさんだ！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00075_3FBBD0",
+    "category": "battle_messages",
+    "original": "\"\\\\13 is protected\nby Mist!\"",
+    "english_terms": [
+      {
+        "english_term": "Mist",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\13は　しろいきりに　まもられている！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00079_3FBC2B",
+    "category": "battle_messages",
+    "original": "\"\\\\0F is buffeted\nby the sandstorm!\"",
+    "english_terms": [
+      {
+        "english_term": "Sandstorm",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは すなあらしに まきこまれている!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00080_3FBC4C",
+    "category": "battle_messages",
+    "original": "\"\\\\0F is pelted\nby Hail!\"",
+    "english_terms": [
+      {
+        "english_term": "Hail",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは あられの ダメージを うけている!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00084_3FBC99",
+    "category": "battle_messages",
+    "original": "\"\\\\0F’s health is\nsapped by Leech Seed!\"",
+    "english_terms": [
+      {
+        "english_term": "Leech Seed",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは やどりぎの タネに たいりょくを すいとられた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00087_3FBCDD",
+    "category": "battle_messages",
+    "original": "\"But \\\\13’s Uproar\nkept it awake!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "しかし \\\\13 の さわぐで ねむれない!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00088_3FBCFC",
+    "category": "battle_messages",
+    "original": "\"\\\\0F woke up\nin the Uproar!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0F は さわぐで めを さました!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00089_3FBD16",
+    "category": "battle_messages",
+    "original": "\"\\\\0F caused\nan Uproar!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0F は さわぎはじめた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00090_3FBD2B",
+    "category": "battle_messages",
+    "original": "\"\\\\0F is making\nan Uproar!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0F は さわいでいる!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00092_3FBD53",
+    "category": "battle_messages",
+    "original": "\"But \\\\10 can’t\nsleep in an Uproar!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "しかし さわいでいるので \\\\10 は ねむれない!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00093_3FBD74",
+    "category": "battle_messages",
+    "original": "\"\\\\0F Stockpiled\n\\\\00!\"",
+    "english_terms": [],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00094_3FBD86",
+    "category": "battle_messages",
+    "original": "\"\\\\0F can’t\nStockpile any more!\"",
+    "english_terms": [
+      {
+        "english_term": "Stockpile",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0F は これいじょう たくわえられない!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00095_3FBDA3",
+    "category": "battle_messages",
+    "original": "\"But \\\\10 can’t\nsleep in an Uproar!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "しかし さわいでいるので \\\\10 は ねむれない!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00096_3FBDC4",
+    "category": "battle_messages",
+    "original": "\"But the Uproar kept\n\\\\10 awake!\"",
+    "english_terms": [
+      {
+        "english_term": "Uproar",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "しかし さわぎで \\\\10 は ねむれない!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00104_3FBE8B",
+    "category": "battle_messages",
+    "original": "\"\\\\0F made\na Substitute!\"",
+    "english_terms": [
+      {
+        "english_term": "Substitute",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fの みがわりが あらわれた！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00105_3FBEA1",
+    "category": "battle_messages",
+    "original": "\"\\\\0F already\nhas a Substitute!\"",
+    "english_terms": [
+      {
+        "english_term": "Substitute",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fには すでに みがわりが いる！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00106_3FBEBE",
+    "category": "battle_messages",
+    "original": "\"The Substitute took damage\nfor \\\\10!\n\n\"",
+    "english_terms": [
+      {
+        "english_term": "Substitute",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "みがわりが \\\\10の かわりに ダメージを うけた！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00107_3FBEE2",
+    "category": "battle_messages",
+    "original": "\"\\\\10’s\nSubstitute faded!\n\n\"",
+    "english_terms": [
+      {
+        "english_term": "Substitute",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10の みがわりは きえた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00109_3FBF0C",
+    "category": "battle_messages",
+    "original": "\"\\\\10’s Rage\nis building!\"",
+    "english_terms": [
+      {
+        "english_term": "Rage",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10の いかりが たかまっていく!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00111_3FBF39",
+    "category": "battle_messages",
+    "original": "\"\\\\0F is disabled\nno more!\"",
+    "english_terms": [],
+    "japanese_candidate": "\\\\0Fの かなしばりが とけた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00112_3FBF51",
+    "category": "battle_messages",
+    "original": "\"\\\\10 got\nan Encore!\"",
+    "english_terms": [
+      {
+        "english_term": "Encore",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10は アンコールを うけた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00113_3FBF63",
+    "category": "battle_messages",
+    "original": "\"\\\\0F’s Encore\nended!\"",
+    "english_terms": [
+      {
+        "english_term": "Encore",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fの アンコールが おわった!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00120_3FC011",
+    "category": "battle_messages",
+    "original": "\"\\\\10 fell into\na Nightmare!\"",
+    "english_terms": [
+      {
+        "english_term": "Nightmare",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10は あくむを みはじめた！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00121_3FC02B",
+    "category": "battle_messages",
+    "original": "\"\\\\0F is locked\nin a Nightmare!\"",
+    "english_terms": [
+      {
+        "english_term": "Nightmare",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは あくむに うなされている！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00123_3FC072",
+    "category": "battle_messages",
+    "original": "\"\\\\0F is afflicted\nby the Curse!\"",
+    "english_terms": [
+      {
+        "english_term": "Curse",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは のろわれている！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00124_3FC090",
+    "category": "battle_messages",
+    "original": "\"Spikes were scattered all around\nthe opposing team!\"",
+    "english_terms": [
+      {
+        "english_term": "Spikes",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "あいての まわりに まきびしが ちらばった！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00129_3FC132",
+    "category": "battle_messages",
+    "original": "\"Magnitude \\\\00!\"",
+    "english_terms": [
+      {
+        "english_term": "Magnitude",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00133_3FC19D",
+    "category": "battle_messages",
+    "original": "\"\\\\0F shed\nLeech Seed!\"",
+    "english_terms": [
+      {
+        "english_term": "Leech Seed",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは やどりぎのタネを ふりはらった！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00141_3FC26D",
+    "category": "battle_messages",
+    "original": "\"Nature Power turned into\n\\\\14!\"",
+    "english_terms": [
+      {
+        "english_term": "Nature Power",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "しぜんのちからは \\\\14に なった!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00143_3FC2AA",
+    "category": "battle_messages",
+    "original": "\"\\\\10 was subjected\nto Torment!\"",
+    "english_terms": [
+      {
+        "english_term": "Torment",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10は いちゃもんを つけられた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00145_3FC2E3",
+    "category": "battle_messages",
+    "original": "\"\\\\10 fell for\nthe Taunt!\"",
+    "english_terms": [
+      {
+        "english_term": "Taunt",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\10は ちょうはつに のった!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00152_3FC38A",
+    "category": "battle_messages",
+    "original": "\"\\\\0F made a Wish!\"",
+    "english_terms": [
+      {
+        "english_term": "Wish",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは　ねがいごとを　した！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00161_3FC483",
+    "category": "battle_messages",
+    "original": "\"\\\\0F wants the\nopponent to bear a Grudge!\"",
+    "english_terms": [
+      {
+        "english_term": "Grudge",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fは あいてに おんねんを のこそうとしている!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00162_3FC4AB",
+    "category": "battle_messages",
+    "original": "\"\\\\0F’s \\\\00\nlost all its PP due to the Grudge!\"",
+    "english_terms": [
+      {
+        "english_term": "Grudge",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00164_3FC4F0",
+    "category": "battle_messages",
+    "original": "\"\\\\0F’s \\\\14\nwas bounced back by Magic Coat!\"",
+    "english_terms": [
+      {
+        "english_term": "Magic Coat",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "\\\\0Fの \\\\14は マジックコートで はねかえされた!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00166_3FC53D",
+    "category": "battle_messages",
+    "original": "\"\\\\10 Snatched\n\\\\13’s move!\"",
+    "english_terms": [],
+    "japanese_candidate": "\\\\10は \\\\13の わざを よこどりした!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00179_3FC69D",
+    "category": "battle_messages",
+    "original": "\"\\\\12 can’t use the same\nmove in a row due to the Torment!\n\n\"",
+    "english_terms": [
+      {
+        "english_term": "Torment",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00180_3FC6D6",
+    "category": "battle_messages",
+    "original": "\"\\\\12 can’t use\n\\\\14 after the Taunt!\n\n\"",
+    "english_terms": [
+      {
+        "english_term": "Taunt",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00181_3FC6F8",
+    "category": "battle_messages",
+    "original": "\"\\\\12 can’t use the\nsealed \\\\14!\n\n\"",
+    "english_terms": [],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00211_3FC9E5",
+    "category": "battle_messages",
+    "original": "\"It sucked up the\nLiquid Ooze!\"",
+    "english_terms": [
+      {
+        "english_term": "Liquid Ooze",
+        "kind": "ability",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "ヘドロえきを すいとって しまった！",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00259_3FCE38",
+    "category": "battle_messages",
+    "original": "\"The Mirror Move failed!\"",
+    "english_terms": [
+      {
+        "english_term": "Mirror Move",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "オウムがえしは しっぱいした!",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00000_4178D0",
+    "category": "menu_list_labels",
+    "original": "\"LT. SURGE\"",
+    "english_terms": [],
+    "japanese_candidate": "マチス",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00001_4178DA",
+    "category": "menu_list_labels",
+    "original": "\"KOGA\"",
+    "english_terms": [],
+    "japanese_candidate": "キョウ",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00020_417984",
+    "category": "menu_list_labels",
+    "original": "\"FRESH WATER\\CC1357\\CC0600$200\"",
+    "english_terms": [
+      {
+        "english_term": "Fresh Water",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "おいしいみず\\CC1357\\CC0600$200",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00021_41799A",
+    "category": "menu_list_labels",
+    "original": "\"SODA POP\\CC1357\\CC0600$300\"",
+    "english_terms": [
+      {
+        "english_term": "Soda Pop",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "サイコソーダ\\CC1357\\CC0600$300",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00022_4179AD",
+    "category": "menu_list_labels",
+    "original": "\"LEMONADE\\CC1357\\CC0600$350\"",
+    "english_terms": [
+      {
+        "english_term": "Lemonade",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "ミックスオレ\\CC1357\\CC0600$350",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00023_4179C0",
+    "category": "menu_list_labels",
+    "original": "\"\\CC0600 50 COINS\\CC1345$1,000\"",
+    "english_terms": [],
+    "japanese_candidate": "\\CC0600 50 コイン\\CC1345$1,000",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00024_4179D6",
+    "category": "menu_list_labels",
+    "original": "\"\\CC0600500 COINS\\CC1340$10,000\"",
+    "english_terms": [],
+    "japanese_candidate": "\\CC0600500 コイン\\CC1340$10,000",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00033_417A42",
+    "category": "menu_list_labels",
+    "original": "\"TM13\\CC1348\\CC06004,000 COINS\"",
+    "english_terms": [
+      {
+        "english_term": "TM13",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "わざマシン13\\CC1348\\CC06004,000コイン",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00034_417A58",
+    "category": "menu_list_labels",
+    "original": "\"TM23\\CC1348\\CC06003,500 COINS\"",
+    "english_terms": [
+      {
+        "english_term": "TM23",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "わざマシン23\\CC1348\\CC06003,500コイン",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00035_417A6E",
+    "category": "menu_list_labels",
+    "original": "\"TM24\\CC1348\\CC06004,000 COINS\"",
+    "english_terms": [
+      {
+        "english_term": "TM24",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "わざマシン24\\CC1348\\CC06004,000コイン",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00036_417A84",
+    "category": "menu_list_labels",
+    "original": "\"TM30\\CC1348\\CC06004,500 COINS\"",
+    "english_terms": [
+      {
+        "english_term": "TM30",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "わざマシン30\\CC1348\\CC06004,500コイン",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_list_labels_00037_417A9A",
+    "category": "menu_list_labels",
+    "original": "\"TM35\\CC1348\\CC06004,000 COINS\"",
+    "english_terms": [
+      {
+        "english_term": "TM35",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "わざマシン35\\CC1348\\CC06004,000コイン",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_pc_00021_4183C5",
+    "category": "menu_pc",
+    "original": "\"Please remove the Mail.\"",
+    "english_terms": [],
+    "japanese_candidate": "メールを はずして ください。",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_pokemon_summary_00014_419A3D",
+    "category": "menu_pokemon_summary",
+    "original": "\"An odd Pokémon Egg found by the\nDay-Care couple.\"",
+    "english_terms": [
+      {
+        "english_term": "Egg",
+        "kind": "pokemon",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "そだてやの ふうふが みつけた へんな ポケモンの タマゴ。",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_pokemon_summary_00017_419ADE",
+    "category": "menu_pokemon_summary",
+    "original": "\"An odd Pokémon Egg obtained from\nan old woman at the SPA.\"",
+    "english_terms": [
+      {
+        "english_term": "Egg",
+        "kind": "pokemon",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "スパの おばあさんから もらった ふしぎな ポケモンの タマゴ。",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_pause_00005_800FC0",
+    "category": "menu_pause",
+    "original": "\"Cube\"",
+    "english_terms": [],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_battle_00004_A4C7DA",
+    "category": "menu_battle",
+    "original": "\"\\CC0505\\CC040D0E0FFight\\CC1338\\CC040F0E0BCube\n\\CC040D0E0FPokémon\\CC1338Run\"",
+    "english_terms": [],
+    "japanese_candidate": "\\CC0505\\CC040D0E0Fたたかう\\CC1338\\CC040F0E0Bキューブ \\CC040D0E0Fポケモン\\CC1338にげる",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_battle_00005_A4C807",
+    "category": "menu_battle",
+    "original": "\"\\CC0505\\CC040D0E0FFight\\CC1338Cube\nPokémon\\CC1338Back\"",
+    "english_terms": [],
+    "japanese_candidate": "\\CC0505\\CC040D0E0Fたたかう\\CC1338キューブ ポケモン\\CC1338もどる",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_menu_battle_00006_A4C82B",
+    "category": "menu_battle",
+    "original": "\"\\CC0505\\CC040D0E0FFight\\CC1338\\CC040F0E0BCube\n\\CC040D0E0FPokémon\\CC1338Back\"",
+    "english_terms": [],
+    "japanese_candidate": "\\CC0505\\CC040D0E0Fたたかう\\CC1338\\CC040F0E0Bキューブ \\CC040D0E0Fポケモン\\CC1338もどる",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_start_menu_labels_00001_A4E4E4",
+    "category": "start_menu_labels",
+    "original": "\"Cube V3\"",
+    "english_terms": [],
+    "japanese_candidate": "キューブV3",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  },
+  {
+    "entry_id": "tbl_setting_names_00008_1F4DADB",
+    "category": "setting_names",
+    "original": "\"Bike&Surf Music\"",
+    "english_terms": [
+      {
+        "english_term": "Surf",
+        "kind": "move",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_game_settings_00007_1F4DC57",
+    "category": "menu_game_settings",
+    "original": "\"Exp. Share\"",
+    "english_terms": [
+      {
+        "english_term": "Exp. Share",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "がくしゅうそうち",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_game_settings_00008_1F4DC62",
+    "category": "menu_game_settings",
+    "original": "\"Capped Exp. Share\"",
+    "english_terms": [
+      {
+        "english_term": "Exp. Share",
+        "kind": "item",
+        "rom_name_table_match": true
+      }
+    ],
+    "japanese_candidate": "じょうげんつきがくしゅうそうち",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "ROM English table exact-boundary candidates only; contextual/official identity unverified"
+  },
+  {
+    "entry_id": "tbl_menu_game_settings_00015_1F4DDAA",
+    "category": "menu_game_settings",
+    "original": "\"HMs can be used quicker in the field.\"",
+    "english_terms": [],
+    "japanese_candidate": "フィールドで ひでんマシンを すばやく つかえる。",
+    "needs_pokeapi_verification": true,
+    "term_match_caveat": "No safe table-name match; manually identify provisional term before PokeAPI"
+  }
+]

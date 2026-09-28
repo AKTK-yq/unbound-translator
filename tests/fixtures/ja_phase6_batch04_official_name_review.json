@@ -1,0 +1,898 @@
+[
+  {
+    "entry_id": "scr_1F3E511",
+    "english_term": "Groudon",
+    "type": "pokemon",
+    "japanese_candidate": "グラードン",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F3E5B3",
+    "english_term": "Groudon",
+    "type": "pokemon",
+    "japanese_candidate": "グラードン",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F3E5B3",
+    "english_term": "Poké Balls",
+    "type": "item",
+    "japanese_candidate": "モンスターボール",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1F3E675",
+    "english_term": "Poké Balls",
+    "type": "item",
+    "japanese_candidate": "モンスターボール",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1F3E757",
+    "english_term": "Krookodile",
+    "type": "pokemon",
+    "japanese_candidate": "ワルビアル",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F3E757",
+    "english_term": "Rock Smash",
+    "type": "move",
+    "japanese_candidate": "いわくだき",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F41F58",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F456B5",
+    "english_term": "Articuno",
+    "type": "pokemon",
+    "japanese_candidate": "フリーザー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F456B5",
+    "english_term": "Moltres",
+    "type": "pokemon",
+    "japanese_candidate": "ファイヤー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F47A62",
+    "english_term": "Surf",
+    "type": "move",
+    "japanese_candidate": "なみのり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F47A62",
+    "english_term": "Rock Climb",
+    "type": "move",
+    "japanese_candidate": "ロッククライム",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F47E06",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4820E",
+    "english_term": "Alakazam",
+    "type": "pokemon",
+    "japanese_candidate": "フーディン",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F48340",
+    "english_term": "Toucannon",
+    "type": "pokemon",
+    "japanese_candidate": "ドデカバシ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F48340",
+    "english_term": "Vaporeon",
+    "type": "pokemon",
+    "japanese_candidate": "シャワーズ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F48340",
+    "english_term": "Mamoswine",
+    "type": "pokemon",
+    "japanese_candidate": "マンムー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F485D8",
+    "english_term": "Krookodile",
+    "type": "pokemon",
+    "japanese_candidate": "ワルビアル",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F48620",
+    "english_term": "Krookodile",
+    "type": "pokemon",
+    "japanese_candidate": "ワルビアル",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F48620",
+    "english_term": "Dig",
+    "type": "move",
+    "japanese_candidate": "あなをほる",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F48724",
+    "english_term": "Hoenn",
+    "type": "region",
+    "japanese_candidate": "ホウエン",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F48FD2",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49172",
+    "english_term": "Gastrodon",
+    "type": "pokemon",
+    "japanese_candidate": "トリトドン",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49172",
+    "english_term": "Earth Power",
+    "type": "move",
+    "japanese_candidate": "だいちのちから",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49193",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4921C",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49319",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49330",
+    "english_term": "Gastrodon",
+    "type": "pokemon",
+    "japanese_candidate": "トリトドン",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49330",
+    "english_term": "Sticky Hold",
+    "type": "ability",
+    "japanese_candidate": "ねんちゃく",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49366",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4941B",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49621",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F496EF",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4971E",
+    "english_term": "Rayquaza",
+    "type": "pokemon",
+    "japanese_candidate": "レックウザ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49748",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4983D",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49935",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49D19",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F49D19",
+    "english_term": "Houndoom",
+    "type": "pokemon",
+    "japanese_candidate": "ヘルガー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4A10F",
+    "english_term": "Staraptor",
+    "type": "pokemon",
+    "japanese_candidate": "ムクホーク",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4A196",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4A875",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4AD47",
+    "english_term": "Hoopa",
+    "type": "pokemon",
+    "japanese_candidate": "フーパ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F4BDA6",
+    "english_term": "Battle Frontier",
+    "type": "facility",
+    "japanese_candidate": "バトルフロンティア",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F4C192",
+    "english_term": "Battle Frontier",
+    "type": "facility",
+    "japanese_candidate": "バトルフロンティア",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F4EC02",
+    "english_term": "Pokémon Wireless Club",
+    "type": "facility",
+    "japanese_candidate": "ポケモン つうしんクラブ",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57497",
+    "english_term": "Rock Climb",
+    "type": "move",
+    "japanese_candidate": "ロッククライム",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57497",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F574FD",
+    "english_term": "Cut",
+    "type": "move",
+    "japanese_candidate": "いあいぎり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F574FD",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F5755D",
+    "english_term": "Cut",
+    "type": "move",
+    "japanese_candidate": "いあいぎり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F5755D",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F575B8",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F5761C",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57675",
+    "english_term": "Rock Smash",
+    "type": "move",
+    "japanese_candidate": "いわくだき",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57675",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F576D3",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F5771F",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57777",
+    "english_term": "Surf",
+    "type": "move",
+    "japanese_candidate": "なみのり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57777",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F577D2",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57826",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57826",
+    "english_term": "Hiker",
+    "type": "trainer_class",
+    "japanese_candidate": "やまおとこ",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F5787F",
+    "english_term": "Rock Climb",
+    "type": "move",
+    "japanese_candidate": "ロッククライム",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F5787F",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F578DB",
+    "english_term": "Rock Climb",
+    "type": "move",
+    "japanese_candidate": "ロッククライム",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57925",
+    "english_term": "Rock Climb",
+    "type": "move",
+    "japanese_candidate": "ロッククライム",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57925",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57988",
+    "english_term": "Surf",
+    "type": "move",
+    "japanese_candidate": "なみのり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57988",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F579E4",
+    "english_term": "Cut",
+    "type": "move",
+    "japanese_candidate": "いあいぎり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F579E4",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57A38",
+    "english_term": "Surf",
+    "type": "move",
+    "japanese_candidate": "なみのり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57A38",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57A95",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57AF4",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F57B53",
+    "english_term": "Surf",
+    "type": "move",
+    "japanese_candidate": "なみのり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F57B53",
+    "english_term": "Hidden Grotto",
+    "type": "feature",
+    "japanese_candidate": "かくしあな",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F69F58",
+    "english_term": "Seagallop Hi-Speed",
+    "type": "facility",
+    "japanese_candidate": "シーギャロップ こうそくせん",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1EE71A0",
+    "english_term": "Wingull",
+    "type": "pokemon",
+    "japanese_candidate": "キャモメ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EE71A0",
+    "english_term": "Pelipper",
+    "type": "pokemon",
+    "japanese_candidate": "ペリッパー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EE71A0",
+    "english_term": "Pretty Wings",
+    "type": "item",
+    "japanese_candidate": "きれいなハネ",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA8A9",
+    "english_term": "Pecha Berry",
+    "type": "item",
+    "japanese_candidate": "モモンのみ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA8A9",
+    "english_term": "Qualot Berry",
+    "type": "item",
+    "japanese_candidate": "タポルのみ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA8A9",
+    "english_term": "Fresh Water",
+    "type": "item",
+    "japanese_candidate": "おいしいみず",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA909",
+    "english_term": "Rawst Berries",
+    "type": "item",
+    "japanese_candidate": "チーゴのみ",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA909",
+    "english_term": "Belue Berries",
+    "type": "item",
+    "japanese_candidate": "ベリブのみ",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA909",
+    "english_term": "Watmel Berries",
+    "type": "item",
+    "japanese_candidate": "スイカのみ",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1EEA909",
+    "english_term": "Moomoo Milks",
+    "type": "item",
+    "japanese_candidate": "モーモーミルク",
+    "needs_pokeapi_verification": true,
+    "reason": "複数形の英語。PokeAPIの単数形と一致させるかどうかの判断が必要。"
+  },
+  {
+    "entry_id": "scr_1EF1137",
+    "english_term": "Drifloon",
+    "type": "pokemon",
+    "japanese_candidate": "フワンテ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EF7E52",
+    "english_term": "Incense",
+    "type": "item",
+    "japanese_candidate": "おこう",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EFA8A1",
+    "english_term": "Pyukumuku",
+    "type": "pokemon",
+    "japanese_candidate": "ナマコブシ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1EFA8B3",
+    "english_term": "Pyukumuku",
+    "type": "pokemon",
+    "japanese_candidate": "ナマコブシ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F0784D",
+    "english_term": "Butterfree",
+    "type": "pokemon",
+    "japanese_candidate": "バタフリー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F07861",
+    "english_term": "Butterfree",
+    "type": "pokemon",
+    "japanese_candidate": "バタフリー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F0A079",
+    "english_term": "Honey",
+    "type": "item",
+    "japanese_candidate": "あまいミツ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F0A086",
+    "english_term": "Honey",
+    "type": "item",
+    "japanese_candidate": "あまいミツ",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F0CA95",
+    "english_term": "Antidote",
+    "type": "item",
+    "japanese_candidate": "どくけし",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F1425C",
+    "english_term": "Hard Stone",
+    "type": "item",
+    "japanese_candidate": "かたいいし",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F23189",
+    "english_term": "National Pokédex",
+    "type": "feature",
+    "japanese_candidate": "ぜんこくずかん",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F260AE",
+    "english_term": "Safari Zone",
+    "type": "facility",
+    "japanese_candidate": "サファリゾーン",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F26B63",
+    "english_term": "Vivillon",
+    "type": "pokemon",
+    "japanese_candidate": "ビビヨン",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00013_1F56374",
+    "english_term": "Rock Smash",
+    "type": "move",
+    "japanese_candidate": "いわくだき",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00013_1F56374",
+    "english_term": "Cut",
+    "type": "move",
+    "japanese_candidate": "いあいぎり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00020_1F564D8",
+    "english_term": "Mega Evolution",
+    "type": "feature",
+    "japanese_candidate": "メガシンカ",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00022_1F56532",
+    "english_term": "Strength",
+    "type": "move",
+    "japanese_candidate": "かいりき",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00023_1F5655B",
+    "english_term": "Zapdos",
+    "type": "pokemon",
+    "japanese_candidate": "サンダー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00033_1F56736",
+    "english_term": "Go-Goggles",
+    "type": "item",
+    "japanese_candidate": "ゴーゴーゴーグル",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_mission_objectives_00033_1F56736",
+    "english_term": "Hiker",
+    "type": "trainer_class",
+    "japanese_candidate": "やまおとこ",
+    "needs_pokeapi_verification": false,
+    "reason": "シリーズの呼び方にならった。PokeAPIの対象外なので、プロジェクト表記として確認が必要。"
+  },
+  {
+    "entry_id": "scr_1F5949B",
+    "english_term": "Magikarp",
+    "type": "pokemon",
+    "japanese_candidate": "コイキング",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "scr_1F6A020",
+    "english_term": "Sharpedo",
+    "type": "pokemon",
+    "japanese_candidate": "サメハダー",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00054_3FB9D9",
+    "english_term": "Safeguard",
+    "type": "move",
+    "japanese_candidate": "しんぴのまもり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  },
+  {
+    "entry_id": "tbl_battle_messages_00055_3FB9FF",
+    "english_term": "Safeguard",
+    "type": "move",
+    "japanese_candidate": "しんぴのまもり",
+    "needs_pokeapi_verification": true,
+    "reason": "入力にofficial_termsが無いので、記憶による仮の名前。PokeAPI ja-hrktとの照合が必要。"
+  }
+]

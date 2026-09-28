@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "count": 36,
+    "focus_counts": {
+      "Menu/UI label": 8,
+      "PokeAPI official name/description": 5,
+      "approved glossary scope": 4,
+      "FE page/line boundaries": 8,
+      "long Japanese text": 3,
+      "vetted relocation": 4,
+      "multiple pointer owners": 2,
+      "other safe entry": 2
+    },
+    "mGBA_result": "not_run"
+  },
+  "entries": [
+    {
+      "priority": 1,
+      "id": "tbl_menu_trainer_card_00005_1F81E66",
+      "category": "menu_trainer_card",
+      "original": "\"Adventure Started\"",
+      "expected_japanese": "[japanese]ぼうけんを はじめた ひ[latin]",
+      "rom_offset": "0x01F81E66",
+      "gba_address": "0x09F81E66",
+      "pointer_owners": [
+        "0x1ED8EC4"
+      ],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 2,
+      "id": "tbl_menu_trainer_card_00006_1F81E78",
+      "category": "menu_trainer_card",
+      "original": "\"Hall of Fame Debut\"",
+      "expected_japanese": "[japanese]でんどういりした ひ[latin]",
+      "rom_offset": "0x01F81E78",
+      "gba_address": "0x09F81E78",
+      "pointer_owners": [
+        "0x1ED9108"
+      ],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 3,
+      "id": "tbl_menu_trainer_card_00007_1F81E8B",
+      "category": "menu_trainer_card",
+      "original": "\"Missions Completed\"",
+      "expected_japanese": "[japanese]クリアしたミッション[latin]",
+      "rom_offset": "0x01F81E8B",
+      "gba_address": "0x09F81E8B",
+      "pointer_owners": [
+        "0x1ED9128"
+      ],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 4,
+      "id": "tbl_menu_trainer_card_00008_1F81E9E",
+      "category": "menu_trainer_card",
+      "original": "\"Jan. \"",
+      "expected_japanese": "[japanese]1がつ [latin]",
+      "rom_offset": "0x01F81E9E",
+      "gba_address": "0x09F81E9E",
+      "pointer_owners": [
+        "0x1FE6BFC"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 5,
+      "id": "tbl_menu_trainer_card_00009_1F81EA4",
+      "category": "menu_trainer_card",
+      "original": "\"Feb. \"",
+      "expected_japanese": "[japanese]2がつ [latin]",
+      "rom_offset": "0x01F81EA4",
+      "gba_address": "0x09F81EA4",
+      "pointer_owners": [
+        "0x1FE6C00"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 6,
+      "id": "tbl_menu_battle_00002_1F941AE",
+      "category": "menu_battle",
+      "original": "\"Party\"",
+      "expected_japanese": "[japanese]パーティ[latin]",
+      "rom_offset": "0x01F941AE",
+      "gba_address": "0x09F941AE",
+      "pointer_owners": [
+        "0x1FB1DDC"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 7,
+      "id": "tbl_menu_battle_00003_1F941B4",
+      "category": "menu_battle",
+      "original": "\"Team \"",
+      "expected_japanese": "[japanese]チーム [latin]",
+      "rom_offset": "0x01F941B4",
+      "gba_address": "0x09F941B4",
+      "pointer_owners": [
+        "0x1EB72CC"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 8,
+      "id": "tbl_menu_battle_00009_1F941FF",
+      "category": "menu_battle",
+      "original": "\"Pokemon Level\"",
+      "expected_japanese": "[japanese]ポケモンの レベル[latin]",
+      "rom_offset": "0x01F941FF",
+      "gba_address": "0x09F941FF",
+      "pointer_owners": [
+        "0x1E9FB59",
+        "0x1EA0B1C",
+        "0x1FB31F4"
+      ],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "Menu/UI label",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 9,
+      "id": "tbl_pokedex_descriptions_00008_444FE7",
+      "category": "pokedex_descriptions",
+      "original": "\"The rocket cannons on its shell fire\njets of water capable of punching holes\nthrough thick steel.\"",
+      "expected_japanese": "[japanese]こうらの ロケットほう から\nふきだした ジェットすいりゅうは\nぶあつい てっぱんも つらぬく。[latin]",
+      "rom_offset": "0x00444FE7",
+      "gba_address": "0x08444FE7",
+      "pointer_owners": [
+        "0x1A35920"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "PokeAPI official name/description",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 10,
+      "id": "tbl_nature_names_00017_463E2A",
+      "category": "nature_names",
+      "original": "\"Quiet\"",
+      "expected_japanese": "[japanese]れいせい[latin]",
+      "rom_offset": "0x00463E2A",
+      "gba_address": "0x08463E2A",
+      "pointer_owners": [
+        "0x463EA4",
+        "0x1FE6638"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "PokeAPI official name/description",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 11,
+      "id": "tbl_nature_names_00018_463E30",
+      "category": "nature_names",
+      "original": "\"Bashful\"",
+      "expected_japanese": "[japanese]てれや[latin]",
+      "rom_offset": "0x00463E30",
+      "gba_address": "0x08463E30",
+      "pointer_owners": [
+        "0x463EA8",
+        "0x1FE663C"
+      ],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "PokeAPI official name/description",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 12,
+      "id": "tbl_nature_names_00019_463E38",
+      "category": "nature_names",
+      "original": "\"Rash\"",
+      "expected_japanese": "[japanese]うっかりや[latin]",
+      "rom_offset": "0x00463E38",
+      "gba_address": "0x08463E38",
+      "pointer_owners": [
+        "0x463EAC",
+        "0x1FE6640"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "PokeAPI official name/description",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 13,
+      "id": "tbl_nature_names_00020_463E3D",
+      "category": "nature_names",
+      "original": "\"Calm\"",
+      "expected_japanese": "[japanese]おだやか[latin]",
+      "rom_offset": "0x00463E3D",
+      "gba_address": "0x08463E3D",
+      "pointer_owners": [
+        "0x463EB0",
+        "0x1FE6644"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "PokeAPI official name/description",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 14,
+      "id": "tbl_trainer_names_00006_23EBBC",
+      "category": "trainer_names",
+      "original": "\"Mirskle\"",
+      "expected_japanese": "[japanese]ミルスクル[latin]",
+      "rom_offset": "0x0023EBBC",
+      "gba_address": "0x0823EBBC",
+      "pointer_owners": [],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "approved glossary scope",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 15,
+      "id": "tbl_trainer_names_00020_23EDEC",
+      "category": "trainer_names",
+      "original": "\"Alice\"",
+      "expected_japanese": "[japanese]アリス[latin]",
+      "rom_offset": "0x0023EDEC",
+      "gba_address": "0x0823EDEC",
+      "pointer_owners": [],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "approved glossary scope",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 16,
+      "id": "tbl_trainer_names_00025_23EEB4",
+      "category": "trainer_names",
+      "original": "\"Marlon\"",
+      "expected_japanese": "[japanese]マーロン[latin]",
+      "rom_offset": "0x0023EEB4",
+      "gba_address": "0x0823EEB4",
+      "pointer_owners": [],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "approved glossary scope",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 17,
+      "id": "tbl_trainer_names_00026_23EEDC",
+      "category": "trainer_names",
+      "original": "\"Ivory\"",
+      "expected_japanese": "[japanese]アイボリー[latin]",
+      "rom_offset": "0x0023EEDC",
+      "gba_address": "0x0823EEDC",
+      "pointer_owners": [],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "approved glossary scope",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 18,
+      "id": "tbl_move_descriptions_00007_A37C6F",
+      "category": "move_descriptions",
+      "original": "\"The foe is punched\nwith an icy fist.\nIt may leave the\nfoe with frostbite.\"",
+      "expected_japanese": "[japanese]あいてを\nつめたいこぶしでなぐる。\nあいてをしもやけに\nすることがある。[latin]",
+      "rom_offset": "0x00A37C6F",
+      "gba_address": "0x08A37C6F",
+      "pointer_owners": [
+        "0x99F1B0"
+      ],
+      "controls": {
+        "FE": 3
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 19,
+      "id": "tbl_move_descriptions_00017_482C89",
+      "category": "move_descriptions",
+      "original": "\"The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.\"",
+      "expected_japanese": "[japanese]てきを なかまと\nこうたいさせる。 やせいの\nポケモンなら たたかいが\nおわる。[latin]",
+      "rom_offset": "0x00482C89",
+      "gba_address": "0x08482C89",
+      "pointer_owners": [
+        "0x99F1D8",
+        "0x904044"
+      ],
+      "controls": {
+        "FE": 3
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 20,
+      "id": "tbl_move_descriptions_00045_4833DC",
+      "category": "move_descriptions",
+      "original": "\"The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.\"",
+      "expected_japanese": "[japanese]あいてを\nなかまとこうたいさせる。\nやせいのポケモンなら\nたたかいはおわる。[latin]",
+      "rom_offset": "0x004833DC",
+      "gba_address": "0x084833DC",
+      "pointer_owners": [
+        "0x99F248",
+        "0x9040B4",
+        "0x9046EC",
+        "0x9046F0",
+        "0x879470"
+      ],
+      "controls": {
+        "FE": 3
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 21,
+      "id": "tbl_item_descriptions_00004_3D60FC",
+      "category": "item_descriptions",
+      "original": "\"Raises the Defense stat of Pokémon\nin battle. Wears off if the Pokémon\nis withdrawn.\"",
+      "expected_japanese": "[japanese]せんとうちゅうの ポケモンの\nぼうぎょを あげる。ポケモンを\nもどすと こうかが きえる。[latin]",
+      "rom_offset": "0x003D60FC",
+      "gba_address": "0x083D60FC",
+      "pointer_owners": [
+        "0x3DBD4C"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 22,
+      "id": "tbl_item_descriptions_00005_3D6151",
+      "category": "item_descriptions",
+      "original": "\"Raises the Speed stat of Pokémon\nin battle. Wears off if the Pokémon\nis withdrawn.\"",
+      "expected_japanese": "[japanese]せんとうちゅうの ポケモンの\nすばやさを あげる。ポケモンを\nもどすと こうかが きえる。[latin]",
+      "rom_offset": "0x003D6151",
+      "gba_address": "0x083D6151",
+      "pointer_owners": [
+        "0x3DBD78"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 23,
+      "id": "tbl_item_descriptions_00006_3D5077",
+      "category": "item_descriptions",
+      "original": "\"A somewhat different Ball that\nworks especially well on Water- and\nBug-type Pokémon.\"",
+      "expected_japanese": "[japanese]みずタイプとむしタイプの\nポケモンに、とくにこうかてきな\nちょっとかわったボール。[latin]",
+      "rom_offset": "0x003D5077",
+      "gba_address": "0x083D5077",
+      "pointer_owners": [
+        "0x87631C"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 24,
+      "id": "tbl_item_descriptions_00007_3D50CC",
+      "category": "item_descriptions",
+      "original": "\"A somewhat different Ball that\nworks especially well on Pokémon\ndeep in the sea.\"",
+      "expected_japanese": "[japanese]うみのふかいばしょにいる\nポケモンに、とくにこうかてきな\nちょっとかわったボール。[latin]",
+      "rom_offset": "0x003D50CC",
+      "gba_address": "0x083D50CC",
+      "pointer_owners": [
+        "0x876348"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 25,
+      "id": "tbl_item_descriptions_00007_3D61FA",
+      "category": "item_descriptions",
+      "original": "\"Raises the Sp. Atk stat of\nPokémon in battle. Wears off if the\nPokémon is withdrawn.\"",
+      "expected_japanese": "[japanese]せんとうちゅうの ポケモンの\nとくこうを あげる。ポケモンを\nもどすと こうかが きえる。[latin]",
+      "rom_offset": "0x003D61FA",
+      "gba_address": "0x083D61FA",
+      "pointer_owners": [
+        "0x3DBDD0"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "FE page/line boundaries",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 26,
+      "id": "tbl_item_descriptions_00024_3D5598",
+      "category": "item_descriptions",
+      "original": "\"A medicine that revives a fainted\nPokémon, restoring HP by half the\nmaximum amount.\"",
+      "expected_japanese": "[japanese]ひんしに なった ポケモンを\nさいだい HPの はんぶんの\nHPで いきかえらせる くすり。[latin]",
+      "rom_offset": "0x003D5598",
+      "gba_address": "0x083D5598",
+      "pointer_owners": [
+        "0x876634"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "long Japanese text",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 27,
+      "id": "tbl_item_descriptions_00023_3D5550",
+      "category": "item_descriptions",
+      "original": "\"A spray-type medicine.\nIt heals all the status problems of\none Pokémon.\"",
+      "expected_japanese": "[japanese]スプレータイプの くすり。\nポケモン いっぴきの じょうたい\nいじょうを すべて なおす。[latin]",
+      "rom_offset": "0x003D5550",
+      "gba_address": "0x083D5550",
+      "pointer_owners": [
+        "0x876608"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "long Japanese text",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 28,
+      "id": "tbl_item_descriptions_00021_3D54B5",
+      "category": "item_descriptions",
+      "original": "\"A spray-type wound medicine.\nIt restores the HP of one Pokémon\nby 200 points.\"",
+      "expected_japanese": "[japanese]スプレータイプの きずぐすり。\nポケモン いっぴきの HPを\n200だけ かいふくする。[latin]",
+      "rom_offset": "0x003D54B5",
+      "gba_address": "0x083D54B5",
+      "pointer_owners": [
+        "0x8765B0"
+      ],
+      "controls": {
+        "FE": 2
+      },
+      "placement": "in_place",
+      "focus": "long Japanese text",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 29,
+      "id": "tbl_menu_battle_00010_1F9420D",
+      "category": "menu_battle",
+      "original": "\"Party Sizes\"",
+      "expected_japanese": "[japanese]パーティの にんずう[latin]",
+      "rom_offset": "0x01F9420D",
+      "gba_address": "0x09F9420D",
+      "pointer_owners": [
+        "0x1EA0970",
+        "0x1EA4365"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "vetted relocation",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 30,
+      "id": "tbl_menu_battle_00011_1F94219",
+      "category": "menu_battle",
+      "original": "\"Party Size\"",
+      "expected_japanese": "[japanese]パーティの にんずう[latin]",
+      "rom_offset": "0x01F94219",
+      "gba_address": "0x09F94219",
+      "pointer_owners": [
+        "0x1EA0B2A",
+        "0x1FB31F8"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "vetted relocation",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 31,
+      "id": "tbl_menu_battle_00015_1F94252",
+      "category": "menu_battle",
+      "original": "\"Standard\"",
+      "expected_japanese": "[japanese]スタンダード[latin]",
+      "rom_offset": "0x01F94252",
+      "gba_address": "0x09F94252",
+      "pointer_owners": [
+        "0x1FB2C78",
+        "0x1FB320C",
+        "0x1FB3248",
+        "0x1FB326C"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "vetted relocation",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 32,
+      "id": "tbl_map_names_00012_3EED9B",
+      "category": "map_names",
+      "original": "\"Route 10\"",
+      "expected_japanese": "[japanese]10ばんどうろ[latin]",
+      "rom_offset": "0x003EED9B",
+      "gba_address": "0x083EED9B",
+      "pointer_owners": [
+        "0x3F1CDC"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "vetted relocation",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 33,
+      "id": "tbl_trade_messages_00001_4171CC",
+      "category": "trade_messages",
+      "original": "\"That isn’t an Egg.\"",
+      "expected_japanese": "[japanese]それは タマゴでは ありません。[latin]",
+      "rom_offset": "0x004171CC",
+      "gba_address": "0x084171CC",
+      "pointer_owners": [
+        "0x45A7EC",
+        "0x820E24"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "multiple pointer owners",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 34,
+      "id": "tbl_nature_names_00021_463E42",
+      "category": "nature_names",
+      "original": "\"Gentle\"",
+      "expected_japanese": "[japanese]おとなしい[latin]",
+      "rom_offset": "0x00463E42",
+      "gba_address": "0x08463E42",
+      "pointer_owners": [
+        "0x463EB4",
+        "0x1FE6648"
+      ],
+      "controls": {},
+      "placement": "relocated",
+      "focus": "multiple pointer owners",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 35,
+      "id": "tbl_menu_battle_00016_1F9425B",
+      "category": "menu_battle",
+      "original": "\"No Restrictions\"",
+      "expected_japanese": "[japanese]せいげんなし[latin]",
+      "rom_offset": "0x01F9425B",
+      "gba_address": "0x09F9425B",
+      "pointer_owners": [
+        "0x1FB2C7C",
+        "0x1FB3210",
+        "0x1FB3270",
+        "0x1FB39FC"
+      ],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "other safe entry",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 36,
+      "id": "tbl_trainer_names_00007_23EBE4",
+      "category": "trainer_names",
+      "original": "\"Mathis\"",
+      "expected_japanese": "[japanese]マティス[latin]",
+      "rom_offset": "0x0023EBE4",
+      "gba_address": "0x0823EBE4",
+      "pointer_owners": [],
+      "controls": {},
+      "placement": "in_place",
+      "focus": "other safe entry",
+      "route": "Exact runtime caller not yet proved; use progressed save or trace",
+      "runtime_result": "not_human_tested"
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "metadata": {
+    "count": 36,
+    "focus_counts": {
+      "battle_message": 8,
+      "game_settings": 5,
+      "PC_and_item_storage": 4,
+      "Cube_menu": 3,
+      "list_choice": 3,
+      "PokeAPI_verified_name": 3,
+      "relocation_and_pointer": 4,
+      "short_slot": 2,
+      "held_English_dynamic_buffer": 2,
+      "other_menu": 2
+    },
+    "limitation": "Static ROM/pointer audit only; mGBA route and display not asserted"
+  },
+  "entries": [
+    {
+      "priority": 1,
+      "id": "tbl_battle_messages_00124_3FC090",
+      "category": "battle_messages",
+      "original": "\"Spikes were scattered all around\nthe opposing team!\"",
+      "expected_japanese": "[japanese]あいての まわりに まきびしが\nちらばった！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC090",
+      "gba_address": "0x083FC090",
+      "pointer_owners": [
+        "0x271AFC",
+        "0x3FE15C"
+      ],
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 2,
+      "id": "tbl_battle_messages_00167_3FC554",
+      "category": "battle_messages",
+      "original": "\"Electricity’s power was\nweakened!\"",
+      "expected_japanese": "[japanese]でんきの いりょくが\nよわまった![latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC554",
+      "gba_address": "0x083FC554",
+      "pointer_owners": [
+        "0x3FE3F8"
+      ],
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 3,
+      "id": "tbl_battle_messages_00168_3FC576",
+      "category": "battle_messages",
+      "original": "\"Fire’s power was\nweakened!\"",
+      "expected_japanese": "[japanese]ほのおの いりょくが\nよわまった！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC576",
+      "gba_address": "0x083FC576",
+      "pointer_owners": [
+        "0x3FE3FC"
+      ],
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 4,
+      "id": "tbl_battle_messages_00170_3FC5A2",
+      "category": "battle_messages",
+      "original": "\"A soothing aroma wafted\nthrough the area!\"",
+      "expected_japanese": "[japanese]やすらぎの かおりが あたりに\nただよった！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC5A2",
+      "gba_address": "0x083FC5A2",
+      "pointer_owners": [
+        "0x3FE414"
+      ],
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 5,
+      "id": "tbl_battle_messages_00171_3FC5CC",
+      "category": "battle_messages",
+      "original": "\"Items can’t be used now.\\CC0840\"",
+      "expected_japanese": "[japanese]いまは どうぐを つかえない。\\CC0840[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC5CC",
+      "gba_address": "0x083FC5CC",
+      "pointer_owners": [
+        "0x3FE418"
+      ],
+      "controls": {
+        "FC": 1,
+        "FC_08": 1
+      },
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 6,
+      "id": "tbl_battle_messages_00175_3FC646",
+      "category": "battle_messages",
+      "original": "\"The wall shattered!\"",
+      "expected_japanese": "[japanese]かべが くだけた！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC646",
+      "gba_address": "0x083FC646",
+      "pointer_owners": [
+        "0x3FE494",
+        "0xA0A518"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 7,
+      "id": "tbl_battle_messages_00176_3FC65A",
+      "category": "battle_messages",
+      "original": "\"But it had no effect!\"",
+      "expected_japanese": "[japanese]しかし こうかが なかった！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC65A",
+      "gba_address": "0x083FC65A",
+      "pointer_owners": [
+        "0x3FE4B0"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 8,
+      "id": "tbl_battle_messages_00211_3FC9E5",
+      "category": "battle_messages",
+      "original": "\"It sucked up the\nLiquid Ooze!\"",
+      "expected_japanese": "[japanese]ヘドロえきを すいとって\nしまった！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FC9E5",
+      "gba_address": "0x083FC9E5",
+      "pointer_owners": [
+        "0x3FE3F0"
+      ],
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "focus": "battle_message",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 9,
+      "id": "tbl_menu_game_settings_00016_75CE9A",
+      "category": "menu_game_settings",
+      "original": "\"Easy\"",
+      "expected_japanese": "[japanese]やさしい[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x0075CE9A",
+      "gba_address": "0x0875CE9A",
+      "pointer_owners": [
+        "0x75CD61"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "game_settings",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 10,
+      "id": "tbl_menu_game_settings_00017_75CEA6",
+      "category": "menu_game_settings",
+      "original": "\"Hard\"",
+      "expected_japanese": "[japanese]むずかしい[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x0075CEA6",
+      "gba_address": "0x0875CEA6",
+      "pointer_owners": [
+        "0x75CDAF"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "game_settings",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 11,
+      "id": "tbl_menu_game_settings_00000_1F4DA6C",
+      "category": "menu_game_settings",
+      "original": "\"None\"",
+      "expected_japanese": "[japanese]なし[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x01F4DA6C",
+      "gba_address": "0x09F4DA6C",
+      "pointer_owners": [
+        "0x1EBC424",
+        "0x1ED46A8"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "game_settings",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 12,
+      "id": "tbl_menu_game_settings_00002_1F4DC2A",
+      "category": "menu_game_settings",
+      "original": "\"By Name\"",
+      "expected_japanese": "[japanese]なまえじゅん[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x01F4DC2A",
+      "gba_address": "0x09F4DC2A",
+      "pointer_owners": [
+        "0x1FB3A40"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "game_settings",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 13,
+      "id": "tbl_menu_game_settings_00003_1F4DC32",
+      "category": "menu_game_settings",
+      "original": "\"By Type\"",
+      "expected_japanese": "[japanese]タイプじゅん[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x01F4DC32",
+      "gba_address": "0x09F4DC32",
+      "pointer_owners": [
+        "0x1FB3A44"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "game_settings",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 14,
+      "id": "tbl_menu_item_storage_00000_41772A",
+      "category": "menu_item_storage",
+      "original": "\"Store items in the PC.\"",
+      "expected_japanese": "[japanese]パソコンにどうぐをあずける。[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x0041772A",
+      "gba_address": "0x0841772A",
+      "pointer_owners": [
+        "0x4021E0"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "PC_and_item_storage",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 15,
+      "id": "tbl_menu_item_storage_00001_417741",
+      "category": "menu_item_storage",
+      "original": "\"Take out items from the PC.\"",
+      "expected_japanese": "[japanese]パソコンからどうぐをとりだす。[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00417741",
+      "gba_address": "0x08417741",
+      "pointer_owners": [
+        "0x4021DC"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "PC_and_item_storage",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 16,
+      "id": "tbl_menu_item_storage_00006_4177D8",
+      "category": "menu_item_storage",
+      "original": "\"Read\"",
+      "expected_japanese": "[japanese]よむ[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x004177D8",
+      "gba_address": "0x084177D8",
+      "pointer_owners": [
+        "0x402228"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "PC_and_item_storage",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 17,
+      "id": "tbl_menu_item_storage_00008_4177E9",
+      "category": "menu_item_storage",
+      "original": "\"Give\"",
+      "expected_japanese": "[japanese]もたせる[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x004177E9",
+      "gba_address": "0x084177E9",
+      "pointer_owners": [
+        "0x402238"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "PC_and_item_storage",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 18,
+      "id": "tbl_menu_cube_system_00000_A4E047",
+      "category": "menu_cube_system",
+      "original": "\"Sort this pocket’s\nitems how?\"",
+      "expected_japanese": "[japanese]このポケットの どうぐを どのように\nならべる？[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00A4E047",
+      "gba_address": "0x08A4E047",
+      "pointer_owners": [
+        "0x9F4880"
+      ],
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "focus": "Cube_menu",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 19,
+      "id": "tbl_menu_cube_system_00001_A4E065",
+      "category": "menu_cube_system",
+      "original": "\"Type\"",
+      "expected_japanese": "[japanese]しゅるい[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00A4E065",
+      "gba_address": "0x08A4E065",
+      "pointer_owners": [
+        "0xA6BACC"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "Cube_menu",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 20,
+      "id": "tbl_menu_cube_system_00002_A4E06A",
+      "category": "menu_cube_system",
+      "original": "\"Name\"",
+      "expected_japanese": "[japanese]なまえ[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00A4E06A",
+      "gba_address": "0x08A4E06A",
+      "pointer_owners": [
+        "0xA6BAC4"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "Cube_menu",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 21,
+      "id": "tbl_menu_list_labels_00007_41790C",
+      "category": "menu_list_labels",
+      "original": "\"PSN\"",
+      "expected_japanese": "[japanese]どく[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x0041790C",
+      "gba_address": "0x0841790C",
+      "pointer_owners": [
+        "0x3DFE20"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "list_choice",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 22,
+      "id": "tbl_menu_list_labels_00008_417910",
+      "category": "menu_list_labels",
+      "original": "\"PAR\"",
+      "expected_japanese": "[japanese]まひ[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00417910",
+      "gba_address": "0x08417910",
+      "pointer_owners": [
+        "0x3DFE28"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "list_choice",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 23,
+      "id": "tbl_menu_list_labels_00009_417914",
+      "category": "menu_list_labels",
+      "original": "\"SLP\"",
+      "expected_japanese": "[japanese]ねむり[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00417914",
+      "gba_address": "0x08417914",
+      "pointer_owners": [
+        "0x3DFE18"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "list_choice",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 24,
+      "id": "tbl_battle_messages_00259_3FCE38",
+      "category": "battle_messages",
+      "original": "\"The Mirror Move failed!\"",
+      "expected_japanese": "[japanese]オウムがえしは しっぱいした![latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCE38",
+      "gba_address": "0x083FCE38",
+      "pointer_owners": [
+        "0x3FE2A8"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "PokeAPI_verified_name",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 25,
+      "id": "tbl_menu_list_labels_00033_417A42",
+      "category": "menu_list_labels",
+      "original": "\"TM13\\CC1348\\CC06004,000 COINS\"",
+      "expected_japanese": "[japanese]わざマシン13\\CC1348\\CC06004,000コイン[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00417A42",
+      "gba_address": "0x08417A42",
+      "pointer_owners": [
+        "0x3DFF50"
+      ],
+      "controls": {
+        "FC": 2,
+        "FC_06": 1,
+        "FC_13": 1
+      },
+      "buffers": [],
+      "focus": "PokeAPI_verified_name",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 26,
+      "id": "tbl_menu_list_labels_00034_417A58",
+      "category": "menu_list_labels",
+      "original": "\"TM23\\CC1348\\CC06003,500 COINS\"",
+      "expected_japanese": "[japanese]わざマシン23\\CC1348\\CC06003,500コイン[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00417A58",
+      "gba_address": "0x08417A58",
+      "pointer_owners": [
+        "0x3DFF58"
+      ],
+      "controls": {
+        "FC": 2,
+        "FC_06": 1,
+        "FC_13": 1
+      },
+      "buffers": [],
+      "focus": "PokeAPI_verified_name",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 27,
+      "id": "tbl_battle_messages_00224_3FCB41",
+      "category": "battle_messages",
+      "original": "\"sharply \"",
+      "expected_japanese": "[japanese] ぐーんと[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCB41",
+      "gba_address": "0x083FCB41",
+      "pointer_owners": [
+        "0x3FE250"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "relocation_and_pointer",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 28,
+      "id": "tbl_battle_messages_00225_3FCB4A",
+      "category": "battle_messages",
+      "original": "\"rose!\"",
+      "expected_japanese": "[japanese]あがった![latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCB4A",
+      "gba_address": "0x083FCB4A",
+      "pointer_owners": [
+        "0x42D9C",
+        "0x3FE254"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "relocation_and_pointer",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 29,
+      "id": "tbl_battle_messages_00226_3FCB50",
+      "category": "battle_messages",
+      "original": "\"harshly \"",
+      "expected_japanese": "[japanese] がくっと[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCB50",
+      "gba_address": "0x083FCB50",
+      "pointer_owners": [
+        "0x3FE258"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "relocation_and_pointer",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 30,
+      "id": "tbl_battle_messages_00227_3FCB59",
+      "category": "battle_messages",
+      "original": "\"fell!\"",
+      "expected_japanese": "[japanese]さがった![latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCB59",
+      "gba_address": "0x083FCB59",
+      "pointer_owners": [
+        "0x3FE25C"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "relocation_and_pointer",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 31,
+      "id": "tbl_menu_common_00000_41617A",
+      "category": "menu_common",
+      "original": "\"Player\"",
+      "expected_japanese": "[japanese]プレイヤー[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x0041617A",
+      "gba_address": "0x0841617A",
+      "pointer_owners": [
+        "0x6FE6C",
+        "0x1EB6204"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "short_slot",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 32,
+      "id": "tbl_menu_common_00001_416181",
+      "category": "menu_common",
+      "original": "\"Badges\"",
+      "expected_japanese": "[japanese]バッジ[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x00416181",
+      "gba_address": "0x08416181",
+      "pointer_owners": [
+        "0x6FE70",
+        "0x1EB620C"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "short_slot",
+      "placement": "relocated",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 33,
+      "id": "tbl_battle_messages_00062_3FBAB2",
+      "category": "battle_messages",
+      "original": "\"\\\\0F flew\nup high!\"",
+      "expected_japanese": null,
+      "expected_display": "English (held)",
+      "rom_offset": "0x003FBAB2",
+      "gba_address": "0x083FBAB2",
+      "pointer_owners": [
+        "0x3FE06C"
+      ],
+      "controls": {
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "\\\\0F"
+      ],
+      "focus": "held_English_dynamic_buffer",
+      "placement": "held",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 34,
+      "id": "tbl_battle_messages_00063_3FBAC3",
+      "category": "battle_messages",
+      "original": "\"\\\\0F dug a hole!\"",
+      "expected_japanese": null,
+      "expected_display": "English (held)",
+      "rom_offset": "0x003FBAC3",
+      "gba_address": "0x083FBAC3",
+      "pointer_owners": [
+        "0x3FE070"
+      ],
+      "controls": {
+        "FD": 1
+      },
+      "buffers": [
+        "\\\\0F"
+      ],
+      "focus": "held_English_dynamic_buffer",
+      "placement": "held",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 35,
+      "id": "tbl_battle_messages_00223_3FCB26",
+      "category": "battle_messages",
+      "original": "\"Ghost: Get out\\.\\. Get out\\.\\.\"",
+      "expected_japanese": "[japanese]ゴースト:でていけ\\.\\. でていけ\\.\\.[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCB26",
+      "gba_address": "0x083FCB26",
+      "pointer_owners": [
+        "0x3FE4F8"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "other_menu",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 36,
+      "id": "tbl_battle_messages_00236_3FCBF4",
+      "category": "battle_messages",
+      "original": "\"It’s a one-hit KO!\"",
+      "expected_japanese": "[japanese]いちげき ひっさつ！[latin]",
+      "expected_display": "Japanese",
+      "rom_offset": "0x003FCBF4",
+      "gba_address": "0x083FCBF4",
+      "pointer_owners": [
+        "0x3FE274"
+      ],
+      "controls": {},
+      "buffers": [],
+      "focus": "other_menu",
+      "placement": "in_place",
+      "route": "Exact live caller/route not proved; identify screen with progressed save or runtime trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    }
+  ]
+}

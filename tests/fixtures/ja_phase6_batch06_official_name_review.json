@@ -1,0 +1,392 @@
+[
+  {
+    "entry_id": "tbl_menu_battle_00008_1F941F3",
+    "English term": "Battle Tier",
+    "type": "battle_ui",
+    "provisional Japanese": "バトルティア",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "menu_battle"
+  },
+  {
+    "entry_id": "tbl_menu_battle_00012_1F94224",
+    "English term": "Inverse Battle",
+    "type": "battle_ui",
+    "provisional Japanese": "インバースバトル",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "menu_battle"
+  },
+  {
+    "entry_id": "tbl_menu_battle_00017_1F9426B",
+    "English term": "Smogon OU",
+    "type": "battle_ui",
+    "provisional Japanese": "スモゴンオーユー",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "needs_context",
+    "source_category": "menu_battle"
+  },
+  {
+    "entry_id": "tbl_trainer_classes_00009_23E5CD",
+    "English term": "ACE TRAINER",
+    "type": "trainer_class",
+    "provisional Japanese": "エリートトレーナー",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_classes"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00014_23ECFC",
+    "English term": "Grunt",
+    "type": "person",
+    "provisional Japanese": "グラント",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "needs_context",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00018_23ED9C",
+    "English term": "Dilweed",
+    "type": "person",
+    "provisional Japanese": "ディルウィード",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00019_23EDC4",
+    "English term": "Bryce & Mag",
+    "type": "person",
+    "provisional Japanese": "ブライスとマグ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00021_23EE14",
+    "English term": "Jessica",
+    "type": "person",
+    "provisional Japanese": "ジェシカ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00022_23EE3C",
+    "English term": "Alan",
+    "type": "person",
+    "provisional Japanese": "アラン",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00023_23EE64",
+    "English term": "Grunt Test",
+    "type": "person",
+    "provisional Japanese": "グラントテスト",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_trainer_names_00024_23EE8C",
+    "English term": "Maxima",
+    "type": "person",
+    "provisional Japanese": "マキシマ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_names"
+  },
+  {
+    "entry_id": "tbl_item_descriptions_00005_3D501A",
+    "English term": "Safari Zone",
+    "type": "item_descriptions",
+    "provisional Japanese": "サファリゾーン",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_descriptions"
+  },
+  {
+    "entry_id": "tbl_habitat_names_00003_415E2D",
+    "English term": "Sea Pokémon",
+    "type": "habitat_classification",
+    "provisional Japanese": "うみのポケモン",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "needs_context",
+    "source_category": "habitat_names"
+  },
+  {
+    "entry_id": "tbl_habitat_names_00004_415E39",
+    "English term": "Cave Pokémon",
+    "type": "habitat_classification",
+    "provisional Japanese": "どうくつポケモン",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "needs_context",
+    "source_category": "habitat_names"
+  },
+  {
+    "entry_id": "tbl_habitat_names_00005_415E46",
+    "English term": "Mountain Pokémon",
+    "type": "habitat_classification",
+    "provisional Japanese": "やまのポケモン",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "needs_context",
+    "source_category": "habitat_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00046_8769E8",
+    "English term": "Sea Salt",
+    "type": "item",
+    "provisional Japanese": "シーソルト",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00047_876A14",
+    "English term": "Sea Shell",
+    "type": "item",
+    "provisional Japanese": "シーシェル",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_map_names_00016_B6FB10",
+    "English term": "Ruins of Void",
+    "type": "place",
+    "provisional Japanese": "くうのいせき",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "map_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00619_EB91F3",
+    "English term": "Ylw Nectar",
+    "type": "item",
+    "provisional Japanese": "きいろのみつ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00708_EB9247",
+    "English term": "Utility Parasol",
+    "type": "item",
+    "provisional Japanese": "べんりなひがさ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00726_EB92A1",
+    "English term": "Black Augurite",
+    "type": "item",
+    "provisional Japanese": "くろいこうせき",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00371_EB92CE",
+    "English term": "Catching Charm",
+    "type": "item",
+    "provisional Japanese": "ゆれないおまもり",
+    "needs_verification": true,
+    "reason": "PokeAPIキャッシュ値と既存glossaryが衝突。採用保留。",
+    "review_status": "needs_context",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00370_EB92ED",
+    "English term": "Glimmer Ticket",
+    "type": "item",
+    "provisional Japanese": "きらめきのチケット",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_item_names_00269_EB92FC",
+    "English term": "Braille Converter",
+    "type": "item",
+    "provisional Japanese": "てんじのへんかんき",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "item_names"
+  },
+  {
+    "entry_id": "tbl_pokemon_names_00029_166AACB",
+    "English term": "Nidoran[game-token-1]",
+    "type": "pokemon",
+    "provisional Japanese": "ニドラン\\sf",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokemon_names"
+  },
+  {
+    "entry_id": "tbl_pokemon_names_00032_166AAEC",
+    "English term": "Nidoran[game-token-1]",
+    "type": "pokemon",
+    "provisional Japanese": "ニドラン\\sm",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokemon_names"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00002_1A3585C",
+    "English term": "Lizard",
+    "type": "species_classification",
+    "provisional Japanese": "とかげ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00003_1A35880",
+    "English term": "Flame",
+    "type": "species_classification",
+    "provisional Japanese": "かえん",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00005_1A358C8",
+    "English term": "Tiny Turtle",
+    "type": "species_classification",
+    "provisional Japanese": "かめのこ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00006_1A358EC",
+    "English term": "Turtle",
+    "type": "species_classification",
+    "provisional Japanese": "かめ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00007_1A35910",
+    "English term": "Shellfish",
+    "type": "species_classification",
+    "provisional Japanese": "こうら",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00008_1A35934",
+    "English term": "Worm",
+    "type": "species_classification",
+    "provisional Japanese": "いもむし",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00009_1A35958",
+    "English term": "Cocoon",
+    "type": "species_classification",
+    "provisional Japanese": "さなぎ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00010_1A3597C",
+    "English term": "Butterfly",
+    "type": "species_classification",
+    "provisional Japanese": "ちょう",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00011_1A359A0",
+    "English term": "Hairy Bug",
+    "type": "species_classification",
+    "provisional Japanese": "けむし",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00012_1A359C4",
+    "English term": "Cocoon",
+    "type": "species_classification",
+    "provisional Japanese": "さなぎ",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00013_1A359E8",
+    "English term": "Poison Bee",
+    "type": "species_classification",
+    "provisional Japanese": "どくばち",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_pokedex_species_00014_1A35A0C",
+    "English term": "Tiny Bird",
+    "type": "species_classification",
+    "provisional Japanese": "ことり",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "pokedex_species"
+  },
+  {
+    "entry_id": "tbl_trainer_classes_00030_1F949EC",
+    "English term": "Frontier Brain",
+    "type": "trainer_class",
+    "provisional Japanese": "フロンティアのぬし",
+    "needs_verification": true,
+    "reason": "PokeAPIまたは作品内の公式表記を未照合。暫定訳を公式とは扱わない。",
+    "review_status": "confirmed",
+    "source_category": "trainer_classes"
+  }
+]

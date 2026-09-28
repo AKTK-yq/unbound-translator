@@ -1,0 +1,302 @@
+[
+  {
+    "source": "Random Double Battle",
+    "proposed_japanese": "ランダムダブルバトル",
+    "type": "term",
+    "reason": "対戦モード名として他の箇所でも使われる可能性があるため。",
+    "affected_entry_ids": [
+      "tbl_menu_battle_00000_1F94185"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Random Multi Battle",
+    "proposed_japanese": "ランダムマルチバトル",
+    "type": "term",
+    "reason": "対戦モード名として他の箇所でも使われる可能性があるため。",
+    "affected_entry_ids": [
+      "tbl_menu_battle_00001_1F9419A"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Battle Tier",
+    "proposed_japanese": "バトルティア",
+    "type": "term",
+    "reason": "対戦格付け関連の用語として今後も出現しうるため確定訳の統一が必要。",
+    "affected_entry_ids": [
+      "tbl_menu_battle_00008_1F941F3"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Smogon OU",
+    "proposed_japanese": "スモゴンオーユー",
+    "type": "proper_noun",
+    "reason": "対戦コミュニティ由来の階級名で、他バッチでも再出現する可能性があるため用語集候補とする。",
+    "affected_entry_ids": [
+      "tbl_menu_battle_00017_1F9426B"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Agent",
+    "proposed_japanese": "エージェント",
+    "type": "trainer_class",
+    "reason": "トレーナークラス名として繰り返し使用される可能性があるため用語集候補とする。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00003_23E57F"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Waiter",
+    "proposed_japanese": "ウエイター",
+    "type": "trainer_class",
+    "reason": "トレーナークラス名として繰り返し使用される可能性があるため用語集候補とする。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00004_23E58C"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Waitress",
+    "proposed_japanese": "ウエイトレス",
+    "type": "trainer_class",
+    "reason": "トレーナークラス名として繰り返し使用される可能性があるため用語集候補とする。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00005_23E599"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Interviewer",
+    "proposed_japanese": "インタビュアー",
+    "type": "trainer_class",
+    "reason": "トレーナークラス名として繰り返し使用される可能性があるため用語集候補とする。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00006_23E5A6"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Cyclist",
+    "proposed_japanese": "サイクリスト",
+    "type": "trainer_class",
+    "reason": "シリーズ既存作の公式訳（例:「サイクリング」）と異なる可能性があるため確認候補とする。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00007_23E5B3"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Idol",
+    "proposed_japanese": "アイドル",
+    "type": "trainer_class",
+    "reason": "トレーナークラス名として繰り返し使用される可能性があるため用語集候補とする。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00008_23E5C0"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Dilweed",
+    "proposed_japanese": "ディルウィード",
+    "type": "person",
+    "reason": "Claude暫定表記。人物同定・公式表記・scope未確認。",
+    "affected_entry_ids": [
+      "tbl_trainer_names_00018_23ED9C"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Bryce & Mag",
+    "proposed_japanese": "ブライスとマグ",
+    "type": "person",
+    "reason": "Claude暫定表記。人物同定・公式表記・scope未確認。",
+    "affected_entry_ids": [
+      "tbl_trainer_names_00019_23EDC4"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Jessica",
+    "proposed_japanese": "ジェシカ",
+    "type": "person",
+    "reason": "Claude暫定表記。人物同定・公式表記・scope未確認。",
+    "affected_entry_ids": [
+      "tbl_trainer_names_00021_23EE14"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Alan",
+    "proposed_japanese": "アラン",
+    "type": "person",
+    "reason": "Claude暫定表記。人物同定・公式表記・scope未確認。",
+    "affected_entry_ids": [
+      "tbl_trainer_names_00022_23EE3C"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Maxima",
+    "proposed_japanese": "マキシマ",
+    "type": "person",
+    "reason": "Claude暫定表記。人物同定・公式表記・scope未確認。",
+    "affected_entry_ids": [
+      "tbl_trainer_names_00024_23EE8C"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Sea Salt",
+    "proposed_japanese": "シーソルト",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00046_8769E8"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Sea Shell",
+    "proposed_japanese": "シーシェル",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00047_876A14"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Ruins of Void",
+    "proposed_japanese": "くうのいせき",
+    "type": "place_name",
+    "reason": "公式和名が未確認の地名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_map_names_00016_B6FB10"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": false,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Ylw Nectar",
+    "proposed_japanese": "きいろのみつ",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00619_EB91F3"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Utility Parasol",
+    "proposed_japanese": "べんりなひがさ",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00708_EB9247"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Black Augurite",
+    "proposed_japanese": "くろいこうせき",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00726_EB92A1"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Glimmer Ticket",
+    "proposed_japanese": "きらめきのチケット",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00370_EB92ED"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Braille Converter",
+    "proposed_japanese": "てんじのへんかんき",
+    "type": "item_name",
+    "reason": "公式和名が未確認のアイテム名のため用語集候補として提案。",
+    "affected_entry_ids": [
+      "tbl_item_names_00269_EB92FC"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Sinnoh Leader",
+    "proposed_japanese": "シンオウリーダー",
+    "type": "trainer_class",
+    "reason": "Unbound独自のトレーナークラス名。今後の一貫性のため用語集化を推奨。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00040_1EEA039"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  },
+  {
+    "source": "Science Society",
+    "proposed_japanese": "かがくかい",
+    "type": "trainer_class",
+    "reason": "Unbound独自のトレーナークラス名。今後の一貫性のため用語集化を推奨。",
+    "affected_entry_ids": [
+      "tbl_trainer_classes_00031_1FACB8D"
+    ],
+    "scope": "proposal_only_entry_scoped",
+    "official_verification_required": true,
+    "status": "proposal_only_not_approved"
+  }
+]

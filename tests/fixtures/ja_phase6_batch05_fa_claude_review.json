@@ -1,0 +1,134 @@
+[
+  {
+    "id": "tbl_battle_messages_00122_3FC048",
+    "source_control_structure": [
+      "FE",
+      "FA"
+    ],
+    "source_structure": [
+      {
+        "text": "\\\\0F cut its own HP",
+        "after_control": "FE"
+      },
+      {
+        "text": "and laid a Curse on",
+        "after_control": "FA"
+      },
+      {
+        "text": "\\\\10!",
+        "after_control": null
+      }
+    ],
+    "segment_count": 3,
+    "fa_count": 1,
+    "translated_segments": [
+      "",
+      "",
+      ""
+    ],
+    "semantic_status": "conflict",
+    "segment_conflict": true,
+    "context_hold": false,
+    "token_validation": "SOURCE_STRUCTURE_PRESERVED_TRANSLATION_HELD",
+    "notes": "バッファ \\0F/\\10 はポケモン名で安全だが、日本語の自然な語順は「\\10に のろいを かけた」であり、対象名 \\10 が第3セグメントに固定されているため、第2セグメントの動詞句（laid a Curse on）を FA 境界を越えて第3セグメントへ移す必要が生じる。「のろいを／\\10に かけた」と分割すれば文法的には可能だが語順が不自然で、かつ動詞の越境移動にあたるため境界不整合として保留。ROM 側のセグメント境界（FE/FA 位置）の再設計が必要。"
+  },
+  {
+    "id": "tbl_battle_messages_00185_3FC75D",
+    "source_control_structure": [
+      "FE",
+      "FA"
+    ],
+    "source_structure": [
+      {
+        "text": "\\\\10’s \\\\19",
+        "after_control": "FE"
+      },
+      {
+        "text": "prevents \\\\0F",
+        "after_control": "FA"
+      },
+      {
+        "text": "from using \\\\14!",
+        "after_control": null
+      }
+    ],
+    "segment_count": 3,
+    "fa_count": 1,
+    "translated_segments": [
+      "",
+      "",
+      ""
+    ],
+    "semantic_status": "context_hold",
+    "segment_conflict": false,
+    "context_hold": true,
+    "token_validation": "SOURCE_STRUCTURE_PRESERVED_TRANSLATION_HELD",
+    "notes": "\\19 の指す内容（とくせい名か能力名かなど）が入力で証明されておらず、「\\10の \\19」の助詞と後続の格（\\0Fは／\\0Fが）および \\14 との係り方を確定できない。推測を避け、バッファ意味の確認まで訳出を保留する。"
+  },
+  {
+    "id": "tbl_battle_messages_00216_3FCA49",
+    "source_control_structure": [
+      "FE",
+      "FA"
+    ],
+    "source_structure": [
+      {
+        "text": "\\\\10’s \\\\19",
+        "after_control": "FE"
+      },
+      {
+        "text": "prevented \\\\13’s",
+        "after_control": "FA"
+      },
+      {
+        "text": "\\\\00 from working!",
+        "after_control": null
+      }
+    ],
+    "segment_count": 3,
+    "fa_count": 1,
+    "translated_segments": [
+      "",
+      "",
+      ""
+    ],
+    "semantic_status": "context_hold",
+    "segment_conflict": false,
+    "context_hold": true,
+    "token_validation": "SOURCE_STRUCTURE_PRESERVED_TRANSLATION_HELD",
+    "notes": "\\00 は汎用バッファで内容が不明、加えて \\19 の意味も入力では確定できない。「\\13の \\00」の二重所有格構造の被修飾語が特定できないため、助詞・語順・敬体表現をいずれも決定できない。推測せず保留。"
+  },
+  {
+    "id": "tbl_battle_messages_00219_3FCAAA",
+    "source_control_structure": [
+      "FE",
+      "FA"
+    ],
+    "source_structure": [
+      {
+        "text": "\\\\0F’s \\\\18",
+        "after_control": "FE"
+      },
+      {
+        "text": "prevents \\\\10’s",
+        "after_control": "FA"
+      },
+      {
+        "text": "\\\\19 from working!",
+        "after_control": null
+      }
+    ],
+    "segment_count": 3,
+    "fa_count": 1,
+    "translated_segments": [
+      "",
+      "",
+      ""
+    ],
+    "semantic_status": "context_hold",
+    "segment_conflict": false,
+    "context_hold": true,
+    "token_validation": "SOURCE_STRUCTURE_PRESERVED_TRANSLATION_HELD",
+    "notes": "\\18 と \\19 の意味が入力から証明されていない。「\\0Fの \\18」「\\10の \\19」という二組の所有格が何を指すか不明なため、主格・目的格の助詞選択と自然な語順を決められない。推測せず保留。"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "SPA",
+    "proposed_japanese": "スパ",
+    "type": "location_proper_noun",
+    "confidence": "low",
+    "reason": "Unboundのしせつめいと おもわれるが げんてんみかくにん。ようごとして とうろくするまえに げんさくの ばしょめいを かくにんすること。",
+    "affected_entry_ids": [
+      "tbl_menu_pokemon_summary_00017_419ADE"
+    ]
+  },
+  {
+    "source": "Cube V3",
+    "proposed_japanese": "キューブV3",
+    "type": "proper_noun",
+    "confidence": "unverified",
+    "reason": "Unbound固有の装置名で、メニュー全体で表記統一が必要。",
+    "affected_entry_ids": [
+      "tbl_start_menu_labels_00001_A4E4E4"
+    ]
+  },
+  {
+    "source": "Semi-Shift",
+    "proposed_japanese": "セミいれかえ",
+    "type": "battle_setting",
+    "confidence": "unverified",
+    "reason": "Unbound dokuji no shoubu no rule (Shift to Set no chuukan). Yougo touitsu no tame youtouroku.",
+    "affected_entry_ids": [
+      "tbl_menu_game_settings_00005_1F4DC44"
+    ]
+  },
+  {
+    "source": "Capped Exp. Share",
+    "proposed_japanese": "じょうげんつきがくしゅうそうち",
+    "type": "setting_value",
+    "confidence": "unverified",
+    "reason": "Unbound dokuji no level cap tsuki keikenchi bunpai settei. Exp. Share to no yakugo touitsu ga hitsuyou.",
+    "affected_entry_ids": [
+      "tbl_menu_game_settings_00008_1F4DC62"
+    ]
+  }
+]

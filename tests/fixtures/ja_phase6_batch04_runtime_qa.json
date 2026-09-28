@@ -1,0 +1,998 @@
+{
+  "metadata": {
+    "phase": "6B-4",
+    "count": 36,
+    "focus_counts": {
+      "FA_multi_scroll": 4,
+      "FA_long_segment": 2,
+      "FA_button_scroll_and_page_state": 4,
+      "relocated_text_and_pointer": 1,
+      "pokeapi_verified_name": 4,
+      "player_or_rival_buffer": 4,
+      "mission_objective_ui": 3,
+      "mission_description_ui": 3,
+      "short_slot_width": 1,
+      "held_english_regression_battle_status": 2,
+      "held_english_regression_route_template_sign": 2,
+      "general_story_dialogue": 6
+    },
+    "limitation": "Static ROM and pointer checks pass; no mGBA route or displayed layout is asserted."
+  },
+  "entries": [
+    {
+      "priority": 1,
+      "id": "scr_1F42360",
+      "category": "scripts",
+      "rom_offset": "0x01F42360",
+      "gba_address": "0x09F42360",
+      "pointer_owners": [
+        "0x1E62ADB"
+      ],
+      "original": "\"I’m mad as all else!\n\nI don’t care about this Light of\nRuin or whatever\\.\n\nI came this close to finding the\nShadows and finding my parents,\\land they got away from me again!\n\nSo if I hear they’re heading to\nVivill Town, then that’s where\\lI’m going!\"",
+      "expected_japanese": "[japanese]もう はらが たって しかたない！\n\nはめつのひかりだか\nなんだか どうでも いい\\.\n\nもう すこしで シャドウズを\nみつけて おやに あえたのに\\lまた にげられた！\n\nだから やつらが むかう さきが\nビビルタウンなら\\lそこへ いくまでだ！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_multi_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 2,
+        "FB": 3,
+        "FE": 3
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E62A9B",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 2,
+      "id": "scr_1F48049",
+      "category": "scripts",
+      "rom_offset": "0x01F48049",
+      "gba_address": "0x09F48049",
+      "pointer_owners": [
+        "0x1E5DC61"
+      ],
+      "original": "\"I didn’t come back because I wanted\nto be safe!\n\nI came back to stop the destruction\nyou’re planning!\n\nThis whole time, I wanted you and\ndad to come back, so we could be\\la family again.\n\nAnd now, as soon as I find you,\nyou think you can get away with\\lsomething like this!?\n\nNo way!\n\nYou’ve already destroyed one home\nwhen you left us.\n\nI won’t let you destroy another!\"",
+      "expected_japanese": "[japanese]あんぜんで いたいから\nもどったんじゃない！\n\nあんたが たくらんでいる\nはかいを とめに きたんだ！\n\nずっと あんたと\nとうさんが もどってきて\\lまた かぞくに なれるのを ねがってた。\n\nなのに やっと みつけたら\nこんな ことを して\\lただで すむと おもってるのか！？\n\nふざけるな！\n\nでていった ときに もう\nひとつ いえを こわしてるんだ。\n\nもう ひとつは こわさせない！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_multi_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 2,
+        "FB": 6,
+        "FE": 5
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5DC21",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 3,
+      "id": "scr_1F48FD2",
+      "category": "scripts",
+      "rom_offset": "0x01F48FD2",
+      "gba_address": "0x09F48FD2",
+      "pointer_owners": [
+        "0x1E5E73C"
+      ],
+      "original": "\"I still cannot believe it was hidden\nin plain sight, all this time.\n\nThe crystal atop the mountain\\.\\CC0818\nthe Borrian insurgents must have\\lbrought it here 3000 years ago\\lusing Hoopa’s power.\n\nThe history books never mentioned\nthat little detail\\.\n\nTo think that I wasted countless\nhours searching for it!\n\nBut no matter - I have my chance to\nactivate it now.\"",
+      "expected_japanese": "[japanese]まだ しんじられぬ\nずっと めのまえに あったとは。\n\nやまの ちょうじょうの けっしょう\\.\\CC0818\nボーリウスの はんらんぐんが\\l3000ねんまえに ここへ はこんだのだ\\lフーパの ちからを つかってな。\n\nれきしの ほんには\nその ことは かかれていなかった\\.\n\nさがしまわって むだにした\nじかんを おもうと！\n\nだが かまわん。 いまこそ\nきどうの ときだ。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_multi_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 2,
+        "FB": 4,
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 5
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5E73C",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 4,
+      "id": "scr_1F49935",
+      "category": "scripts",
+      "rom_offset": "0x01F49935",
+      "gba_address": "0x09F49935",
+      "pointer_owners": [
+        "0x1E5F536"
+      ],
+      "original": "\"Out of my way!\n\nThe weapon must be activated,\nno matter the cost!\n\nBut if you will not stand aside\nand allow me to pass, then with\\lor without Hoopa, I will bring you\\lto your knees!\"",
+      "expected_japanese": "[japanese]どけ！\n\nへいきは なんとしても\nきどう させねば ならぬ！\n\nだが どかぬと いうなら\nとおさぬと いうなら\\lフーパが いようと いまいと\\lひざまずかせて くれる！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_multi_scroll",
+      "placement": "in_place",
+      "controls": {
+        "FA": 2,
+        "FB": 2,
+        "FE": 2
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5F536",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 5,
+      "id": "scr_1F4222A",
+      "category": "scripts",
+      "rom_offset": "0x01F4222A",
+      "gba_address": "0x09F4222A",
+      "pointer_owners": [
+        "0x1E62A9B"
+      ],
+      "original": "\"Okay, that’s it!\nI’ve had it!\n\nI kept my yap shut all this time,\nbut I’m not just gonna be ignored\\lanymore!\n\nListen, old man\\.\\CC0818 I have no idea\nwho you are, or what’s happening\\.\n\nBut if whatever is going on has to\ndo with the Shadows, then I want in!\"",
+      "expected_japanese": "[japanese]もう いい！\nがまんの げんかいだ！\n\nずっと だまってたけど\nもう むしされるのは\\lごめんだ！\n\nよく きけ じいさん\\.\\CC0818 あんたが だれで\nなにが おきてるのか しらないけど\\.\n\nでも シャドウズに かんけい\nあるなら なかまに いれてもらう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_long_segment",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 3,
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 4
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E62A9B",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 6,
+      "id": "scr_1F45762",
+      "category": "scripts",
+      "rom_offset": "0x01F45762",
+      "gba_address": "0x09F45762",
+      "pointer_owners": [
+        "0x1E64B10"
+      ],
+      "original": "\"You know what?\n\nYou can fill me in on the details\nonce we find a way out.\n\nFor now, let’s just focus on getting\nback home.\n\nThis place is really confusing, but\nI’ve managed to figure out some of\\lthe rules here.\"",
+      "expected_japanese": "[japanese]そうだ。\n\nくわしい はなしは\nでぐちを みつけてから きかせて。\n\nいまは とにかく\nかえる ことに しゅうちゅう しよう。\n\nここは すごく ややこしいけど\nなんとか いくつか わかったよ\\lここの きまりが。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_long_segment",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 3,
+        "FE": 3
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E64AA7",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 7,
+      "id": "scr_1F41B1F",
+      "category": "scripts",
+      "rom_offset": "0x01F41B1F",
+      "gba_address": "0x09F41B1F",
+      "pointer_owners": [
+        "0x1E6291D"
+      ],
+      "original": "\"You’re seriously only leaving\nDehara now?\n\nMan, you sure are slow!\n\nWell, while you were loitering\naround, I figured out how to get\\lto the Ruins of Void.\n\nOf course, by the time I got there,\nit was too late to do anything\\.\"",
+      "expected_japanese": "[japanese]まさか いまごろ\nデハラを でるところ？\n\nほんと おそいなあ！\n\nきみが ぶらぶら してる あいだに\nようやく わかったんだ\\lボイドいせきへの いきかたが。\n\nでも ついた ころには\nもう なにも できなかった\\.[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_button_scroll_and_page_state",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 3,
+        "FE": 3
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E6291D",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 8,
+      "id": "scr_1F45C22",
+      "category": "scripts",
+      "rom_offset": "0x01F45C22",
+      "gba_address": "0x09F45C22",
+      "pointer_owners": [
+        "0x1E66EE1"
+      ],
+      "original": "\"Wait\\.\\CC0820 I’m starting to remember now\\.\n\nGrampa Arthur told me stories about\na place like this\\.\n\nAbout a world where the laws of\nnature have no bounds\\.\n\nAbout a world opposite ours\\.\n\nAnd if what Grampa told me is true,\nthen there’s only one thing that’s\\lliving here\\.\"",
+      "expected_japanese": "[japanese]まてよ\\.\\CC0820 おもいだしてきた\\.\n\nアーサーじいちゃんが はなしてくれた\nこんな ばしょの ことを\\.\n\nしぜんの ほうそくが\nまったく つうじない せかい\\.\n\nこっちと はんたいの せかい\\.\n\nじいちゃんの はなしが ほんとうなら\nここに すんでいるのは ただ\\lいっぴき だけだ\\.[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_button_scroll_and_page_state",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 4,
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 3
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E66EC8",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 9,
+      "id": "scr_1F494C1",
+      "category": "scripts",
+      "rom_offset": "0x01F494C1",
+      "gba_address": "0x09F494C1",
+      "pointer_owners": [
+        "0x1E5EA93"
+      ],
+      "original": "\"You may have gotten the better of\nme before, but this time, I’m taking\\lyou down a peg!\n\nI’m gonna stop you and save us all!\"",
+      "expected_japanese": "[japanese]まえは そっちが\nうわてだったけど こんどは\\lこっちの ばんだ！\n\nおまえを とめて みんなを すくう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_button_scroll_and_page_state",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5EA93",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 10,
+      "id": "scr_1F49F6D",
+      "category": "scripts",
+      "rom_offset": "0x01F49F6D",
+      "gba_address": "0x09F49F6D",
+      "pointer_owners": [
+        "0x1E5F97E"
+      ],
+      "original": "\"You\\.\\CC0820 you utter, utter fool!\n\nWe only extracted enough power from\nthe Shadow Warriors for a single\\lblast before they all fell apart!\"",
+      "expected_japanese": "[japanese]きさま\\.\\CC0820 なんという おおばかものだ！\n\nちからを ぬきとれたのは\nシャドウウォリアーから いちどぶん\\lやつらが くずれる まえに それだけだ！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "FA_button_scroll_and_page_state",
+      "placement": "in_place",
+      "controls": {
+        "FA": 1,
+        "FB": 1,
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5F8F8",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 11,
+      "id": "scr_1F47A45",
+      "category": "scripts",
+      "rom_offset": "0x01F47A45",
+      "gba_address": "0x09F47A45",
+      "pointer_owners": [
+        "0x1E5A5C6"
+      ],
+      "original": "\"[black][player] decided to go with\n[rival]!\"",
+      "expected_japanese": "[japanese][black][latin][player][japanese]は\n[latin][rival][japanese]と いっしょに\\lいく ことに した！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "relocated_text_and_pointer",
+      "placement": "relocated",
+      "controls": {
+        "FC": 1,
+        "FC_01": 1,
+        "FD": 2,
+        "FE": 1
+      },
+      "buffers": [
+        "[player]",
+        "[rival]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5A59B",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 12,
+      "id": "scr_1F3E511",
+      "category": "scripts",
+      "rom_offset": "0x01F3E511",
+      "gba_address": "0x09F3E511",
+      "pointer_owners": [
+        "0x1E59BE9"
+      ],
+      "original": "\"[player]!\n\nYou have to stop Groudon’s\nrampage!\n\nIf not, the cave will collapse and\nwe’ll both be trapped here!\"",
+      "expected_japanese": "[japanese][latin][player][japanese]！ グラードンの\nあばれっぷりを とめて！\\lでないと どうくつが くずれて\n\nふたりとも とじこめられちゃう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "pokeapi_verified_name",
+      "placement": "in_place",
+      "controls": {
+        "FB": 2,
+        "FD": 1,
+        "FE": 2
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E59BE9",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 13,
+      "id": "scr_1F3E757",
+      "category": "scripts",
+      "rom_offset": "0x01F3E757",
+      "gba_address": "0x09F3E757",
+      "pointer_owners": [
+        "0x1E59DC8"
+      ],
+      "original": "\"Krookodile! Destroy the rocks!\nUse Rock Smash!\"",
+      "expected_japanese": "[japanese]ワルビアル！ いわを こわせ！\nいわくだきだ！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "pokeapi_verified_name",
+      "placement": "in_place",
+      "controls": {
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E59DC8",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 14,
+      "id": "scr_1F456B5",
+      "category": "scripts",
+      "rom_offset": "0x01F456B5",
+      "gba_address": "0x09F456B5",
+      "pointer_owners": [
+        "0x1E64AD9"
+      ],
+      "original": "\"Hey\\.\\CC0818 tell me we won against\nthe Shadows, at least.\n\nDid we save Articuno and Moltres?\"",
+      "expected_japanese": "[japanese]ねえ\\.\\CC0818 せめて シャドウズには\nかったんだよね？ フリーザーと\\lファイヤーは たすけられた？[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "pokeapi_verified_name",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E64AA7",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 15,
+      "id": "scr_1F47E06",
+      "category": "scripts",
+      "rom_offset": "0x01F47E06",
+      "gba_address": "0x09F47E06",
+      "pointer_owners": [
+        "0x1E5DAD4"
+      ],
+      "original": "\"Wha-? These Pokémon\\.\n\nThat Aklove guy must have had Hoopa\nset this trap to slow us down!\n\nBut we can’t stop moving now!\n\nC’mon, [player]! Let’s blast through\nthese things and get to the summit!\"",
+      "expected_japanese": "[japanese]え！？ この ポケモンたち\\.\nアクラブの やつ フーパに\\lわなを しかけさせて あしどめ\n\nするつもりだな！ でも いま\nとまる わけには いかない！\\lいこう [latin][player][japanese]！\n\nこいつらを けちらして\nちょうじょうへ いくんだ！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "pokeapi_verified_name",
+      "placement": "in_place",
+      "controls": {
+        "FB": 3,
+        "FD": 1,
+        "FE": 2
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E5DAD4",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 16,
+      "id": "scr_1F3E578",
+      "category": "scripts",
+      "rom_offset": "0x01F3E578",
+      "gba_address": "0x09F3E578",
+      "pointer_owners": [
+        "0x1E59C99"
+      ],
+      "original": "\"Ngh\\.\\CC0818 [player], are you alright?\n\n\\.\\CC0818No! We’ve been separated!\"",
+      "expected_japanese": "[japanese]うっ\\.\\CC0818 [latin][player][japanese]\nだいじょうぶ？ \\.\\CC0818だめだ！\\lはぐれちゃった！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "player_or_rival_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FC": 2,
+        "FC_08": 2,
+        "FD": 1
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E59C99",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 17,
+      "id": "scr_1F3E786",
+      "category": "scripts",
+      "rom_offset": "0x01F3E786",
+      "gba_address": "0x09F3E786",
+      "pointer_owners": [
+        "0x1E59E25"
+      ],
+      "original": "\"Thank you for your help,\n[player].\n\nI honestly don’t know what I would\nhave done without you.\n\nHere - I suppose you’ll want your\nPokémon back.\"",
+      "expected_japanese": "[japanese]てつだって くれて ありがとう\n[latin][player][japanese]。 きみが\\lいなかったら どうなっていたか。\n\nはい ポケモンを かえすよ。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "player_or_rival_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 2,
+        "FD": 1,
+        "FE": 3
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E59E25",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 18,
+      "id": "scr_1F41C4C",
+      "category": "scripts",
+      "rom_offset": "0x01F41C4C",
+      "gba_address": "0x09F41C4C",
+      "pointer_owners": [
+        "0x1E629BF"
+      ],
+      "original": "\"[player], have you seen Jax?\n\nLast I heard, he was planning to\ntravel to the Ruins of Void.\"",
+      "expected_japanese": "[japanese][latin][player][japanese] ジャックスを\nみなかった？ さいごに きいた\\lはなしでは ボイドいせきへ いく\n\nつもりだったらしい。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "player_or_rival_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E6299F",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 19,
+      "id": "scr_1F4267F",
+      "category": "scripts",
+      "rom_offset": "0x01F4267F",
+      "gba_address": "0x09F4267F",
+      "pointer_owners": [
+        "0x1E62B83"
+      ],
+      "original": "\"That boy\\.\\CC0818 he’s got quite the mouth\nto him\\.\n\nWell, I wish you luck in\nVivill Town, [player].\n\nLet me know how it went, as soon\nas you’ve returned.\"",
+      "expected_japanese": "[japanese]あの こは\\.\\CC0818 なかなか くちが\nわるいな\\. さて ビビルタウンでの\\lこううんを いのるよ\n\n[latin][player][japanese]。 もどったら\nすぐに どうだったか\\lおしえてくれ。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "player_or_rival_buffer",
+      "placement": "in_place",
+      "controls": {
+        "FB": 2,
+        "FC": 1,
+        "FC_08": 1,
+        "FD": 1,
+        "FE": 3
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E62B83",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 20,
+      "id": "tbl_mission_objectives_00003_1F561AB",
+      "category": "mission_objectives",
+      "rom_offset": "0x01F561AB",
+      "gba_address": "0x09F561AB",
+      "pointer_owners": [
+        "0x1EBFC44"
+      ],
+      "original": "\"Return Prof. Log’s package to him!\"",
+      "expected_japanese": "[japanese]ログはかせに にもつを\nかえそう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "mission_objective_ui",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "mission_ui",
+      "conversation_id": null,
+      "scene_id": "data.missions.objectives.mainStory",
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 21,
+      "id": "tbl_mission_objectives_00005_1F56201",
+      "category": "mission_objectives",
+      "rom_offset": "0x01F56201",
+      "gba_address": "0x09F56201",
+      "pointer_owners": [
+        "0x1EBFC4C"
+      ],
+      "original": "\"Challenge the Dresco Town Gym!\"",
+      "expected_japanese": "[japanese]ドレスコタウンジムに ちょうせん\nしよう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "mission_objective_ui",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "mission_ui",
+      "conversation_id": null,
+      "scene_id": "data.missions.objectives.mainStory",
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 22,
+      "id": "tbl_mission_objectives_00008_1F5627F",
+      "category": "mission_objectives",
+      "rom_offset": "0x01F5627F",
+      "gba_address": "0x09F5627F",
+      "pointer_owners": [
+        "0x1EBFC58"
+      ],
+      "original": "\"Challenge the Crater Town Gym!\"",
+      "expected_japanese": "[japanese]クレータータウンジムに\nちょうせん しよう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "mission_objective_ui",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "mission_ui",
+      "conversation_id": null,
+      "scene_id": "data.missions.objectives.mainStory",
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 23,
+      "id": "scr_1EE55DE",
+      "category": "mission_descriptions",
+      "rom_offset": "0x01EE55DE",
+      "gba_address": "0x09EE55DE",
+      "pointer_owners": [
+        "0x1E559A0"
+      ],
+      "original": "\"Be victorious by defeating all eight\nof Borrius’ Gym Leaders in the\nClassic Leaders Gauntlet!\"",
+      "expected_japanese": "[japanese]クラシックリーダーズガントレット\nで ボーリウスの ジムリーダー\n8にんを ぜんいん たおして\nしょうりを つかもう！[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "mission_description_ui",
+      "placement": "in_place",
+      "controls": {
+        "FE": 2
+      },
+      "buffers": [],
+      "renderer_group": "mission_ui",
+      "conversation_id": null,
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 24,
+      "id": "scr_1EEC79B",
+      "category": "mission_descriptions",
+      "rom_offset": "0x01EEC79B",
+      "gba_address": "0x09EEC79B",
+      "pointer_owners": [
+        "0x1E5A744"
+      ],
+      "original": "\"Help a scientist learn about the\nPokémon living in Cootes Bog! Use\nthe DexNav to help catch them all.\"",
+      "expected_japanese": "[japanese]クーツぬまに すむ ポケモンを\nしらべる かがくしゃを\nてつだおう！ ずかんナビを\nつかって ぜんぶ つかまえよう。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "mission_description_ui",
+      "placement": "in_place",
+      "controls": {
+        "FE": 2
+      },
+      "buffers": [],
+      "renderer_group": "mission_ui",
+      "conversation_id": null,
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 25,
+      "id": "scr_1EF1137",
+      "category": "mission_descriptions",
+      "rom_offset": "0x01EF1137",
+      "gba_address": "0x09EF1137",
+      "pointer_owners": [
+        "0x1E5D060"
+      ],
+      "original": "\"A little girl has been snatched up\nby a Drifloon! Find her, and return\nher safely to her worried mother.\"",
+      "expected_japanese": "[japanese]おんなのこが フワンテに\nさらわれた！ みつけて\nしんぱいしている おかあさんの\nもとへ ぶじに かえそう。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "mission_description_ui",
+      "placement": "in_place",
+      "controls": {
+        "FE": 2
+      },
+      "buffers": [],
+      "renderer_group": "mission_ui",
+      "conversation_id": null,
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 26,
+      "id": "tbl_mission_log_00013_1F560A3",
+      "category": "mission_log",
+      "rom_offset": "0x01F560A3",
+      "gba_address": "0x09F560A3",
+      "pointer_owners": [
+        "0x1FB40C0"
+      ],
+      "original": "\"Completed\"",
+      "expected_japanese": "[japanese]クリア[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "short_slot_width",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "mission_log",
+      "conversation_id": null,
+      "scene_id": "data.menus.text.missionLog.menu",
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 27,
+      "id": "tbl_battle_messages_00003_3FB534",
+      "category": "battle_messages",
+      "rom_offset": "0x003FB534",
+      "gba_address": "0x083FB534",
+      "pointer_owners": [
+        "0x3FE4A0"
+      ],
+      "original": "\"\\\\0F can’t escape!\"",
+      "expected_japanese": null,
+      "expected_display": "English (held)",
+      "test_focus": "held_english_regression_battle_status",
+      "placement": "held_english",
+      "controls": {
+        "FD": 1
+      },
+      "buffers": [
+        "\\\\0F"
+      ],
+      "renderer_group": "battle_text_printer",
+      "conversation_id": null,
+      "scene_id": "data.battle.text.messages",
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 28,
+      "id": "tbl_battle_messages_00005_3FB555",
+      "category": "battle_messages",
+      "rom_offset": "0x003FB555",
+      "gba_address": "0x083FB555",
+      "pointer_owners": [
+        "0x3FDF98"
+      ],
+      "original": "\"\\\\11\nfell asleep!\"",
+      "expected_japanese": null,
+      "expected_display": "English (held)",
+      "test_focus": "held_english_regression_battle_status",
+      "placement": "held_english",
+      "controls": {
+        "FD": 1,
+        "FE": 1
+      },
+      "buffers": [
+        "\\\\11"
+      ],
+      "renderer_group": "battle_text_printer",
+      "conversation_id": null,
+      "scene_id": "data.battle.text.messages",
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 29,
+      "id": "scr_1F5B578",
+      "category": "scripts",
+      "rom_offset": "0x01F5B578",
+      "gba_address": "0x09F5B578",
+      "pointer_owners": [
+        "0x1E61420",
+        "0x1E93ACC",
+        "0x1E93ADC",
+        "0x1EAFAD4",
+        "0x1EAFAE4"
+      ],
+      "original": "\"Route 10\"",
+      "expected_japanese": null,
+      "expected_display": "English (held)",
+      "test_focus": "held_english_regression_route_template_sign",
+      "placement": "held_english",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E61420",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 30,
+      "id": "scr_1F5BCFC",
+      "category": "scripts",
+      "rom_offset": "0x01F5BCFC",
+      "gba_address": "0x09F5BCFC",
+      "pointer_owners": [
+        "0x1E61430",
+        "0x1E93AEC",
+        "0x1EAFB34",
+        "0x1EAFB44",
+        "0x1FB3FF4"
+      ],
+      "original": "\"Route 11\"",
+      "expected_japanese": null,
+      "expected_display": "English (held)",
+      "test_focus": "held_english_regression_route_template_sign",
+      "placement": "held_english",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E61430",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 31,
+      "id": "scr_1F3E735",
+      "category": "scripts",
+      "rom_offset": "0x01F3E735",
+      "gba_address": "0x09F3E735",
+      "pointer_owners": [
+        "0x1E59D97"
+      ],
+      "original": "\"Phew\\.\\CC0818 we survived\\.\\CC0818 somehow\\.\"",
+      "expected_japanese": "[japanese]ふう\\.\\CC0818 たすかった\\.\\CC0818 なんとか\\.[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "general_story_dialogue",
+      "placement": "in_place",
+      "controls": {
+        "FC": 2,
+        "FC_08": 2
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E59D84",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 32,
+      "id": "scr_1F3E80D",
+      "category": "scripts",
+      "rom_offset": "0x01F3E80D",
+      "gba_address": "0x09F3E80D",
+      "pointer_owners": [
+        "0x1E59E42"
+      ],
+      "original": "\"How about you\\.\\CC0818 no, on second\nthought, that’s not a good idea\\.\"",
+      "expected_japanese": "[japanese]きみも いっしょに\\.\\CC0818 いや\nやっぱり それは よくないな\\.[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "general_story_dialogue",
+      "placement": "in_place",
+      "controls": {
+        "FC": 1,
+        "FC_08": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E59E25",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 33,
+      "id": "scr_1F3E9E5",
+      "category": "scripts",
+      "rom_offset": "0x01F3E9E5",
+      "gba_address": "0x09F3E9E5",
+      "pointer_owners": [
+        "0x1115B14",
+        "0x1E911E3",
+        "0x1E9123E",
+        "0x1E91253"
+      ],
+      "original": "\"You put on the clothes.\"",
+      "expected_japanese": "[japanese]ふくを きた。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "general_story_dialogue",
+      "placement": "in_place",
+      "controls": {},
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1115B14",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 34,
+      "id": "scr_1F42322",
+      "category": "scripts",
+      "rom_offset": "0x01F42322",
+      "gba_address": "0x09F42322",
+      "pointer_owners": [
+        "0x1E62ABB"
+      ],
+      "original": "\"Oh! My apologies!\nI didn’t mean to be rude.\n\nWho might you be?\"",
+      "expected_japanese": "[japanese]おっと！ しつれい しました！\nぶれいな つもりは\\lなかったのです。\n\nどちらさまですか？[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "general_story_dialogue",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E62A9B",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 35,
+      "id": "scr_1F454E9",
+      "category": "scripts",
+      "rom_offset": "0x01F454E9",
+      "gba_address": "0x09F454E9",
+      "pointer_owners": [
+        "0x1E64AA7"
+      ],
+      "original": "\"[player]! Is that really you?\n\nI didn’t think I’d see a friendly\nface in here.\n\nI don’t know how long I’ve been\nhere, but it feels like forever\\.\"",
+      "expected_japanese": "[japanese][latin][player][japanese]！ ほんとうに\nきみか？ こんな ところで\\lみかたに あえるとは。\n\nどれくらい ここに いるのか\nわからないけど えいえんみたいに\\lかんじる\\.[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "general_story_dialogue",
+      "placement": "in_place",
+      "controls": {
+        "FB": 2,
+        "FD": 1,
+        "FE": 2
+      },
+      "buffers": [
+        "[player]"
+      ],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E64AA7",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    },
+    {
+      "priority": 36,
+      "id": "scr_1F4570D",
+      "category": "scripts",
+      "rom_offset": "0x01F4570D",
+      "gba_address": "0x09F4570D",
+      "pointer_owners": [
+        "0x1E64AF3"
+      ],
+      "original": "\"Ahh, who am I kidding?\n\nIf you’re stuck in here with me,\nthings obviously went south.\"",
+      "expected_japanese": "[japanese]いや わかってるさ。 きみも\nここに とじこめられてるなら\\lうまく いかなかったに\n\nきまってる。[latin]",
+      "expected_display": "Japanese",
+      "test_focus": "general_story_dialogue",
+      "placement": "in_place",
+      "controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "buffers": [],
+      "renderer_group": "event_dialogue",
+      "conversation_id": "script_operand_neighborhood_1E64AA7",
+      "scene_id": null,
+      "route": "Exact map/event caller not proven; locate with progressed save or script trace",
+      "route_confidence": "unverified",
+      "runtime_result": "not_human_tested"
+    }
+  ]
+}
