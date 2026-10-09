@@ -1,0 +1,4631 @@
+{
+  "metadata": {
+    "phase": "6C-3B",
+    "review_only": true,
+    "rom_changed": false,
+    "glossary_changed": false,
+    "input_groups": 56,
+    "profiles": 56,
+    "input_entries": 120,
+    "voice_status_counts": {
+      "PROVISIONAL_VOICE": 31,
+      "CONFIRMED_VOICE": 1,
+      "NEUTRAL_ONLY": 22,
+      "INSUFFICIENT_EVIDENCE": 2
+    },
+    "identity_confidence_preserved": {
+      "PROVEN": 56
+    },
+    "official_character_voice_applied": 0,
+    "official_voice_reference": "not_collected",
+    "proven_canon_characters": 0,
+    "policy": "PROVEN is a trainer-ID binding only. CONFIRMED_VOICE needs repeated, consistent, observable manner; PLAUSIBLE/UNKNOWN are never promoted; first/second person and gender are not assigned without evidence."
+  },
+  "profiles": [
+    {
+      "speaker_id": "trainer_0028",
+      "character_name": "Marlon",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "UNBOUND_ORIGINAL",
+      "trainer_class": [
+        "Shadow Admin"
+      ],
+      "trainer_ids": [
+        28
+      ],
+      "source_game": {
+        "game": "Pokémon Unbound",
+        "confidence": "PLAUSIBLE",
+        "basis": "Unbound-specific trainer class and exact trainer record; cross-game identity not proved."
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ",
+          "だな"
+        ],
+        "recommended": [
+          "んだ",
+          "だな"
+        ]
+      },
+      "personality_traits": [
+        "落ち着いた独白調",
+        "虫ポケモンの収集を淡々と語る"
+      ],
+      "speech_examples_short": [
+        "いろいろな むしポケモンをあつめたんだ。",
+        "うーん もっと いい むしがひつようだな。"
+      ],
+      "evidence_entry_ids": [
+        "scr_75D3DA",
+        "scr_75D407"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない",
+        "本編にMarlonという人物が存在し得るが、名前一致のみ（Unbound側はShadow Admin）"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Shadow Adminクラス。2行のみ。他場面のMarlon発話は話者未帰属のため統合しない。"
+    },
+    {
+      "speaker_id": "trainer_0353",
+      "character_name": "Ivory",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "UNBOUND_ORIGINAL",
+      "trainer_class": [
+        "Light of Ruin Admin"
+      ],
+      "trainer_ids": [
+        353
+      ],
+      "source_game": {
+        "game": "Pokémon Unbound",
+        "confidence": "PLAUSIBLE",
+        "basis": "Unbound-specific trainer class and exact trainer record; cross-game identity not proved."
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "のに",
+          "だ"
+        ]
+      },
+      "personality_traits": [
+        "負け惜しみ",
+        "手持ち不足を理由にする"
+      ],
+      "speech_examples_short": [
+        "てもちが ぜんぶ そろっていたらまけなかったのに！"
+      ],
+      "evidence_entry_ids": [
+        "scr_74BFC6"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Light of Ruin Adminクラス。1行のみで根拠が薄い。他場面のIvory発話は未帰属。"
+    },
+    {
+      "speaker_id": "trainer_0008",
+      "character_name": "Daniel",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Kindler"
+      ],
+      "trainer_ids": [
+        8
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体(～してやる)",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "してやる",
+          "ちゃった"
+        ],
+        "recommended": [
+          "してやる！",
+          "ちゃった"
+        ]
+      },
+      "personality_traits": [
+        "挑発的",
+        "炎タイプを誇る",
+        "負けると少し拗ねる"
+      ],
+      "speech_examples_short": [
+        "ほのおを けされちゃった。",
+        "ほのおを けされちゃった。"
+      ],
+      "evidence_entry_ids": [
+        "scr_7526A7",
+        "scr_7526CF",
+        "scr_1F02029",
+        "scr_1F0205F"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Daniel/Reneeはタイプ宣言の定型で、個人固有の口調とまでは言えない。"
+    },
+    {
+      "speaker_id": "trainer_0009",
+      "character_name": "Renee",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Tuber"
+      ],
+      "trainer_ids": [
+        9
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体(～してやる)",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "してやる",
+          "ちゃった"
+        ],
+        "recommended": [
+          "してやる！",
+          "ちゃった"
+        ]
+      },
+      "personality_traits": [
+        "挑発的",
+        "水タイプを誇る",
+        "負けると少し拗ねる"
+      ],
+      "speech_examples_short": [
+        "みずを からされちゃった。",
+        "みずを からされちゃった。"
+      ],
+      "evidence_entry_ids": [
+        "scr_75277D",
+        "scr_7527A8",
+        "scr_1F020C8",
+        "scr_1F020FE"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Danielと同じ定型。個人固有の口調とは確定しない。"
+    },
+    {
+      "speaker_id": "trainer_0010",
+      "character_name": "Kobe",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Collector"
+      ],
+      "trainer_ids": [
+        10
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "る"
+        ],
+        "recommended": [
+          "！",
+          "ちゃえ！"
+        ]
+      },
+      "personality_traits": [
+        "力自慢",
+        "別の戦闘では擬音を交えて食べる話をする"
+      ],
+      "speech_examples_short": [
+        "ブクブク ぜんぶ たべちゃえ！",
+        "つぎは むしポケモンでかってやる！"
+      ],
+      "evidence_entry_ids": [
+        "scr_753252",
+        "scr_75326D",
+        "scr_1F0207D",
+        "scr_1F020B0"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "同じtrainer IDに虫タイプ版とノーマルタイプ版の2系統の台詞がある。人物像を一つにまとめない。"
+    },
+    {
+      "speaker_id": "trainer_0012",
+      "character_name": "Bram",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Ace Trainer"
+      ],
+      "trainer_ids": [
+        12
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "CONFIRMED_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "ぼく"
+        ],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "芝居がかった常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "る"
+        ],
+        "recommended": [
+          "あじわえ！",
+          "なる。"
+        ]
+      },
+      "personality_traits": [
+        "大げさな怒り",
+        "闇の力を自称する",
+        "敗北を糧にする",
+        "いじめられたと感じる"
+      ],
+      "speech_examples_short": [
+        "いじめられた きぶん",
+        "やみの いかりを あじわえ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_752852",
+        "scr_7530D9",
+        "scr_1F02164",
+        "scr_1F02187"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "4行で一貫した芝居がかった態度。話し方の確認であり、性別・年齢・一人称は確定しない。"
+    },
+    {
+      "speaker_id": "trainer_0011",
+      "character_name": "Sarah",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Picnicker"
+      ],
+      "trainer_ids": [
+        11
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た",
+          "る"
+        ],
+        "recommended": [
+          "！",
+          "なかった。"
+        ]
+      },
+      "personality_traits": [
+        "前向きな宣言",
+        "負けは率直に認める"
+      ],
+      "speech_examples_short": [
+        "くさタイプはたすけてくれなかった。",
+        "くさタイプが しょうりにみちびいてくれる！"
+      ],
+      "evidence_entry_ids": [
+        "scr_7532A5",
+        "scr_1F02118",
+        "scr_1F02145"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Picnickerクラス。3行で目立った癖は少ない。"
+    },
+    {
+      "speaker_id": "trainer_0013",
+      "character_name": "Doobie",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Youngster"
+      ],
+      "trainer_ids": [
+        13
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "かい"
+        ],
+        "recommended": [
+          "かい？"
+        ]
+      },
+      "personality_traits": [
+        "間延びした呼びかけ",
+        "のんびり"
+      ],
+      "speech_examples_short": [
+        "うわーーー",
+        "やあーーージムに ちょうせんしにきたのかい？"
+      ],
+      "evidence_entry_ids": [
+        "scr_74145B",
+        "scr_7459AF"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "原文の長音(Heeeeey / Whooooa)を保つ。語尾の癖までは確定しない。"
+    },
+    {
+      "speaker_id": "trainer_0092",
+      "character_name": "Lola",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Tuber"
+      ],
+      "trainer_ids": [
+        92
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "ちゃった"
+        ],
+        "recommended": [
+          "！"
+        ]
+      },
+      "personality_traits": [
+        "海辺が好き",
+        "素直に悔しがる"
+      ],
+      "speech_examples_short": [
+        "あーあ まけちゃった！",
+        "はまべを はしりまわるのがだいすき！"
+      ],
+      "evidence_entry_ids": [
+        "scr_75372E",
+        "scr_753752"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "手がかりは素朴な好みのみ。"
+    },
+    {
+      "speaker_id": "trainer_0100",
+      "character_name": "Dave",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Youngster"
+      ],
+      "trainer_ids": [
+        100
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "な",
+          "だ"
+        ]
+      },
+      "personality_traits": [
+        "自信満々な宣言(未訳行)",
+        "負けは認める"
+      ],
+      "speech_examples_short": [
+        "きあい だけじゃ かてないな"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12A15",
+        "scr_1F12A6D"
+      ],
+      "untranslated_entry_ids": [
+        "scr_1F12A15"
+      ],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Go-Gogglesの台詞(scr_1F12A15)は未翻訳でholdのまま。口調は既訳の1行と原文から推定。"
+    },
+    {
+      "speaker_id": "trainer_0104",
+      "character_name": "Sammy",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Bug Catcher"
+      ],
+      "trainer_ids": [
+        104
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "子どもっぽい口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "よ"
+        ],
+        "recommended": [
+          "よ",
+          "！"
+        ]
+      },
+      "personality_traits": [
+        "興奮して見せたがる",
+        "『みて、みて』の反復"
+      ],
+      "speech_examples_short": [
+        "しんかした ポケモンが！",
+        "みて、みて！ ポケモンをしんかさせたよ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F135EB",
+        "scr_1F13616"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Bug Catcherクラス。"
+    },
+    {
+      "speaker_id": "trainer_0119",
+      "character_name": "Crissy",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Lass"
+      ],
+      "trainer_ids": [
+        119
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "る"
+        ],
+        "recommended": [
+          "？",
+          "かも"
+        ]
+      },
+      "personality_traits": [
+        "言葉遊び(high)",
+        "のんき"
+      ],
+      "speech_examples_short": [
+        "ハイに なってる だけかも",
+        "こんな たかい ところでバトルすると きぶんが あがる？"
+      ],
+      "evidence_entry_ids": [
+        "scr_74C5D9",
+        "scr_74C60C"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "駄洒落が両方の台詞の核。"
+    },
+    {
+      "speaker_id": "trainer_0123",
+      "character_name": "Guy",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Fisherman"
+      ],
+      "trainer_ids": [
+        123
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "。",
+          "か..."
+        ]
+      },
+      "personality_traits": [
+        "のんびりした趣味の話",
+        "あきらめが早い"
+      ],
+      "speech_examples_short": [
+        "まあ いいか...",
+        "はまべの つりは いつでもたのしい。"
+      ],
+      "evidence_entry_ids": [
+        "scr_7537A1",
+        "scr_7537CB"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Fishermanクラス。"
+    },
+    {
+      "speaker_id": "trainer_0142",
+      "character_name": "Liam",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Camper"
+      ],
+      "trainer_ids": [
+        142
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "あなた"
+        ],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "幼い印象の口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "？",
+          "ない"
+        ]
+      },
+      "personality_traits": [
+        "ママを探す",
+        "人違いに気づく"
+      ],
+      "speech_examples_short": [
+        "もしかして ママ？",
+        "あれ ママじゃない"
+      ],
+      "evidence_entry_ids": [
+        "scr_740753",
+        "scr_7459E1"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "二人称『あなた』は根拠がなく硬いので、人称なしを推奨。"
+    },
+    {
+      "speaker_id": "trainer_0148",
+      "character_name": "Chris",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Camper"
+      ],
+      "trainer_ids": [
+        148
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ"
+        ],
+        "recommended": [
+          "？",
+          "だ！"
+        ]
+      },
+      "personality_traits": [
+        "驚かせるのが好き",
+        "負けを軽く受け流す"
+      ],
+      "speech_examples_short": [
+        "びっくりした？ さあ バトルのじかんだ！",
+        "おどかしても かてる わけじゃなかったか。"
+      ],
+      "evidence_entry_ids": [
+        "scr_74B195",
+        "scr_74B1B8"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Camperクラス。"
+    },
+    {
+      "speaker_id": "trainer_0156",
+      "character_name": "Heidi",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Picnicker"
+      ],
+      "trainer_ids": [
+        156
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だよ"
+        ],
+        "recommended": [
+          "！",
+          "だよ"
+        ]
+      },
+      "personality_traits": [
+        "ピクニックが好き",
+        "素直に悔しがる"
+      ],
+      "speech_examples_short": [
+        "ピクニックが だいなしだよ！",
+        "はまべで ピクニックするのがだいすき！"
+      ],
+      "evidence_entry_ids": [
+        "scr_755284",
+        "scr_7552A8"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Picnickerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0164",
+      "character_name": "Cooper",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Collector"
+      ],
+      "trainer_ids": [
+        164
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "伝聞調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "らしい"
+        ]
+      },
+      "personality_traits": [
+        "噂話を伝える"
+      ],
+      "speech_examples_short": [
+        "でも あらくれものたちにおどされて いなくなったらしい。",
+        "フロストマウンテンの てっぺんにめずらしい あおい とりがすんでいるらしい。"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F0AECE",
+        "scr_1F0AF03"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "『They say』に由来する伝聞のみ。"
+    },
+    {
+      "speaker_id": "trainer_0167",
+      "character_name": "Dawson",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Collector"
+      ],
+      "trainer_ids": [
+        167
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "わたし"
+        ],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "よ"
+        ],
+        "recommended": [
+          "！",
+          "よう！"
+        ]
+      },
+      "personality_traits": [
+        "植物の話に夢中",
+        "勝敗より話したがる"
+      ],
+      "speech_examples_short": [
+        "さばくの しょくぶつっておもしろい！",
+        "かちまけなんて どうでも いい！わたしの しょくぶつの はなしをしようよ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12ED6",
+        "scr_1F12F01"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Collectorクラス。"
+    },
+    {
+      "speaker_id": "trainer_0169",
+      "character_name": "Jovan",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Super Nerd"
+      ],
+      "trainer_ids": [
+        169
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ"
+        ],
+        "recommended": [
+          "！"
+        ]
+      },
+      "personality_traits": [
+        "チャント(Na na na)を挟む",
+        "Super Nerdを名乗る"
+      ],
+      "speech_examples_short": [
+        "ナナナナナナナ かれの まけだ!",
+        "ナナナナナナナ ナナナナナナナスーパーおたく!"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F0B284",
+        "scr_1F0B2BC"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Batman風のチャントをそのまま残す。"
+    },
+    {
+      "speaker_id": "trainer_0174",
+      "character_name": "Diddy",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Collector"
+      ],
+      "trainer_ids": [
+        174
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ"
+        ],
+        "recommended": [
+          "のかな？",
+          "だ！"
+        ]
+      },
+      "personality_traits": [
+        "地面の強さへの素朴な疑問"
+      ],
+      "speech_examples_short": [
+        "バトルするには じゅうぶんだ！",
+        "じめんは どれくらいのおもさまで たえられるのかな？"
+      ],
+      "evidence_entry_ids": [
+        "scr_7551B9",
+        "scr_7551EA"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Collectorクラス。"
+    },
+    {
+      "speaker_id": "trainer_0189",
+      "character_name": "Dudley",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Hiker"
+      ],
+      "trainer_ids": [
+        189
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "！"
+        ]
+      },
+      "personality_traits": [
+        "雨の橋を走る爽快感"
+      ],
+      "speech_examples_short": [
+        "いまは ぜんぜん さいこうじゃない。",
+        "あめの なか はしをはしりぬける さいこうのきぶん！"
+      ],
+      "evidence_entry_ids": [
+        "scr_74B381",
+        "scr_74B3BC"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Hikerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0190",
+      "character_name": "Allen",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Hiker"
+      ],
+      "trainer_ids": [
+        190
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "わたし"
+        ],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "？",
+          "らしい"
+        ]
+      },
+      "personality_traits": [
+        "山の話をする"
+      ],
+      "speech_examples_short": [
+        "この やまを のぼるのはかんたんだと おもう?",
+        "わたしの じょうほうでは、このどうくつには すくなくともあと20かい あるらしい!"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F0B11C",
+        "scr_1F0B151"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Hikerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0191",
+      "character_name": "Eric",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Hiker"
+      ],
+      "trainer_ids": [
+        191
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "励まし",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ",
+          "だよ"
+        ],
+        "recommended": [
+          "だよ！",
+          "だ！"
+        ]
+      },
+      "personality_traits": [
+        "道案内的な励まし"
+      ],
+      "speech_examples_short": [
+        "あと すこしだ!",
+        "でぐちは もうすぐだよ!"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F0B1D7",
+        "scr_1F0B1F2"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Hikerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0194",
+      "character_name": "Lucas",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Hiker"
+      ],
+      "trainer_ids": [
+        194
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "？",
+          "のに"
+        ]
+      },
+      "personality_traits": [
+        "化石を探す話"
+      ],
+      "speech_examples_short": [
+        "あと ひといき だったのに",
+        "さばくには かせきが あるってきいたよ。 どこにあるんだろう？"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12961",
+        "scr_1F129AB"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない",
+        "本編にLucasという人物が存在し得るが、名前一致のみ"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "名前Lucasは本編の人物と同名だが名前一致のみ。"
+    },
+    {
+      "speaker_id": "trainer_0217",
+      "character_name": "Brett",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Fisherman"
+      ],
+      "trainer_ids": [
+        217
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "ちゃった"
+        ],
+        "recommended": [
+          "？",
+          "ない！"
+        ]
+      },
+      "personality_traits": [
+        "釣りの話"
+      ],
+      "speech_examples_short": [
+        "ついて いけない！",
+        "おっと！ まさかなみのりポケモンをひっかけちゃった？"
+      ],
+      "evidence_entry_ids": [
+        "scr_75593E",
+        "scr_755971"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Fishermanクラス。"
+    },
+    {
+      "speaker_id": "trainer_0219",
+      "character_name": "Lewis",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Worker"
+      ],
+      "trainer_ids": [
+        219
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た",
+          "だよ"
+        ],
+        "recommended": [
+          "んだよ！",
+          "？"
+        ]
+      },
+      "personality_traits": [
+        "道路の上にいると教える"
+      ],
+      "speech_examples_short": [
+        "ひとの けはいを かんじた？",
+        "ここは SESハイウェイのまうえなんだよ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_754EE4",
+        "scr_754F11"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Workerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0231",
+      "character_name": "Wade",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Fisherman"
+      ],
+      "trainer_ids": [
+        231
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "荒っぽい口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "ぜ",
+          "た"
+        ],
+        "recommended": [
+          "ぜ",
+          "た"
+        ]
+      },
+      "personality_traits": [
+        "豪快な笑い",
+        "自分を『にいちゃん』と呼ぶ(原文: this dude)"
+      ],
+      "speech_examples_short": [
+        "この にいちゃん いっぴきにがした",
+        "ワハハ！ この にいちゃんがおおものを つりあげるぜ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_755458",
+        "scr_75548F"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "三人称自称は原文(this dude)に由来する。一人称の確定には使わない。"
+    },
+    {
+      "speaker_id": "trainer_0232",
+      "character_name": "Nolan",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Fisherman"
+      ],
+      "trainer_ids": [
+        232
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ",
+          "よ"
+        ],
+        "recommended": [
+          "？",
+          "よ"
+        ]
+      },
+      "personality_traits": [
+        "まじめに心配する",
+        "トイレの話が核"
+      ],
+      "speech_examples_short": [
+        "トイレを がまん してたからまけたんだ",
+        "トイレに いきたい ときはみんな どうしてるの？ トイレにいる あいだに つりざおにおおものが かかったらどうしよう？ いけないよ"
+      ],
+      "evidence_entry_ids": [
+        "scr_75565A",
+        "scr_7556D9"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Fishermanクラス。"
+    },
+    {
+      "speaker_id": "trainer_0249",
+      "character_name": "Koji",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Roughneck"
+      ],
+      "trainer_ids": [
+        249
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "威嚇的な常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "る"
+        ],
+        "recommended": [
+          "してやる！",
+          "。"
+        ]
+      },
+      "personality_traits": [
+        "脅し文句",
+        "短く言い切る"
+      ],
+      "speech_examples_short": [
+        "こてんぱん。",
+        "こてんぱんに してやる！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F06A82",
+        "scr_1F06A9D"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Roughneckクラス。"
+    },
+    {
+      "speaker_id": "trainer_0251",
+      "character_name": "Cameron",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Roughneck"
+      ],
+      "trainer_ids": [
+        251
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "ぶっきらぼうな常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た",
+          "よ"
+        ],
+        "recommended": [
+          "た。",
+          "よ。"
+        ]
+      },
+      "personality_traits": [
+        "『Hmph』の短い反応",
+        "不機嫌"
+      ],
+      "speech_examples_short": [
+        "ふん。 まけたよ。",
+        "ふん。 どういうわけか このあなに おちてしまった。"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F1285C",
+        "scr_1F12882"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Roughneckクラス。"
+    },
+    {
+      "speaker_id": "trainer_0258",
+      "character_name": "Hugo",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Gambler"
+      ],
+      "trainer_ids": [
+        258
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "じぶん"
+        ],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "年長者へのたしなめ口調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た"
+        ],
+        "recommended": [
+          "な",
+          "か。"
+        ]
+      },
+      "personality_traits": [
+        "相手を『Youngin』と呼ぶ",
+        "動揺すると言い淀む"
+      ],
+      "speech_examples_short": [
+        "そ そうか わかった。",
+        "わかいの じぶんが なににくびを つっこんでいるかわかっていないな。"
+      ],
+      "evidence_entry_ids": [
+        "scr_74B796",
+        "scr_74B7CB"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "『Youngin』は呼びかけ語で、相手より年長であることの手がかりに限る。高齢とまでは断定しない。"
+    },
+    {
+      "speaker_id": "trainer_0284",
+      "character_name": "Nate",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Ninja Boy"
+      ],
+      "trainer_ids": [
+        284
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "古風な宣言",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "いざ",
+          "よう！"
+        ]
+      },
+      "personality_traits": [
+        "名乗りを上げる",
+        "潔く負けを認める"
+      ],
+      "speech_examples_short": [
+        "いさぎよく まけを みとめよう！",
+        "すなの なかから とびだす！ハイヤッ！ いざ しょうぶ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_75577B",
+        "scr_7557B1"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない",
+        "本編にNateという人物が存在し得るが、名前一致のみ"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Ninja Boyクラス。原文のthee/honorは古風な語感の根拠。"
+    },
+    {
+      "speaker_id": "trainer_0287",
+      "character_name": "Nelson",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Guitarist"
+      ],
+      "trainer_ids": [
+        287
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "ぜ"
+        ],
+        "recommended": [
+          "ぜ",
+          "ない！"
+        ]
+      },
+      "personality_traits": [
+        "バンド活動の話",
+        "ロック調の決めゼリフ"
+      ],
+      "speech_examples_short": [
+        "すなあらしの なかじゃ えんそう できない！",
+        "もうすぐ なかまたちと ライブをするんだ！ ロックに きめるぜ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12AEC",
+        "scr_1F12B31"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Guitaristクラス。"
+    },
+    {
+      "speaker_id": "trainer_0305",
+      "character_name": "Edwin",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Bird Keeper"
+      ],
+      "trainer_ids": [
+        305
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だよ"
+        ],
+        "recommended": [
+          "だよ！",
+          "。"
+        ]
+      },
+      "personality_traits": [
+        "応援してから事実を告げる"
+      ],
+      "speech_examples_short": [
+        "がんばれ！ もう すぐだよ！",
+        "ほんとうは まだ かなりとおい。"
+      ],
+      "evidence_entry_ids": [
+        "scr_75BEBB",
+        "scr_75BEDC"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Bird Keeperクラス。落差が冗談の核。"
+    },
+    {
+      "speaker_id": "trainer_0306",
+      "character_name": "Chester",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Bird Keeper"
+      ],
+      "trainer_ids": [
+        306
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "ぞ"
+        ],
+        "recommended": [
+          "ぞ！",
+          "ない。"
+        ]
+      },
+      "personality_traits": [
+        "いたずら好き",
+        "ネタばらしをする"
+      ],
+      "speech_examples_short": [
+        "ハハ！ つかまえたぞ！",
+        "じつは つかまえて ない。"
+      ],
+      "evidence_entry_ids": [
+        "scr_75BE42",
+        "scr_75BE5A"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Bird Keeperクラス。"
+    },
+    {
+      "speaker_id": "trainer_0307",
+      "character_name": "Wilton",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Bird Keeper"
+      ],
+      "trainer_ids": [
+        307
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た"
+        ],
+        "recommended": [
+          "。",
+          "ないな"
+        ]
+      },
+      "personality_traits": [
+        "待ち伏せをして失敗する"
+      ],
+      "speech_examples_short": [
+        "おっと みちを まちがえた。",
+        "まちぶせ したんだから これはしかたないな。"
+      ],
+      "evidence_entry_ids": [
+        "scr_75BDD7",
+        "scr_75BDE9"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Bird Keeperクラス。"
+    },
+    {
+      "speaker_id": "trainer_0310",
+      "character_name": "Roger",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Bird Keeper"
+      ],
+      "trainer_ids": [
+        310
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "熱心な趣味人の口調(未訳)",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": []
+      },
+      "personality_traits": [
+        "バードウォッチングに熱心",
+        "Rufflet贔屓"
+      ],
+      "speech_examples_short": [],
+      "evidence_entry_ids": [
+        "scr_1F12CAD",
+        "scr_1F12CEE"
+      ],
+      "untranslated_entry_ids": [
+        "scr_1F12CAD",
+        "scr_1F12CEE"
+      ],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "2行とも未翻訳でholdのまま。Reedとは別のtrainer ID。統合しない。"
+    },
+    {
+      "speaker_id": "trainer_0311",
+      "character_name": "Reed",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Bird Keeper"
+      ],
+      "trainer_ids": [
+        311
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "熱心な趣味人の口調(未訳)",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": []
+      },
+      "personality_traits": [
+        "Vullaby贔屓",
+        "友人を軽くけなす"
+      ],
+      "speech_examples_short": [],
+      "evidence_entry_ids": [
+        "scr_1F12D4E",
+        "scr_1F12D90"
+      ],
+      "untranslated_entry_ids": [
+        "scr_1F12D4E",
+        "scr_1F12D90"
+      ],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "2行とも未翻訳でholdのまま。Rogerとは別のtrainer ID。統合しない。"
+    },
+    {
+      "speaker_id": "trainer_0320",
+      "character_name": "Aaron",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Black Belt"
+      ],
+      "trainer_ids": [
+        320
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "わたし"
+        ],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ",
+          "よ"
+        ],
+        "recommended": [
+          "よ！",
+          "んだ！"
+        ]
+      },
+      "personality_traits": [
+        "兄の自慢を紹介する"
+      ],
+      "speech_examples_short": [
+        "わたしの あには とびはねのめいじんで、 ルート8にすんでいるよ!",
+        "たえまない とびはねのおかげで、 あしが とてもつよくなったんだ!"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F0B076",
+        "scr_1F0B0A8"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない",
+        "本編にAaronという人物が存在し得るが、名前一致のみ"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Black Beltクラス。現行訳は『あに』と『よ』が混在するが破綻はしない。"
+    },
+    {
+      "speaker_id": "trainer_0321",
+      "character_name": "Hitoshi",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Black Belt"
+      ],
+      "trainer_ids": [
+        321
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "気合の入った口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "！"
+        ]
+      },
+      "personality_traits": [
+        "武道の掛け声",
+        "格言調"
+      ],
+      "speech_examples_short": [
+        "ハイヤーッ！",
+        "いたみ なくして せいちょうなし！"
+      ],
+      "evidence_entry_ids": [
+        "scr_74B7FA",
+        "scr_74B83D"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Black Beltクラス。"
+    },
+    {
+      "speaker_id": "trainer_0323",
+      "character_name": "Kiyo",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Black Belt"
+      ],
+      "trainer_ids": [
+        323
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "きみ"
+        ],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た"
+        ],
+        "recommended": [
+          "た！",
+          "なかった。"
+        ]
+      },
+      "personality_traits": [
+        "岩を砕いた話"
+      ],
+      "speech_examples_short": [
+        "きみは くだけなかった。",
+        "こぶしで いわをくだいたら、この ポケモンをみつけた！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12C2D",
+        "scr_1F12C64"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Black Beltクラス。"
+    },
+    {
+      "speaker_id": "trainer_0336",
+      "character_name": "Connor",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Scientist"
+      ],
+      "trainer_ids": [
+        336
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "機械的な報告調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "中。",
+          "パーセント。"
+        ]
+      },
+      "personality_traits": [
+        "確率を計算する",
+        "結果を淡々と告げる"
+      ],
+      "speech_examples_short": [
+        "けっか: 0パーセント。",
+        "しょうりの かくりつをけいさんちゅう"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F06AA6",
+        "scr_1F06AC3"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Scientistクラス。"
+    },
+    {
+      "speaker_id": "trainer_0402",
+      "character_name": "Mary",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Ace Trainer"
+      ],
+      "trainer_ids": [
+        402
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "きみ"
+        ],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だね"
+        ],
+        "recommended": [
+          "！",
+          "ね。"
+        ]
+      },
+      "personality_traits": [
+        "称号を名乗る"
+      ],
+      "speech_examples_short": [
+        "さかさバトルの マスターさんじょう！",
+        "その しょうごうは もう きみのものだね。"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F06AD9",
+        "scr_1F06AF1"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Ace Trainerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0441",
+      "character_name": "Patricia",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Medium"
+      ],
+      "trainer_ids": [
+        441
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "断定調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ",
+          "る"
+        ],
+        "recommended": [
+          "だ。",
+          "る。"
+        ]
+      },
+      "personality_traits": [
+        "霊についての説明"
+      ],
+      "speech_examples_short": [
+        "ゆうれいは さまようたましいだ。",
+        "この もりには ゆうれいが でる。"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F136C7",
+        "scr_1F136AD"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Mediumクラス。神秘的とまでは言えない。"
+    },
+    {
+      "speaker_id": "trainer_0442",
+      "character_name": "Carly",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Medium"
+      ],
+      "trainer_ids": [
+        442
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "きみ"
+        ],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "独白調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "だ。",
+          "だろう？"
+        ]
+      },
+      "personality_traits": [
+        "鳴き声を気味悪がる"
+      ],
+      "speech_examples_short": [
+        "あの なきごえは ぶきみだなにを つたえようとしているんだろう？"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F13736",
+        "scr_1F13769"
+      ],
+      "untranslated_entry_ids": [
+        "scr_1F13736"
+      ],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Mediumクラス。1行は未翻訳でhold。"
+    },
+    {
+      "speaker_id": "trainer_0444",
+      "character_name": "Jody",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Medium"
+      ],
+      "trainer_ids": [
+        444
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "INSUFFICIENT_EVIDENCE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "未確定",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": []
+      },
+      "personality_traits": [],
+      "speech_examples_short": [],
+      "evidence_entry_ids": [
+        "scr_1F1381F",
+        "scr_1F13847"
+      ],
+      "untranslated_entry_ids": [
+        "scr_1F1381F",
+        "scr_1F13847"
+      ],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "両行とも未翻訳のhold。内容は事実の説明のみで口調の手がかりがない。"
+    },
+    {
+      "speaker_id": "trainer_0451",
+      "character_name": "Angelica",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Psychic"
+      ],
+      "trainer_ids": [
+        451
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た",
+          "る"
+        ],
+        "recommended": [
+          "！",
+          "た。"
+        ]
+      },
+      "personality_traits": [
+        "超能力を誇る"
+      ],
+      "speech_examples_short": [
+        "こころの ぼうぎょがくだかれた。",
+        "この エスパーの ちからがこころの ぼうぎょを たかめる！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F02197",
+        "scr_1F021CD"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Psychicクラス。"
+    },
+    {
+      "speaker_id": "trainer_0477",
+      "character_name": "Grady",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Ruin Maniac"
+      ],
+      "trainer_ids": [
+        477
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "かたい常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た"
+        ],
+        "recommended": [
+          "やろう！",
+          "た。"
+        ]
+      },
+      "personality_traits": [
+        "尊大な挑発",
+        "秘密を暴くと宣言する"
+      ],
+      "speech_examples_short": [
+        "ひみつが あばかれた。",
+        "どれほど つよい？ そのひみつを あばいてやろう！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12757",
+        "scr_1F12787"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Ruin Maniacクラス。"
+    },
+    {
+      "speaker_id": "trainer_0480",
+      "character_name": "Axle",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Kindler"
+      ],
+      "trainer_ids": [
+        480
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "くだけた口語",
+      "sentence_endings": {
+        "observed_in_current_japanese": [],
+        "recommended": [
+          "！",
+          "そう！"
+        ]
+      },
+      "personality_traits": [
+        "炎ポケモンに大喜び"
+      ],
+      "speech_examples_short": [
+        "うれしくて もえあがりそう！",
+        "ここには ほのおポケモンがいっぱい！"
+      ],
+      "evidence_entry_ids": [
+        "scr_7501A0",
+        "scr_7501C5"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Kindlerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0482",
+      "character_name": "Blaze",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Kindler"
+      ],
+      "trainer_ids": [
+        482
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "熱血口調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "る"
+        ],
+        "recommended": [
+          "くる！"
+        ]
+      },
+      "personality_traits": [
+        "暑さで気合が入る",
+        "短い感嘆で終える"
+      ],
+      "speech_examples_short": [
+        "うおっ",
+        "この さばくは あつくていいね！ やるきが わいてくる！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12E0B",
+        "scr_1F12E3A"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Kindlerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0508",
+      "character_name": "Litzy",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Expert"
+      ],
+      "trainer_ids": [
+        508
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "年配を思わせる穏やかな口調",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ",
+          "だね"
+        ],
+        "recommended": [
+          "だ！",
+          "ね！"
+        ]
+      },
+      "personality_traits": [
+        "温泉的に砂で癒やされた話",
+        "感心する"
+      ],
+      "speech_examples_short": [
+        "まあ なんと。たいしたものだね！",
+        "あつい すなに つかってつかれた ほねを いやしてきた。いまは げんき いっぱいだ！"
+      ],
+      "evidence_entry_ids": [
+        "scr_755841",
+        "scr_755897"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "『Oh, my goodness』は驚きの感嘆で、年齢の断定には使わない。"
+    },
+    {
+      "speaker_id": "trainer_0521",
+      "character_name": "Nicolas",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "\\pk\\mn Ranger"
+      ],
+      "trainer_ids": [
+        521
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "なんだ"
+        ],
+        "recommended": [
+          "んだ",
+          "なんだ。"
+        ]
+      },
+      "personality_traits": [
+        "洞窟の生き物を守る仕事を説明する"
+      ],
+      "speech_examples_short": [
+        "だいじな しごとなんだ。",
+        "この どうくつの やせいのいきものを まもるのがしごとなんだ。"
+      ],
+      "evidence_entry_ids": [
+        "scr_74B8A7",
+        "scr_74B8DA"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Rangerクラス。"
+    },
+    {
+      "speaker_id": "trainer_0563",
+      "character_name": "Gogh",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Painter"
+      ],
+      "trainer_ids": [
+        563
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "INSUFFICIENT_EVIDENCE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "未確定",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "だ"
+        ],
+        "recommended": []
+      },
+      "personality_traits": [],
+      "speech_examples_short": [
+        "じっとして",
+        "さいこうの しゃしんだ!"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F0B026",
+        "scr_1F0B02C"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "『Hold.』『Picture perfect!』の2行のみ。『しゃしん』という媒体は原文から断定できない。"
+    },
+    {
+      "speaker_id": "trainer_0583",
+      "character_name": "Larry",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Ruin Maniac"
+      ],
+      "trainer_ids": [
+        583
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "る"
+        ],
+        "recommended": [
+          "？",
+          "ある。"
+        ]
+      },
+      "personality_traits": [
+        "岩について問いかける"
+      ],
+      "speech_examples_short": [
+        "この いわを どう おもう？",
+        "きっと なにか いみが ある。"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F127DA",
+        "scr_1F127FB"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない",
+        "本編にLarryという人物が存在し得るが、名前一致のみ"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Ruin Maniacクラス。"
+    },
+    {
+      "speaker_id": "trainer_0587",
+      "character_name": "Rode",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "Psychic"
+      ],
+      "trainer_ids": [
+        587
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "PROVISIONAL_VOICE",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "きみ"
+        ],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "冷たい断定",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "た"
+        ],
+        "recommended": [
+          "た。",
+          "ろ。"
+        ]
+      },
+      "personality_traits": [
+        "気配を察知したと言う",
+        "降参を迫る"
+      ],
+      "speech_examples_short": [
+        "あきらめろ",
+        "きみが ちかづくのを かんじた。"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F12B97",
+        "scr_1F12BAF"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Psychicクラス。"
+    },
+    {
+      "speaker_id": "trainer_0595",
+      "character_name": "Logan",
+      "character_name_japanese": null,
+      "identity_confidence": "PROVEN",
+      "identity_basis": "trainer ID binding via a trainerbattle text operand (Phase 6C-3A); not a canon identity claim",
+      "canon_identity": {
+        "status": "NOT_ESTABLISHED",
+        "official_character_proven": false
+      },
+      "character_category": "TRAINER_CLASS",
+      "trainer_class": [
+        "\\pk\\mn Ranger"
+      ],
+      "trainer_ids": [
+        595
+      ],
+      "source_game": {
+        "game": null,
+        "confidence": "UNKNOWN"
+      },
+      "voice_status": "NEUTRAL_ONLY",
+      "first_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [],
+        "policy": "原文に一人称の根拠がない限り確定しない。省略を優先"
+      },
+      "second_person": {
+        "value": null,
+        "status": "unspecified",
+        "observed_in_current_japanese": [
+          "きみ"
+        ],
+        "policy": "『きみ』は主人公への一般的な呼びかけとして既訳に残るが、話者固有とは扱わない"
+      },
+      "politeness": "常体",
+      "sentence_endings": {
+        "observed_in_current_japanese": [
+          "ね",
+          "る"
+        ],
+        "recommended": [
+          "いる！",
+          "ね！"
+        ]
+      },
+      "personality_traits": [
+        "砂漠の生き物を褒める"
+      ],
+      "speech_examples_short": [
+        "きみも いきいき しているね！",
+        "ここの さばくは いきいきしている！"
+      ],
+      "evidence_entry_ids": [
+        "scr_1F128C6",
+        "scr_1F128E8"
+      ],
+      "untranslated_entry_ids": [],
+      "prohibited_assumptions": [
+        "一人称を断定しない(現行訳の一人称は参考値)",
+        "二人称を断定しない",
+        "性別・年齢を語尾で付与しない",
+        "他のtrainer ID・他マップの発話と統合しない",
+        "同名の公式キャラクターと同一視しない",
+        "性格を原文以上に創作しない"
+      ],
+      "original_japanese_voice_reference": {
+        "status": "not_collected",
+        "applied": false
+      },
+      "notes": "Rangerクラス。"
+    }
+  ],
+  "plausible_pool": {
+    "entries": [
+      {
+        "entry_id": "scr_1F01267",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Hello, Trainer.\n\nWait\\.\n\nCan it be\\.\n\nAre you the [buffer2] of the\nlegendary Trainer, [green]Aros[blue]?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Mine"
+        ],
+        "graphics_ids": [
+          32,
+          71,
+          105
+        ],
+        "candidate_object_count": 3,
+        "tendency_suggestion": "丁寧で驚きを抑えた呼びかけ。『Wait.』『Can it be.』の間を保つ",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F012BD",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"You are his [buffer2]!\n\nI knew my eyesight was not\ndeceiving me!\n\nYour father was, to put it simply,\nan amazing man.\n\nI’m sure if you introduced yourself\nto people as his [buffer2], you\\lwould instantly be regarded with\\lmuch affection.\n\nThere aren’t many people out there\nwho have not heard of his exploits.\n\nIt’s a shame he disappeared.\n\nIf only someone knew what happened\nto him, I would finally have a\\lsense of closure.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Mine"
+        ],
+        "graphics_ids": [
+          32,
+          105
+        ],
+        "candidate_object_count": 2,
+        "tendency_suggestion": "敬意をもって興奮気味に話す。父(Aros)を称える調子",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F02458",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Whoa, [buffer3]\\.\n\nWelcome to the Soil.\n\nFeel free to make yourself at home\nas long as you want, [buffer3].\n\nTake in all the good air\\.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Mine"
+        ],
+        "graphics_ids": [
+          74
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "くつろいだ歓迎。ゆったり落ち着かせる言い方",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F075CB",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Wingderful!\n\nFor today, I’d like to see the\nbeautiful wings of a [green][buffer1][blue].\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          152
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "駄洒落(Wingderful)好きの明るい依頼人",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F078CB",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"No\\.\n\nI need an experienced Trainer who’s\nproven themself by defeating the\\lElite 4 for my task.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          20
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "丁寧で威厳のある依頼人。同じマップの近接オブジェクトだが同一NPCとは未確定",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F07929",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Ah, if it isn’t the Champion of the\nBorrius region!\n\nI have just the request for someone\nof your skill level.\n\nWould you like to hear it?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          20
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "丁寧で威厳のある依頼人(同上)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F079B1",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"The task is simple: train a\n[green]Butterfree[blue] to Level [green]70[blue] and\\lpresent it to me.\n\nIt can be over Level 70, but it\nmust be at least that.\n\nOnce you’ve done that, I’ll inform\nyou of the next part of the task.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          20
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "要点を整えて説明する依頼人(同上)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F07AB1",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Have you brought me a\nLevel [green]70 Butterfree[blue]?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          20
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "確認を促す短い問いかけ(同上)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F07EC2",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Come here, kid, quietly.\n\nOur whole region is secretly\ncontrolled by the bourgeoisie\\land the capitalists.\n\nWe in the working class have to\nband together and rise up against\\lthem in the name of communism!\n\nTheir weakness is free services.\n\nIf you heal at a Pokémon Center\nenough times, their machine of\\loppression will crumble.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          65
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "ひそひそ声の陰謀論者(コミカル)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F08005",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Workers of the world unite!\n\nAll you need to do is heal [green][buffer1][red]\ntimes at any Pokémon Center.\n\nOther than the one in Antisis City,\nthey’re all in on the revolution.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          65
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "スローガンを叫ぶ陰謀論者(コミカル)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F082E2",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Shush, quiet.\n\nDid you know that the Borrius\nregion is secretly governed by a\\lcommunist consortium, that does\\lcommunist things?\n\nWe can fight the power by you\nbuying enough unregistered goods\\lfrom Poké Marts.\n\nAll Poké Marts are in on it.\nYou up for a capitalist revolution?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          223
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "『Shush, quiet.』と声を潜める陰謀論者(コミカル)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F083F2",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Long live the revolution!\n\nIf you make [green][buffer1][red] purchases from\nPoké Marts, the communist system\\lwill collapse, and our capitalist\\lrevolution can begin.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          223
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "革命を叫ぶ誇張した調子(コミカル)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F08691",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Pokémon are evolutionarily\nsuperior to people.\n\nBut as a consequence of this, they\nhave started to overpopulate.\n\nWe need to lower their wild\npopulation before they realize that\\lthey have the upper hand over us.\n\nCan you catch [green][buffer1][blue] Pokémon outside\nof the Safari Zone in one day to\\lslow their growth rate?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          55
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "進化論的優越を語る冷静だが不穏な語り口",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F08AC4",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"I am the Trash-Man!\n\nI live in trash!\nI eat trash!\n\nDon’t ask, that’s what I do.\n\nI am not looking for garbage, I am\nlooking for the classiest pieces of\\ltrash, but this requires effort.\n\nI would rather pay you to do it\nfor me.\n\nWill you search trash cans for me\nto find at least [green][buffer1][blue] items?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          167
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "自分をTrash-Manと名乗る奇矯で誇らしげな宣言(本文中に自己紹介あり)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F08E36",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"I believe that Arceus creates all\nPokémon, but I am also a woman of\\lscience.\n\nI am trying to figure out whether\nreligion or science is right.\n\nI believe Pokémon evolution holds\nthe key to the answer.\n\nCare to help?\nI need [green][buffer1][red] observations.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          70
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "『woman of science』と本文で自称する、丁寧で内省的な話し方。性別の手がかりは本文の自称のみ",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F08F28",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Excellent, I will need you to view\n[green][buffer1][red] Pokémon evolutions, and report\\lyour unbiased opinion.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          70
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "依頼の説明を丁寧に行う科学者的な調子",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F09045",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Wow, you’re done!\nNow, let’s look at the data.\n\n\\.\n\nIt says that there are both\nscientific and religious facets to\\lPokémon evolution.\n\nPerhaps Arceus is more involved\nthan we know\\.\n\nInteresting, please take this\nPokémon as my thanks.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          70
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "結果を総括するやや芝居がかった調子",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0935A",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Then, demonstrate your hunger for\ntrue wealth to me.\n\nTo become truly wealthy, have your\nPokémon earn [green][buffer1][red] Exp. Points\\lin total within a single day.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          203
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "富への飢えを問う儀式的でもったいぶった調子",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F09BFC",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"If you have the [green]Fall Badge[red], you can\nbuy [green]Ultra Balls[red]!\n\nThey’re way better at catching\nPokémon than Great Balls.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          18,
+          22,
+          61,
+          168,
+          191
+        ],
+        "candidate_object_count": 5,
+        "tendency_suggestion": "商品の情報を伝える親切な説明口調",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0A0E6",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Excuse me, Trainer, would you be\nable to lend me a hand, please?\n\nYou see, my family and I are having\na big feast soon, and we need lots\\lof Honey for our meal.\n\nI’ve already collected seven jars,\nbut I need at least three more.\n\nI heard they could be found on wild\nCombee, but I’m not having much\\lluck finding them.\n\nSo how about it?\n\nAre you able to find [green]3[red] Combee\nand give me their [green]Honey[red]?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          22,
+          168
+        ],
+        "candidate_object_count": 2,
+        "tendency_suggestion": "丁寧に頼む控えめな依頼人(家族の宴のため)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0A273",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Great!\nThank you for agreeing to help!\n\nCombee can be found all over\nFlower Paradise.\n\nAlthough, you’d have more luck\nfinding them in the [blue]blue[red] flowers.\n\nYou might also want to try catching\na [green]Cutiefly[red] with [green]Honey Gather[red].\n\nThere’s a chance it’ll find Honey\nafter each battle, and you’ll be\\lnotified if it does!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          22,
+          168
+        ],
+        "candidate_object_count": 2,
+        "tendency_suggestion": "礼を述べ、手がかりを教える親切な調子",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0B7A3",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Huh? What’s this?\nAre you from the future?\n\n\\.\n\nAre you crazy?\n\nWhat made you think you had the\nright to travel through time?\n\n\\.\n\nLook, I get it, you made a rookie\nmistake.\n\nI can let you off easy this time.\n\nJust this once, if you don’t want\nto wait until [green][buffer1]/[buffer2]/[buffer3][blue] for your\\linternal clock to fix itself, I\\lcan reset it to today’s date.\n\nBut just this once!\n\nAre you sure you want me to reset\nyour clock?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          19,
+          51,
+          171
+        ],
+        "candidate_object_count": 3,
+        "tendency_suggestion": "動揺し、叱ってから納得する忙しい口調",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0B9B3",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Technology is amazing, you know,\nand if you wait until [green][buffer1]/[buffer2]/[buffer3][blue],\\lyour internal clock will fix itself.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          171
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "物知り顔の軽い雑談調",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0C34F",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"It’s a trophy proving you defeated\nthe Battle Tower Frontier Brain in\\la standard Single Battle!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          0,
+          105
+        ],
+        "candidate_object_count": 2,
+        "tendency_suggestion": "トロフィーの説明文。口調を付けず中立",
+        "voice_status": "NEUTRAL_ONLY",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0C3AF",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"It’s a trophy proving you defeated\nthe Battle Tower Frontier Brain in\\la standard Double Battle!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          0,
+          105
+        ],
+        "candidate_object_count": 3,
+        "tendency_suggestion": "トロフィーの説明文(同上)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0C40F",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"It’s a trophy proving you defeated\nthe Battle Tower Frontier Brain in\\la standard Multi Battle!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          0,
+          105
+        ],
+        "candidate_object_count": 4,
+        "tendency_suggestion": "トロフィーの説明文(同上)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0C46E",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"[player]! Stopping by for a visit?\n\nYou should hurry on over to\n[green]Redwood Village[blue]!\n\nThe sooner you beat the Gym there,\nthe sooner you can challenge the\\lPokémon League and become the\\lnew Champion.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          16,
+          72
+        ],
+        "candidate_object_count": 2,
+        "tendency_suggestion": "親しげに声をかけ背中を押す調子。家族とは限らない",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0C52E",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"[player]! Stopping by for a visit?\n\nYou should hurry on over to the\n[green]Pokémon League[blue]!\n\nThe sooner you get there, the\nsooner you can become the new\\lChampion!\n\nJust head [green]east[blue] from [green]Gurun Town[blue]\nalong [green]Route 18[blue] to get there.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          16,
+          72
+        ],
+        "candidate_object_count": 2,
+        "tendency_suggestion": "親しげに声をかけ背中を押す調子(同上)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F0CECE",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Wonderful, [player].\n\nI’ll take that Antidote off your\nhands now.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          32
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "礼儀正しい受け取りの返事",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F14710",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"[black][player] handed over the\n[buffer1].\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "BERRY FOREST"
+        ],
+        "graphics_ids": [
+          32
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "地の文に近い定型文。口調を付けず中立",
+        "voice_status": "NEUTRAL_ONLY",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F15C6C",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Huh?\nOh\\.\\CC0818 hey there, [buffer1]\\.\n\nHow’z it hangin’?\n\nYour Pokémon wanna sniff on some\nuh\\.\\CC0818 Rose Incense?\n\nIt’s really good for the soul.\nMakes it nice and mellow\\.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Mine"
+        ],
+        "graphics_ids": [
+          74
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "ゆるく間延びしたくだけた話し方。口癖が強い",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F164BE",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Ah, I see a Trainer has passed\nmy test\\.\n\nTell me, what is your name?\n\n\\.\n\n[player]?\nI see\\. so that’s how it is\\.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Tower"
+        ],
+        "graphics_ids": [
+          84
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "落ち着いた威厳のある口調。名前を尋ねる",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F1653E",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Oh, pay me no mind.\nI was merely talking to myself.\n\nI am Véga, the Leader of the\nCrater Town Gym.\n\nWhen I first arrived here, I felt\ncomfort in the sombre atmosphere\\lof this town.\n\nMy Pokémon and I therefore\ntrained here, to hone our skills\\lto the apex.\n\nIncidentally, are you afraid of\nthe dark?\n\nMany people are.\n\nKnowing exactly what you’re up\nagainst gives people courage.\n\nBut when they stumble blindly, never\nsure when the foe will approach\\.\n\nFear destroys even the largest\narmies.\n\nLet’s see if you, too, will be\ncrushed by the heavy atmosphere\\land my might!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Tower"
+        ],
+        "graphics_ids": [
+          84
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "本文中でVégaと名乗る、丁寧で抑えた口調。本人確認の昇格はしない",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F17516",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Howdy there, partner.\nGood to see ya again so soon.\n\nI hope my humble abode is to yer\nlikin’ and all.\n\nIf not, I’m sure there’s somethin’\nelse around ya can keep yer\\leyes on\\.\n\nI mean, it’s clear ya went all\nover this here town and the next,\\llookin’ for li’l old me.\n\n\\.I kid, I kid.\n\nThat look there tells me yer not\nbattlin’ me fer fun.\n\nLook, I ain’t one to pry.\nThat’s none o’ my beeswax.\n\nBut as Gym Leader, I can’t just up\nand fork over a Badge to any ol’\\lcowpoke.\n\nSo, let’s just get this on.\n\nLet this handsome fella test\nyer mettle!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          83
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "『Howdy, partner』系の西部風のくだけた方言調(原文に根拠あり)",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F17729",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Congrats, partner.\n\nBut I still think that if we’d\nbeen fightin’ for style points,\\lI’d win that, no problemo.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Magnolia Fields"
+        ],
+        "graphics_ids": [
+          83
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "同上。冗談めいた自信を見せる",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F2FCB5",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Hello there, young [buffer1]!\n\nWhat can I do for you?\n\n\\.\n\nAh, so Prof. Euler Log sent you.\n\nWhat you describe sounds troubling\nindeed.\n\nWell, I believe I can shed some\nlight on what those scoundrels are\\ltrying to achieve.\n\nIncidentally, are you well-versed in\nBorrius’ history?\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Mine"
+        ],
+        "graphics_ids": [
+          78
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "丁寧で知識のある助言者。Prof. Euler Logの名を出すが、本人とは限らない",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F30F7B",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"Get moving, [player], to Cinder\nVolcano - and be quick.\n\nI don’t think it’s anything Jax can’t\nhandle, but he may appreciate\\lyour help.\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Battle Mine"
+        ],
+        "graphics_ids": [
+          71
+        ],
+        "candidate_object_count": 1,
+        "tendency_suggestion": "指示を出す簡潔で切迫した調子",
+        "voice_status": "PROVISIONAL_VOICE",
+        "applies_to_other_entries": false
+      },
+      {
+        "entry_id": "scr_1F62EC8",
+        "identity_confidence": "PLAUSIBLE",
+        "original_english": "\"[black]The sand castle came alive\nand attacked!\"",
+        "evidence_kind": "object_script_proximity",
+        "map_section_names": [
+          "Antisis Port",
+          "Ferrothorn Turf"
+        ],
+        "graphics_ids": [
+          117,
+          189
+        ],
+        "candidate_object_count": 4,
+        "tendency_suggestion": "戦闘結果の地の文。口調を付けず中立",
+        "voice_status": "NEUTRAL_ONLY",
+        "applies_to_other_entries": false
+      }
+    ],
+    "rule": "傾向の提案のみ。人物固有の口調として確定せず、一括変更しない"
+  },
+  "unknown_pool": {
+    "dialogue_candidates": 372,
+    "non_dialogue": 147,
+    "english_cue_counts": {
+      "buffer_in_text": 67,
+      "pause_token": 126,
+      "exclamation": 168,
+      "question": 85,
+      "please": 9,
+      "player_address": 81,
+      "contraction_slang": 19
+    },
+    "rules": [
+      "キャラ付けしない。誰かの口調を借りない",
+      "老人語・女性語・方言は、原文にその根拠(自称・方言表記)がない限り足さない",
+      "原文の気分(元気・怒り・丁寧な説明・皮肉・冗談・驚き・落胆)に合わせて自然な文末を選ぶ",
+      "全員を同じ無機質な敬語に揃えない。ただし情報や条件は一切変えない"
+    ]
+  }
+}

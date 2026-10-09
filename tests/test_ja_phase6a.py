@@ -7,7 +7,7 @@ from pathlib import Path
 import pytest
 
 from lib.pcs_text import Charmap
-from lib.translation_glossary import load_glossary
+from lib.translation_glossary import TranslationGlossary, load_glossary
 from lib.translation_tokens import semantic_tokens, strip_hma_quotes
 from scripts.build_ja_phase6a import (
     BATCH_COUNT, BATCH_MAX, BATCH_MIN, QA_SIZE, approved_value,
@@ -98,6 +98,9 @@ def test_protected_tokens_and_page_controls_are_lossless():
 
 def test_glossary_scope_and_deterministic_values():
     glossary = load_glossary(ROOT / "glossaries/ja.json", expected_language="ja")
+    # Phase 6C-2B appended entry-scoped terms (and longer matches such as "Zeph Jr."); this historical
+    # fixture is compared against the original 139 terms only.
+    glossary = TranslationGlossary(glossary.language, glossary.terms[:139])
     codec = Charmap(target_lang="ja")
     localizer = cached_localizer()
     prepared = json.loads((ROOT / "out/ja-phase5e-prepared.json").read_text(encoding="utf-8"))

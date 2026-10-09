@@ -1,0 +1,377 @@
+{
+  "phase": "6C-3C",
+  "status": "PASS",
+  "applied_count": 3,
+  "held_count": 1,
+  "baseline_applied_entries": 2261,
+  "approved_only_text_changes": true,
+  "other_2258_translations_unchanged": true,
+  "other_pointer_changes": 0,
+  "entries": [
+    {
+      "entry_id": "scr_1F02145",
+      "original_english": "\"My Grass-types didn’t help me.\"",
+      "current_japanese": "[japanese]くさタイプは やくに\nたたなかった。[latin]",
+      "proposed_japanese": "[japanese]くさタイプは\nたすけてくれなかった。[latin]",
+      "rom_offset": "0x01F02145",
+      "gba_address": "0x09F02145",
+      "slot_size": 31,
+      "pointer_owners": [
+        "0x1E68B11"
+      ],
+      "current_encoded_bytes": 23,
+      "proposed_encoded_bytes": 23,
+      "source_line_pixels": [
+        166
+      ],
+      "current_line_pixels": [
+        100,
+        69
+      ],
+      "proposed_line_pixels": [
+        60,
+        109
+      ],
+      "field_window_physical_pixels": 208,
+      "battle_window_physical_pixels": 222,
+      "renderer_fit_rule": "below both ROM-backed physical spans and the original English maximum; no dynamic buffer",
+      "control_tokens": [
+        "[japanese]",
+        "\n",
+        "[latin]"
+      ],
+      "pcs_controls_current": [
+        "FE"
+      ],
+      "pcs_controls_proposed": [
+        "FE"
+      ],
+      "protected_tokens_preserved": true,
+      "kanji_count": 0,
+      "baseline_slot_matches": true,
+      "pointer_owners_match": true,
+      "glossary_matches": [],
+      "decision": "APPLY",
+      "placement": "in_place",
+      "changed_offsets": [
+        "0x01F0214D",
+        "0x01F0214E",
+        "0x01F0214F",
+        "0x01F02150",
+        "0x01F02151",
+        "0x01F02152",
+        "0x01F02153"
+      ]
+    },
+    {
+      "entry_id": "scr_740753",
+      "original_english": "\"Are you my mommy?\"",
+      "current_japanese": "[japanese]あなたが ママなの？[latin]",
+      "proposed_japanese": "[japanese]もしかして ママ？[latin]",
+      "rom_offset": "0x00740753",
+      "gba_address": "0x08740753",
+      "slot_size": 18,
+      "pointer_owners": [
+        "0x741343"
+      ],
+      "current_encoded_bytes": 15,
+      "proposed_encoded_bytes": 14,
+      "source_line_pixels": [
+        101
+      ],
+      "current_line_pixels": [
+        99
+      ],
+      "proposed_line_pixels": [
+        89
+      ],
+      "field_window_physical_pixels": 208,
+      "battle_window_physical_pixels": 222,
+      "renderer_fit_rule": "below both ROM-backed physical spans and the original English maximum; no dynamic buffer",
+      "control_tokens": [
+        "[japanese]",
+        "[latin]"
+      ],
+      "pcs_controls_current": [],
+      "pcs_controls_proposed": [],
+      "protected_tokens_preserved": true,
+      "kanji_count": 0,
+      "baseline_slot_matches": true,
+      "pointer_owners_match": true,
+      "glossary_matches": [],
+      "decision": "APPLY",
+      "placement": "in_place",
+      "changed_offsets": [
+        "0x00740755",
+        "0x00740756",
+        "0x00740757",
+        "0x00740758",
+        "0x00740759",
+        "0x0074075A",
+        "0x0074075C",
+        "0x0074075D",
+        "0x0074075E",
+        "0x0074075F",
+        "0x00740760"
+      ]
+    },
+    {
+      "entry_id": "scr_1F06A82",
+      "original_english": "\"I’m going to rough you up!\"",
+      "current_japanese": "[japanese]こてんぱんに してあげる！[latin]",
+      "proposed_japanese": "[japanese]こてんぱんに してやる！[latin]",
+      "rom_offset": "0x01F06A82",
+      "gba_address": "0x09F06A82",
+      "slot_size": 27,
+      "pointer_owners": [
+        "0x1E6AAA1"
+      ],
+      "current_encoded_bytes": 18,
+      "proposed_encoded_bytes": 17,
+      "source_line_pixels": [
+        148
+      ],
+      "current_line_pixels": [
+        125
+      ],
+      "proposed_line_pixels": [
+        115
+      ],
+      "field_window_physical_pixels": 208,
+      "battle_window_physical_pixels": 222,
+      "renderer_fit_rule": "below both ROM-backed physical spans and the original English maximum; no dynamic buffer",
+      "control_tokens": [
+        "[japanese]",
+        "[latin]"
+      ],
+      "pcs_controls_current": [],
+      "pcs_controls_proposed": [],
+      "protected_tokens_preserved": true,
+      "kanji_count": 0,
+      "baseline_slot_matches": true,
+      "pointer_owners_match": true,
+      "glossary_matches": [],
+      "decision": "APPLY",
+      "placement": "in_place",
+      "changed_offsets": [
+        "0x01F06A8D",
+        "0x01F06A8E",
+        "0x01F06A8F",
+        "0x01F06A90",
+        "0x01F06A91",
+        "0x01F06A92"
+      ]
+    },
+    {
+      "entry_id": "scr_1F02029",
+      "original_english": "\"My special [green]Fire[blue]-types will burn\nyou to a crisp!\"",
+      "current_japanese": "[japanese]とくせいの [green]ほのお[blue]タイプで\nまるこげに してやる！[latin]",
+      "proposed_japanese": "[japanese]とくしゅこうげきの [green]ほのお[blue]タイプで\nまるこげに してやる！[latin]",
+      "rom_offset": "0x01F02029",
+      "gba_address": "0x09F02029",
+      "slot_size": 54,
+      "pointer_owners": [
+        "0x1E68A9E"
+      ],
+      "current_encoded_bytes": 36,
+      "proposed_encoded_bytes": 40,
+      "source_line_pixels": [
+        171,
+        85
+      ],
+      "current_line_pixels": [
+        130,
+        105
+      ],
+      "proposed_line_pixels": [
+        169,
+        105
+      ],
+      "field_window_physical_pixels": 208,
+      "battle_window_physical_pixels": 222,
+      "renderer_fit_rule": "below both ROM-backed physical spans and the original English maximum; no dynamic buffer",
+      "control_tokens": [
+        "[japanese]",
+        "[green]",
+        "[blue]",
+        "\n",
+        "[latin]"
+      ],
+      "pcs_controls_current": [
+        "FC01:06",
+        "FC01:08",
+        "FE"
+      ],
+      "pcs_controls_proposed": [
+        "FC01:06",
+        "FC01:08",
+        "FE"
+      ],
+      "protected_tokens_preserved": true,
+      "kanji_count": 0,
+      "baseline_slot_matches": true,
+      "pointer_owners_match": true,
+      "glossary_matches": [],
+      "decision": "HOLD",
+      "reason": "special Fire-types does not prove the Special Attack stat; proposed wording adds an unsupported gameplay claim",
+      "changed_offsets": []
+    }
+  ],
+  "glossary_observations": [
+    {
+      "entry_id": "scr_1F0AECE",
+      "current_japanese": "[japanese]フロストマウンテンの てっぺんに\nめずらしい あおい とりが\\lすんでいるらしい。[latin]",
+      "approved_form": "フロストやま",
+      "glossary_entry_ids": [
+        "scr_1F0A708"
+      ],
+      "same_english_place_name": true,
+      "current_entry_scoped_match": false,
+      "decision": "AUDIT_ONLY",
+      "note": "Exact English Frost Mountain; approved form applies only to scr_1F0A708. Do not widen scope in voice pass."
+    },
+    {
+      "entry_id": "scr_1F0B076",
+      "current_japanese": "[japanese]わたしの あには とびはねの\nめいじんで、 ルート8に\\lすんでいるよ![latin]",
+      "approved_template": "[N]ばんどうろ",
+      "glossary_categories": [
+        "map_names"
+      ],
+      "current_entry_scoped_match": false,
+      "decision": "AUDIT_ONLY",
+      "note": "Route [N] template matches map_names, not scripts; extension requires a separate policy review."
+    }
+  ],
+  "controlfix_idempotent": true,
+  "strict_dry_run": {
+    "status": "PASS",
+    "stats": {
+      "input_entries": 3,
+      "free_blocks": 134,
+      "free_bytes": 610515,
+      "vetted_free_blocks": 134,
+      "vetted_free_bytes": 610515,
+      "reclaimed_text_blocks": 0,
+      "reclaimed_text_bytes": 0,
+      "reclaimable_text_owners": 0,
+      "vetted_reclaim_seed_owners": 0,
+      "used_reclaimed_text_owners": 0,
+      "reference_proven_pointer_texts": 0,
+      "table_proven_pointer_texts": 0,
+      "relocated": 0,
+      "deduplicated_relocations": 0,
+      "relocated_bytes": 0,
+      "pointer_writes": 0,
+      "in_place": 3,
+      "unchanged": 0,
+      "skipped_empty": 0,
+      "skipped_runtime_patch": 0,
+      "skipped_unsafe": 0,
+      "skipped_duplicate_fixed": 0,
+      "skipped_pointer_mismatch": 0,
+      "skipped_implausible_pointer": 0,
+      "skipped_no_space": 0,
+      "skipped_no_space_bytes": 0,
+      "skipped_no_space_by_category": {},
+      "skipped_bounds": 0,
+      "encode_errors": 0,
+      "fixed_overrides_used": 0,
+      "fixed_truncated": 0,
+      "fixed_truncated_bytes": 0,
+      "fixed_truncated_by_category": {},
+      "fixed_truncated_bytes_by_category": {},
+      "no_relocation_in_place": 0,
+      "no_relocation_truncated": 0,
+      "no_relocation_truncated_by_category": {},
+      "ability_descriptions_compacted": 0,
+      "ability_description_bytes_removed": 0,
+      "runtime_patches": 0,
+      "graphics_patches": 0
+    }
+  },
+  "strict_build": {
+    "status": "PASS",
+    "stats": {
+      "input_entries": 3,
+      "free_blocks": 134,
+      "free_bytes": 610515,
+      "vetted_free_blocks": 134,
+      "vetted_free_bytes": 610515,
+      "reclaimed_text_blocks": 0,
+      "reclaimed_text_bytes": 0,
+      "reclaimable_text_owners": 0,
+      "vetted_reclaim_seed_owners": 0,
+      "used_reclaimed_text_owners": 0,
+      "reference_proven_pointer_texts": 0,
+      "table_proven_pointer_texts": 0,
+      "relocated": 0,
+      "deduplicated_relocations": 0,
+      "relocated_bytes": 0,
+      "pointer_writes": 0,
+      "in_place": 3,
+      "unchanged": 0,
+      "skipped_empty": 0,
+      "skipped_runtime_patch": 0,
+      "skipped_unsafe": 0,
+      "skipped_duplicate_fixed": 0,
+      "skipped_pointer_mismatch": 0,
+      "skipped_implausible_pointer": 0,
+      "skipped_no_space": 0,
+      "skipped_no_space_bytes": 0,
+      "skipped_no_space_by_category": {},
+      "skipped_bounds": 0,
+      "encode_errors": 0,
+      "fixed_overrides_used": 0,
+      "fixed_truncated": 0,
+      "fixed_truncated_bytes": 0,
+      "fixed_truncated_by_category": {},
+      "fixed_truncated_bytes_by_category": {},
+      "no_relocation_in_place": 0,
+      "no_relocation_truncated": 0,
+      "no_relocation_truncated_by_category": {},
+      "ability_descriptions_compacted": 0,
+      "ability_description_bytes_removed": 0,
+      "runtime_patches": 0,
+      "graphics_patches": 0
+    }
+  },
+  "binary_diff": {
+    "changed_byte_count": 24,
+    "changed_offsets": [
+      "0x00740755",
+      "0x00740756",
+      "0x00740757",
+      "0x00740758",
+      "0x00740759",
+      "0x0074075A",
+      "0x0074075C",
+      "0x0074075D",
+      "0x0074075E",
+      "0x0074075F",
+      "0x00740760",
+      "0x01F0214D",
+      "0x01F0214E",
+      "0x01F0214F",
+      "0x01F02150",
+      "0x01F02151",
+      "0x01F02152",
+      "0x01F02153",
+      "0x01F06A8D",
+      "0x01F06A8E",
+      "0x01F06A8F",
+      "0x01F06A90",
+      "0x01F06A91",
+      "0x01F06A92"
+    ],
+    "allowed_slot_count": 3,
+    "unexpected_byte_count": 0,
+    "relocated_text_bytes": 0,
+    "pointer_write_bytes": 0
+  },
+  "rom_hashes": {
+    "source_md5": "9cad8e771940e7f7094d13911552cef0",
+    "baseline_sha256": "3cd6d07baa4c287e10dab9d0a04960455311d6ee829e189abc57940040af638a",
+    "output_md5": "45915b5cdb4898b608ffa451bcfe8c64",
+    "output_sha256": "68a6fecdbcf48a70d2e17cebc4c747a4095cfa242b8fc963e17a82722a68bc55"
+  }
+}

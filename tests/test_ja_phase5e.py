@@ -36,7 +36,9 @@ def test_phase5d_review_and_patch_are_consistent():
 def test_approved_glossary_retains_scopes_and_excludes_unresolved():
     glossary = load_glossary(ROOT / "glossaries/ja.json", expected_language="ja")
     terms = {term.source: term for term in glossary.terms}
-    assert len(terms) == 139
+    # Phase 6C-2B appended entry-scoped terms after the original 139; those are tested separately.
+    baseline = glossary.terms[:139]
+    assert len({term.source for term in baseline}) == 139
     for source in ("Gruff", "Exp. Gain", "Capped Share", "High King",
                    "Unique Horn", "Sphere", "Djinn", "Dancing"):
         assert source not in terms
@@ -44,7 +46,7 @@ def test_approved_glossary_retains_scopes_and_excludes_unresolved():
     assert terms["Difficult"].global_replace is False
     assert terms["Hard"].context_scope == "safari_difficulty"
     assert terms["Hard"].global_replace is False
-    assert sum(not term.global_replace for term in glossary.terms) == 32
+    assert sum(not term.global_replace for term in baseline) == 32
     assert terms["Ace"].entry_ids == ("scr_1F0EF1F",)
     assert glossary.matches("Difficult", "scripts") == []
     assert glossary.matches("Hard", "scripts") == []

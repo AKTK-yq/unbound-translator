@@ -1,7 +1,7 @@
 {
   "language": "ja",
-  "status": "phase5e-reviewed-terms",
-  "note": "Kana-only approved Phase 5D terms; scoped terms require their category or exact entry IDs.",
+  "status": "phase6c2b-reviewed-terms",
+  "note": "Kana-only approved terms. Phase 6C-2B terms are entry-scoped (global_replace=false); unresolved and rejected terms are intentionally absent.",
   "terms": [
     {
       "source": "Borrius Region",
@@ -1320,6 +1320,2600 @@
       "context_scope": "global",
       "global_replace": true,
       "case_sensitive": true
+    },
+    {
+      "source": "A Life of No Regrets",
+      "target": "こうかいのないじんせい",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F0E72F"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "ACE TRAINER",
+      "target": "エリートトレーナー",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": false,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00009_23E5CD"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Agent",
+      "target": "エージェント",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "title_agent_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F49D19"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Agent",
+      "target": "エージェント",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00003_23E57F"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Alan",
+      "target": "アラン",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "tbl_trainer_names_00022_23EE3C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Am I Blind?",
+      "target": "めがみえない？",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F1F8AB"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "And Den There Were None",
+      "target": "そしてすあなもなくなった",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EF5BD2"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic; raid den の採用訳に依存。"
+    },
+    {
+      "source": "Antidotes",
+      "target": "どくけし",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0CD3A",
+        "scr_1F0CE14"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=singular_verified_plural_inferred; 複数形は単数の語幹の機械的な複数として扱う（公式の複数形照合ではない）。"
+    },
+    {
+      "source": "Antisis City",
+      "target": "アンティシスシティ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F13B6A",
+        "scr_1F57988"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "As Hard as They Come",
+      "target": "とびきりかたい",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F14247"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Basic Literacy",
+      "target": "よみかきのきほん",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EFF75B"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Battle Frontier",
+      "target": "バトルフロンティア",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F4BDA6",
+        "scr_1F4C192"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Battle Tier",
+      "target": "バトルティア",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "menu_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "menu_battle"
+      ],
+      "entry_ids": [
+        "tbl_menu_battle_00008_1F941F3"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Battle Tower Frontier Brain",
+      "target": "バトルタワーの フロンティアブレーン",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "title_phrase_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0C34F",
+        "scr_1F0C3AF",
+        "scr_1F0C40F"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Blazing Emeralds",
+      "target": "もえるエメラルド",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EF154A"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Braille Converter",
+      "target": "てんじのへんかんき",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "item_names"
+      ],
+      "entry_ids": [
+        "tbl_item_names_00269_EB92FC"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Bryce & Mag",
+      "target": "ブライスとマグ",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "tbl_trainer_names_00019_23EDC4"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Bug-type",
+      "target": "むしタイプ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "type_phrase_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F13518",
+        "scr_1F139EF"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Butterfly",
+      "target": "ちょうちょ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00010_1A3597C"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Bye-Bye, Butterfree",
+      "target": "バイバイバタフリー",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F0784D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic; 題名中の公式名: Butterfree=バタフリー（verified_exact）"
+    },
+    {
+      "source": "Champion",
+      "target": "チャンピオン",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F07929",
+        "scr_1F0C46E",
+        "scr_1F0C52E",
+        "scr_1F0CBFF",
+        "scr_1F0CDAC",
+        "scr_1F0CE76",
+        "scr_1F0E49D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Cliff Cave",
+      "target": "がけのどうくつ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F57777"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Cocoon",
+      "target": "さなぎ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00009_1A35958",
+        "tbl_pokedex_species_00012_1A359C4"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Cube V3",
+      "target": "キューブV3",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts",
+        "start_menu_labels"
+      ],
+      "entry_ids": [
+        "scr_1F3C66D",
+        "scr_1F3C6E8",
+        "scr_1F3CC4D",
+        "tbl_start_menu_labels_00001_A4E4E4"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Darwin Was Right",
+      "target": "ダーウィンはただしかった",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F08DE6"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Day-Care",
+      "target": "そだてや",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F09A3C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Devil Duo",
+      "target": "デビルデュオ",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "nickname_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0A892",
+        "scr_1F0A9FD",
+        "scr_1F0AABD",
+        "scr_1F0ABA6",
+        "scr_1F0AD1C",
+        "scr_1F0ADCC"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Dilweed",
+      "target": "ディルウィード",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "tbl_trainer_names_00018_23ED9C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Don’t Turn Off the Power",
+      "target": "でんげんをきらないで",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F016E4"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "East Borrius",
+      "target": "ひがしボーリウス",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F14B72"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Egg",
+      "target": "タマゴ",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "pokemon_egg_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "menu_pokemon_summary"
+      ],
+      "entry_ids": [
+        "tbl_menu_pokemon_summary_00014_419A3D",
+        "tbl_menu_pokemon_summary_00017_419ADE"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=project_applied_usage"
+    },
+    {
+      "source": "Elite 4",
+      "target": "してんのう",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F078CB"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Epidimy",
+      "target": "エピディミー",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F35F2D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=existing_glossary"
+    },
+    {
+      "source": "Eternal Flower",
+      "target": "えいえんのはな",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "lore_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F11C5F"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Euler",
+      "target": "オイラー",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F30506",
+        "scr_1F3068C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Exp. Millionaire",
+      "target": "けいけんちミリオネア",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F0920D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Fall Badge",
+      "target": "フォールバッジ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "badge_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F09BFC",
+        "scr_1F17796",
+        "scr_1F17835",
+        "scr_1F1785D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Fey",
+      "target": "フェイ",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F32EB9",
+        "scr_1F3BF66",
+        "scr_1F3D205",
+        "scr_1F3D2FD",
+        "scr_1F3E173",
+        "scr_1F3E2FE",
+        "scr_1F41F58",
+        "scr_1F49D19"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Fisherman",
+      "target": "つりびと",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "npc_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F14C4E"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Flame",
+      "target": "かえん",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00003_1A35880"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "FRESH WATER",
+      "target": "おいしいみず",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": false,
+      "categories": [
+        "menu_list_labels"
+      ],
+      "entry_ids": [
+        "tbl_menu_list_labels_00020_417984"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit"
+    },
+    {
+      "source": "Frontier Brain",
+      "target": "フロンティアブレーン",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00030_1F949EC"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Frost Mountain",
+      "target": "フロストやま",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0A708"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Gambler",
+      "target": "ギャンブラー",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "npc_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0E798"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Gem",
+      "target": "ジュエル",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "gem_item_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F147A3",
+        "scr_1F14870"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=project_applied_usage"
+    },
+    {
+      "source": "Gems",
+      "target": "ジュエル",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "gem_item_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F14623",
+        "scr_1F1472A",
+        "scr_1F147F8"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=project_applied_usage"
+    },
+    {
+      "source": "Ghost-type",
+      "target": "ゴーストタイプ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "type_phrase_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F136E9"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Gigantamaxing",
+      "target": "キョダイマックス",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "mechanic_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F07C20"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Gimme a V",
+      "target": "Vサイン",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EE55D4"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Great Desert",
+      "target": "だいさばく",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F11DE8",
+        "scr_1F143CA",
+        "scr_1F14516",
+        "scr_1F14870",
+        "scr_1F14989"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Grim Woods",
+      "target": "ぶきみなもり",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F12FF4",
+        "scr_1F574FD"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Grudge",
+      "target": "おんねん",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "battle_message_move_name",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "battle_messages"
+      ],
+      "entry_ids": [
+        "tbl_battle_messages_00162_3FC4AB"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit; 戦闘メッセージではわざ名が活用・言い換えされるため、機械置換せず文単位で使う参照語。"
+    },
+    {
+      "source": "Grunt",
+      "target": "したっぱ",
+      "kind": "trainer_class",
+      "status": "existing_extended",
+      "context_scope": "trainer_name_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "tbl_trainer_names_00014_23ECFC"
+      ],
+      "note": "Phase 6C-2B KEEP_EXISTING; official_state=existing_glossary"
+    },
+    {
+      "source": "Grunt Test",
+      "target": "したっぱテスト",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "trainer_name_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "tbl_trainer_names_00023_23EE64"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=existing_glossary"
+    },
+    {
+      "source": "Guardian of Borrius",
+      "target": "ボーリウスの しゅごしゃ",
+      "kind": "other",
+      "status": "project_standard",
+      "context_scope": "title_phrase_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0D701"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Gurun Town",
+      "target": "グルンタウン",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F138D4",
+        "scr_1F158DA",
+        "scr_1F159D8"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Hairy Bug",
+      "target": "けむし",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00011_1A359A0"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Happy Hour",
+      "target": "ハッピーアワー",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0EC94",
+        "scr_1F0EDB9"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Hard Stones",
+      "target": "かたいいし",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F142BE",
+        "scr_1F143CA",
+        "scr_1F14516",
+        "scr_1F14623",
+        "scr_1F1472A",
+        "scr_1F147BF",
+        "scr_1F14825",
+        "scr_1F14870",
+        "scr_1F14989"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=singular_verified_plural_inferred; 複数形は単数の語幹の機械的な複数として扱う（公式の複数形照合ではない）。"
+    },
+    {
+      "source": "Hidden Grotto",
+      "target": "かくしあな",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F57497",
+        "scr_1F574FD",
+        "scr_1F5755D",
+        "scr_1F575B8",
+        "scr_1F5761C",
+        "scr_1F57675",
+        "scr_1F576D3",
+        "scr_1F5771F",
+        "scr_1F57777",
+        "scr_1F577D2",
+        "scr_1F57826",
+        "scr_1F5787F",
+        "scr_1F57925",
+        "scr_1F57988",
+        "scr_1F579E4",
+        "scr_1F57A38",
+        "scr_1F57A95",
+        "scr_1F57AF4",
+        "scr_1F57B53"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Hidden Grotto Raid Battle",
+      "target": "かくしあなの レイドバトル",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_phrase_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F07C20"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Hiker",
+      "target": "やまおとこ",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "npc_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_objectives",
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F57826",
+        "tbl_mission_objectives_00033_1F56736"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Hoenn",
+      "target": "ホウエン",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "region_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F48724"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Honey Gather",
+      "target": "みつあつめ",
+      "kind": "mission_title",
+      "status": "context_scoped",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F0A079"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit"
+    },
+    {
+      "source": "Hoopa",
+      "target": "フーパ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokemon_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F11C50",
+        "scr_1F33055"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 対象エントリは『Hoo. pa.』のように間を空けた綴りで、語として連続しない。FA/ポーズ付きの手作業対応が必要。"
+    },
+    {
+      "source": "Hunter of the Swamp",
+      "target": "ぬまのハンター",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EEC787"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Icy Hole",
+      "target": "こおりのあな",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F21738"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Idol",
+      "target": "アイドル",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00008_23E5C0"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "If We Were Meant to Fly",
+      "target": "もしもそらをとべたら",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EE7188"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Incense",
+      "target": "おこう",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_category_word_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_descriptions"
+      ],
+      "entry_ids": [
+        "scr_1EF7E52"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Interviewer",
+      "target": "インタビュアー",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00006_23E5A6"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Inverse Battle",
+      "target": "さかさバトル",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "menu_battle"
+      ],
+      "entry_ids": [
+        "tbl_menu_battle_00012_1F94224"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Inverse Trainer House",
+      "target": "さかさトレーナーハウス",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F099C2"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Jessica",
+      "target": "ジェシカ",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "tbl_trainer_names_00021_23EE14"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Juicy Pie",
+      "target": "ジューシーパイ",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EEA892"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "King Borrius the Third",
+      "target": "ボーリウス3せい",
+      "kind": "other",
+      "status": "project_standard",
+      "context_scope": "person_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F123E2"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Leaf Badge",
+      "target": "リーフバッジ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "badge_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F15FAA",
+        "scr_1F15FD6"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "LEMONADE",
+      "target": "ミックスオレ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": false,
+      "categories": [
+        "menu_list_labels"
+      ],
+      "entry_ids": [
+        "tbl_menu_list_labels_00022_4179AD"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit"
+    },
+    {
+      "source": "Lizard",
+      "target": "とかげ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00002_1A3585C"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Lucky Eggs",
+      "target": "しあわせタマゴ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F095A6",
+        "scr_1F0974F",
+        "scr_1F09838",
+        "scr_1F0994C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=singular_verified_plural_inferred; 複数形は単数の語幹の機械的な複数として扱う（公式の複数形照合ではない）。"
+    },
+    {
+      "source": "Magnolia Fields",
+      "target": "マグノリアフィールズ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F25980"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Major Miner",
+      "target": "メジャーマイナー",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EEDA96"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Maxima",
+      "target": "マキシマ",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts",
+        "trainer_names"
+      ],
+      "entry_ids": [
+        "scr_1F7A406",
+        "tbl_trainer_names_00024_23EE8C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Mega Evolution",
+      "target": "メガシンカ",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_objectives"
+      ],
+      "entry_ids": [
+        "tbl_mission_objectives_00020_1F564D8"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Moomoo Milks",
+      "target": "モーモーミルク",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_descriptions"
+      ],
+      "entry_ids": [
+        "scr_1EEA909"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=singular_verified_plural_inferred; 複数形は単数の語幹の機械的な複数として扱う（公式の複数形照合ではない）。"
+    },
+    {
+      "source": "National Pokédex",
+      "target": "ぜんこくずかん",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F23189"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Neighbourly Assistance",
+      "target": "となりのひとだすけ",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F0CA7E"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "No Survivors",
+      "target": "いきのこりゼロ",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F06B10"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "One Purple Balloon",
+      "target": "むらさきのふうせん",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EF1124"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Play Rough",
+      "target": "じゃれつく",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "move_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0ACA3"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 原文の行折り返しを空白として照合する。"
+    },
+    {
+      "source": "Poison Bee",
+      "target": "どくばち",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00013_1A359E8"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Poké Balls",
+      "target": "モンスターボール",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F3E5B3",
+        "scr_1F3E675"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=singular_verified_plural_inferred; 複数形は単数の語幹の機械的な複数として扱う（公式の複数形照合ではない）。"
+    },
+    {
+      "source": "Poké Mart",
+      "target": "フレンドリィショップ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0BE99",
+        "scr_1F0CAF5",
+        "scr_1F0CBFF",
+        "scr_1F0CD3A",
+        "scr_1F0CE14"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Poké Marts",
+      "target": "フレンドリィショップ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F082E2"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Pokémon Center",
+      "target": "ポケモンセンター",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F07EC2",
+        "scr_1F08005"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Pokémon League",
+      "target": "ポケモンリーグ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0C46E",
+        "scr_1F0C52E"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Pokémon Rangers",
+      "target": "ポケモンレンジャー",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "organization_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F1330A",
+        "scr_1F13412"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Pokémon Wireless Club",
+      "target": "ポケモンワイヤレスクラブ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F4EC02"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Polder Town",
+      "target": "ポルダータウン",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F52A74"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Population Control",
+      "target": "こたいすうちょうせい",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F08646"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Prof. Euler Log",
+      "target": "オイラー ログはかせ",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F2FCB5"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=existing_glossary"
+    },
+    {
+      "source": "Psychic",
+      "target": "サイコキネシス",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "move_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F3394E"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit"
+    },
+    {
+      "source": "Pyukumuku Chucker",
+      "target": "ナマコブシなげ",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EFA8A1"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic; 題名中の公式名: Pyukumuku=ナマコブシ（verified_exact）"
+    },
+    {
+      "source": "Qualot Berry",
+      "target": "タポルのみ",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_descriptions"
+      ],
+      "entry_ids": [
+        "scr_1EEA8A9"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; needs_human_confirmation: PokeAPI entity exact but earlier audit was ambiguous only because the source wraps a line; 原文の行折り返しを空白として照合する。"
+    },
+    {
+      "source": "Raid Den",
+      "target": "レイドの すあな",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "feature_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F57497",
+        "scr_1F574FD",
+        "scr_1F5755D",
+        "scr_1F575B8",
+        "scr_1F5761C",
+        "scr_1F57675",
+        "scr_1F576D3",
+        "scr_1F5771F",
+        "scr_1F57777",
+        "scr_1F577D2",
+        "scr_1F57826",
+        "scr_1F5787F",
+        "scr_1F57925",
+        "scr_1F57988",
+        "scr_1F579E4",
+        "scr_1F57A38",
+        "scr_1F57A95",
+        "scr_1F57AF4",
+        "scr_1F57B53"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Random Double Battle",
+      "target": "ランダムダブルバトル",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "menu_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "menu_battle"
+      ],
+      "entry_ids": [
+        "tbl_menu_battle_00000_1F94185"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Random Multi Battle",
+      "target": "ランダムマルチバトル",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "menu_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "menu_battle"
+      ],
+      "entry_ids": [
+        "tbl_menu_battle_00001_1F9419A"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Redwood Village",
+      "target": "レッドウッドビレッジ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F4AD47"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Ruins of Void",
+      "target": "ボイドいせき",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "map_names",
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0C2CC",
+        "scr_1F2FE44",
+        "scr_1F389BB",
+        "scr_1F38C8F",
+        "scr_1F67E9C",
+        "tbl_map_names_00016_B6FB10"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Safari Zone",
+      "target": "サファリゾーン",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "facility_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "item_descriptions",
+        "mission_descriptions",
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F08691",
+        "scr_1F260AE",
+        "tbl_item_descriptions_00005_3D501A"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Science Society",
+      "target": "かがくきょうかい",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "organization_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F13DB9",
+        "scr_1F1404F",
+        "scr_1F3CB76",
+        "scr_1F3D2FD"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Science Society",
+      "target": "かがくきょうかい",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00031_1FACB8D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic; トレーナークラス表の幅に収まるかはCodex側のfit確認が必要。"
+    },
+    {
+      "source": "Sea Salt",
+      "target": "うみのしお",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "item_names"
+      ],
+      "entry_ids": [
+        "tbl_item_names_00046_8769E8"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Sea Shell",
+      "target": "うみのかいがら",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "item_names"
+      ],
+      "entry_ids": [
+        "tbl_item_names_00047_876A14"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Shadow Grunts",
+      "target": "シャドウズの したっぱ",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "organization_member_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F389BB"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=existing_glossary"
+    },
+    {
+      "source": "Shadow Warrior",
+      "target": "シャドウせんし",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "organization_unit_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F3CAC0"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Shadow Warrior Project",
+      "target": "シャドウせんしけいかく",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "organization_project_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F3CD22"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Shadow Warriors",
+      "target": "シャドウせんし",
+      "kind": "organization",
+      "status": "project_standard",
+      "context_scope": "organization_unit_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F31102",
+        "scr_1F3129D",
+        "scr_1F313CD",
+        "scr_1F31A70",
+        "scr_1F3CE79",
+        "scr_1F3D205",
+        "scr_1F3D2FD",
+        "scr_1F3D834",
+        "scr_1F3DF07",
+        "scr_1F48ED0"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Shadows",
+      "target": "シャドウズ",
+      "kind": "organization",
+      "status": "existing_extended",
+      "context_scope": "organization_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F2F9D7",
+        "scr_1F30506",
+        "scr_1F3068C",
+        "scr_1F309BE",
+        "scr_1F30C2D",
+        "scr_1F339B2",
+        "scr_1F34454"
+      ],
+      "note": "Phase 6C-2B KEEP_EXISTING; official_state=existing_glossary"
+    },
+    {
+      "source": "Shellfish",
+      "target": "こうら",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00007_1A35910"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Sinnoh Leader",
+      "target": "シンオウリーダー",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00040_1EEA039"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Smogon OU",
+      "target": "スモゴンOU",
+      "kind": "feature",
+      "status": "project_standard",
+      "context_scope": "menu_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "menu_battle"
+      ],
+      "entry_ids": [
+        "tbl_menu_battle_00017_1F9426B"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "SODA POP",
+      "target": "サイコソーダ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "item_name_only",
+      "global_replace": false,
+      "case_sensitive": false,
+      "categories": [
+        "menu_list_labels"
+      ],
+      "entry_ids": [
+        "tbl_menu_list_labels_00021_41799A"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit"
+    },
+    {
+      "source": "Surf",
+      "target": "なみのり",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "setting_label_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "setting_names"
+      ],
+      "entry_ids": [
+        "tbl_setting_names_00008_1F4DADB"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit"
+    },
+    {
+      "source": "Sweet Pie",
+      "target": "スイートパイ",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EEA888"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Tarmigan Mansion",
+      "target": "ターミガンやしき",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_objectives"
+      ],
+      "entry_ids": [
+        "tbl_mission_objectives_00020_1F564D8"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Taunt",
+      "target": "ちょうはつ",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "battle_message_move_name",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "battle_messages"
+      ],
+      "entry_ids": [
+        "tbl_battle_messages_00180_3FC6D6"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit; 戦闘メッセージではわざ名が活用・言い換えされるため、機械置換せず文単位で使う参照語。"
+    },
+    {
+      "source": "The Capitalist Revolution",
+      "target": "しほんしゅぎかくめい",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F08287"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "The Communist Revolution",
+      "target": "きょうさんしゅぎかくめい",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F07E65"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "The Daily Grind",
+      "target": "まいにちのルーティン",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EF6184"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "The National Pokédex",
+      "target": "ぜんこくずかん",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F23189"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "The Strongest There Is",
+      "target": "さいきょうのそんざい",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EFD366"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "The Trash-Man",
+      "target": "ゴミマン",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F08A72"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Tiny Turtle",
+      "target": "かめのこ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00005_1A358C8"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "TM",
+      "target": "わざマシン",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_category_word_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0A3F7",
+        "scr_1F0DC92",
+        "scr_1F0DD20"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "TMs",
+      "target": "わざマシン",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "item_category_word_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0DD47"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Tomb of Borrius",
+      "target": "ボーリウスのはか",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "location_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F14D23",
+        "scr_1F14DFC",
+        "scr_1F14E8B"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Torment",
+      "target": "いちゃもん",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "battle_message_move_name",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "battle_messages"
+      ],
+      "entry_ids": [
+        "tbl_battle_messages_00179_3FC69D"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit; 戦闘メッセージではわざ名が活用・言い換えされるため、機械置換せず文単位で使う参照語。"
+    },
+    {
+      "source": "Trash-Man",
+      "target": "ゴミマン",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "npc_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F08AC4"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Treasure Hunter",
+      "target": "トレジャーハンター",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F14CD2"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Turtle",
+      "target": "かめ",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00006_1A358EC"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Ultimate Pie",
+      "target": "きゅうきょくのパイ",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1EEA89C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Ultimate Weapon",
+      "target": "さいしゅうへいき",
+      "kind": "other",
+      "status": "project_standard",
+      "context_scope": "lore_term_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F113ED",
+        "scr_1F48854"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Unova",
+      "target": "イッシュ",
+      "kind": "place",
+      "status": "project_standard",
+      "context_scope": "region_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F13A70"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Uproar",
+      "target": "さわぐ",
+      "kind": "item",
+      "status": "context_scoped",
+      "context_scope": "battle_message_move_name",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "battle_messages"
+      ],
+      "entry_ids": [
+        "tbl_battle_messages_00089_3FBD16",
+        "tbl_battle_messages_00090_3FBD2B",
+        "tbl_battle_messages_00092_3FBD53",
+        "tbl_battle_messages_00095_3FBDA3",
+        "tbl_battle_messages_00096_3FBDC4"
+      ],
+      "note": "Phase 6C-2B APPROVED_CONTEXT_SCOPED; official_state=verified_exact_prior_audit; 戦闘メッセージではわざ名が活用・言い換えされるため、機械置換せず文単位で使う参照語。"
+    },
+    {
+      "source": "Vision Badge",
+      "target": "ビジョンバッジ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "badge_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F167A0",
+        "scr_1F16852",
+        "scr_1F1687D"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Waiter",
+      "target": "ウェイター",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00004_23E58C"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Waitress",
+      "target": "ウェイトレス",
+      "kind": "trainer_class",
+      "status": "project_standard",
+      "context_scope": "trainer_class_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "trainer_classes"
+      ],
+      "entry_ids": [
+        "tbl_trainer_classes_00005_23E599"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=franchise_term_unverified_in_input"
+    },
+    {
+      "source": "Warmonger",
+      "target": "せんそうずき",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F12064"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Weed Whacker",
+      "target": "くさかりや",
+      "kind": "mission_title",
+      "status": "project_standard",
+      "context_scope": "mission_title_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "mission_names"
+      ],
+      "entry_ids": [
+        "scr_1F13064"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=not_applicable_unbound_or_franchise_generic"
+    },
+    {
+      "source": "Wings Badge",
+      "target": "ウィングスバッジ",
+      "kind": "item",
+      "status": "project_standard",
+      "context_scope": "badge_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F17172",
+        "scr_1F171F2"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=project_applied_usage"
+    },
+    {
+      "source": "Worm",
+      "target": "いもむし",
+      "kind": "item",
+      "status": "official_verified",
+      "context_scope": "pokedex_species_table_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "pokedex_species"
+      ],
+      "entry_ids": [
+        "tbl_pokedex_species_00008_1A35934"
+      ],
+      "note": "Phase 6C-2B APPROVED_OFFICIAL; official_state=verified_exact_prior_audit; 図鑑の分類名表は『ポケモン』を含まない語幹。接尾辞『ポケモン』はPokédex側のテンプレートで付く前提を実機で要確認。"
+    },
+    {
+      "source": "Zeph Jr.",
+      "target": "ゼフジュニア",
+      "kind": "person",
+      "status": "project_standard",
+      "context_scope": "person_name_only",
+      "global_replace": false,
+      "case_sensitive": true,
+      "categories": [
+        "scripts"
+      ],
+      "entry_ids": [
+        "scr_1F0CA42"
+      ],
+      "note": "Phase 6C-2B APPROVED_PROJECT_STANDARD; official_state=existing_glossary"
     }
   ]
 }

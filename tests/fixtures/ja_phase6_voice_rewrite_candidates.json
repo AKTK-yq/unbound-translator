@@ -1,0 +1,822 @@
+{
+  "metadata": {
+    "phase": "6C-3B",
+    "candidates": 4,
+    "unchanged": 108,
+    "held_untranslated": 8,
+    "reviewed_entries": 120,
+    "requires_technical_review": 0,
+    "applied_to_translation_json": false,
+    "rule": "Meaning, proper nouns and every control token are unchanged; a candidate is a proposal only."
+  },
+  "candidates": [
+    {
+      "entry_id": "scr_1F02029",
+      "speaker_id": "trainer_0008",
+      "speaker_confidence": "PROVEN",
+      "original_english": "\"My special [green]Fire[blue]-types will burn\nyou to a crisp!\"",
+      "current_japanese": "[japanese]とくせいの [green]ほのお[blue]タイプで\nまるこげに してやる！[latin]",
+      "proposed_japanese": "[japanese]とくしゅこうげきの [green]ほのお[blue]タイプで\nまるこげに してやる！[latin]",
+      "reason": "『special Fire-types』の『とくせい』は、ポケモンの『とくせい(アビリティ)』と同じ語になり誤解される。同じ型の定型文で既に『ぶつりこうげきの あくの いかり』(scr_1F02164)と書いているので、攻撃の種類として揃える。口調は変えない。",
+      "speaker_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 8,
+          "trainer_class": "Kindler",
+          "text_operand_offset": "0x01E68A9E"
+        }
+      ],
+      "control_validation": {
+        "control_token_sequence_equal": true,
+        "protected_tokens_equal": true,
+        "newline_count_equal": true,
+        "source_controls": [
+          "[japanese]",
+          "[green]",
+          "[blue]",
+          "\n",
+          "[latin]"
+        ],
+        "proposed_controls": [
+          "[japanese]",
+          "[green]",
+          "[blue]",
+          "\n",
+          "[latin]"
+        ],
+        "encoded_bytes_current": 36,
+        "encoded_bytes_proposed": 40,
+        "source_slot_size": 54,
+        "fits_source_slot": true,
+        "line_pixels_proposed": [
+          169,
+          105
+        ],
+        "max_line_pixels_current": 130,
+        "within_240px": true
+      },
+      "charmap_validation": {
+        "encodes_in_japanese_charmap": true,
+        "kanji_free": true
+      },
+      "confidence": "medium",
+      "change_risk": "low: 『special』を特殊攻撃寄りと解釈する前提。スロットを超えたら要technical review",
+      "requires_technical_review": false
+    },
+    {
+      "entry_id": "scr_1F02145",
+      "speaker_id": "trainer_0011",
+      "speaker_confidence": "PROVEN",
+      "original_english": "\"My Grass-types didn’t help me.\"",
+      "current_japanese": "[japanese]くさタイプは やくに\nたたなかった。[latin]",
+      "proposed_japanese": "[japanese]くさタイプは\nたすけてくれなかった。[latin]",
+      "reason": "対になる直前の台詞『しょうりに みちびいてくれる』（scr_1F02118）に合わせ、『helpしてくれる/くれなかった』の対応にする。『やくに たたなかった』は原文より辛辣で、文句というより拗ねた調子の原文とずれる。",
+      "speaker_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 11,
+          "trainer_class": "Picnicker",
+          "text_operand_offset": "0x01E68B11"
+        }
+      ],
+      "control_validation": {
+        "control_token_sequence_equal": true,
+        "protected_tokens_equal": true,
+        "newline_count_equal": true,
+        "source_controls": [
+          "[japanese]",
+          "\n",
+          "[latin]"
+        ],
+        "proposed_controls": [
+          "[japanese]",
+          "\n",
+          "[latin]"
+        ],
+        "encoded_bytes_current": 23,
+        "encoded_bytes_proposed": 23,
+        "source_slot_size": 31,
+        "fits_source_slot": true,
+        "line_pixels_proposed": [
+          60,
+          109
+        ],
+        "max_line_pixels_current": 100,
+        "within_240px": true
+      },
+      "charmap_validation": {
+        "encodes_in_japanese_charmap": true,
+        "kanji_free": true
+      },
+      "confidence": "medium",
+      "change_risk": "low: 語尾の印象のみ変更",
+      "requires_technical_review": false
+    },
+    {
+      "entry_id": "scr_740753",
+      "speaker_id": "trainer_0142",
+      "speaker_confidence": "PROVEN",
+      "original_english": "\"Are you my mommy?\"",
+      "current_japanese": "[japanese]あなたが ママなの？[latin]",
+      "proposed_japanese": "[japanese]もしかして ママ？[latin]",
+      "reason": "二人称『あなた』は根拠がなく、子どもが人違いをする場面には硬い。人称を省いて原文の意味(あなたは私のママ？)を保つ。",
+      "speaker_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 142,
+          "trainer_class": "Camper",
+          "text_operand_offset": "0x00741343"
+        }
+      ],
+      "control_validation": {
+        "control_token_sequence_equal": true,
+        "protected_tokens_equal": true,
+        "newline_count_equal": true,
+        "source_controls": [
+          "[japanese]",
+          "[latin]"
+        ],
+        "proposed_controls": [
+          "[japanese]",
+          "[latin]"
+        ],
+        "encoded_bytes_current": 15,
+        "encoded_bytes_proposed": 14,
+        "source_slot_size": 18,
+        "fits_source_slot": true,
+        "line_pixels_proposed": [
+          89
+        ],
+        "max_line_pixels_current": 99,
+        "within_240px": true
+      },
+      "charmap_validation": {
+        "encodes_in_japanese_charmap": true,
+        "kanji_free": true
+      },
+      "confidence": "medium",
+      "change_risk": "low: 二人称の省略のみ",
+      "requires_technical_review": false
+    },
+    {
+      "entry_id": "scr_1F06A82",
+      "speaker_id": "trainer_0249",
+      "speaker_confidence": "PROVEN",
+      "original_english": "\"I’m going to rough you up!\"",
+      "current_japanese": "[japanese]こてんぱんに してあげる！[latin]",
+      "proposed_japanese": "[japanese]こてんぱんに してやる！[latin]",
+      "reason": "『してあげる』は恩恵を与える言い方で、Roughneckクラスの威嚇と合わない。Daniel/Renee等の挑発文と同じ『してやる』にする。",
+      "speaker_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 249,
+          "trainer_class": "Roughneck",
+          "text_operand_offset": "0x01E6AAA1"
+        }
+      ],
+      "control_validation": {
+        "control_token_sequence_equal": true,
+        "protected_tokens_equal": true,
+        "newline_count_equal": true,
+        "source_controls": [
+          "[japanese]",
+          "[latin]"
+        ],
+        "proposed_controls": [
+          "[japanese]",
+          "[latin]"
+        ],
+        "encoded_bytes_current": 18,
+        "encoded_bytes_proposed": 17,
+        "source_slot_size": 27,
+        "fits_source_slot": true,
+        "line_pixels_proposed": [
+          115
+        ],
+        "max_line_pixels_current": 125,
+        "within_240px": true
+      },
+      "charmap_validation": {
+        "encodes_in_japanese_charmap": true,
+        "kanji_free": true
+      },
+      "confidence": "medium",
+      "change_risk": "low: 威嚇の言い方のみ",
+      "requires_technical_review": false
+    }
+  ],
+  "unchanged": [
+    {
+      "entry_id": "scr_75D3DA",
+      "speaker_id": "trainer_0028",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75D407",
+      "speaker_id": "trainer_0028",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74BFC6",
+      "speaker_id": "trainer_0353",
+      "reason": "『まけなかったのに』は『you would've lost』のやや弱い言い換えだが意味は通る。無理に変えない。"
+    },
+    {
+      "entry_id": "scr_7526A7",
+      "speaker_id": "trainer_0008",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7526CF",
+      "speaker_id": "trainer_0008",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0205F",
+      "speaker_id": "trainer_0008",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75277D",
+      "speaker_id": "trainer_0009",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7527A8",
+      "speaker_id": "trainer_0009",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F020C8",
+      "speaker_id": "trainer_0009",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F020FE",
+      "speaker_id": "trainer_0009",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_753252",
+      "speaker_id": "trainer_0010",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75326D",
+      "speaker_id": "trainer_0010",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0207D",
+      "speaker_id": "trainer_0010",
+      "reason": "擬音ブクブクは泡/飲む音の解釈が割れる。根拠がないため据え置き。"
+    },
+    {
+      "entry_id": "scr_1F020B0",
+      "speaker_id": "trainer_0010",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_752852",
+      "speaker_id": "trainer_0012",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7530D9",
+      "speaker_id": "trainer_0012",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F02164",
+      "speaker_id": "trainer_0012",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F02187",
+      "speaker_id": "trainer_0012",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7532A5",
+      "speaker_id": "trainer_0011",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F02118",
+      "speaker_id": "trainer_0011",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74145B",
+      "speaker_id": "trainer_0013",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7459AF",
+      "speaker_id": "trainer_0013",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75372E",
+      "speaker_id": "trainer_0092",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_753752",
+      "speaker_id": "trainer_0092",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12A6D",
+      "speaker_id": "trainer_0100",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F135EB",
+      "speaker_id": "trainer_0104",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F13616",
+      "speaker_id": "trainer_0104",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74C5D9",
+      "speaker_id": "trainer_0119",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74C60C",
+      "speaker_id": "trainer_0119",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7537A1",
+      "speaker_id": "trainer_0123",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7537CB",
+      "speaker_id": "trainer_0123",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7459E1",
+      "speaker_id": "trainer_0142",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B195",
+      "speaker_id": "trainer_0148",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B1B8",
+      "speaker_id": "trainer_0148",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_755284",
+      "speaker_id": "trainer_0156",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7552A8",
+      "speaker_id": "trainer_0156",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0AECE",
+      "speaker_id": "trainer_0164",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0AF03",
+      "speaker_id": "trainer_0164",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12ED6",
+      "speaker_id": "trainer_0167",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12F01",
+      "speaker_id": "trainer_0167",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B284",
+      "speaker_id": "trainer_0169",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B2BC",
+      "speaker_id": "trainer_0169",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7551B9",
+      "speaker_id": "trainer_0174",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7551EA",
+      "speaker_id": "trainer_0174",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B381",
+      "speaker_id": "trainer_0189",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B3BC",
+      "speaker_id": "trainer_0189",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B11C",
+      "speaker_id": "trainer_0190",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B151",
+      "speaker_id": "trainer_0190",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B1D7",
+      "speaker_id": "trainer_0191",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B1F2",
+      "speaker_id": "trainer_0191",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12961",
+      "speaker_id": "trainer_0194",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F129AB",
+      "speaker_id": "trainer_0194",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75593E",
+      "speaker_id": "trainer_0217",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_755971",
+      "speaker_id": "trainer_0217",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_754EE4",
+      "speaker_id": "trainer_0219",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_754F11",
+      "speaker_id": "trainer_0219",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_755458",
+      "speaker_id": "trainer_0231",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75548F",
+      "speaker_id": "trainer_0231",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75565A",
+      "speaker_id": "trainer_0232",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7556D9",
+      "speaker_id": "trainer_0232",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F06A9D",
+      "speaker_id": "trainer_0249",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F1285C",
+      "speaker_id": "trainer_0251",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12882",
+      "speaker_id": "trainer_0251",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B796",
+      "speaker_id": "trainer_0258",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B7CB",
+      "speaker_id": "trainer_0258",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75577B",
+      "speaker_id": "trainer_0284",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7557B1",
+      "speaker_id": "trainer_0284",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12AEC",
+      "speaker_id": "trainer_0287",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12B31",
+      "speaker_id": "trainer_0287",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75BEBB",
+      "speaker_id": "trainer_0305",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75BEDC",
+      "speaker_id": "trainer_0305",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75BE42",
+      "speaker_id": "trainer_0306",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75BE5A",
+      "speaker_id": "trainer_0306",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75BDD7",
+      "speaker_id": "trainer_0307",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_75BDE9",
+      "speaker_id": "trainer_0307",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B076",
+      "speaker_id": "trainer_0320",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B0A8",
+      "speaker_id": "trainer_0320",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B7FA",
+      "speaker_id": "trainer_0321",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B83D",
+      "speaker_id": "trainer_0321",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12C2D",
+      "speaker_id": "trainer_0323",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12C64",
+      "speaker_id": "trainer_0323",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F06AA6",
+      "speaker_id": "trainer_0336",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F06AC3",
+      "speaker_id": "trainer_0336",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F06AD9",
+      "speaker_id": "trainer_0402",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F06AF1",
+      "speaker_id": "trainer_0402",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F136C7",
+      "speaker_id": "trainer_0441",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F136AD",
+      "speaker_id": "trainer_0441",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F13769",
+      "speaker_id": "trainer_0442",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F02197",
+      "speaker_id": "trainer_0451",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F021CD",
+      "speaker_id": "trainer_0451",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12757",
+      "speaker_id": "trainer_0477",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12787",
+      "speaker_id": "trainer_0477",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7501A0",
+      "speaker_id": "trainer_0480",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_7501C5",
+      "speaker_id": "trainer_0480",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12E0B",
+      "speaker_id": "trainer_0482",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12E3A",
+      "speaker_id": "trainer_0482",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_755841",
+      "speaker_id": "trainer_0508",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_755897",
+      "speaker_id": "trainer_0508",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B8A7",
+      "speaker_id": "trainer_0521",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_74B8DA",
+      "speaker_id": "trainer_0521",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B026",
+      "speaker_id": "trainer_0563",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F0B02C",
+      "speaker_id": "trainer_0563",
+      "reason": "『しゃしん』は媒体を断定している可能性があるが、場面が未確認のため据え置き(観察事項に記録)。"
+    },
+    {
+      "entry_id": "scr_1F127DA",
+      "speaker_id": "trainer_0583",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F127FB",
+      "speaker_id": "trainer_0583",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12B97",
+      "speaker_id": "trainer_0587",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F12BAF",
+      "speaker_id": "trainer_0587",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F128C6",
+      "speaker_id": "trainer_0595",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    },
+    {
+      "entry_id": "scr_1F128E8",
+      "speaker_id": "trainer_0595",
+      "reason": "既訳が原文の調子に合っており、変更の必要がない"
+    }
+  ],
+  "held_untranslated": [
+    {
+      "entry_id": "scr_1F12A15",
+      "speaker_id": "trainer_0100",
+      "original_english": "\"Wearing these Go-Goggles makes me\nfeel like a superhero.\n\nRight now, nobody can beat me!\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F12CAD",
+      "speaker_id": "trainer_0310",
+      "original_english": "\"I’m out here bird watching for\nRufflet.\n\nHave you seen any today?\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F12CEE",
+      "speaker_id": "trainer_0310",
+      "original_english": "\"Rufflet are superior to Vullaby!\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F12D4E",
+      "speaker_id": "trainer_0311",
+      "original_english": "\"I’m keeping a close eye out for\nVullaby.\n\nHave you seen any today?\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F12D90",
+      "speaker_id": "trainer_0311",
+      "original_english": "\"My friend thinks Rufflet are better\nthan Vullaby. He’s wrong.\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F13736",
+      "speaker_id": "trainer_0442",
+      "original_english": "\"Listen closely\\.\nDo you hear the cries of Phantump?\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F1381F",
+      "speaker_id": "trainer_0444",
+      "original_english": "\"Pumpkaboo come in many different\nsizes.\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    },
+    {
+      "entry_id": "scr_1F13847",
+      "speaker_id": "trainer_0444",
+      "original_english": "\"There are four Pumpkaboo sizes\nin total.\"",
+      "reason": "現行訳なし(翻訳キューにhold)。翻訳はこの工程の対象外。口調の目安はprofileにのみ記録"
+    }
+  ],
+  "out_of_scope_observations": [
+    {
+      "entry_id": "scr_1F0AECE",
+      "kind": "glossary_alignment",
+      "note": "『フロストマウンテン』は承認済みglossaryの『フロストやま』と異なる。声の見直しではないので本ファイルでは変更しない。"
+    },
+    {
+      "entry_id": "scr_1F0B076",
+      "kind": "glossary_alignment",
+      "note": "『ルート8』は文中のRoute表記。glossaryのRoute [N]=[N]ばんどうろはmap_names限定のため、方針の確認が必要。"
+    },
+    {
+      "entry_id": "scr_1F0B284",
+      "kind": "typography",
+      "note": "末尾の『!』が半角。声の問題ではないので変更しない。"
+    },
+    {
+      "entry_id": "scr_1F12C64",
+      "kind": "second_person_convention",
+      "note": "『きみ』は主人公への一般的な呼びかけとして残る。話者固有の二人称とは扱わない。"
+    }
+  ]
+}
