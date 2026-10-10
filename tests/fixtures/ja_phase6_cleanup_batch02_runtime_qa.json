@@ -1,0 +1,3002 @@
+{
+  "metadata": {
+    "count": 20,
+    "performed": false,
+    "rom": "out\\unbound-ja-phase6-cleanup-batch02.gba"
+  },
+  "entries": [
+    {
+      "id": "scr_1F0AC39",
+      "apply_status": "APPLY",
+      "original": "\"Indeed, you were prepared\\.\"",
+      "japanese": "たしかに じゅんびは できていた\\.",
+      "speaker_id": "trainer_0510",
+      "source_rom_offset": "0x01F0AC39",
+      "source_gba_address": "0x09F0AC39",
+      "pointer_owners": [
+        "0x01E6D119",
+        "0x01E6D1D7"
+      ],
+      "speaker_confidence": "PROVEN",
+      "location_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 510,
+          "trainer_name": "Kenlawa",
+          "trainer_class_id": 28,
+          "trainer_class": "Expert",
+          "trainer_pic_id": 35,
+          "record_offset": "0x00243A78",
+          "party_pointer_offset": "0x00243A9C",
+          "party_pointer": "0x0023D348",
+          "opcode_offset": "0x01E6D1D1",
+          "text_operand_offset": "0x01E6D1D7",
+          "text_operand_index": 0,
+          "battle_mode": 3,
+          "opcode_bytes": "5c 03 fe 01 00 04 39 ac f0 09"
+        }
+      ],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          167
+        ],
+        "line_static": [
+          167
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 167,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "trainer_intro_or_defeat",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6D119",
+              "pointer_gba": "0x09E6D119",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "01 0f 00 39 ac f0 09 25 ac 00",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E6D1D7",
+              "pointer_gba": "0x09E6D1D7",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "01 00 04 39 ac f0 09 0f 00 54",
+              "loadword_callstd": false,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          151
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 151,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 167,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            167
+          ],
+          "max_rightmost_x": 167,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F12CAD",
+      "apply_status": "APPLY",
+      "original": "\"I’m out here bird watching for\nRufflet.\n\nHave you seen any today?\"",
+      "japanese": "ここで バードウォッチング している。\nねらいは ワシボン。\n\nきょうは みかけた？",
+      "speaker_id": "trainer_0310",
+      "source_rom_offset": "0x01F12CAD",
+      "source_gba_address": "0x09F12CAD",
+      "pointer_owners": [
+        "0x01E715BA",
+        "0x01E715E1"
+      ],
+      "speaker_confidence": "PROVEN",
+      "location_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 310,
+          "trainer_name": "Roger",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B38",
+          "party_pointer_offset": "0x00241B5C",
+          "party_pointer": "0x0023CE20",
+          "opcode_offset": "0x01E715B4",
+          "text_operand_offset": "0x01E715BA",
+          "text_operand_index": 0,
+          "battle_mode": 13,
+          "opcode_bytes": "5c 0d 36 01 00 00 ad 2c f1 09"
+        },
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 310,
+          "trainer_name": "Roger",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B38",
+          "party_pointer_offset": "0x00241B5C",
+          "party_pointer": "0x0023CE20",
+          "opcode_offset": "0x01E715DB",
+          "text_operand_offset": "0x01E715E1",
+          "text_operand_index": 0,
+          "battle_mode": 5,
+          "opcode_bytes": "5c 05 36 01 00 00 ad 2c f1 09"
+        }
+      ],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          188,
+          100,
+          98
+        ],
+        "line_static": [
+          188,
+          100,
+          98
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0
+        ],
+        "max_total": 188,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "trainer_intro_or_defeat",
+          "calls": [
+            {
+              "pointer_rom": "0x01E715BA",
+              "pointer_gba": "0x09E715BA",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "01 00 00 ad 2c f1 09 ee 2c f1",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E715E1",
+              "pointer_gba": "0x09E715E1",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "01 00 00 ad 2c f1 09 ee 2c f1",
+              "loadword_callstd": false,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          166,
+          43,
+          140
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 166,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 30,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 166,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 39,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 43,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 188,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 21,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 188,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 32,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 100,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            188,
+            100,
+            98
+          ],
+          "max_rightmost_x": 188,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F12CEE",
+      "apply_status": "APPLY",
+      "original": "\"Rufflet are superior to Vullaby!\"",
+      "japanese": "ワシボンは バルチャイより うえだ！",
+      "speaker_id": "trainer_0310",
+      "source_rom_offset": "0x01F12CEE",
+      "source_gba_address": "0x09F12CEE",
+      "pointer_owners": [
+        "0x01E715BE",
+        "0x01E715E5"
+      ],
+      "speaker_confidence": "PROVEN",
+      "location_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 310,
+          "trainer_name": "Roger",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B38",
+          "party_pointer_offset": "0x00241B5C",
+          "party_pointer": "0x0023CE20",
+          "opcode_offset": "0x01E715B4",
+          "text_operand_offset": "0x01E715BE",
+          "text_operand_index": 1,
+          "battle_mode": 13,
+          "opcode_bytes": "5c 0d 36 01 00 00 ad 2c f1 09 ee 2c f1 09"
+        },
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 310,
+          "trainer_name": "Roger",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B38",
+          "party_pointer_offset": "0x00241B5C",
+          "party_pointer": "0x0023CE20",
+          "opcode_offset": "0x01E715DB",
+          "text_operand_offset": "0x01E715E5",
+          "text_operand_index": 1,
+          "battle_mode": 5,
+          "opcode_bytes": "5c 05 36 01 00 00 ad 2c f1 09 ee 2c f1 09"
+        }
+      ],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          174
+        ],
+        "line_static": [
+          174
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 174,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "trainer_intro_or_defeat",
+          "calls": [
+            {
+              "pointer_rom": "0x01E715BE",
+              "pointer_gba": "0x09E715BE",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "2c f1 09 ee 2c f1 09 26 0d 80",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E715E5",
+              "pointer_gba": "0x09E715E5",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "2c f1 09 ee 2c f1 09 0f 00 0f",
+              "loadword_callstd": false,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          179
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 179,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 174,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            174
+          ],
+          "max_rightmost_x": 174,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F12D4E",
+      "apply_status": "APPLY",
+      "original": "\"I’m keeping a close eye out for\nVullaby.\n\nHave you seen any today?\"",
+      "japanese": "めを こらして さがして いるのは\nバルチャイ。\n\nきょうは みかけた？",
+      "speaker_id": "trainer_0311",
+      "source_rom_offset": "0x01F12D4E",
+      "source_gba_address": "0x09F12D4E",
+      "pointer_owners": [
+        "0x01E715F8",
+        "0x01E7161F"
+      ],
+      "speaker_confidence": "PROVEN",
+      "location_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 311,
+          "trainer_name": "Reed",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B60",
+          "party_pointer_offset": "0x00241B84",
+          "party_pointer": "0x0023B728",
+          "opcode_offset": "0x01E715F2",
+          "text_operand_offset": "0x01E715F8",
+          "text_operand_index": 0,
+          "battle_mode": 13,
+          "opcode_bytes": "5c 0d 37 01 00 00 4e 2d f1 09"
+        },
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 311,
+          "trainer_name": "Reed",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B60",
+          "party_pointer_offset": "0x00241B84",
+          "party_pointer": "0x0023B728",
+          "opcode_offset": "0x01E71619",
+          "text_operand_offset": "0x01E7161F",
+          "text_operand_index": 0,
+          "battle_mode": 5,
+          "opcode_bytes": "5c 05 37 01 00 00 4e 2d f1 09"
+        }
+      ],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          170,
+          59,
+          98
+        ],
+        "line_static": [
+          170,
+          59,
+          98
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0
+        ],
+        "max_total": 170,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "trainer_intro_or_defeat",
+          "calls": [
+            {
+              "pointer_rom": "0x01E715F8",
+              "pointer_gba": "0x09E715F8",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "01 00 00 4e 2d f1 09 90 2d f1",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E7161F",
+              "pointer_gba": "0x09E7161F",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "01 00 00 4e 2d f1 09 90 2d f1",
+              "loadword_callstd": false,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          174,
+          45,
+          140
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 174,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 31,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 174,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 40,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 45,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 170,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 19,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 170,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 26,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 59,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            170,
+            59,
+            98
+          ],
+          "max_rightmost_x": 170,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F12D90",
+      "apply_status": "APPLY",
+      "original": "\"My friend thinks Rufflet are better\nthan Vullaby. He’s wrong.\"",
+      "japanese": "ともだちは ワシボンの ほうが\nバルチャイより いいと。 まちがいだ。",
+      "speaker_id": "trainer_0311",
+      "source_rom_offset": "0x01F12D90",
+      "source_gba_address": "0x09F12D90",
+      "pointer_owners": [
+        "0x01E715FC",
+        "0x01E71623"
+      ],
+      "speaker_confidence": "PROVEN",
+      "location_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 311,
+          "trainer_name": "Reed",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B60",
+          "party_pointer_offset": "0x00241B84",
+          "party_pointer": "0x0023B728",
+          "opcode_offset": "0x01E715F2",
+          "text_operand_offset": "0x01E715FC",
+          "text_operand_index": 1,
+          "battle_mode": 13,
+          "opcode_bytes": "5c 0d 37 01 00 00 4e 2d f1 09 90 2d f1 09"
+        },
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 311,
+          "trainer_name": "Reed",
+          "trainer_class_id": 79,
+          "trainer_class": "Bird Keeper",
+          "trainer_pic_id": 104,
+          "record_offset": "0x00241B60",
+          "party_pointer_offset": "0x00241B84",
+          "party_pointer": "0x0023B728",
+          "opcode_offset": "0x01E71619",
+          "text_operand_offset": "0x01E71623",
+          "text_operand_index": 1,
+          "battle_mode": 5,
+          "opcode_bytes": "5c 05 37 01 00 00 4e 2d f1 09 90 2d f1 09"
+        }
+      ],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          150,
+          189
+        ],
+        "line_static": [
+          150,
+          189
+        ],
+        "line_dynamic_max": [
+          0,
+          0
+        ],
+        "max_total": 189,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "trainer_intro_or_defeat",
+          "calls": [
+            {
+              "pointer_rom": "0x01E715FC",
+              "pointer_gba": "0x09E715FC",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "2d f1 09 90 2d f1 09 26 0d 80",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E71623",
+              "pointer_gba": "0x09E71623",
+              "kind": "unaligned pointer field; consumer unproven",
+              "adjacent_hex": "2d f1 09 90 2d f1 09 0f 00 ce",
+              "loadword_callstd": false,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          191,
+          138
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 191,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 35,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 191,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 189,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 17,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 150,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            150,
+            189
+          ],
+          "max_rightmost_x": 189,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F0D8AA",
+      "apply_status": "APPLY",
+      "original": "\"Sankren fimbulvetr!\"",
+      "japanese": "Sankren fimbulvetr!",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F0D8AA",
+      "source_gba_address": "0x09F0D8AA",
+      "pointer_owners": [
+        "0x01E6E125"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          109
+        ],
+        "line_static": [
+          109
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 109,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6E125",
+              "pointer_gba": "0x09E6E125",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 aa d8 f0 09 09 06 63",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          104
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 104,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 109,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            109
+          ],
+          "max_rightmost_x": 109,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": {
+        "id": "scr_1F0D8AA",
+        "category": "scripts",
+        "old_offset": "0x1F0D8AA",
+        "new_offset": "0xBC6207",
+        "new_pointer": "0x8BC6207",
+        "byte_length": 24,
+        "pointer_sources": [
+          "0x1E6E125"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      }
+    },
+    {
+      "id": "scr_1F116D7",
+      "apply_status": "APPLY",
+      "original": "\"Articuno!\"",
+      "japanese": "フリーザー！",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F116D7",
+      "source_gba_address": "0x09F116D7",
+      "pointer_owners": [
+        "0x01E70568"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          55
+        ],
+        "line_static": [
+          55
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 55,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E70568",
+              "pointer_gba": "0x09E70568",
+              "kind": "message opcode 0x67 operand",
+              "adjacent_hex": "8a 08 67 d7 16 f1 09 66 c5 68",
+              "loadword_callstd": false,
+              "message_opcode": true
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          49
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 49,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 55,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            55
+          ],
+          "max_rightmost_x": 55,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": {
+        "id": "scr_1F116D7",
+        "category": "scripts",
+        "old_offset": "0x1F116D7",
+        "new_offset": "0xC151D1",
+        "new_pointer": "0x8C151D1",
+        "byte_length": 11,
+        "pointer_sources": [
+          "0x1E70568"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      }
+    },
+    {
+      "id": "scr_1F116E1",
+      "apply_status": "APPLY",
+      "original": "\"Zapdos!\"",
+      "japanese": "サンダー！",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F116E1",
+      "source_gba_address": "0x09F116E1",
+      "pointer_owners": [
+        "0x01E7058F"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          45
+        ],
+        "line_static": [
+          45
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 45,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E7058F",
+              "pointer_gba": "0x09E7058F",
+              "kind": "message opcode 0x67 operand",
+              "adjacent_hex": "8a 08 67 e1 16 f1 09 66 c5 28",
+              "loadword_callstd": false,
+              "message_opcode": true
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          41
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 41,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 45,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            45
+          ],
+          "max_rightmost_x": 45,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": {
+        "id": "scr_1F116E1",
+        "category": "scripts",
+        "old_offset": "0x1F116E1",
+        "new_offset": "0xC151E7",
+        "new_pointer": "0x8C151E7",
+        "byte_length": 10,
+        "pointer_sources": [
+          "0x1E7058F"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      }
+    },
+    {
+      "id": "scr_1F116E9",
+      "apply_status": "APPLY",
+      "original": "\"Moltres!\"",
+      "japanese": "ファイヤー！",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F116E9",
+      "source_gba_address": "0x09F116E9",
+      "pointer_owners": [
+        "0x01E705B9"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          54
+        ],
+        "line_static": [
+          54
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 54,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E705B9",
+              "pointer_gba": "0x09E705B9",
+              "kind": "message opcode 0x67 operand",
+              "adjacent_hex": "8a 08 67 e9 16 f1 09 66 c5 68",
+              "loadword_callstd": false,
+              "message_opcode": true
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          44
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 44,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 54,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            54
+          ],
+          "max_rightmost_x": 54,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": {
+        "id": "scr_1F116E9",
+        "category": "scripts",
+        "old_offset": "0x1F116E9",
+        "new_offset": "0xC151DC",
+        "new_pointer": "0x8C151DC",
+        "byte_length": 11,
+        "pointer_sources": [
+          "0x1E705B9"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      }
+    },
+    {
+      "id": "scr_1F11C50",
+      "apply_status": "APPLY",
+      "original": "\"[green]Hoo\\.\\CC0818 pa\\.\"",
+      "japanese": "[green]フー\\.\\CC0818 パ\\.",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F11C50",
+      "source_gba_address": "0x09F11C50",
+      "pointer_owners": [
+        "0x01E70BAA"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FC": 2,
+        "FC_01": 1,
+        "FC_08": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          56
+        ],
+        "line_static": [
+          56
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 56,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E70BAA",
+              "pointer_gba": "0x09E70BAA",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "00 0f 00 50 1c f1 09 09 06 4f",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          48
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 48,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 56,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            56
+          ],
+          "max_rightmost_x": 56,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": {
+        "id": "scr_1F11C50",
+        "category": "scripts",
+        "old_offset": "0x1F11C50",
+        "new_offset": "0xC151C0",
+        "new_pointer": "0x8C151C0",
+        "byte_length": 17,
+        "pointer_sources": [
+          "0x1E70BAA"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      }
+    },
+    {
+      "id": "scr_1F0D935",
+      "apply_status": "APPLY",
+      "original": "\"[black]The Pokémon surrounded itself with\nthe power of the Lunar Wing and\\lincreased its size!\"",
+      "japanese": "[black]ポケモンは\nみかづきのはねの ちからを まとい、\\lおおきく なった！",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F0D935",
+      "source_gba_address": "0x09F0D935",
+      "pointer_owners": [
+        "0x01E6EA9C"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FA": 1,
+        "FC": 1,
+        "FC_01": 1,
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          50,
+          180,
+          84
+        ],
+        "line_static": [
+          50,
+          180,
+          84
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0
+        ],
+        "max_total": 180,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6EA9C",
+              "pointer_gba": "0x09E6EA9C",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "00 0f 00 35 d9 f0 09 09 04 c5",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          189,
+          176,
+          102
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 189,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 37,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 189,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 69,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 176,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 180,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 10,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 50,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 29,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 180,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            50,
+            180,
+            84
+          ],
+          "max_rightmost_x": 180,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F126CE",
+      "apply_status": "APPLY",
+      "original": "\"That item is a [green]Scizorite[blue]!\n\nIf you catch a Scyther and evolve\nit into a [green]Scizor[blue], let it hold that\\lto unleash its metallic fury!\"",
+      "japanese": "その どうぐは [green]ハッサムナイト[blue]だ！\n\nストライクを つかまえて しんかさせ、\n[green]ハッサム[blue]に したら これを もたせれば\\lメタリックな いかりを ときはなつ！",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F126CE",
+      "source_gba_address": "0x09F126CE",
+      "pointer_owners": [
+        "0x01E71731"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FA": 1,
+        "FB": 1,
+        "FC": 4,
+        "FC_01": 4,
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          164,
+          190,
+          189,
+          174
+        ],
+        "line_static": [
+          164,
+          190,
+          189,
+          174
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "max_total": 190,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E71731",
+              "pointer_gba": "0x09E71731",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "10 0f 00 ce 26 f1 09 09 06 05",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          137,
+          192,
+          185,
+          159
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 192,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 31,
+              "control": "FB",
+              "line_before": 0,
+              "x_before": 137,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 65,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 192,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 106,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 185,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 190,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 25,
+              "control": "FB",
+              "line_before": 0,
+              "x_before": 164,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 45,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 190,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 71,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 189,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            164,
+            190,
+            189,
+            174
+          ],
+          "max_rightmost_x": 190,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F0A708",
+      "apply_status": "APPLY",
+      "original": "\"Frost Mountain\"",
+      "japanese": "フロストやま",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F0A708",
+      "source_gba_address": "0x09F0A708",
+      "pointer_owners": [
+        "0x01E61550",
+        "0x01E76CF4",
+        "0x01E93A9C",
+        "0x01EAFA44",
+        "0x01EAFA54",
+        "0x01FB3E34",
+        "0x01FB46D4"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          60
+        ],
+        "line_static": [
+          60
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 60,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "unproved_consumer",
+          "calls": [
+            {
+              "pointer_rom": "0x01E61550",
+              "pointer_gba": "0x09E61550",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "00 00 00 08 a7 f0 09 45 7d f5",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E76CF4",
+              "pointer_gba": "0x09E76CF4",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "00 00 00 08 a7 f0 09 0a 03 f2",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01E93A9C",
+              "pointer_gba": "0x09E93A9C",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "00 00 00 08 a7 f0 09 d1 ff ef",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01EAFA44",
+              "pointer_gba": "0x09EAFA44",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "00 00 00 08 a7 f0 09 c4 93 f8",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01EAFA54",
+              "pointer_gba": "0x09EAFA54",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "00 00 00 08 a7 f0 09 f8 93 f8",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01FB3E34",
+              "pointer_gba": "0x09FB3E34",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "01 a9 08 08 a7 f0 09 81 01 a8",
+              "loadword_callstd": false,
+              "message_opcode": false
+            },
+            {
+              "pointer_rom": "0x01FB46D4",
+              "pointer_gba": "0x09FB46D4",
+              "kind": "aligned pointer field; consumer unproven",
+              "adjacent_hex": "00 00 00 08 a7 f0 09 17 a7 f0",
+              "loadword_callstd": false,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          76
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 76,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 60,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            60
+          ],
+          "max_rightmost_x": 60,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F07E1E",
+      "apply_status": "APPLY",
+      "original": "\"But\\.\n\nIf you don’t release it, how will\nyour Butterfree ever find love?\"",
+      "japanese": "でも\\.\n\nにがして あげなければ、\nバタフリーは どうやって こいを するの？",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F07E1E",
+      "source_gba_address": "0x09F07E1E",
+      "pointer_owners": [
+        "0x01E6B3C3"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          28,
+          120,
+          208
+        ],
+        "line_static": [
+          28,
+          120,
+          208
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0
+        ],
+        "max_total": 208,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6B3C3",
+              "pointer_gba": "0x09E6B3C3",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 1e 7e f0 09 09 06 05",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          23,
+          181,
+          174
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 181,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 4,
+              "control": "FB",
+              "line_before": 0,
+              "x_before": 23,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 38,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 181,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 208,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 5,
+              "control": "FB",
+              "line_before": 0,
+              "x_before": 28,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 18,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 120,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            28,
+            120,
+            208
+          ],
+          "max_rightmost_x": 208,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F09E0D",
+      "apply_status": "APPLY",
+      "original": "\"Oh, Shaymin!\n\nWhen it comes to Shaymin,\nGracidea flowers are important!\n\nI have a lot of Gracidea flowers,\nso let me share one with you.\"",
+      "japanese": "おお、 シェイミ！\n\nシェイミと いえば、\nグラシデアのはなが たいせつです！\n\nグラシデアのはなは たくさん あるので、\nひとつ おわけしましょう。",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F09E0D",
+      "source_gba_address": "0x09F09E0D",
+      "pointer_owners": [
+        "0x01E6BE15"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FB": 2,
+        "FE": 2
+      },
+      "width_state": {
+        "line_total_max": [
+          84,
+          99,
+          165,
+          200,
+          129
+        ],
+        "line_static": [
+          84,
+          99,
+          165,
+          200,
+          129
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "max_total": 200,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6BE15",
+              "pointer_gba": "0x09E6BE15",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 0d 9e f0 09 09 06 81",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          68,
+          140,
+          172,
+          187,
+          164
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 187,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 12,
+              "control": "FB",
+              "line_before": 0,
+              "x_before": 68,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 38,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 140,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 70,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 172,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 104,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 187,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 200,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 11,
+              "control": "FB",
+              "line_before": 0,
+              "x_before": 84,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 22,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 99,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 40,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 165,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 61,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 200,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            84,
+            99,
+            165,
+            200,
+            129
+          ],
+          "max_rightmost_x": 200,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F0CE76",
+      "apply_status": "APPLY",
+      "original": "\"I’m sure the Champion knows where\nto find a simple [green]Antidote[blue], yes?\n\nHurry back now!\"",
+      "japanese": "チャンピオンなら どこで\n[green]どくけし[blue]が かえるか ごぞんじですよね？\n\nいそいで もどって くださいね！",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F0CE76",
+      "source_gba_address": "0x09F0CE76",
+      "pointer_owners": [
+        "0x01E6E999"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FB": 1,
+        "FC": 2,
+        "FC_01": 2,
+        "FE": 1
+      },
+      "width_state": {
+        "line_total_max": [
+          119,
+          199,
+          154
+        ],
+        "line_static": [
+          119,
+          199,
+          154
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0
+        ],
+        "max_total": 199,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6E999",
+              "pointer_gba": "0x09E6E999",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 76 ce f0 09 09 06 05",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          185,
+          170,
+          86
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 185,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 33,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 185,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 71,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 170,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 199,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 14,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 119,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 41,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 199,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            119,
+            199,
+            154
+          ],
+          "max_rightmost_x": 199,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F0DD20",
+      "apply_status": "APPLY",
+      "original": "\"You already own that TM.\"",
+      "japanese": "その わざマシンは もう もっています。",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F0DD20",
+      "source_gba_address": "0x09F0DD20",
+      "pointer_owners": [
+        "0x01E6F389"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {},
+      "width_state": {
+        "line_total_max": [
+          199
+        ],
+        "line_static": [
+          199
+        ],
+        "line_dynamic_max": [
+          0
+        ],
+        "max_total": 199,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6F389",
+              "pointer_gba": "0x09E6F389",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 20 dd f0 09 09 04 05",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          138
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 138,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 199,
+          "overflow_under_assumption": false,
+          "events": [],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            199
+          ],
+          "max_rightmost_x": 199,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F09154",
+      "apply_status": "HOLD",
+      "original": "\"The Pokémon I gave you is known\nas Mew.\n\nIt is said to be the species all\nPokémon evolved from.\n\nWe cloned it at the Science\nSociety, so the version you have\\lis nothing more than a copy.\"",
+      "japanese": "わたしが あげた ポケモンは\nミュウと いう。\n\nすべての ポケモンの\nそせんと いわれて いる。\n\nわたしたちは かがくきょうかいで\nクローンに した。 だから その ミュウは\\lただの コピーに すぎない。",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F09154",
+      "source_gba_address": "0x09F09154",
+      "pointer_owners": [
+        "0x01E6BA30"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FA": 1,
+        "FB": 2,
+        "FE": 3
+      },
+      "width_state": {
+        "line_total_max": [
+          140,
+          79,
+          100,
+          130,
+          159,
+          209,
+          140
+        ],
+        "line_static": [
+          140,
+          79,
+          100,
+          130,
+          159,
+          209,
+          140
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "max_total": 209,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6BA30",
+              "pointer_gba": "0x09E6BA30",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 54 91 f0 09 09 06 05",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          178,
+          40,
+          177,
+          120,
+          152,
+          181,
+          156
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 181,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 31,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 178,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 39,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 40,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 72,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 177,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 94,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 120,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 122,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 152,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 155,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 181,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 209,
+          "overflow_under_assumption": true,
+          "events": [
+            {
+              "byte_offset": 16,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 140,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 25,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 79,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 36,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 100,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 50,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 130,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 67,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 159,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 89,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 209,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            140,
+            79,
+            100,
+            130,
+            159,
+            209,
+            140
+          ],
+          "max_rightmost_x": 209,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [
+          "field_208px_overflow",
+          "fa_source_width_envelope_exceeded"
+        ],
+        "state": "HOLD",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F0A436",
+      "apply_status": "HOLD",
+      "original": "\"Combee can be found all over Flower\nParadise, however they are more\\llikely to appear in the [blue]blue[red]\\lflowers.\n\nIf you catch a [green]Cutiefly[red] with [green]Honey\nGather[red], that may help as well.\n\nAnd remember, I need at least [green]3\nHoney[red] jars.\"",
+      "japanese": "ミツハニーは フラワーパラダイスの\nどこにでも いますが、 より\\lでやすいのは [blue]あおい[red]\\lはなの ところです。\n\n[green]アブリー[red]を つかまえ、 とくせいが [green]\nみつあつめ[red]も やくに たちます。\n\nそれと、 わすれずに。 さいてい [green]3びんの\nあまいミツ[red]が ひつようです。",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F0A436",
+      "source_gba_address": "0x09F0A436",
+      "pointer_owners": [
+        "0x01E6BDD1"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FA": 2,
+        "FB": 2,
+        "FC": 8,
+        "FC_01": 8,
+        "FE": 3
+      },
+      "width_state": {
+        "line_total_max": [
+          170,
+          140,
+          100,
+          100,
+          180,
+          160,
+          208,
+          140
+        ],
+        "line_static": [
+          170,
+          140,
+          100,
+          100,
+          180,
+          160,
+          208,
+          140
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "max_total": 208,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E6BDD1",
+              "pointer_gba": "0x09E6BDD1",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "00 0f 00 36 a4 f0 09 09 06 6c",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          202,
+          177,
+          156,
+          43,
+          193,
+          170,
+          177,
+          62
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 202,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 35,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 202,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 67,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 177,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 102,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 156,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 111,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 43,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 155,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 193,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 189,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 170,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 224,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 177,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 208,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 19,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 170,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 34,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 140,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 51,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 100,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 62,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 100,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 90,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 180,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 110,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 160,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 135,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 208,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            170,
+            140,
+            100,
+            100,
+            180,
+            160,
+            208,
+            140
+          ],
+          "max_rightmost_x": 208,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [
+          "fa_source_width_envelope_exceeded"
+        ],
+        "state": "HOLD",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    },
+    {
+      "id": "scr_1F1330A",
+      "apply_status": "HOLD",
+      "original": "\"Excellent work, but I am afraid I\nhave some bad news.\n\nThe Pokémon Rangers have just shut\ndown our operation.\n\nApparently the tall grass around\nhere is endangered, despite always\\lgrowing back.\n\nHowever, I am still contractually\nobligated to pay you for your\\lservice.\"",
+      "japanese": "すばらしい しごとでした。 ですが\nわるい しらせが あります。\n\nたった いま ポケモンレンジャーに\nじぎょうを ていしされました。\n\nどうやら ここの たかい くさは\nいつも はえて くるのに ぜつめつの\\lきき だそうです。\n\nとはいえ、 けいやく じょう まだ\nしごとの たいかを おはらいする\\lぎむが あります。",
+      "speaker_id": null,
+      "source_rom_offset": "0x01F1330A",
+      "source_gba_address": "0x09F1330A",
+      "pointer_owners": [
+        "0x01E71B2D"
+      ],
+      "speaker_confidence": "UNKNOWN",
+      "location_evidence": [],
+      "runtime_reachability": "Exact event unplayed; original operand and map/trainer metadata are evidence, not a live-path assertion.",
+      "procedure": "Locate the recorded object/trainer/script caller. Compare exact English, then every FE/FA/FB frame; holds remain English. Do not infer route from ROM proximity.",
+      "expected_controls": {
+        "FA": 2,
+        "FB": 3,
+        "FE": 4
+      },
+      "width_state": {
+        "line_total_max": [
+          170,
+          140,
+          168,
+          149,
+          160,
+          180,
+          90,
+          169,
+          160,
+          90
+        ],
+        "line_static": [
+          170,
+          140,
+          168,
+          149,
+          160,
+          180,
+          90,
+          169,
+          160,
+          90
+        ],
+        "line_dynamic_max": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "max_total": 180,
+        "unknown_placeholder_codes": [],
+        "profile": {
+          "profile_id": "field_callstd_or_message",
+          "calls": [
+            {
+              "pointer_rom": "0x01E71B2D",
+              "pointer_gba": "0x09E71B2D",
+              "kind": "loadpointer 0 operand",
+              "adjacent_hex": "09 0f 00 0a 33 f1 09 09 06 5a",
+              "loadword_callstd": true,
+              "message_opcode": false
+            }
+          ],
+          "normal_font_candidate": true,
+          "conservative_width_limit": 208,
+          "exact_live_renderer_proven": false,
+          "basis": "ROM-backed normal field/battle physical spans; caller/actor evidence retained; no implicit wrapping or dynamic-width guess."
+        },
+        "limit_pixels": 208,
+        "source_line_pixels": [
+          186,
+          110,
+          195,
+          106,
+          179,
+          190,
+          72,
+          184,
+          166,
+          43
+        ],
+        "source_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 195,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 33,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 186,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 53,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 110,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 88,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 195,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 108,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 106,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 141,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 179,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 176,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 190,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 190,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 72,
+              "page_before": 2,
+              "line_after_model": 0,
+              "page_after": 3
+            },
+            {
+              "byte_offset": 224,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 184,
+              "page_before": 3,
+              "line_after_model": 1,
+              "page_after": 3
+            },
+            {
+              "byte_offset": 254,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 166,
+              "page_before": 3,
+              "line_after_model": 1,
+              "page_after": 3
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "target_trace": {
+          "box_width_pixels_assumed": 208,
+          "visible_lines_assumed": 2,
+          "normal_font": true,
+          "buffer_width_estimate": 54,
+          "max_line_pixels": 180,
+          "overflow_under_assumption": false,
+          "events": [
+            {
+              "byte_offset": 19,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 170,
+              "page_before": 0,
+              "line_after_model": 1,
+              "page_after": 0
+            },
+            {
+              "byte_offset": 34,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 140,
+              "page_before": 0,
+              "line_after_model": 0,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 52,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 168,
+              "page_before": 1,
+              "line_after_model": 1,
+              "page_after": 1
+            },
+            {
+              "byte_offset": 68,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 149,
+              "page_before": 1,
+              "line_after_model": 0,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 85,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 160,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 104,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 180,
+              "page_before": 2,
+              "line_after_model": 1,
+              "page_after": 2
+            },
+            {
+              "byte_offset": 114,
+              "control": "FB",
+              "line_before": 1,
+              "x_before": 90,
+              "page_before": 2,
+              "line_after_model": 0,
+              "page_after": 3
+            },
+            {
+              "byte_offset": 132,
+              "control": "FE",
+              "line_before": 0,
+              "x_before": 169,
+              "page_before": 3,
+              "line_after_model": 1,
+              "page_after": 3
+            },
+            {
+              "byte_offset": 149,
+              "control": "FA",
+              "line_before": 1,
+              "x_before": 160,
+              "page_before": 3,
+              "line_after_model": 1,
+              "page_after": 3
+            }
+          ],
+          "pixel_perfect": false
+        },
+        "horizontal_trace": {
+          "line_rightmost_x": [
+            170,
+            140,
+            168,
+            149,
+            160,
+            180,
+            90,
+            169,
+            160,
+            90
+          ],
+          "max_rightmost_x": 180,
+          "position_events": [],
+          "unsupported_controls": []
+        },
+        "problems": [],
+        "state": "STATIC_FIT_RUNTIME_WARNING",
+        "runtime_measured": false,
+        "warning": "width_runtime_unverified; physical span is not a per-entry live measurement"
+      },
+      "relocation": null
+    }
+  ]
+}

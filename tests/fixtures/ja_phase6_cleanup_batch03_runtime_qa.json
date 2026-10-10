@@ -1,0 +1,823 @@
+{
+  "metadata": {
+    "count": 25,
+    "performed": false,
+    "rom": "out\\unbound-ja-phase6-cleanup-batch03.gba",
+    "map_event_unknown_is_not_reachability_proof": true
+  },
+  "entries": [
+    {
+      "id": "scr_1F13736",
+      "index": 1,
+      "decision": "APPLY",
+      "original": "\"Listen closely\\.\nDo you hear the cries of Phantump?\"",
+      "japanese": "みみを すませて\\.\nボクレーの なきごえが きこえる？",
+      "rom_offset": "0x01F13736",
+      "gba_address": "0x09F13736",
+      "pointer_owners": [
+        "0x01E71BD9"
+      ],
+      "speaker_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 442,
+          "trainer_name": "Carly",
+          "trainer_class_id": 91,
+          "trainer_class": "Medium",
+          "trainer_pic_id": 126,
+          "record_offset": "0x00242FD8",
+          "party_pointer_offset": "0x00242FFC",
+          "party_pointer": "0x0023CB48",
+          "opcode_offset": "0x01E71BD3",
+          "text_operand_offset": "0x01E71BD9",
+          "text_operand_index": 0,
+          "battle_mode": 13,
+          "opcode_bytes": "5c 0d ba 01 00 00 36 37 f1 09"
+        }
+      ],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F13847",
+      "index": 4,
+      "decision": "APPLY",
+      "original": "\"There are four Pumpkaboo sizes\nin total.\"",
+      "japanese": "バケッチャの おおきさは\nぜんぶで 4しゅるいだ。",
+      "rom_offset": "0x01F13847",
+      "gba_address": "0x09F13847",
+      "pointer_owners": [
+        "0x01E71BF4"
+      ],
+      "speaker_evidence": [
+        {
+          "kind": "trainerbattle_text_operand",
+          "trainer_id": 444,
+          "trainer_name": "Jody",
+          "trainer_class_id": 91,
+          "trainer_class": "Medium",
+          "trainer_pic_id": 126,
+          "record_offset": "0x00243028",
+          "party_pointer_offset": "0x0024304C",
+          "party_pointer": "0x007A7760",
+          "opcode_offset": "0x01E71BEA",
+          "text_operand_offset": "0x01E71BF4",
+          "text_operand_index": 1,
+          "battle_mode": 13,
+          "opcode_bytes": "5c 0d bc 01 00 00 1f 38 f1 09 47 38 f1 09"
+        }
+      ],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F139EF",
+      "index": 6,
+      "decision": "APPLY",
+      "original": "\"It’s pretty odd that there’s a\nforest filled with so many Bug-type\\lPokémon this close to a desert.\n\nWell, that’s Borrius for you!\"",
+      "japanese": "ふしぎな ことに、\nむしタイプの ポケモンだらけの もりが\\lさばくの ちかくに あるなんて。\n\nまあ、 ボーリウスだからね！",
+      "rom_offset": "0x01F139EF",
+      "gba_address": "0x09F139EF",
+      "pointer_owners": [
+        "0x01E71D0E"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F13DB9",
+      "index": 8,
+      "decision": "APPLY",
+      "original": "\"Hello, I have been stationed here\nby the Science Society to study\\lfossils.\n\nIf you have found one, I can take\na stab at reviving it for you.\"",
+      "japanese": "こんにちは。 ここに はけんされて\nかがくきょうかいの めいれいで\\lかせきの けんきゅうを して います。\n\nかせきを みつけたなら、\nふっかつを ためして みますよ。",
+      "rom_offset": "0x01F13DB9",
+      "gba_address": "0x09F13DB9",
+      "pointer_owners": [
+        "0x01E71D87"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F1404F",
+      "index": 10,
+      "decision": "APPLY",
+      "original": "\"At least I got to study a fossil\nearlier!\n\nThe Science Society will be pleased\nwith my research\\.\"",
+      "japanese": "せめて さっき かせきを\nけんきゅう できて よかった！\n\nかがくきょうかいも きっと\nけんきゅうに まんぞくする でしょう\\.",
+      "rom_offset": "0x01F1404F",
+      "gba_address": "0x09F1404F",
+      "pointer_owners": [
+        "0x01E71FDF"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F143CA",
+      "index": 12,
+      "decision": "APPLY",
+      "original": "\"Yee haw!\n\n[green]Hard Stones[blue] might pop up when ya\nsmash rocks in the [green]Great Desert[blue].\n\nHeck, I bet if you dug into the\nwalls of the [green]KBT Expressway[blue],\\lyou’d find ’em there, too.\"",
+      "japanese": "いやっほう！\n\n[green]かたいいし[blue]が でるかもよ。\n[green]だいさばく[blue]で いわを くだくとね！\n\nいやいや、 ほって みれば\n[green]KBTハイウェイ[blue]の かべからも\\lでて くる はずさ。",
+      "rom_offset": "0x01F143CA",
+      "gba_address": "0x09F143CA",
+      "pointer_owners": [
+        "0x01E7213F"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F137A5",
+      "index": 2,
+      "decision": "HOLD",
+      "original": "\"According to old tales, Phantump\nare tree stumps possessed by the\\lspirits of children who died while\\llost in these woods.\"",
+      "japanese": "むかしばなしによれば、 ボクレーは\nきりかぶに とりついた\\lこの もりで まいごに なって しんだ\\lこどもたちの れいだと いう。",
+      "rom_offset": "0x01F137A5",
+      "gba_address": "0x09F137A5",
+      "pointer_owners": [
+        "0x01E71BE3"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED",
+        "fa_source_width_envelope_exceeded",
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F13870",
+      "index": 5,
+      "decision": "HOLD",
+      "original": "\"An old colleague of mine in Seaport\nCity measures and records the sizes\\lof all Pumpkaboo she sees.\"",
+      "japanese": "シーポートシティに いる ふるい\nどうりょうが、 バケッチャの おおきさを\\lみかけるたびに はかって きろくする。",
+      "rom_offset": "0x01F13870",
+      "gba_address": "0x09F13870",
+      "pointer_owners": [
+        "0x01E71BFA"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "scr_1F14D23",
+      "index": 29,
+      "decision": "HOLD",
+      "original": "\"While you were out there wandering\nthrough the desert, did you happen\\lto stumble upon the entrance to the\\lTomb of Borrius?\n\nAround here, it’s known that the\nancient people of Borrius hid a\\llot of treasure in the tomb.\"",
+      "japanese": "さばくを さまよって いたとき、\nもしかして\\lぐうぜん\\lボーリウスのはかの いりぐちを みた？\n\nこのあたりでは しられて いるが、\nむかしの ボーリウスの ひとびとは\\lはかに たからを たくさん かくした。",
+      "rom_offset": "0x01F14D23",
+      "gba_address": "0x09F14D23",
+      "pointer_owners": [
+        "0x01E7249B"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "scr_1F14E8B",
+      "index": 31,
+      "decision": "HOLD",
+      "original": "\"You don’t even know what it is and\nyou’ve already accepted?\n\nYou’re so bold!\n\nNo wonder you were able to make it\nthrough the Tomb of Borrius!\n\nWell, here’s my request.\n\nI’m sure you noticed that there\nwasn’t much treasure lying around\\lin the tomb.\n\nIt’s known around here that the\nancient people of Borrius used\\lspecial materials to camouflage\\ltheir treasure.\n\nSo, I want you to go back to the\ntomb and find every item the\\lancient people hid.\n\nDo you think you can do it?\"",
+      "japanese": "なにかも わからないのに\nもう うけて くれるのですか？\n\nなんて だいたんな ひとだ！\n\nどうりで\nボーリウスのはかを とっぱ できたわけだ！\n\nでは、 いらいの ないようです。\n\nおきづきでしょうが、 はかには\nたからが あまり ころがって\\lいませんでした。\n\nこのあたりでは、\nむかしの ボーリウスの ひとびとは\\lたからを かくす とくべつな\\lざいりょうを つかったそうです。\n\nそこで、 もう いちど\nはかへ もどり、 すべての どうぐを\\lむかしの ひとが かくした ものを。\n\nできそうですか？",
+      "rom_offset": "0x01F14E8B",
+      "gba_address": "0x09F14E8B",
+      "pointer_owners": [
+        "0x01E7241D"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED",
+        "fa_source_width_envelope_exceeded",
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F157E9",
+      "index": 40,
+      "decision": "HOLD",
+      "original": "\"We used to hold a festival every\nyear to commemorate when the\\ltitan Pokémon finished building our\\llittle town.\n\nBut interest in it has sort of just\nfaded away in recent years.\n\nPeople are just too addicted to\ntheir TVs and devices, I suppose\\.\"",
+      "japanese": "むかしは まいとし、 まつりを\nひらいた。 タイタンポケモンが\\lこの ちいさな まちを つくりおえた\\lことを いわう まつりだ。\n\nでも、 ちかごろは その\nかんしんも うすれて しまった。\n\nみんな テレビや きかいに\nむちゅうなんだろうな\\.",
+      "rom_offset": "0x01F157E9",
+      "gba_address": "0x09F157E9",
+      "pointer_owners": [
+        "0x01E724DD"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED",
+        "official_or_project_name_unverified"
+      ]
+    },
+    {
+      "id": "scr_1F1653E",
+      "index": 53,
+      "decision": "APPLY",
+      "original": "\"Oh, pay me no mind.\nI was merely talking to myself.\n\nI am Véga, the Leader of the\nCrater Town Gym.\n\nWhen I first arrived here, I felt\ncomfort in the sombre atmosphere\\lof this town.\n\nMy Pokémon and I therefore\ntrained here, to hone our skills\\lto the apex.\n\nIncidentally, are you afraid of\nthe dark?\n\nMany people are.\n\nKnowing exactly what you’re up\nagainst gives people courage.\n\nBut when they stumble blindly, never\nsure when the foe will approach\\.\n\nFear destroys even the largest\narmies.\n\nLet’s see if you, too, will be\ncrushed by the heavy atmosphere\\land my might!\"",
+      "japanese": "おや、 おかまいなく。\nひとりごとを いって いただけです。\n\nわたしは ベガ。\nクレータータウンジムの リーダーです。\n\nはじめて ここへ きた とき、\nこの まちの しずんだ ふんいきに\\lやすらぎを おぼえました。\n\nだから ポケモンたちと\nここで きたえ、 わざを みがき\\lいただきを きわめました。\n\nところで、 くらやみは\nこわいですか？\n\nおおくの ひとは こわがります。\n\nあいてが なにものか\nわかれば ゆうきが わくものです。\n\nですが、 めくらめっぽうに すすみ、\nてきが いつ くるか わからないと\\.\n\nきょうふは どれほど おおきな\nぐんぜいも ほろぼします。\n\nさあ、 あなたも この\nおもい ふんいきと\\lわたしの ちからに つぶされるか！",
+      "rom_offset": "0x01F1653E",
+      "gba_address": "0x09F1653E",
+      "pointer_owners": [
+        "0x01E72BD3"
+      ],
+      "speaker_evidence": [
+        {
+          "kind": "object_script_proximity",
+          "bindings": [
+            {
+              "map_header_offset": "0x00350EA0",
+              "map_header_pointer_sources": [
+                "0x0035242C",
+                "0x00721870"
+              ],
+              "map_events_offset": "0x00B74BA8",
+              "object_record_offset": "0x00B74A68",
+              "object_index": 0,
+              "local_object_id": 1,
+              "graphics_id": 84,
+              "coordinates": [
+                10,
+                19
+              ],
+              "script_offset": "0x01E72B7E",
+              "region_section_id": 91,
+              "map_id": null,
+              "text_operand_offset": "0x01E72BD3",
+              "distance_to_operand": 85,
+              "map_section_name": "Battle Tower",
+              "binding_kind": "same_object_script_neighborhood_unparsed"
+            }
+          ],
+          "limitation": "Branch/call path and actual speaker not proved."
+        }
+      ],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": []
+    },
+    {
+      "id": "scr_1F17415",
+      "index": 63,
+      "decision": "HOLD",
+      "original": "\"By the way, have you met my\ndaughter yet?\n\nShe doesn’t really leave Blizzard\nCity unless I take her, since the\\lweather outside’s so harsh.\n\nThat’s why she bugs everyone who\nvisits our house into showing her\\ltheir Pokémon.\"",
+      "japanese": "ところで、 うちの むすめには\nもう あいましたか？\n\nあの こは ブリザードシティを\nつれださない かぎり でないし、\\lそとは てんこうが きびしいのです。\n\nそれで、 うちに くる ひとに\nポケモンを みせて くれと\\lせがむんです。",
+      "rom_offset": "0x01F17415",
+      "gba_address": "0x09F17415",
+      "pointer_owners": [
+        "0x01E72F24"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F17516",
+      "index": 69,
+      "decision": "HOLD",
+      "original": "\"Howdy there, partner.\nGood to see ya again so soon.\n\nI hope my humble abode is to yer\nlikin’ and all.\n\nIf not, I’m sure there’s somethin’\nelse around ya can keep yer\\leyes on\\.\n\nI mean, it’s clear ya went all\nover this here town and the next,\\llookin’ for li’l old me.\n\n\\.I kid, I kid.\n\nThat look there tells me yer not\nbattlin’ me fer fun.\n\nLook, I ain’t one to pry.\nThat’s none o’ my beeswax.\n\nBut as Gym Leader, I can’t just up\nand fork over a Badge to any ol’\\lcowpoke.\n\nSo, let’s just get this on.\n\nLet this handsome fella test\nyer mettle!\"",
+      "japanese": "よう、 あいぼう。\nもう また あえて うれしいよ。\n\nおんぼろの わがやだが、 きに\nいって くれたかな。\n\nもし きにいらなくても、\nほかに なにか ながめる\\lものは あるだろう\\.\n\nだって、 この まちと となりの まちを\nくまなく かけまわって\\lこんな ちっぽけな やつを さがしてな。\n\n\\.じょうだん、 じょうだん。\n\nその かおを みれば、 あそびで\nたたかいに きたんじゃ ないと わかる。\n\nまあ、 せんさくは しない。\nよけいな おせっかい だからな。\n\nだが ジムリーダーとして、\nバッジを どこの だれにでも\\lほいほい わたせない。\n\nさあ、 はじめようか。\n\nこの ハンサムな やつが\nうでまえを ためして やろう！",
+      "rom_offset": "0x01F17516",
+      "gba_address": "0x09F17516",
+      "pointer_owners": [
+        "0x01E73080"
+      ],
+      "speaker_evidence": [
+        {
+          "kind": "object_script_proximity",
+          "bindings": [
+            {
+              "map_header_offset": "0x0035169C",
+              "map_header_pointer_sources": [
+                "0x00B55F10"
+              ],
+              "map_events_offset": "0x00B61240",
+              "object_record_offset": "0x00B611B0",
+              "object_index": 2,
+              "local_object_id": 3,
+              "graphics_id": 83,
+              "coordinates": [
+                14,
+                7
+              ],
+              "script_offset": "0x01E73053",
+              "region_section_id": 94,
+              "map_id": null,
+              "text_operand_offset": "0x01E73080",
+              "distance_to_operand": 45,
+              "map_section_name": "Magnolia Fields",
+              "binding_kind": "same_object_script_neighborhood_unparsed"
+            }
+          ],
+          "limitation": "Branch/call path and actual speaker not proved."
+        }
+      ],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED",
+        "fa_source_width_envelope_exceeded"
+      ]
+    },
+    {
+      "id": "scr_1F2FE44",
+      "index": 98,
+      "decision": "HOLD",
+      "original": "\"Excellent.\n\nThen, as you know, the dark force\nof Borrius was sealed away, many,\\lmany years ago.\n\nHowever, it is said that if the\nthree legendary Pokémon used to\\lseal it away are brought back\\ltogether at a place called the\\l[green]Ruins of Void[blue], the power can be\\lreleased once again.\n\nThis must be what those thugs you\nencountered are after - to engulf\\lBorrius in darkness once again.\n\nIf what you say is accurate,\ntheir next target will surely be\\.\"",
+      "japanese": "けっこうです。\n\nでは ごぞんじの とおり、 ボーリウスの\nあんこくの ちからは、 ずっと ずっと\\lむかしに ふういんされました。\n\nただし、 いいつたえでは、\nふういんの 3びきの でんせつポケモンが\\lふたたび つれもどされ、\\lあつめられる ばしょは、\\l[green]ボイドいせき[blue]。 そこで ちからは\\lふたたび ときはなたれると いう。\n\nあの ならずものたちの ねらいは\nきっと それでしょう。 ボーリウスを\\lふたたび やみに おおう ことです。\n\nはなしが ただしければ、\nつぎの ねらいは きっと\\.",
+      "rom_offset": "0x01F2FE44",
+      "gba_address": "0x09F2FE44",
+      "pointer_owners": [
+        "0x01E67E72"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "fa_source_width_envelope_exceeded",
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F32467",
+      "index": 132,
+      "decision": "HOLD",
+      "original": "\"In that case, these Repels should\nhelp you get back through Grim\\lWoods and Cinder Volcano quicker.\"",
+      "japanese": "それなら、 この むしよけスプレーで\nぶきみなもりを\\lシンダーかざんも はやく ぬけられるはず。",
+      "rom_offset": "0x01F32467",
+      "gba_address": "0x09F32467",
+      "pointer_owners": [
+        "0x01E685B9"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "FA_SEMANTIC_REVIEW_REQUIRED",
+        "glossary_scope_or_target_unapproved",
+        "field_208px_overflow",
+        "fa_source_width_envelope_exceeded"
+      ]
+    },
+    {
+      "id": "scr_1F164BE",
+      "index": 52,
+      "decision": "HOLD",
+      "original": "\"Ah, I see a Trainer has passed\nmy test\\.\n\nTell me, what is your name?\n\n\\.\n\n[player]?\nI see\\. so that’s how it is\\.\"",
+      "japanese": "ほう、 わたしの しれんを こえた\nトレーナーが いるようですね\\.\n\nなまえを おしえて いただけますか？\n\n\\.\n\n[player]？\nなるほど\\. そういう ことですか\\.",
+      "rom_offset": "0x01F164BE",
+      "gba_address": "0x09F164BE",
+      "pointer_owners": [
+        "0x01E72BAB"
+      ],
+      "speaker_evidence": [
+        {
+          "kind": "object_script_proximity",
+          "bindings": [
+            {
+              "map_header_offset": "0x00350EA0",
+              "map_header_pointer_sources": [
+                "0x0035242C",
+                "0x00721870"
+              ],
+              "map_events_offset": "0x00B74BA8",
+              "object_record_offset": "0x00B74A68",
+              "object_index": 0,
+              "local_object_id": 1,
+              "graphics_id": 84,
+              "coordinates": [
+                10,
+                19
+              ],
+              "script_offset": "0x01E72B7E",
+              "region_section_id": 91,
+              "map_id": null,
+              "text_operand_offset": "0x01E72BAB",
+              "distance_to_operand": 45,
+              "map_section_name": "Battle Tower",
+              "binding_kind": "same_object_script_neighborhood_unparsed"
+            }
+          ],
+          "limitation": "Branch/call path and actual speaker not proved."
+        }
+      ],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "dynamic_buffer_contract_unproved",
+        "dynamic_width_and_page_contract_unproved",
+        "renderer_special_control_unmodelled",
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F2EAAD",
+      "index": 83,
+      "decision": "HOLD",
+      "original": "\"Looks like you still have a long\nway to go, [player]!\"",
+      "japanese": "まだまだ さきは ながそうだね、\n[player]！",
+      "rom_offset": "0x01F2EAAD",
+      "gba_address": "0x09F2EAAD",
+      "pointer_owners": [
+        "0x01E6D8E9"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "dynamic_buffer_contract_unproved",
+        "dynamic_width_and_page_contract_unproved",
+        "renderer_special_control_unmodelled",
+        "renderer_consumer_unproved"
+      ]
+    },
+    {
+      "id": "scr_1F30899",
+      "index": 107,
+      "decision": "HOLD",
+      "original": "\"Don’t force yourself, [player].\n\nIf you feel you are too injured to\ncontinue, then you must fall back.\n\nJax will help, if it comes to that.\n\nGood luck, youngster.\"",
+      "japanese": "むりは しないで、 [player]。\n\nけがが ひどくて つづけられないと\nおもったら ひきかえすんだ。\n\nいざと なれば ジャックスが たすける。\n\nがんばって、 わかい ひと。",
+      "rom_offset": "0x01F30899",
+      "gba_address": "0x09F30899",
+      "pointer_owners": [
+        "0x01E6821F"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "dynamic_buffer_contract_unproved",
+        "dynamic_width_and_page_contract_unproved",
+        "renderer_special_control_unmodelled",
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F3145D",
+      "index": 117,
+      "decision": "HOLD",
+      "original": "\"[blue]Huh? Wait, you’re\\.\\CC0820 [player],\nI think?\n\nDid Grampa Arthur send you here?\n\n\\.\n\nAh, so you were sent as backup.\n\nJeez, I got embarrassed in front\nof you\\.\"",
+      "japanese": "[blue]え？ まって きみは\\.\\CC0820 [player]\nだったかな？\n\nアーサーじいちゃんに いわれて きたの？\n\n\\.\n\nああ おうえんに きて くれたんだ。\n\nうわ、 はずかしい ところを\nみせちゃったな\\.",
+      "rom_offset": "0x01F3145D",
+      "gba_address": "0x09F3145D",
+      "pointer_owners": [
+        "0x01E5877B"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "dynamic_buffer_contract_unproved",
+        "dynamic_width_and_page_contract_unproved",
+        "renderer_special_control_unmodelled"
+      ]
+    },
+    {
+      "id": "scr_1F2F72C",
+      "index": 91,
+      "decision": "HOLD",
+      "original": "\"[green]Cac!\"",
+      "japanese": "[green]サボ！",
+      "rom_offset": "0x01F2F72C",
+      "gba_address": "0x09F2F72C",
+      "pointer_owners": [
+        "0x01E57ED7",
+        "0x01E6DD2D"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "official_or_project_name_unverified"
+      ]
+    },
+    {
+      "id": "scr_1F317F2",
+      "index": 123,
+      "decision": "HOLD",
+      "original": "\"[green]Ravia!\"",
+      "japanese": "[green]バード！",
+      "rom_offset": "0x01F317F2",
+      "gba_address": "0x09F317F2",
+      "pointer_owners": [
+        "0x01E57B61"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "official_or_project_name_unverified"
+      ]
+    },
+    {
+      "id": "scr_1F30020",
+      "index": 99,
+      "decision": "HOLD",
+      "original": "\"I just saw those guys in black\nheading in the direction of\\l[green]Cinder Volcano[blue]!\"",
+      "japanese": "さっき くろい ふくの れんちゅうが\nむかって いくのを みたよ、\\l[green]シンダーかざん[blue]の ほうへ！",
+      "rom_offset": "0x01F30020",
+      "gba_address": "0x09F30020",
+      "pointer_owners": [
+        "0x01E67EEF"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "fa_source_width_envelope_exceeded",
+        "owner_incomplete_or_interior"
+      ]
+    },
+    {
+      "id": "scr_1F153ED",
+      "index": 36,
+      "decision": "HOLD",
+      "original": "\"This item was found between the top\ntwo Dusknoir on B4F.\"",
+      "japanese": "この どうぐは ちか4かい、 うえの\nヨノワール 2たいの あいだで みつかった。",
+      "rom_offset": "0x01F153ED",
+      "gba_address": "0x09F153ED",
+      "pointer_owners": [
+        "0x01E7233C"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "field_208px_overflow",
+        "renderer_consumer_unproved"
+      ]
+    },
+    {
+      "id": "scr_1F309BE",
+      "index": 109,
+      "decision": "HOLD",
+      "original": "\"Jax told me the news.\n\nA job well done saving Zapdos,\n[player]!\n\nAll that remains now is retrieving\nMoltres and Articuno from the\\lShadows.\n\nJax is in [green]Dehara City[blue] waiting to\ndiscuss the next move.\"",
+      "japanese": "ジャックスから きいたよ。\n\nサンダーを すくうとは みごとだ、\n[player]！\n\nあと のこって いるのは\nファイヤーと フリーザーを\\lシャドウズから とりかえす ことだ。\n\nジャックスは [green]デハラシティ[blue]で\nつぎの そうだんを しに まっている。",
+      "rom_offset": "0x01F309BE",
+      "gba_address": "0x09F309BE",
+      "pointer_owners": [
+        "0x01E68255"
+      ],
+      "speaker_evidence": [],
+      "map": "UNKNOWN",
+      "event": "UNKNOWN",
+      "runtime_reachability": "UNKNOWN_NOT_PLAYED",
+      "procedure": "Use recorded caller/actor evidence to locate exact event. Do not infer map from text proximity. Compare every source FE/FA/FB view, scroll line, color, pause and next English dialogue. HOLD entries must remain baseline text.",
+      "checks": [
+        "original wait timing",
+        "scroll after FA",
+        "Latin/Japanese page recovery",
+        "no implicit wrap",
+        "neutral source-backed voice"
+      ],
+      "all_holds": [
+        "dynamic_buffer_contract_unproved",
+        "FA_SEMANTIC_REVIEW_REQUIRED",
+        "dynamic_width_and_page_contract_unproved",
+        "renderer_special_control_unmodelled",
+        "fa_source_width_envelope_exceeded",
+        "owner_incomplete_or_interior"
+      ]
+    }
+  ]
+}

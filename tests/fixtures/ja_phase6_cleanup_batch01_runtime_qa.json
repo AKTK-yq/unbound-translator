@@ -1,0 +1,464 @@
+{
+  "metadata": {
+    "count": 20,
+    "performed": false,
+    "emulator_operation_required_now": false
+  },
+  "entries": [
+    {
+      "id": "tbl_pokedex_descriptions_00013_166896A",
+      "category": "pokedex_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"Graveler’s entire body is tinged with\nelectricity due to the stones it likes\nto eat. It’s very quick-tempered.\"",
+      "japanese": "ゴローンは すきで たべる いしの せいで\nからだじゅうが でんきを おびている。\nとても きが みじかい。",
+      "source_offset": 23497066,
+      "pointer_owners": [
+        "0x01A35570"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 2
+      },
+      "priority_reasons": [
+        "official terms",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_menu_pokemon_summary_00014_419A3D",
+      "category": "menu_pokemon_summary",
+      "apply_status": "APPLY",
+      "original": "\"An odd Pokémon Egg found by the\nDay-Care couple.\"",
+      "japanese": "そだてやの ふうふが\nみつけた へんな ポケモンの タマゴ。",
+      "source_offset": 4299325,
+      "pointer_owners": [
+        "0x00463ED4"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "official terms",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_mission_objectives_00033_1F56736",
+      "category": "mission_objectives",
+      "apply_status": "APPLY",
+      "original": "\"Get the Go-Goggles from a Hiker\nin Dehara City!\"",
+      "japanese": "デハラシティの やまおとこから\nゴーゴーゴーグルを もらおう！",
+      "source_offset": 32859958,
+      "pointer_owners": [
+        "0x01EBFAF0"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "official terms",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_battle_messages_00237_3FCC07",
+      "category": "battle_messages",
+      "apply_status": "APPLY",
+      "original": "\"\\CC08201, \\CC080F2, and\\CC080F\\. \\CC080F\\. \\CC080F\\. \\CC080F\\CC103100Poof!\n\n\"",
+      "japanese": "\\CC08201、\\CC080F2、そして\\CC080F\\. \\CC080F\\. \\CC080F\\. \\CC080F\\CC103100ポカン！\n\n",
+      "source_offset": 4180999,
+      "pointer_owners": [
+        "0x003FE278"
+      ],
+      "relocation": {
+        "id": "tbl_battle_messages_00237_3FCC07",
+        "category": "battle_messages",
+        "old_offset": "0x3FCC07",
+        "new_offset": "0xC09B57",
+        "new_pointer": "0x8C09B57",
+        "byte_length": 45,
+        "pointer_sources": [
+          "0x3FE278"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      },
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FB": 1,
+        "FC": 7,
+        "FC_08": 6,
+        "FC_10": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "relocated",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_battle_messages_00238_3FCC33",
+      "category": "battle_messages",
+      "apply_status": "APPLY",
+      "original": "\"And\\.\n\n\"",
+      "japanese": "そして\\.\n\n",
+      "source_offset": 4181043,
+      "pointer_owners": [
+        "0x003FE27C"
+      ],
+      "relocation": {
+        "id": "tbl_battle_messages_00238_3FCC33",
+        "category": "battle_messages",
+        "old_offset": "0x3FCC33",
+        "new_offset": "0xC09B84",
+        "new_pointer": "0x8C09B84",
+        "byte_length": 10,
+        "pointer_sources": [
+          "0x3FE27C"
+        ],
+        "storage": "vetted_ff",
+        "shared_payload": false,
+        "old_slot_reclaimed": false,
+        "reference_proven": false
+      },
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FB": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "relocated",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_pokedex_descriptions_00015_1668A4C",
+      "category": "pokedex_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"Its small horn hides a healing power.\nWith a few rubs from this its horn, any\nslight wound you have will be healed.\"",
+      "japanese": "ちいさな つのには いやしの ちからが ある。\nこの つのを すこし こすると\nかるい きずは なおってしまう。",
+      "source_offset": 23497292,
+      "pointer_owners": [
+        "0x01A35580"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 2
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_pokedex_descriptions_00009_44504A",
+      "category": "pokedex_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"Its feet have suction cups designed\nto stick to any surface. It tenaciously\nclimbs trees to forage.\"",
+      "japanese": "あしには どんな ばしょにも くっつく\nきゅうばんが ある。 しぶとく きに のぼり\nえさを さがす。",
+      "source_offset": 4477002,
+      "pointer_owners": [
+        "0x01A35944"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 2
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_pokedex_descriptions_00012_16688F6",
+      "category": "pokedex_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"Its body is a magnetic stone. Iron sand\nattaches firmly to the portions of its\nbody that are particularly magnetic.\"",
+      "japanese": "からだは じしゃくの いしで できている。\nとくに じりょくの つよい ぶぶんには\nさてつが しっかりと くっつく。",
+      "source_offset": 23496950,
+      "pointer_owners": [
+        "0x01A35568"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 2
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_pokedex_descriptions_00011_1668893",
+      "category": "pokedex_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"It has the classiest coat. The rippling\nof its fur in the heat of battle has a\nbeauty all its own.\"",
+      "japanese": "もっとも じょうひんな けなみを もつ。\nたたかいの ねっきょうで ゆれる けなみは\nほかに ない うつくしさだ。",
+      "source_offset": 23496851,
+      "pointer_owners": [
+        "0x01A35560"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 2
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_item_descriptions_00008_3D6D72",
+      "category": "item_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"When held by a Pokémon, it will be\nused in battle for defrosting.\"",
+      "japanese": "ポケモンに もたせると たたかいで\nこおりを とかす ために つかわれる。",
+      "source_offset": 4025714,
+      "pointer_owners": [
+        "0x003DC7C8"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_menu_game_settings_00004_1F10F55",
+      "category": "menu_game_settings",
+      "apply_status": "APPLY",
+      "original": "\"As you’ve played before, would you\nlike to skip the opening cutscenes?\"",
+      "japanese": "まえに プレイしたので オープニングの\nイベントシーンを スキップしますか？",
+      "source_offset": 32575317,
+      "pointer_owners": [
+        "0x01E7014A"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_mission_objectives_00020_1F564D8",
+      "category": "mission_objectives",
+      "apply_status": "APPLY",
+      "original": "\"Obtain the power of Mega Evolution\nfrom the Tarmigan Mansion!\"",
+      "japanese": "ターミガンやしきで\nメガシンカの ちからを てにいれよう！",
+      "source_offset": 32859352,
+      "pointer_owners": [
+        "0x01EBFAC4"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_battle_messages_00254_3FCDB3",
+      "category": "battle_messages",
+      "apply_status": "APPLY",
+      "original": "\"No! There’s no running\nfrom a Trainer battle!\n\n\"",
+      "japanese": "だめだ！ トレーナーとの しょうぶから\nにげられない！\n\n",
+      "source_offset": 4181427,
+      "pointer_owners": [
+        "0x003FE290"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FB": 1,
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_item_descriptions_00025_3D55EC",
+      "category": "item_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"A medicine that revives a fainted\nPokémon, restoring HP fully.\"",
+      "japanese": "ひんしの ポケモンを HPぜんかいで\nいきかえらせる くすり。",
+      "source_offset": 4019692,
+      "pointer_owners": [
+        "0x00876660"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "scr_1EF7E52",
+      "category": "mission_descriptions",
+      "apply_status": "APPLY",
+      "original": "\"Sweet smelling aromas! Show\ndifferent Pokémon bred with\nIncense items.\"",
+      "japanese": "あまい かおり！\nおこうを つかって うまれた\nいろいろな ポケモンを みせよう。",
+      "source_offset": 32472658,
+      "pointer_owners": [
+        "0x01E61B78"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 2
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_menu_link_controls_00005_418E09",
+      "category": "menu_link_controls",
+      "apply_status": "APPLY",
+      "original": "\"Save completed.\n\\qoPlease press the A Button.\\qc\"",
+      "japanese": "レポートを かきこみました。\n\\qoAボタンを おして ください。\\qc",
+      "source_offset": 4296201,
+      "pointer_owners": [
+        "0x000F525C"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "in-place",
+        "positive apply"
+      ]
+    },
+    {
+      "id": "tbl_battle_messages_00122_3FC048",
+      "category": "battle_messages",
+      "apply_status": "HOLD",
+      "original": "\"\\\\0F cut its own HP\nand laid a Curse on\\l\\\\10!\"",
+      "japanese": "\\\\0Fは じぶんの HPを けずって\nのろいを\\l\\\\10に かけた！",
+      "source_offset": 4177992,
+      "pointer_owners": [
+        "0x003FE154"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FA": 1,
+        "FD": 2,
+        "FE": 1
+      },
+      "priority_reasons": [
+        "official terms",
+        "relocated",
+        "negative hold"
+      ]
+    },
+    {
+      "id": "tbl_battle_messages_00158_3FC421",
+      "category": "battle_messages",
+      "apply_status": "HOLD",
+      "original": "\"\\\\0F knocked off\n\\\\10’s \\\\16!\"",
+      "japanese": "\\\\0Fは\n\\\\10の \\\\16を はたきおとした！",
+      "source_offset": 4178977,
+      "pointer_owners": [
+        "0x003FE1E8"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FD": 3,
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "relocated",
+        "negative hold"
+      ]
+    },
+    {
+      "id": "tbl_battle_messages_00185_3FC75D",
+      "category": "battle_messages",
+      "apply_status": "HOLD",
+      "original": "\"\\\\10’s \\\\19\nprevents \\\\0F\\lfrom using \\\\14!\"",
+      "japanese": "\\\\10の \\\\19で\n\\\\0Fは\\l\\\\14を つかえない！",
+      "source_offset": 4179805,
+      "pointer_owners": [
+        "0x003FE21C"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {
+        "FA": 1,
+        "FD": 4,
+        "FE": 1
+      },
+      "priority_reasons": [
+        "width/layout",
+        "relocated",
+        "negative hold"
+      ]
+    },
+    {
+      "id": "tbl_start_menu_labels_00001_A4E4E4",
+      "category": "start_menu_labels",
+      "apply_status": "HOLD",
+      "original": "\"Cube V3\"",
+      "japanese": "キューブV3",
+      "source_offset": 10806500,
+      "pointer_owners": [
+        "0x00A6D194"
+      ],
+      "relocation": null,
+      "procedure": "Trigger this exact original caller; advance FE/FB/FA normally, inspect glyphs, width, name expansion and adjacent fields. Holds must retain the original English.",
+      "expected_controls": {},
+      "priority_reasons": [
+        "width/layout",
+        "relocated",
+        "negative hold"
+      ]
+    }
+  ]
+}

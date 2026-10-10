@@ -1,0 +1,1228 @@
+{
+  "metadata": {
+    "phase": "6C-4F",
+    "rom": "out/unbound-ja-phase6-cleanup-batch02.gba",
+    "sha256": "192b43b79f75174d9fd5618c47276d2a21cf47ec58b2a902becbe872b19a0284",
+    "performed": false,
+    "count": 8,
+    "no_inferred_maps_or_routes": true
+  },
+  "entries": [
+    {
+      "id": "scr_1F0D935",
+      "priority": 1,
+      "condition": "simple_FE_FA_applied",
+      "performed": false,
+      "baseline_appearance": "Japanese",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E6EA9C",
+        "sequence_index": 0,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32561461,
+        "gba_address": "0x09F0D935",
+        "pointer_owners": [
+          "0x1E6EA9C"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32561461,
+          "gba_address": "0x09F0D935",
+          "conversation_id": "script_operand_neighborhood_1E6EA9C"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E6EA9C",
+          "gba": "0x09E6EA9C",
+          "baseline_bytes": "35 d9 f0 09"
+        }
+      ],
+      "original": "\"[black]The Pokémon surrounded itself with\nthe power of the Lunar Wing and\\lincreased its size!\"",
+      "japanese_reference_only": "[black]ポケモンは\nみかづきのはねの ちからを まとい、\\lおおきく なった！",
+      "segments": [
+        {
+          "index": 0,
+          "english": "[black]The Pokémon surrounded itself with",
+          "japanese": "[black]ポケモンは",
+          "after_control": "FE",
+          "rom_control_offset": 32561498
+        },
+        {
+          "index": 1,
+          "english": "the power of the Lunar Wing and",
+          "japanese": "みかづきのはねの ちからを まとい、",
+          "after_control": "FA",
+          "rom_control_offset": 32561530
+        },
+        {
+          "index": 2,
+          "english": "increased its size!",
+          "japanese": "おおきく なった！",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FE",
+        "FA"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "NOT_RUN"
+    },
+    {
+      "id": "scr_1F126CE",
+      "priority": 2,
+      "condition": "FE_FB_FA_applied",
+      "performed": false,
+      "baseline_appearance": "Japanese",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E716E7",
+        "sequence_index": 3,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32581326,
+        "gba_address": "0x09F126CE",
+        "pointer_owners": [
+          "0x1E71731"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32581326,
+          "gba_address": "0x09F126CE",
+          "conversation_id": "script_operand_neighborhood_1E716E7"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E71731",
+          "gba": "0x09E71731",
+          "baseline_bytes": "ce 26 f1 09"
+        }
+      ],
+      "original": "\"That item is a [green]Scizorite[blue]!\n\nIf you catch a Scyther and evolve\nit into a [green]Scizor[blue], let it hold that\\lto unleash its metallic fury!\"",
+      "japanese_reference_only": "その どうぐは [green]ハッサムナイト[blue]だ！\n\nストライクを つかまえて しんかさせ、\n[green]ハッサム[blue]に したら これを もたせれば\\lメタリックな いかりを ときはなつ！",
+      "segments": [
+        {
+          "index": 0,
+          "english": "That item is a [green]Scizorite[blue]!",
+          "japanese": "その どうぐは [green]ハッサムナイト[blue]だ！",
+          "after_control": "FB",
+          "rom_control_offset": 32581357
+        },
+        {
+          "index": 1,
+          "english": "If you catch a Scyther and evolve",
+          "japanese": "ストライクを つかまえて しんかさせ、",
+          "after_control": "FE",
+          "rom_control_offset": 32581391
+        },
+        {
+          "index": 2,
+          "english": "it into a [green]Scizor[blue], let it hold that",
+          "japanese": "[green]ハッサム[blue]に したら これを もたせれば",
+          "after_control": "FA",
+          "rom_control_offset": 32581432
+        },
+        {
+          "index": 3,
+          "english": "to unleash its metallic fury!",
+          "japanese": "メタリックな いかりを ときはなつ！",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FB",
+        "FE",
+        "FA"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "NOT_RUN"
+    },
+    {
+      "id": "scr_1F0BE99",
+      "priority": 3,
+      "condition": "three_or_more_scroll_lines_icons",
+      "performed": false,
+      "baseline_appearance": "English; held Japanese is NOT in this ROM",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E6E4BC",
+        "sequence_index": 2,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32554649,
+        "gba_address": "0x09F0BE99",
+        "pointer_owners": [
+          "0x1E6E4E1"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32554649,
+          "gba_address": "0x09F0BE99",
+          "conversation_id": "script_operand_neighborhood_1E6E4BC"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E6E4E1",
+          "gba": "0x09E6E4E1",
+          "baseline_bytes": "99 be f0 09"
+        }
+      ],
+      "original": "\"Just in case you’ve forgotten, the\nSuper Cube acts just like a bag.\n\nBut unlike those cheap bags from\nPoké Mart that can only hold 42\\litems, the Super Cube, or as it’s\\lmore commonly known, [green]Cube[red], has an\\linfinite amount of space!\n\nIt works by digitizing the item’s\ndata put into it, so essentially,\\lit’s like you’re carrying nothing\\lextra at all!\n\nAnd not only that, you can even\nautomatically sort the Cube by\\lpressing \\btn04!\n\nIsn’t that convenient?\n\nOf course, if you still think the\nCube is a little cluttered even\\lafter sorting, just use \\btn02 and \\btn03\\lto move through it quickly.\n\nOh, and you can even use it to\nstore this parting gift I prepared!\"",
+      "japanese_reference_only": "いちおう おさらいだが、\nスーパーキューブは バッグと おなじだ。\n\nただし、 あの やすっぽい バッグ\nフレンドリィショップの 42こまでしか\\lもてない ものと ちがって、\\lよく [green]キューブ[red]と よばれる これは\\lむげんの スペースが ある！\n\nしくみは、 いれた どうぐを\nデジタルデータに する こと。 だから\\lじっさいには なにも よけいに\\lもちあるいて いないのと おなじ！\n\nそれだけじゃ ない。\nキューブの せいとんは じどうで、\\l\\btn04を おすだけ！\n\nべんりだろう？\n\nもちろん、 それでも まだ\nキューブが ごちゃごちゃに みえるなら、\\lせいとんの あと、 \\btn02と \\btn03を つかって\\lすばやく いどうしてね。\n\nそうそう、 わたしが よういした\nおくりものも キューブに しまえるよ！",
+      "segments": [
+        {
+          "index": 0,
+          "english": "Just in case you’ve forgotten, the",
+          "japanese": "いちおう おさらいだが、",
+          "after_control": "FE",
+          "rom_control_offset": 32554683
+        },
+        {
+          "index": 1,
+          "english": "Super Cube acts just like a bag.",
+          "japanese": "スーパーキューブは バッグと おなじだ。",
+          "after_control": "FB",
+          "rom_control_offset": 32554716
+        },
+        {
+          "index": 2,
+          "english": "But unlike those cheap bags from",
+          "japanese": "ただし、 あの やすっぽい バッグ",
+          "after_control": "FE",
+          "rom_control_offset": 32554749
+        },
+        {
+          "index": 3,
+          "english": "Poké Mart that can only hold 42",
+          "japanese": "フレンドリィショップの 42こまでしか",
+          "after_control": "FA",
+          "rom_control_offset": 32554781
+        },
+        {
+          "index": 4,
+          "english": "items, the Super Cube, or as it’s",
+          "japanese": "もてない ものと ちがって、",
+          "after_control": "FA",
+          "rom_control_offset": 32554815
+        },
+        {
+          "index": 5,
+          "english": "more commonly known, [green]Cube[red], has an",
+          "japanese": "よく [green]キューブ[red]と よばれる これは",
+          "after_control": "FA",
+          "rom_control_offset": 32554855
+        },
+        {
+          "index": 6,
+          "english": "infinite amount of space!",
+          "japanese": "むげんの スペースが ある！",
+          "after_control": "FB",
+          "rom_control_offset": 32554881
+        },
+        {
+          "index": 7,
+          "english": "It works by digitizing the item’s",
+          "japanese": "しくみは、 いれた どうぐを",
+          "after_control": "FE",
+          "rom_control_offset": 32554915
+        },
+        {
+          "index": 8,
+          "english": "data put into it, so essentially,",
+          "japanese": "デジタルデータに する こと。 だから",
+          "after_control": "FA",
+          "rom_control_offset": 32554949
+        },
+        {
+          "index": 9,
+          "english": "it’s like you’re carrying nothing",
+          "japanese": "じっさいには なにも よけいに",
+          "after_control": "FA",
+          "rom_control_offset": 32554983
+        },
+        {
+          "index": 10,
+          "english": "extra at all!",
+          "japanese": "もちあるいて いないのと おなじ！",
+          "after_control": "FB",
+          "rom_control_offset": 32554997
+        },
+        {
+          "index": 11,
+          "english": "And not only that, you can even",
+          "japanese": "それだけじゃ ない。",
+          "after_control": "FE",
+          "rom_control_offset": 32555029
+        },
+        {
+          "index": 12,
+          "english": "automatically sort the Cube by",
+          "japanese": "キューブの せいとんは じどうで、",
+          "after_control": "FA",
+          "rom_control_offset": 32555060
+        },
+        {
+          "index": 13,
+          "english": "pressing \\btn04!",
+          "japanese": "\\btn04を おすだけ！",
+          "after_control": "FB",
+          "rom_control_offset": 32555073
+        },
+        {
+          "index": 14,
+          "english": "Isn’t that convenient?",
+          "japanese": "べんりだろう？",
+          "after_control": "FB",
+          "rom_control_offset": 32555096
+        },
+        {
+          "index": 15,
+          "english": "Of course, if you still think the",
+          "japanese": "もちろん、 それでも まだ",
+          "after_control": "FE",
+          "rom_control_offset": 32555130
+        },
+        {
+          "index": 16,
+          "english": "Cube is a little cluttered even",
+          "japanese": "キューブが ごちゃごちゃに みえるなら、",
+          "after_control": "FA",
+          "rom_control_offset": 32555162
+        },
+        {
+          "index": 17,
+          "english": "after sorting, just use \\btn02 and \\btn03",
+          "japanese": "せいとんの あと、 \\btn02と \\btn03を つかって",
+          "after_control": "FA",
+          "rom_control_offset": 32555196
+        },
+        {
+          "index": 18,
+          "english": "to move through it quickly.",
+          "japanese": "すばやく いどうしてね。",
+          "after_control": "FB",
+          "rom_control_offset": 32555224
+        },
+        {
+          "index": 19,
+          "english": "Oh, and you can even use it to",
+          "japanese": "そうそう、 わたしが よういした",
+          "after_control": "FE",
+          "rom_control_offset": 32555255
+        },
+        {
+          "index": 20,
+          "english": "store this parting gift I prepared!",
+          "japanese": "おくりものも キューブに しまえるよ！",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FE",
+        "FB",
+        "FE",
+        "FA",
+        "FA",
+        "FA",
+        "FB",
+        "FE",
+        "FA",
+        "FA",
+        "FB",
+        "FE",
+        "FA",
+        "FB",
+        "FB",
+        "FE",
+        "FA",
+        "FA",
+        "FB",
+        "FE"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "BLOCKED_NO_APPROVED_JAPANESE_BUILD"
+    },
+    {
+      "id": "scr_1F0CAF5",
+      "priority": 4,
+      "condition": "player_name_expansion",
+      "performed": false,
+      "baseline_appearance": "English; held Japanese is NOT in this ROM",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E6E93B",
+        "sequence_index": 0,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32557813,
+        "gba_address": "0x09F0CAF5",
+        "pointer_owners": [
+          "0x1E6E93B"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32557813,
+          "gba_address": "0x09F0CAF5",
+          "conversation_id": "script_operand_neighborhood_1E6E93B"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E6E93B",
+          "gba": "0x09E6E93B",
+          "baseline_bytes": "f5 ca f0 09"
+        }
+      ],
+      "original": "\"Oh, hello, [player]!\n\nI heard from your mother that\nyou’re finally leaving town!\n\nThis is very exciting news!\n\nNow, might I ask you for a favour?\n\nI’ve been feeling a little under\nthe weather lately, and I was\\lhoping you could pick me up an\\l[green]Antidote[blue] from the Poké Mart.\"",
+      "japanese_reference_only": "おや、 こんにちは、 [player]！\n\nおかあさんから きいたのですが、\nついに まちを でて いくのですね！\n\nとても うれしい しらせです！\n\nひとつ おねがいしても いいですか？\n\nさいきん すこし たいちょうが\nすぐれなくて、 じつは\\lかって きて ほしい ものが あるのです。\\lフレンドリィショップの [green]どくけし[blue]を。",
+      "segments": [
+        {
+          "index": 0,
+          "english": "Oh, hello, [player]!",
+          "japanese": "おや、 こんにちは、 [player]！",
+          "after_control": "FB",
+          "rom_control_offset": 32557827
+        },
+        {
+          "index": 1,
+          "english": "I heard from your mother that",
+          "japanese": "おかあさんから きいたのですが、",
+          "after_control": "FE",
+          "rom_control_offset": 32557857
+        },
+        {
+          "index": 2,
+          "english": "you’re finally leaving town!",
+          "japanese": "ついに まちを でて いくのですね！",
+          "after_control": "FB",
+          "rom_control_offset": 32557886
+        },
+        {
+          "index": 3,
+          "english": "This is very exciting news!",
+          "japanese": "とても うれしい しらせです！",
+          "after_control": "FB",
+          "rom_control_offset": 32557914
+        },
+        {
+          "index": 4,
+          "english": "Now, might I ask you for a favour?",
+          "japanese": "ひとつ おねがいしても いいですか？",
+          "after_control": "FB",
+          "rom_control_offset": 32557949
+        },
+        {
+          "index": 5,
+          "english": "I’ve been feeling a little under",
+          "japanese": "さいきん すこし たいちょうが",
+          "after_control": "FE",
+          "rom_control_offset": 32557982
+        },
+        {
+          "index": 6,
+          "english": "the weather lately, and I was",
+          "japanese": "すぐれなくて、 じつは",
+          "after_control": "FA",
+          "rom_control_offset": 32558012
+        },
+        {
+          "index": 7,
+          "english": "hoping you could pick me up an",
+          "japanese": "かって きて ほしい ものが あるのです。",
+          "after_control": "FA",
+          "rom_control_offset": 32558043
+        },
+        {
+          "index": 8,
+          "english": "[green]Antidote[blue] from the Poké Mart.",
+          "japanese": "フレンドリィショップの [green]どくけし[blue]を。",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FB",
+        "FE",
+        "FB",
+        "FB",
+        "FB",
+        "FE",
+        "FA",
+        "FA"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "BLOCKED_NO_APPROVED_JAPANESE_BUILD"
+    },
+    {
+      "id": "tbl_battle_messages_00122_3FC048",
+      "priority": 4,
+      "condition": "battle_dynamic",
+      "performed": false,
+      "baseline_appearance": "English; held Japanese is NOT in this ROM",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": "data.battle.text.messages",
+        "conversation_id": null,
+        "sequence_index": 122,
+        "group_evidence": "Structured table membership; not a spoken conversation",
+        "context_confidence": "none",
+        "runtime_evidence": "Extractor-owned structured table data.battle.text.messages; row reachability varies",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": "data.battle.text.messages",
+        "table_index": 122,
+        "rom_offset": 4177992,
+        "gba_address": "0x083FC048",
+        "pointer_owners": [
+          "0x3FE154"
+        ],
+        "renderer_group": "battle_text_printer",
+        "script_location": {
+          "category": "battle_messages",
+          "rom_offset": 4177992,
+          "gba_address": "0x083FC048",
+          "conversation_id": null
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x003FE154",
+          "gba": "0x083FE154",
+          "baseline_bytes": "48 c0 3f 08"
+        }
+      ],
+      "original": "\"\\\\0F cut its own HP\nand laid a Curse on\\l\\\\10!\"",
+      "japanese_reference_only": "\\\\0Fは じぶんの HPを けずって\nのろいを\\l\\\\10に かけた！",
+      "segments": [
+        {
+          "index": 0,
+          "english": "\\\\0F cut its own HP",
+          "japanese": "\\\\0Fは じぶんの HPを けずって",
+          "after_control": "FE",
+          "rom_control_offset": 4178009
+        },
+        {
+          "index": 1,
+          "english": "and laid a Curse on",
+          "japanese": "のろいを",
+          "after_control": "FA",
+          "rom_control_offset": 4178029
+        },
+        {
+          "index": 2,
+          "english": "\\\\10!",
+          "japanese": "\\\\10に かけた！",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FE",
+        "FA"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "BLOCKED_NO_APPROVED_JAPANESE_BUILD"
+    },
+    {
+      "id": "scr_1F0B7A3",
+      "priority": 4,
+      "condition": "unknown_buffer_values",
+      "performed": false,
+      "baseline_appearance": "English; held Japanese is NOT in this ROM",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E6E1C1",
+        "sequence_index": 6,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32552867,
+        "gba_address": "0x09F0B7A3",
+        "pointer_owners": [
+          "0x1E6E229"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32552867,
+          "gba_address": "0x09F0B7A3",
+          "conversation_id": "script_operand_neighborhood_1E6E1C1"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E6E229",
+          "gba": "0x09E6E229",
+          "baseline_bytes": "a3 b7 f0 09"
+        }
+      ],
+      "original": "\"Huh? What’s this?\nAre you from the future?\n\n\\.\n\nAre you crazy?\n\nWhat made you think you had the\nright to travel through time?\n\n\\.\n\nLook, I get it, you made a rookie\nmistake.\n\nI can let you off easy this time.\n\nJust this once, if you don’t want\nto wait until [green][buffer1]/[buffer2]/[buffer3][blue] for your\\linternal clock to fix itself, I\\lcan reset it to today’s date.\n\nBut just this once!\n\nAre you sure you want me to reset\nyour clock?\"",
+      "japanese_reference_only": "",
+      "segments": [
+        {
+          "index": 0,
+          "english": "Huh? What’s this?",
+          "japanese": null,
+          "after_control": "FE",
+          "rom_control_offset": 32552884
+        },
+        {
+          "index": 1,
+          "english": "Are you from the future?",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32552909
+        },
+        {
+          "index": 2,
+          "english": "\\.",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32552911
+        },
+        {
+          "index": 3,
+          "english": "Are you crazy?",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32552926
+        },
+        {
+          "index": 4,
+          "english": "What made you think you had the",
+          "japanese": null,
+          "after_control": "FE",
+          "rom_control_offset": 32552958
+        },
+        {
+          "index": 5,
+          "english": "right to travel through time?",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32552988
+        },
+        {
+          "index": 6,
+          "english": "\\.",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32552990
+        },
+        {
+          "index": 7,
+          "english": "Look, I get it, you made a rookie",
+          "japanese": null,
+          "after_control": "FE",
+          "rom_control_offset": 32553024
+        },
+        {
+          "index": 8,
+          "english": "mistake.",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32553033
+        },
+        {
+          "index": 9,
+          "english": "I can let you off easy this time.",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32553067
+        },
+        {
+          "index": 10,
+          "english": "Just this once, if you don’t want",
+          "japanese": null,
+          "after_control": "FE",
+          "rom_control_offset": 32553101
+        },
+        {
+          "index": 11,
+          "english": "to wait until [green][buffer1]/[buffer2]/[buffer3][blue] for your",
+          "japanese": null,
+          "after_control": "FA",
+          "rom_control_offset": 32553139
+        },
+        {
+          "index": 12,
+          "english": "internal clock to fix itself, I",
+          "japanese": null,
+          "after_control": "FA",
+          "rom_control_offset": 32553171
+        },
+        {
+          "index": 13,
+          "english": "can reset it to today’s date.",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32553201
+        },
+        {
+          "index": 14,
+          "english": "But just this once!",
+          "japanese": null,
+          "after_control": "FB",
+          "rom_control_offset": 32553221
+        },
+        {
+          "index": 15,
+          "english": "Are you sure you want me to reset",
+          "japanese": null,
+          "after_control": "FE",
+          "rom_control_offset": 32553255
+        },
+        {
+          "index": 16,
+          "english": "your clock?",
+          "japanese": null,
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FE",
+        "FB",
+        "FB",
+        "FB",
+        "FE",
+        "FB",
+        "FB",
+        "FE",
+        "FB",
+        "FB",
+        "FE",
+        "FA",
+        "FA",
+        "FB",
+        "FB",
+        "FE"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "BLOCKED_NO_APPROVED_JAPANESE_BUILD"
+    },
+    {
+      "id": "scr_1F0C40F",
+      "priority": 5,
+      "condition": "trophy_word_order",
+      "performed": false,
+      "baseline_appearance": "English; held Japanese is NOT in this ROM",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E6E4BC",
+        "sequence_index": 10,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32556047,
+        "gba_address": "0x09F0C40F",
+        "pointer_owners": [
+          "0x1E6E5C9"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32556047,
+          "gba_address": "0x09F0C40F",
+          "conversation_id": "script_operand_neighborhood_1E6E4BC"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E6E5C9",
+          "gba": "0x09E6E5C9",
+          "baseline_bytes": "0f c4 f0 09"
+        }
+      ],
+      "original": "\"It’s a trophy proving you defeated\nthe Battle Tower Frontier Brain in\\la standard Multi Battle!\"",
+      "japanese_reference_only": "バトルタワーの フロンティアブレーンに\nふつうの マルチバトルで かった\\lあかしの トロフィーだ！",
+      "segments": [
+        {
+          "index": 0,
+          "english": "It’s a trophy proving you defeated",
+          "japanese": "バトルタワーの フロンティアブレーンに",
+          "after_control": "FE",
+          "rom_control_offset": 32556081
+        },
+        {
+          "index": 1,
+          "english": "the Battle Tower Frontier Brain in",
+          "japanese": "ふつうの マルチバトルで かった",
+          "after_control": "FA",
+          "rom_control_offset": 32556116
+        },
+        {
+          "index": 2,
+          "english": "a standard Multi Battle!",
+          "japanese": "あかしの トロフィーだ！",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FE",
+        "FA"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "BLOCKED_NO_APPROVED_JAPANESE_BUILD"
+    },
+    {
+      "id": "scr_1F1330A",
+      "priority": 5,
+      "condition": "predicate_timing",
+      "performed": false,
+      "baseline_appearance": "English; held Japanese is NOT in this ROM",
+      "map": "UNKNOWN",
+      "event_route": "UNKNOWN",
+      "event_evidence": {
+        "speaker": "unknown",
+        "speaker_confidence": "unknown",
+        "scene_id": null,
+        "conversation_id": "script_operand_neighborhood_1E71AED",
+        "sequence_index": 2,
+        "group_evidence": "Near event-script pointer operands plus nearby text; dialogue order, scene, speaker, and event reachability unproven",
+        "context_confidence": "medium",
+        "runtime_evidence": "Extractor-owned event-script pointer; event reachability not individually played",
+        "runtime_confidence": "B",
+        "notes": "Runtime usage of this exact row unobserved; scene and speaker require play/trace.",
+        "table_name": null,
+        "table_index": null,
+        "rom_offset": 32584458,
+        "gba_address": "0x09F1330A",
+        "pointer_owners": [
+          "0x1E71B2D"
+        ],
+        "renderer_group": "event_dialogue",
+        "script_location": {
+          "category": "scripts",
+          "rom_offset": 32584458,
+          "gba_address": "0x09F1330A",
+          "conversation_id": "script_operand_neighborhood_1E71AED"
+        },
+        "character_name": {
+          "value": null,
+          "status": "speaker_unproved"
+        },
+        "trainer_class_or_label": null,
+        "source_game": {
+          "value": null,
+          "status": "not_proven_in_inventory"
+        },
+        "name_mentions": []
+      },
+      "pointer_owners": [
+        {
+          "rom": "0x01E71B2D",
+          "gba": "0x09E71B2D",
+          "baseline_bytes": "0a 33 f1 09"
+        }
+      ],
+      "original": "\"Excellent work, but I am afraid I\nhave some bad news.\n\nThe Pokémon Rangers have just shut\ndown our operation.\n\nApparently the tall grass around\nhere is endangered, despite always\\lgrowing back.\n\nHowever, I am still contractually\nobligated to pay you for your\\lservice.\"",
+      "japanese_reference_only": "すばらしい しごとでした。 ですが\nわるい しらせが あります。\n\nたった いま ポケモンレンジャーに\nじぎょうを ていしされました。\n\nどうやら ここの たかい くさは\nいつも はえて くるのに ぜつめつの\\lきき だそうです。\n\nとはいえ、 けいやく じょう まだ\nしごとの たいかを おはらいする\\lぎむが あります。",
+      "segments": [
+        {
+          "index": 0,
+          "english": "Excellent work, but I am afraid I",
+          "japanese": "すばらしい しごとでした。 ですが",
+          "after_control": "FE",
+          "rom_control_offset": 32584491
+        },
+        {
+          "index": 1,
+          "english": "have some bad news.",
+          "japanese": "わるい しらせが あります。",
+          "after_control": "FB",
+          "rom_control_offset": 32584511
+        },
+        {
+          "index": 2,
+          "english": "The Pokémon Rangers have just shut",
+          "japanese": "たった いま ポケモンレンジャーに",
+          "after_control": "FE",
+          "rom_control_offset": 32584546
+        },
+        {
+          "index": 3,
+          "english": "down our operation.",
+          "japanese": "じぎょうを ていしされました。",
+          "after_control": "FB",
+          "rom_control_offset": 32584566
+        },
+        {
+          "index": 4,
+          "english": "Apparently the tall grass around",
+          "japanese": "どうやら ここの たかい くさは",
+          "after_control": "FE",
+          "rom_control_offset": 32584599
+        },
+        {
+          "index": 5,
+          "english": "here is endangered, despite always",
+          "japanese": "いつも はえて くるのに ぜつめつの",
+          "after_control": "FA",
+          "rom_control_offset": 32584634
+        },
+        {
+          "index": 6,
+          "english": "growing back.",
+          "japanese": "きき だそうです。",
+          "after_control": "FB",
+          "rom_control_offset": 32584648
+        },
+        {
+          "index": 7,
+          "english": "However, I am still contractually",
+          "japanese": "とはいえ、 けいやく じょう まだ",
+          "after_control": "FE",
+          "rom_control_offset": 32584682
+        },
+        {
+          "index": 8,
+          "english": "obligated to pay you for your",
+          "japanese": "しごとの たいかを おはらいする",
+          "after_control": "FA",
+          "rom_control_offset": 32584712
+        },
+        {
+          "index": 9,
+          "english": "service.",
+          "japanese": "ぎむが あります。",
+          "after_control": null,
+          "rom_control_offset": null
+        }
+      ],
+      "controls": [
+        "FE",
+        "FB",
+        "FE",
+        "FB",
+        "FE",
+        "FA",
+        "FB",
+        "FE",
+        "FA"
+      ],
+      "procedure": [
+        "Use unchanged baseline ROM, native 240x160 captures; preserve current save and create a separate QA save.",
+        "Locate the recorded pointer-owned event using a matching save/runtime script trace; route/map UNKNOWN until observed.",
+        "Record printer at FA: currentChar, windowId, fontId, x/y/currentX/currentY, line/letterSpacing, state, Japanese flag.",
+        "Capture before wait, each scroll step and first/last glyph of next row; one input per checkpoint, then test auto/held-input options separately.",
+        "At FB verify clearing and X/Y reset; at FE verify no added input wait. Check color and Japanese/Latin state after each transition.",
+        "For dynamics log full expanded bytes before RenderText, every writer and long accepted values; do not replace UNKNOWN buffers by guessed values.",
+        "Held candidates can only be checked in English now. Japanese screen testing needs a separately authorized future focused build after blockers resolve."
+      ],
+      "expected": "FA: one rendered-line upward scroll, next row at same printer Y and initial X; original event/control order; no clipping or page/color loss.",
+      "NG": [
+        "Missing/extra waits",
+        "FA clears the entire page",
+        "blank/lost/overprinted row",
+        "clipped last glyph",
+        "placeholder has wrong glyph page",
+        "unexpected plot reveal/predicate timing",
+        "unresolved writer or pointer ownership"
+      ],
+      "pass_conditions": [
+        "Bind observed screen to this exact pointer/caller, not matching prose alone.",
+        "All frames, waits, widths and dynamic values match the recorded trace.",
+        "Separate geometry/control PASS from semantic reviewer approval; unresolved context remains HOLD."
+      ],
+      "Japanese_runtime_status": "BLOCKED_NO_APPROVED_JAPANESE_BUILD"
+    }
+  ]
+}
