@@ -1,0 +1,2414 @@
+{
+  "metadata": {
+    "batch": 4,
+    "phase": "6C-4I",
+    "schema": "ja_phase6_voice_audit_v1",
+    "reusable_for": [],
+    "entries": 140,
+    "proven_speaker_groups": 0,
+    "speaker_confidence_counts": {
+      "UNKNOWN": 139,
+      "PLAUSIBLE": 1
+    },
+    "canon_proven": 0,
+    "profile_confidence_changed": false
+  },
+  "rules_applied": [
+    "PROVEN groupは同時にレビューし分割しない",
+    "PROVEN ≠ CONFIRMED_VOICE。profileの信頼度は維持",
+    "PLAUSIBLEは参考のみ",
+    "UNKNOWNは英語の態度を反映し、キャラ付けしない",
+    "代名詞は可能な限り省略",
+    "公式キャラクターの口調は流用しない",
+    "本文中の呼びかけ(Arthur / Jax / Euler 等)は話者の同定の証拠に使わない"
+  ],
+  "proven_speaker_groups": [],
+  "non_proven_clusters": [
+    {
+      "cluster": "shadows_confrontation_and_rival_battle",
+      "description": "シャドウズ側の警告・対決、ライバルとの再会と敗北の台詞(発言者は本文の呼びかけだけで、同定していない)",
+      "entry_ids": [
+        "scr_1F32A8E",
+        "scr_1F32BB7",
+        "scr_1F32EB9",
+        "scr_1F32F75",
+        "scr_1F33055",
+        "scr_1F3371D",
+        "scr_1F33815",
+        "scr_1F338A2",
+        "scr_1F33916",
+        "scr_1F3394E",
+        "scr_1F33968",
+        "scr_1F339B2",
+        "scr_1F33CAE",
+        "scr_1F33CC0",
+        "scr_1F33E17",
+        "scr_1F33EE0"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 16
+      },
+      "status_counts": {
+        "needs_context": 3,
+        "confirmed": 13
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F32A8E",
+          "tone": "認めつつ息子を思う述懐"
+        },
+        {
+          "id": "scr_1F32BB7",
+          "tone": "冷たく見下す詰問"
+        },
+        {
+          "id": "scr_1F32EB9",
+          "tone": "冷静な指示"
+        },
+        {
+          "id": "scr_1F32F75",
+          "tone": "冷たい警告"
+        },
+        {
+          "id": "scr_1F33055",
+          "tone": "とぎれとぎれの呼びかけ"
+        },
+        {
+          "id": "scr_1F3371D",
+          "tone": "いきりたった問い詰め"
+        },
+        {
+          "id": "scr_1F33815",
+          "tone": "冷ややかな忠告"
+        },
+        {
+          "id": "scr_1F338A2",
+          "tone": "むっとして強がる"
+        },
+        {
+          "id": "scr_1F33916",
+          "tone": "ため息まじりの詫び"
+        },
+        {
+          "id": "scr_1F3394E",
+          "tone": "号令"
+        },
+        {
+          "id": "scr_1F33968",
+          "tone": "鳴き声"
+        },
+        {
+          "id": "scr_1F339B2",
+          "tone": "調子づいた挑発"
+        },
+        {
+          "id": "scr_1F33CAE",
+          "tone": "ひるんだ"
+        },
+        {
+          "id": "scr_1F33CC0",
+          "tone": "悔しさを飲み込んだ強がり"
+        },
+        {
+          "id": "scr_1F33E17",
+          "tone": "ナレーション"
+        },
+        {
+          "id": "scr_1F33EE0",
+          "tone": "ナレーション"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "jax_requests_hm_and_ranch",
+      "description": "KBTハイウェイの誘い、困りごと、いわくだき / ひでんの説明、西部風に砕けた語り",
+      "entry_ids": [
+        "scr_1F33F05",
+        "scr_1F3403C",
+        "scr_1F34226",
+        "scr_1F343A8",
+        "scr_1F3475C",
+        "scr_1F34454",
+        "scr_1F346D6",
+        "scr_1F35F2D",
+        "scr_1F36150"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 9
+      },
+      "status_counts": {
+        "confirmed": 8,
+        "needs_context": 1
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F33F05",
+          "tone": "丁寧に頼む"
+        },
+        {
+          "id": "scr_1F3403C",
+          "tone": "明るい操作説明"
+        },
+        {
+          "id": "scr_1F34226",
+          "tone": "見下す冷笑"
+        },
+        {
+          "id": "scr_1F343A8",
+          "tone": "ほっとしつつ焦る"
+        },
+        {
+          "id": "scr_1F3475C",
+          "tone": "困り果てた頼み"
+        },
+        {
+          "id": "scr_1F34454",
+          "tone": "照れ隠しから頼みごとへ"
+        },
+        {
+          "id": "scr_1F346D6",
+          "tone": "思いついた親切"
+        },
+        {
+          "id": "scr_1F35F2D",
+          "tone": "調子のいい自慢まじりの親切"
+        },
+        {
+          "id": "scr_1F36150",
+          "tone": "調子のいい説明"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "thundercap_guard_and_staraptor",
+      "description": "サンダーキャップやまの見張り、マッサージの男、ボーリウスの宝探しの合流、クラウドバースト、ボイドいせきの作戦",
+      "entry_ids": [
+        "scr_1F362D1",
+        "scr_1F3632A",
+        "scr_1F36341",
+        "scr_1F363D2",
+        "scr_1F36401",
+        "scr_1F36FE6",
+        "scr_1F37282",
+        "scr_1F37486",
+        "scr_1F387F2",
+        "scr_1F389BB",
+        "scr_1F38C8F",
+        "scr_1F38DB0"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 12
+      },
+      "status_counts": {
+        "confirmed": 11,
+        "needs_context": 1
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F362D1",
+          "tone": "固い決意"
+        },
+        {
+          "id": "scr_1F3632A",
+          "tone": "戦闘の掛け声"
+        },
+        {
+          "id": "scr_1F36341",
+          "tone": "のんびりした脅し"
+        },
+        {
+          "id": "scr_1F363D2",
+          "tone": "ぼやく"
+        },
+        {
+          "id": "scr_1F36401",
+          "tone": "気さくな別れ"
+        },
+        {
+          "id": "scr_1F36FE6",
+          "tone": "期待と驚き"
+        },
+        {
+          "id": "scr_1F37282",
+          "tone": "感嘆と照れ"
+        },
+        {
+          "id": "scr_1F37486",
+          "tone": "掛け声"
+        },
+        {
+          "id": "scr_1F387F2",
+          "tone": "うれしそうな近況報告"
+        },
+        {
+          "id": "scr_1F389BB",
+          "tone": "作戦会議の説明"
+        },
+        {
+          "id": "scr_1F38C8F",
+          "tone": "段取りを決める"
+        },
+        {
+          "id": "scr_1F38DB0",
+          "tone": "とっさの警告"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "machine_voice",
+      "description": "大文字の機械音声。他の会話と区別するためカタカナ表記にした訳者判断",
+      "entry_ids": [
+        "scr_1F3B7AD",
+        "scr_1F3B7D6",
+        "scr_1F3B819"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 3
+      },
+      "status_counts": {
+        "confirmed": 3
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F3B7AD",
+          "tone": "機械音声"
+        },
+        {
+          "id": "scr_1F3B7D6",
+          "tone": "機械音声"
+        },
+        {
+          "id": "scr_1F3B819",
+          "tone": "機械音声"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "cube_space_reunion",
+      "description": "キューブスペースの再会と別れ。親子・夫婦らしい会話があるが、人物の同定には使っていない",
+      "entry_ids": [
+        "scr_1F3B86F",
+        "scr_1F3B920",
+        "scr_1F3B9B3",
+        "scr_1F3BA27",
+        "scr_1F3BBF1",
+        "scr_1F3BD5C",
+        "scr_1F3BE76",
+        "scr_1F3BF66",
+        "scr_1F3C508",
+        "scr_1F3C5F8",
+        "scr_1F3C6E8",
+        "scr_1F3CB76",
+        "scr_1F3CC4D",
+        "scr_1F3CCC5",
+        "scr_1F3CD22",
+        "scr_1F3CE79",
+        "scr_1F3D021",
+        "scr_1F3D0AA"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 18
+      },
+      "status_counts": {
+        "needs_context": 2,
+        "confirmed": 16
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F3B86F",
+          "tone": "再会の感動"
+        },
+        {
+          "id": "scr_1F3B920",
+          "tone": "皮肉まじりの指摘"
+        },
+        {
+          "id": "scr_1F3B9B3",
+          "tone": "しみじみとした誇り"
+        },
+        {
+          "id": "scr_1F3BA27",
+          "tone": "気さくな注意"
+        },
+        {
+          "id": "scr_1F3BBF1",
+          "tone": "思い出しての質問"
+        },
+        {
+          "id": "scr_1F3BD5C",
+          "tone": "怒りと信じられなさ"
+        },
+        {
+          "id": "scr_1F3BE76",
+          "tone": "悲痛な説得"
+        },
+        {
+          "id": "scr_1F3BF66",
+          "tone": "苦渋の弁明"
+        },
+        {
+          "id": "scr_1F3C508",
+          "tone": "あきらめと皮肉まじりの明るさ"
+        },
+        {
+          "id": "scr_1F3C5F8",
+          "tone": "名残惜しい別れ"
+        },
+        {
+          "id": "scr_1F3C6E8",
+          "tone": "思いつきと期待"
+        },
+        {
+          "id": "scr_1F3CB76",
+          "tone": "あきらめた了承"
+        },
+        {
+          "id": "scr_1F3CC4D",
+          "tone": "あきらめまじりの説明"
+        },
+        {
+          "id": "scr_1F3CCC5",
+          "tone": "名残惜しい"
+        },
+        {
+          "id": "scr_1F3CD22",
+          "tone": "てみじかな遺言"
+        },
+        {
+          "id": "scr_1F3CE79",
+          "tone": "手際のよい報告"
+        },
+        {
+          "id": "scr_1F3D021",
+          "tone": "別れの言葉"
+        },
+        {
+          "id": "scr_1F3D0AA",
+          "tone": "動揺"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "vega_marlon_fey_exchange",
+      "description": "ベガ・マーロン・フェイの言い合いと脱出の相談",
+      "entry_ids": [
+        "scr_1F3D2FD",
+        "scr_1F3D834",
+        "scr_1F3DACA",
+        "scr_1F3DB1C",
+        "scr_1F3DB3C",
+        "scr_1F3DB7C",
+        "scr_1F3DDF5",
+        "scr_1F3DD42",
+        "scr_1F3DEBD",
+        "scr_1F3DF07",
+        "scr_1F3DFF5",
+        "scr_1F3E173",
+        "scr_1F3E2FE"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 13
+      },
+      "status_counts": {
+        "confirmed": 11,
+        "needs_technical_fit": 1,
+        "needs_context": 1
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F3D2FD",
+          "tone": "冷ややかな反論"
+        },
+        {
+          "id": "scr_1F3D834",
+          "tone": "問いただす"
+        },
+        {
+          "id": "scr_1F3DACA",
+          "tone": "命令口調の叫び"
+        },
+        {
+          "id": "scr_1F3DB1C",
+          "tone": "報告"
+        },
+        {
+          "id": "scr_1F3DB3C",
+          "tone": "苦々しい皮肉"
+        },
+        {
+          "id": "scr_1F3DB7C",
+          "tone": "冷たい叱責"
+        },
+        {
+          "id": "scr_1F3DDF5",
+          "tone": "あきれ気味の皮肉"
+        },
+        {
+          "id": "scr_1F3DD42",
+          "tone": "冷たい宣告"
+        },
+        {
+          "id": "scr_1F3DEBD",
+          "tone": "引き止める"
+        },
+        {
+          "id": "scr_1F3DF07",
+          "tone": "問い詰め"
+        },
+        {
+          "id": "scr_1F3DFF5",
+          "tone": "探りを入れる"
+        },
+        {
+          "id": "scr_1F3E173",
+          "tone": "ほくそ笑む"
+        },
+        {
+          "id": "scr_1F3E2FE",
+          "tone": "自信のある宣言"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "jax_ivory_light_of_ruin",
+      "description": "ジャックス・アイボリー・はめつのひかりとの対決と山登り",
+      "entry_ids": [
+        "scr_1F3E5B3",
+        "scr_1F3E675",
+        "scr_1F3E84E",
+        "scr_1F41CA1",
+        "scr_1F41D4C",
+        "scr_1F41F58",
+        "scr_1F420E2",
+        "scr_1F42454",
+        "scr_1F42501",
+        "scr_1F425C7",
+        "scr_1F45572",
+        "scr_1F45E1A",
+        "scr_1F45FDA",
+        "scr_1F476EC",
+        "scr_1F47A62",
+        "scr_1F47B99",
+        "scr_1F47C61",
+        "scr_1F48340",
+        "scr_1F484AE",
+        "scr_1F48724",
+        "scr_1F48854",
+        "scr_1F48B25",
+        "scr_1F48C27",
+        "scr_1F48C92",
+        "scr_1F48ED0",
+        "scr_1F49264"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 26
+      },
+      "status_counts": {
+        "confirmed": 25,
+        "needs_context": 1
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F3E5B3",
+          "tone": "あわてて推理"
+        },
+        {
+          "id": "scr_1F3E675",
+          "tone": "必死の申し出"
+        },
+        {
+          "id": "scr_1F3E84E",
+          "tone": "苦しい頼み"
+        },
+        {
+          "id": "scr_1F41CA1",
+          "tone": "拍子抜けの報告"
+        },
+        {
+          "id": "scr_1F41D4C",
+          "tone": "動揺から決意へ"
+        },
+        {
+          "id": "scr_1F41F58",
+          "tone": "不安を抑えた分析"
+        },
+        {
+          "id": "scr_1F420E2",
+          "tone": "気丈な頼み"
+        },
+        {
+          "id": "scr_1F42454",
+          "tone": "必死の説得"
+        },
+        {
+          "id": "scr_1F42501",
+          "tone": "怒りを抑えた反発"
+        },
+        {
+          "id": "scr_1F425C7",
+          "tone": "気さくな念押し"
+        },
+        {
+          "id": "scr_1F45572",
+          "tone": "動揺と自責"
+        },
+        {
+          "id": "scr_1F45E1A",
+          "tone": "我に返る"
+        },
+        {
+          "id": "scr_1F45FDA",
+          "tone": "ほっとして帰ろうと言う"
+        },
+        {
+          "id": "scr_1F476EC",
+          "tone": "元気な誘いと腕試し"
+        },
+        {
+          "id": "scr_1F47A62",
+          "tone": "システム文"
+        },
+        {
+          "id": "scr_1F47B99",
+          "tone": "いらだち"
+        },
+        {
+          "id": "scr_1F47C61",
+          "tone": "もどかしい相談"
+        },
+        {
+          "id": "scr_1F48340",
+          "tone": "システム文"
+        },
+        {
+          "id": "scr_1F484AE",
+          "tone": "冷たい捨てぜりふ"
+        },
+        {
+          "id": "scr_1F48724",
+          "tone": "苦い許し"
+        },
+        {
+          "id": "scr_1F48854",
+          "tone": "照れと決意"
+        },
+        {
+          "id": "scr_1F48B25",
+          "tone": "気づかう頼みごと"
+        },
+        {
+          "id": "scr_1F48C27",
+          "tone": "念押しして出発"
+        },
+        {
+          "id": "scr_1F48C92",
+          "tone": "ヒント"
+        },
+        {
+          "id": "scr_1F48ED0",
+          "tone": "部下の報告"
+        },
+        {
+          "id": "scr_1F49264",
+          "tone": "威圧"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "aklove_final_battle_and_aftermath",
+      "description": "アクラブ・アイボリーとの決着、エンディング後の会話とクリア表示",
+      "entry_ids": [
+        "scr_1F49621",
+        "scr_1F49AA3",
+        "scr_1F49AE9",
+        "scr_1F49B96",
+        "scr_1F49CC1",
+        "scr_1F49D19",
+        "scr_1F4A06E",
+        "scr_1F4A196",
+        "scr_1F4A2E3",
+        "scr_1F4A875",
+        "scr_1F4A996",
+        "scr_1F4AA86",
+        "scr_1F4AD47",
+        "scr_1F4BC44",
+        "scr_1F4BD16",
+        "scr_1F4BDA6",
+        "scr_1F4BEF9",
+        "scr_1F4C192",
+        "scr_1F4C2ED"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 19
+      },
+      "status_counts": {
+        "confirmed": 18,
+        "needs_context": 1
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F49621",
+          "tone": "いら立つ指示と宣言"
+        },
+        {
+          "id": "scr_1F49AA3",
+          "tone": "取り乱した叫び"
+        },
+        {
+          "id": "scr_1F49AE9",
+          "tone": "追い詰める"
+        },
+        {
+          "id": "scr_1F49B96",
+          "tone": "勝ち誇る"
+        },
+        {
+          "id": "scr_1F49CC1",
+          "tone": "うろたえる"
+        },
+        {
+          "id": "scr_1F49D19",
+          "tone": "種明かし"
+        },
+        {
+          "id": "scr_1F4A06E",
+          "tone": "開き直り"
+        },
+        {
+          "id": "scr_1F4A196",
+          "tone": "涙まじりの詫び"
+        },
+        {
+          "id": "scr_1F4A2E3",
+          "tone": "説得"
+        },
+        {
+          "id": "scr_1F4A875",
+          "tone": "熱のこもった頼み"
+        },
+        {
+          "id": "scr_1F4A996",
+          "tone": "挑発"
+        },
+        {
+          "id": "scr_1F4AA86",
+          "tone": "誇らしげな称賛"
+        },
+        {
+          "id": "scr_1F4AD47",
+          "tone": "仲間への励まし"
+        },
+        {
+          "id": "scr_1F4BC44",
+          "tone": "システムの祝辞"
+        },
+        {
+          "id": "scr_1F4BD16",
+          "tone": "システムの締めの言葉"
+        },
+        {
+          "id": "scr_1F4BDA6",
+          "tone": "うれしそうな近況"
+        },
+        {
+          "id": "scr_1F4BEF9",
+          "tone": "穏やかで丁寧な報告"
+        },
+        {
+          "id": "scr_1F4C192",
+          "tone": "意気込み"
+        },
+        {
+          "id": "scr_1F4C2ED",
+          "tone": "ほがらかな祝福と依頼"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "wireless_club_and_place_names",
+      "description": "ポケモンワイヤレスクラブの案内と地名",
+      "entry_ids": [
+        "scr_1F4EC02",
+        "scr_1F52A74"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 2
+      },
+      "status_counts": {
+        "confirmed": 2
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F4EC02",
+          "tone": "丁寧な案内"
+        },
+        {
+          "id": "scr_1F52A74",
+          "tone": "地名"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "raid_den_notes",
+      "description": "レイドの すあなの場所を記す掲示。話者なし。既存候補の語を保ち、制御構造に合わせて並べ替えた",
+      "entry_ids": [
+        "scr_1F57497",
+        "scr_1F574FD",
+        "scr_1F5755D",
+        "scr_1F575B8",
+        "scr_1F5761C",
+        "scr_1F57675",
+        "scr_1F576D3",
+        "scr_1F5771F",
+        "scr_1F57777",
+        "scr_1F577D2",
+        "scr_1F57826",
+        "scr_1F5787F",
+        "scr_1F57925",
+        "scr_1F57988",
+        "scr_1F579E4",
+        "scr_1F57A38",
+        "scr_1F57A95",
+        "scr_1F57AF4",
+        "scr_1F57B53"
+      ],
+      "speaker_confidence_counts": {
+        "UNKNOWN": 19
+      },
+      "status_counts": {
+        "confirmed": 19
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F57497",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F574FD",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F5755D",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F575B8",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F5761C",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57675",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F576D3",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F5771F",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57777",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F577D2",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57826",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F5787F",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57925",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57988",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F579E4",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57A38",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57A95",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57AF4",
+          "tone": "掲示板の記録"
+        },
+        {
+          "id": "scr_1F57B53",
+          "tone": "掲示板の記録"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    },
+    {
+      "cluster": "sand_castle_ruins_and_maxima",
+      "description": "戦闘の地の文と地名・人名",
+      "entry_ids": [
+        "scr_1F62EC8",
+        "scr_1F67E9C",
+        "scr_1F7A406"
+      ],
+      "speaker_confidence_counts": {
+        "PLAUSIBLE": 1,
+        "UNKNOWN": 2
+      },
+      "status_counts": {
+        "confirmed": 3
+      },
+      "original_english_tone": [
+        {
+          "id": "scr_1F62EC8",
+          "tone": "戦闘の地の文"
+        },
+        {
+          "id": "scr_1F67E9C",
+          "tone": "地名"
+        },
+        {
+          "id": "scr_1F7A406",
+          "tone": "人名"
+        }
+      ],
+      "translation_voice_decision": "PROVEN以外は英語の態度だけを反映。同じクラスタ内でも話者の同一性は仮定せず、人物像でそろえていない。丁寧語は英語が丁寧な行に限り、砕けた英語(俗語・短縮)は方言を足さず砕けた常体で表した。",
+      "unverified_assumptions_avoided": [
+        "根拠のない わし / ぼく / おれ の付与",
+        "性別を語尾から推測すること",
+        "年齢だけの老人語・子ども語",
+        "根拠のない方言",
+        "全員を同じ丁寧語・同じ元気な少年口調にそろえること",
+        "you / I の機械的な あなた / わたし 置換",
+        "公式キャラクターの口調の流用",
+        "会話の近さ(conversation_id / ROM近接)だけでの人物の統合"
+      ]
+    }
+  ],
+  "entry_voice_index": [
+    {
+      "id": "scr_1F32A8E",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "認めつつ息子を思う述懐",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(認めつつ息子を思う述懐)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F32BB7",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "冷たく見下す詰問",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷たく見下す詰問)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F32EB9",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "冷静な指示",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷静な指示)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F32F75",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "冷たい警告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷たい警告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33055",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "とぎれとぎれの呼びかけ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(とぎれとぎれの呼びかけ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3371D",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "いきりたった問い詰め",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(いきりたった問い詰め)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33815",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "冷ややかな忠告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷ややかな忠告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F338A2",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "むっとして強がる",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(むっとして強がる)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33916",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "ため息まじりの詫び",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ため息まじりの詫び)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3394E",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "号令",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(号令)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33968",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "鳴き声",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(鳴き声)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F339B2",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "調子づいた挑発",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(調子づいた挑発)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33CAE",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "ひるんだ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ひるんだ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33CC0",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "悔しさを飲み込んだ強がり",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(悔しさを飲み込んだ強がり)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33E17",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "ナレーション",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ナレーション)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33EE0",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "ナレーション",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ナレーション)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F33F05",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "丁寧に頼む",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(丁寧に頼む)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3403C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "明るい操作説明",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(明るい操作説明)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F34226",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "見下す冷笑",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(見下す冷笑)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F343A8",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "ほっとしつつ焦る",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ほっとしつつ焦る)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3475C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "困り果てた頼み",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(困り果てた頼み)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F34454",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "照れ隠しから頼みごとへ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(照れ隠しから頼みごとへ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F346D6",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "思いついた親切",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(思いついた親切)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F35F2D",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "調子のいい自慢まじりの親切",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(調子のいい自慢まじりの親切)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F36150",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "調子のいい説明",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(調子のいい説明)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F362D1",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "固い決意",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(固い決意)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3632A",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "戦闘の掛け声",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(戦闘の掛け声)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F36341",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "のんびりした脅し",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(のんびりした脅し)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F363D2",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "ぼやく",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ぼやく)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F36401",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "気さくな別れ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(気さくな別れ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F36FE6",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "期待と驚き",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(期待と驚き)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F37282",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "感嘆と照れ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(感嘆と照れ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F37486",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "掛け声",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掛け声)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F387F2",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "うれしそうな近況報告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(うれしそうな近況報告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F389BB",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "作戦会議の説明",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(作戦会議の説明)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F38C8F",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "段取りを決める",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(段取りを決める)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F38DB0",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "とっさの警告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(とっさの警告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3B7AD",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "機械音声",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(機械音声)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3B7D6",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "機械音声",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(機械音声)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3B819",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "機械音声",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(機械音声)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3B86F",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "再会の感動",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(再会の感動)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3B920",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "皮肉まじりの指摘",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(皮肉まじりの指摘)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3B9B3",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "しみじみとした誇り",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(しみじみとした誇り)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3BA27",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "気さくな注意",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(気さくな注意)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3BBF1",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "思い出しての質問",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(思い出しての質問)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3BD5C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "怒りと信じられなさ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(怒りと信じられなさ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3BE76",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "悲痛な説得",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(悲痛な説得)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3BF66",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "苦渋の弁明",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(苦渋の弁明)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3C508",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "あきらめと皮肉まじりの明るさ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(あきらめと皮肉まじりの明るさ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3C5F8",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "名残惜しい別れ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(名残惜しい別れ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3C6E8",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "思いつきと期待",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(思いつきと期待)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3CB76",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "あきらめた了承",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(あきらめた了承)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3CC4D",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "あきらめまじりの説明",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(あきらめまじりの説明)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3CCC5",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "名残惜しい",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(名残惜しい)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3CD22",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "てみじかな遺言",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(てみじかな遺言)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3CE79",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "手際のよい報告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(手際のよい報告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3D021",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "別れの言葉",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(別れの言葉)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3D0AA",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "動揺",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(動揺)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3D2FD",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "冷ややかな反論",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷ややかな反論)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3D834",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "問いただす",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(問いただす)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DACA",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_technical_fit",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "命令口調の叫び",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(命令口調の叫び)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DB1C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "報告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(報告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DB3C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "苦々しい皮肉",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(苦々しい皮肉)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DB7C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "冷たい叱責",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷たい叱責)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DDF5",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "あきれ気味の皮肉",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(あきれ気味の皮肉)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DD42",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "冷たい宣告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷たい宣告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DEBD",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "引き止める",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(引き止める)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DF07",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "問い詰め",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(問い詰め)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3DFF5",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "探りを入れる",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(探りを入れる)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3E173",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "ほくそ笑む",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ほくそ笑む)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3E2FE",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "自信のある宣言",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(自信のある宣言)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3E5B3",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "あわてて推理",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(あわてて推理)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3E675",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "必死の申し出",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(必死の申し出)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F3E84E",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "苦しい頼み",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(苦しい頼み)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F41CA1",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "拍子抜けの報告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(拍子抜けの報告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F41D4C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "動揺から決意へ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(動揺から決意へ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F41F58",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "不安を抑えた分析",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(不安を抑えた分析)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F420E2",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "気丈な頼み",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(気丈な頼み)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F42454",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "必死の説得",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(必死の説得)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F42501",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "怒りを抑えた反発",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(怒りを抑えた反発)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F425C7",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "気さくな念押し",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(気さくな念押し)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F45572",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "動揺と自責",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(動揺と自責)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F45E1A",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "我に返る",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(我に返る)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F45FDA",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "ほっとして帰ろうと言う",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ほっとして帰ろうと言う)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F476EC",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "元気な誘いと腕試し",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(元気な誘いと腕試し)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F47A62",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "システム文",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(システム文)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F47B99",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "いらだち",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(いらだち)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F47C61",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "もどかしい相談",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(もどかしい相談)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48340",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "システム文",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(システム文)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F484AE",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "冷たい捨てぜりふ",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(冷たい捨てぜりふ)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48724",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "苦い許し",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(苦い許し)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48854",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "照れと決意",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(照れと決意)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48B25",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "気づかう頼みごと",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(気づかう頼みごと)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48C27",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "念押しして出発",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(念押しして出発)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48C92",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "ヒント",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ヒント)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F48ED0",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "部下の報告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(部下の報告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49264",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "威圧",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(威圧)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49621",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "いら立つ指示と宣言",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(いら立つ指示と宣言)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49AA3",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "取り乱した叫び",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(取り乱した叫び)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49AE9",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "追い詰める",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(追い詰める)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49B96",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "勝ち誇る",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(勝ち誇る)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49CC1",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "うろたえる",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(うろたえる)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F49D19",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "種明かし",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(種明かし)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4A06E",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "開き直り",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(開き直り)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4A196",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "涙まじりの詫び",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(涙まじりの詫び)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4A2E3",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "説得",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(説得)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4A875",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "熱のこもった頼み",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(熱のこもった頼み)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4A996",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "挑発",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(挑発)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4AA86",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "誇らしげな称賛",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(誇らしげな称賛)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4AD47",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "仲間への励まし",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(仲間への励まし)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4BC44",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "システムの祝辞",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(システムの祝辞)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4BD16",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "システムの締めの言葉",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(システムの締めの言葉)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4BDA6",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "うれしそうな近況",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(うれしそうな近況)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4BEF9",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "穏やかで丁寧な報告",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(穏やかで丁寧な報告)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4C192",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "newly_translated",
+      "english_tone": "意気込み",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(意気込み)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4C2ED",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "needs_context",
+      "candidate_disposition": "held",
+      "english_tone": "ほがらかな祝福と依頼",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(ほがらかな祝福と依頼)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F4EC02",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "丁寧な案内",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(丁寧な案内)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F52A74",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "地名",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(地名)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57497",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F574FD",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F5755D",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F575B8",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F5761C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57675",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F576D3",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F5771F",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57777",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F577D2",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57826",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F5787F",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57925",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57988",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F579E4",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57A38",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57A95",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57AF4",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F57B53",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "掲示板の記録",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(掲示板の記録)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F62EC8",
+      "speaker_id": null,
+      "speaker_confidence": "PLAUSIBLE",
+      "voice_application": "plausible_tendency_reference_only",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_revised",
+      "english_tone": "戦闘の地の文",
+      "voice_decision_reason": "PLAUSIBLE: 傾向『戦闘結果の地の文。口調を付けず中立』は参考のみで声を固定していない。英語の態度(戦闘の地の文)だけを反映。同一人物とは仮定せず、一人称・性別/年齢語尾・方言を足していない。"
+    },
+    {
+      "id": "scr_1F67E9C",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "地名",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(地名)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    },
+    {
+      "id": "scr_1F7A406",
+      "speaker_id": null,
+      "speaker_confidence": "UNKNOWN",
+      "voice_application": "unknown_speaker_neutral_with_register",
+      "status": "confirmed",
+      "candidate_disposition": "previous_candidate_maintained",
+      "english_tone": "人名",
+      "voice_decision_reason": "UNKNOWN: 英語の態度(人名)だけを反映。一人称・性別/年齢語尾・方言・人物像は足していない。"
+    }
+  ]
+}

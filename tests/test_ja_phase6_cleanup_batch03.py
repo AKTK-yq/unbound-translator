@@ -222,6 +222,20 @@ def test_original_909_files_preserved_and_no_existing_validator_edit():
     assert proof['files'] == 909 and proof['aggregate_sha256'] == m.INITIAL_SNAPSHOT
 
 
+def test_later_stage_allow_list_is_exact_and_detection_is_preserved(monkeypatch):
+    allowed = m.LATER_STAGE_PATHS
+    assert not any(ch in p for p in allowed for ch in '*?[')
+    assert all('batch04' in p for p in allowed) and not allowed & m.NEW_PATHS
+    # The pre-existing 4I handoff input is part of the protected 909, never allow-listed.
+    assert 'out/phase6/ja_phase6_cleanup_batch04_for_claude.json' not in allowed
+    path = 'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json'
+    if (m.ROOT / path).exists():
+        # Without its explicit allow-list entry a new file must still be detected.
+        monkeypatch.setattr(m, 'LATER_STAGE_PATHS', allowed - {path})
+        with pytest.raises(AssertionError):
+            m.protected_snapshot()
+
+
 def test_runtime_qa_does_not_invent_maps_or_reachability():
     qa = m.read(m.FIX / (m.PREFIX + 'runtime_qa.json'))
     assert 15 <= qa['metadata']['count'] == len(qa['entries']) <= 25

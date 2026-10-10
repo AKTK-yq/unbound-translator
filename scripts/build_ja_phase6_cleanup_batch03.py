@@ -53,6 +53,36 @@ NEW_PATHS = {f'out/phase6/{PREFIX}{s}.json' for s in SUFFIXES} | {
     'scripts/build_ja_phase6_cleanup_batch03.py', 'tests/test_ja_phase6_cleanup_batch03.py',
     'docs/ja-phase6-final-cleanup-batch03-technical.md',
     f'tests/fixtures/{PREFIX}runtime_qa.json', 'out/unbound-ja-phase6-cleanup-batch03.gba'}
+# Phase 6C-4I/4J artifacts created AFTER the 909-file Batch 03 snapshot. They are
+# legitimate later-stage outputs, never part of the protected 909 inputs. The list
+# is exact (no wildcard/prefix): any other new or changed file still breaks the
+# aggregate hash, and the 909 count/hash expectations are unchanged.
+LATER_STAGE_PATHS = frozenset({
+    # Batch 04 Claude review deliverables (Phase 6C-4I).
+    'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json',
+    'tests/fixtures/ja_phase6_cleanup_batch04_voice_audit.json',
+    'docs/ja-phase6-final-cleanup-batch04-claude-review.md',
+    # Batch 04 technical integration artifacts (Phase 6C-4J).
+    'scripts/build_ja_phase6_cleanup_batch04.py',
+    'tests/test_ja_phase6_cleanup_batch04.py',
+    'docs/ja-phase6-final-cleanup-batch04-technical.md',
+    'tests/fixtures/ja_phase6_cleanup_batch04_runtime_qa.json',
+    'out/unbound-ja-phase6-cleanup-batch04.gba',
+    'out/phase6/ja_phase6_cleanup_batch04_reviewed.json',
+    'out/phase6/ja_phase6_cleanup_batch04_technical_holds.json',
+    'out/phase6/ja_phase6_cleanup_batch04_safe_input.json',
+    'out/phase6/ja_phase6_cleanup_batch04_combined_controlfix.json',
+    'out/phase6/ja_phase6_cleanup_batch04_scope_extension_proposal.json',
+    'out/phase6/ja_phase6_cleanup_batch04_controlfix.json',
+    'out/phase6/ja_phase6_cleanup_batch04_controlfix_twice.json',
+    'out/phase6/ja_phase6_cleanup_batch04_controlfix_report.json',
+    'out/phase6/ja_phase6_cleanup_batch04_controlfix_twice_report.json',
+    'out/phase6/ja_phase6_cleanup_batch04_full_dry_run_map.json',
+    'out/phase6/ja_phase6_cleanup_batch04_incremental_dry_run_map.json',
+    'out/phase6/ja_phase6_cleanup_batch04_map.json',
+    'out/phase6/ja_phase6_cleanup_batch04_binary_audit.json',
+    'out/phase6/ja_phase6_cleanup_batch04_validation.json',
+})
 
 # Manual review of THIS exact input hash. These are audit observations, not new
 # wording or a reusable automated semantic validator. FE is not an input wait.
@@ -145,7 +175,7 @@ def protected_snapshot():
         ['git', 'ls-files', '--cached', '--others', '--exclude-standard'], cwd=ROOT, text=True).splitlines()}
     hashes = {p.relative_to(ROOT).as_posix(): digest(p.read_bytes()) for p in sorted(paths)
               if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'
-              and p.relative_to(ROOT).as_posix() not in NEW_PATHS}
+              and p.relative_to(ROOT).as_posix() not in NEW_PATHS | LATER_STAGE_PATHS}
     aggregate = digest(json.dumps(hashes, sort_keys=True).encode())
     assert len(hashes) == 909 and aggregate == INITIAL_SNAPSHOT, 'Existing file changed: stop, never restore automatically.'
     return {'files': len(hashes), 'aggregate_sha256': aggregate, 'hashes': hashes}
