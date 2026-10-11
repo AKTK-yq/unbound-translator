@@ -102,6 +102,14 @@ PHASE7C3_PATHS = frozenset({
     'scripts/build_ja_phase7_story_batch01.py',
     'tests/test_ja_phase7_story_batch01.py',
 })
+PHASE7C4_PATHS = frozenset({
+    'docs/ja-phase7-renderer-investigation.md',
+    'out/phase7/ja_renderer_consumer_profiles.json',
+    'out/phase7/ja_story_batch01_renderer_inventory.json',
+    'tests/fixtures/ja_phase7_renderer_runtime_qa.json',
+    'scripts/investigate_ja_phase7_renderer.py',
+    'tests/test_ja_phase7_renderer.py',
+})
 LATER_STAGE_PATHS = frozenset({
     # Batch 04 Claude review deliverables (Phase 6C-4I).
     'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json',
@@ -127,7 +135,7 @@ LATER_STAGE_PATHS = frozenset({
     'out/phase6/ja_phase6_cleanup_batch04_map.json',
     'out/phase6/ja_phase6_cleanup_batch04_binary_audit.json',
     'out/phase6/ja_phase6_cleanup_batch04_validation.json',
-}) | PHASE7A_PATHS | PHASE7B_PATHS | PHASE7C1_PATHS | PHASE7C2_PATHS | PHASE7C3_PATHS
+}) | PHASE7A_PATHS | PHASE7B_PATHS | PHASE7C1_PATHS | PHASE7C2_PATHS | PHASE7C3_PATHS | PHASE7C4_PATHS
 
 # Manual review of THIS exact input hash. These are audit observations, not new
 # wording or a reusable automated semantic validator. FE is not an input wait.
