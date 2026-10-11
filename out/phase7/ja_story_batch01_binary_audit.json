@@ -1,0 +1,26 @@
+{
+  "status": "NO_ROM_GENERATED_SAFE_SUBSET_EMPTY",
+  "baseline_rom": "out/unbound-ja-phase6-cleanup-batch04.gba",
+  "baseline_sha256_before": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+  "baseline_sha256_after": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+  "output_rom": null,
+  "output_sha256": null,
+  "classified_changed_bytes": {
+    "in_place_text": 0,
+    "relocated_text": 0,
+    "pointer_writes": 0
+  },
+  "changed_offsets": [],
+  "unexpected_byte_count": 0,
+  "comparison_scope": "Baseline before/after entire-file hash; no nonexistent output ROM comparison claimed",
+  "prior_applied_byte_verification": {
+    "verified_payloads": 2403,
+    "payload_mismatches": 0,
+    "recorded_pointer_mismatches": 0,
+    "translation_input_sha256": "5819570fa4485f82bd5bcdc3696a06495f45495712c12d0c55599558275ad0a2",
+    "payload_owner_manifest_sha256": "bdb68dc6698048d7837f7820320e46641d466b6d22f2623ffa75cc69360ff4e9"
+  },
+  "prior_2403_changed": 0,
+  "runtime_font_graphics_ASM_changes": 0,
+  "phase6_remaining": 774
+}

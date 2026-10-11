@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "phase": "7C-1",
+    "guidance_only": true,
+    "translation_started": false,
+    "source_style_sha256": "160d955da783ef8941eb2bf05767e1750bf70e2e5385c70c2739be700df6eccc",
+    "source_voice_sha256": "717fe9c8217ec3e3072c1ba2b79ff8033b33df8e187153725dfa84a0215ea5e7",
+    "fa_report_sha256": "d52e1ef2a3f69b1984a91e1a3aa1cb5c62858e81cad0d7a32b4c8d68b54a4c4a"
+  },
+  "previous_style_handoff": {
+    "metadata": {
+      "phase": "6C-4A",
+      "status": "guidance_only_not_translated",
+      "batches": [
+        "ja_phase6_cleanup_batch01_for_claude.json",
+        "ja_phase6_cleanup_batch02_for_claude.json",
+        "ja_phase6_cleanup_batch03_for_claude.json",
+        "ja_phase6_cleanup_batch04_for_claude.json"
+      ],
+      "batch_sizes": [
+        147,
+        142,
+        140,
+        140
+      ]
+    },
+    "scope": "Final Cleanup translation/context queue (569 entries). The previous Japanese candidate is a starting point only; nothing is pre-approved. Return the contract below. Do not run ROM tools.",
+    "language_rules": [
+      "Kana only: hiragana, katakana, and the Japanese-charmap symbols below. No kanji.",
+      "Natural game Japanese in the manner of the main Pokémon series; keep the existing wakachigaki baseline for prose, but do not put spaces inside proper names, place names, mission titles or short UI labels.",
+      "Keep the meaning, event conditions, numbers, item/mission/battle conditions and foreshadowing unchanged. Never add or remove information to make a line sound nicer.",
+      "Do not state an official Japanese name from memory. Use an approved glossary term, or mark the entry needs_context when a name is not approved.",
+      "Runtime width that is merely unverified must not stop the translation. Write natural, compact Japanese; Codex checks technical fit afterwards. Never cut meaning to save width."
+    ],
+    "charmap_probe": {
+      "supported": [
+        "、"
+      ],
+      "unsupported": [
+        "ヴ",
+        "「",
+        "」",
+        "：",
+        "〜",
+        "(",
+        ")",
+        "%",
+        "=",
+        "+",
+        "＋",
+        "・",
+        "&",
+        ";"
+      ],
+      "note": "Probed against the Japanese PCS codec. ASCII letters and digits are allowed; Latin text inside a Japanese string is handled by the controlfix page switch, not by you."
+    },
+    "speaker_rules": {
+      "PROVEN": "A trainer ID or object binding only. Keep the same speaker's lines consistent and in the same batch. It is not a canon identity, a name reading, a gender or an age.",
+      "CONFIRMED_VOICE": "An approved profile is attached (1 profile overall). Follow it.",
+      "PROVISIONAL_VOICE": "Reference only. Do not force it as the person's own voice.",
+      "NEUTRAL_ONLY_or_INSUFFICIENT_EVIDENCE": "Use a natural neutral tone that follows the English attitude.",
+      "PLAUSIBLE": "A candidate from object-script proximity. State it as a candidate; never treat entries as the same person.",
+      "UNKNOWN": "Reflect the English attitude (cheerful, angry, formal, sarcastic, surprised, disappointed). No invented first person, gendered ending, dialect or old-age speech.",
+      "NON_DIALOGUE": "No NPC voice profile. Use the register of the interface or message type.",
+      "first_and_second_person": "Omit pronouns unless the English or a proven profile requires one. 'きみ' for the player is a convention, not a speaker trait."
+    },
+    "official_character_rule": "No official canon character is proven (0). A shared name is not identity. Do not claim to reproduce an original Japanese voice: the identity, the source game and a Japanese-version voice reference are all missing.",
+    "glossary_rules": [
+      "Use `approved_glossary_terms` only for the exact entry (scope and entry_ids are given; global_replace is false for every Phase 6C term).",
+      "Never substitute by substring. Ace is not Aerial Ace; Cut, Strength and Fighting rejected as terms stay ordinary words.",
+      "`unresolved_glossary_warnings` are warnings: do not translate that term by guess; choose needs_context if the line depends on it.",
+      "`glossary_matcher_hits` lists matches of the merged 292-term glossary and is informational."
+    ],
+    "control_rules": {
+      "preserve": [
+        "FE",
+        "FA",
+        "FB",
+        "FC",
+        "FD",
+        "waits",
+        "colors",
+        "alignment",
+        "buffers",
+        "placeholders",
+        "source control boundaries"
+      ],
+      "dangerous_controls": [
+        "FE newline",
+        "FA wait-and-scroll",
+        "FB wait-and-clear",
+        "FC page/style",
+        "FD substitution",
+        "colors, quote, button, alignment and pause tokens"
+      ],
+      "technical_hold": "If natural Japanese needs a word order that crosses a source control, do not move the control: return status needs_technical_fit and explain."
+    },
+    "buffer_rule": "Keep buffer tokens in source order. Unknown or caller-dependent buffers (buffer1-3, battle codes 00/01/2A/36/38) are never guessed: return needs_context. Engine-defined name/move/ability battle codes and [player]/[rival] are typed.",
+    "fa_contract": {
+      "applies_to": "entries that contain `translation_units`",
+      "claude_returns": "one reviewed_japanese per unit in source order; reviewed_japanese at entry level stays empty",
+      "never": "place, remove, move, merge or split FA/FE/FB; invent a segment boundary",
+      "hold": "needs_technical_fit when the meaning cannot be carried inside the segments"
+    },
+    "output_contract": {
+      "status_values": [
+        "confirmed",
+        "needs_context",
+        "needs_technical_fit"
+      ],
+      "per_entry": {
+        "id": "same as input",
+        "status": "confirmed | needs_context | needs_technical_fit",
+        "reviewed_japanese": "non-FA entries; '' for hold or FA",
+        "segments": "FA entries: [{segment_index, source, reviewed_japanese, protected_tokens, after_control}]",
+        "protected_tokens": "tokens kept, in source order",
+        "glossary_terms_used": [],
+        "new_glossary_candidates": "proposals only; never approved here",
+        "speaker_notes": "what evidence was used; 'unknown' stays unknown",
+        "voice_applied": "none | confirmed_profile | provisional_reference | register_only",
+        "reason": "short Japanese or English explanation",
+        "review_source": "claude_cli",
+        "translation_risk": "low | medium | high"
+      }
+    },
+    "known_bad_patterns": [
+      "Ace matched inside Aerial Ace",
+      "memory-only official name",
+      "speaker invented from a name or pointer proximity",
+      "first person or gendered ending added without evidence",
+      "FA appended or moved by character index",
+      "buffer guessed from the English sentence",
+      "meaning changed to sound more natural",
+      "unsupported glyph (ヴ 「 」 ： 〜 ( ) % = +) used",
+      "proper noun changed without a glossary decision"
+    ],
+    "counters": {
+      "pokemon": "ひき",
+      "items": "こ",
+      "times": "かい",
+      "options": "とおり"
+    },
+    "unresolved_glossary_terms": [
+      {
+        "term": "[buffer1]",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "scr_1F13F3A",
+          "scr_1F13FC2"
+        ]
+      },
+      {
+        "term": "[buffer3]",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "scr_1F14141"
+        ]
+      },
+      {
+        "term": "Belue Berries",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1EEA909"
+        ]
+      },
+      {
+        "term": "Big Nuggets",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F0739C"
+        ]
+      },
+      {
+        "term": "Black Augurite",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_item_names_00726_EB92A1"
+        ]
+      },
+      {
+        "term": "black augurite",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_item_names_00726_EB92A1"
+        ]
+      },
+      {
+        "term": "Cactus Pokémon",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F12F39"
+        ]
+      },
+      {
+        "term": "Cave Pokémon",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_habitat_names_00004_415E39"
+        ]
+      },
+      {
+        "term": "Curse",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "tbl_battle_messages_00123_3FC072"
+        ]
+      },
+      {
+        "term": "Cut",
+        "decision": "REJECT_CANDIDATE",
+        "affected_ids": [
+          "scr_1F3164B"
+        ]
+      },
+      {
+        "term": "cyclist",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_trainer_classes_00007_23E5B3"
+        ]
+      },
+      {
+        "term": "Fighting",
+        "decision": "REJECT_CANDIDATE",
+        "affected_ids": [
+          "scr_1F0B2DB"
+        ]
+      },
+      {
+        "term": "Glimmer Ticket",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "tbl_item_names_00370_EB92ED"
+        ]
+      },
+      {
+        "term": "glimmer ticket",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "tbl_item_names_00370_EB92ED"
+        ]
+      },
+      {
+        "term": "Magnitude",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "tbl_battle_messages_00129_3FC132"
+        ]
+      },
+      {
+        "term": "melony",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F0C6C4",
+          "scr_1F48B25"
+        ]
+      },
+      {
+        "term": "Mimikium Z",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F0A991",
+          "scr_1F0ACA3"
+        ]
+      },
+      {
+        "term": "Mountain Pokémon",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_habitat_names_00005_415E46"
+        ]
+      },
+      {
+        "term": "Nidoran[game-token-1]",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_pokemon_names_00029_166AACB",
+          "tbl_pokemon_names_00032_166AAEC"
+        ]
+      },
+      {
+        "term": "Oricorio-Pa’u",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F0783F"
+        ]
+      },
+      {
+        "term": "Pa'u Style Oricorio",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F074D5"
+        ]
+      },
+      {
+        "term": "Pa’u Style Oricorio",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F074D5"
+        ]
+      },
+      {
+        "term": "Pretty Wings",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1EE71A0"
+        ]
+      },
+      {
+        "term": "Psychic",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "scr_1F1516B"
+        ]
+      },
+      {
+        "term": "quick hms",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1F3403C"
+        ]
+      },
+      {
+        "term": "Rawst Berries",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1EEA909"
+        ]
+      },
+      {
+        "term": "Sandstorm",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "tbl_battle_messages_00079_3FBC2B"
+        ]
+      },
+      {
+        "term": "sankren bolganone",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "scr_1F3102E"
+        ]
+      },
+      {
+        "term": "Sea Pokémon",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_habitat_names_00003_415E2D"
+        ]
+      },
+      {
+        "term": "spa",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_menu_pokemon_summary_00017_419ADE"
+        ]
+      },
+      {
+        "term": "Stockpile",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "tbl_battle_messages_00094_3FBD86"
+        ]
+      },
+      {
+        "term": "Strength",
+        "decision": "REJECT_CANDIDATE",
+        "affected_ids": [
+          "scr_1F32A8E",
+          "scr_1F33CC0"
+        ]
+      },
+      {
+        "term": "the soil",
+        "decision": "UNRESOLVED_CONTEXT",
+        "affected_ids": [
+          "scr_1F02458"
+        ]
+      },
+      {
+        "term": "Tiny Bird",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_pokedex_species_00014_1A35A0C"
+        ]
+      },
+      {
+        "term": "Utility Parasol",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_item_names_00708_EB9247"
+        ]
+      },
+      {
+        "term": "utility parasol",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_item_names_00708_EB9247"
+        ]
+      },
+      {
+        "term": "Watmel Berries",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "scr_1EEA909"
+        ]
+      },
+      {
+        "term": "Ylw Nectar",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_item_names_00619_EB91F3"
+        ]
+      },
+      {
+        "term": "ylw nectar",
+        "decision": "UNRESOLVED_TERM",
+        "affected_ids": [
+          "tbl_item_names_00619_EB91F3"
+        ]
+      }
+    ]
+  },
+  "current_rules": [
+    "Kana-only. Natural Pokemon-style Japanese; preserve meaning, conditions, numbers and foreshadowing.",
+    "Use verified official names and exact scoped glossary hits only. No memory-only name or scope expansion.",
+    "Do not unnecessarily add first/second person. Follow the English attitude, not an invented character.",
+    "PROVEN speaker identity is NOT CONFIRMED_VOICE; no canon or source-game identity from a shared name.",
+    "Use an attached CONFIRMED_VOICE only as approved; other profiles are provisional or neutral guidance.",
+    "Do not guess unknown buffer values or writers. Player/rival field semantics do not prove width/page safety; battle FD codec aliases do not prove field-name semantics.",
+    "Preserve FE/FA/FB/FC/FD and protected tokens. No introduced page switches; controlfix owns Japanese/Latin.",
+    "FA rows return one unit per original segment, same control order. Do not invent/merge boundaries.",
+    "Important information crossing FA/FB needs separate semantic/reveal review; natural grammar alone is insufficient.",
+    "Translation readiness is NOT injection approval. Never truncate meaning to fit unproved width or slot.",
+    "Prior candidate/review is read-only evidence, not automatically approved. Preserve original confidence and holds.",
+    "Static path context is not runtime chronology. No map/address proximity speaker or scene inference."
+  ],
+  "output_contract": {
+    "status_values": [
+      "confirmed",
+      "needs_context",
+      "needs_technical_fit"
+    ],
+    "per_entry": {
+      "id": "same as input",
+      "status": "confirmed | needs_context | needs_technical_fit",
+      "reviewed_japanese": "non-FA entries; '' for hold or FA",
+      "segments": "FA entries: [{segment_index, source, reviewed_japanese, protected_tokens, after_control}]",
+      "protected_tokens": "tokens kept, in source order",
+      "glossary_terms_used": [],
+      "new_glossary_candidates": "proposals only; never approved here",
+      "speaker_notes": "what evidence was used; 'unknown' stays unknown",
+      "voice_applied": "none | confirmed_profile | provisional_reference | register_only",
+      "reason": "short Japanese or English explanation",
+      "review_source": "claude_cli",
+      "translation_risk": "low | medium | high"
+    }
+  },
+  "attached_profile_policy": "Only profiles already linked to actual Batch 01 IDs; zero invented matches",
+  "existing_gates_changed": false,
+  "no_claude_execution": true
+}

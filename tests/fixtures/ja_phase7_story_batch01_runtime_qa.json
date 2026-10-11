@@ -1,0 +1,1017 @@
+{
+  "metadata": {
+    "count": 23,
+    "tested": 0,
+    "applied_in_this_pass": 0,
+    "baseline_rom": "out/unbound-ja-phase6-cleanup-batch04.gba",
+    "new_rom": null,
+    "warning": "日本語候補は全保留。基準ROMでconsumerを観測し、意味再レビューとgate通過後に別build。"
+  },
+  "entries": [
+    {
+      "batch_index": 0,
+      "id": "scr_1F113ED",
+      "technical_status": "HOLD_POINTER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "しかし この いたましい できごとは\nかれに きずと いかりを のこした。\n\nたいせつな ポケモンを きずつけた\nせかいを ゆるせず、 かれは\\lきかいを きょだいに つくりかえた、\\lぶき、 さいしゅうへいきへと。\n\nおうは はかいを もたらすものと なり、\nせんそうを おわらせたのだ。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_031_005_level_condition_01E702B7",
+          "map_id": "map_031_005",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 0,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 1,
+      "id": "scr_1F11594",
+      "technical_status": "HOLD_SEMANTIC",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "むなしい せんそうに いかる\nせんそうの いきのこりは もとめた、\\lじゅうぶんな ほしょうを\\lボーリウスの おうに。\n\nさしだす ものが なく、 いきのこりは\nやみの ちからを あやつりはじめ、\\lボーリウスおうこくを おそい、\\lクーデターを くわだてた。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_031_005_level_condition_01E702B7",
+          "map_id": "map_031_005",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 0,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 2,
+      "id": "scr_1F1184B",
+      "technical_status": "HOLD_RENDERER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "        16ねんまえ",
+      "map_event_conditions": [
+        {
+          "root_id": "map_031_005_level_condition_01E702B7",
+          "map_id": "map_031_005",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 0,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 4,
+      "id": "scr_1F11CFD",
+      "technical_status": "HOLD_RENDERER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "        げんざい",
+      "map_event_conditions": [
+        {
+          "root_id": "map_031_005_level_condition_01E702C7",
+          "map_id": "map_031_005",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 3,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 5,
+      "id": "scr_1F2F718",
+      "technical_status": "HOLD_POINTER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "[blue]サボネア、 いあいぎり！",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_066_coord_00BBAB04",
+          "map_id": "map_003_066",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 14,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_003_066_coord_00BBAB14",
+          "map_id": "map_003_066",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 14,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_003_066_coord_00BBAB24",
+          "map_id": "map_003_066",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 14,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 6,
+      "id": "scr_1F2E8E9",
+      "technical_status": "HOLD_POINTER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "\\qoほうてきな ほごしゃ\\qcだか\nボーリウスの なんだか しらないけど、\\lなにも わかって ないくせに！\n\nつよいんだ！\nひとりで やっていける くらい つよい！\n\nりょうしんに あったとき、\nどれだけ つよいか わかるはず！\n\nそして いま、 みせてやる！",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_066_coord_00BBAB64",
+          "map_id": "map_003_066",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 10,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 7,
+      "id": "scr_1F2EB85",
+      "technical_status": "HOLD_POINTER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "ええと\\.\\CC0818 そうだな\\.\n\nみた かぎりでは、 ポケモンは\nなかなか いい のうりょくを している\\.\n\nいつか つよい ポケモンに\nなれる そしつが あると おもうよ。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_066_coord_00BBAB64",
+          "map_id": "map_003_066",
+          "map_name": "Frozen Heights",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 10,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 9,
+      "id": "scr_1F2F468",
+      "technical_status": "HOLD_GLOSSARY_SCOPE",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "フレンドリィショップからの にもつは\nうけとったか？",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_067_level_condition_01E82DBC",
+          "map_id": "map_003_067",
+          "map_name": "Route 1",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 13,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 12,
+      "id": "scr_1F2F4C3",
+      "technical_status": "HOLD_POINTER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "はい、 ぬかりは ありません。\n\nそうこから にがした ふたりの ひとりに\nばったり あいましたが、\\lあえて たたかいは さけました。\n\nわたしの しるかぎり、\nつけられては いません。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_067_level_condition_01E82DBC",
+          "map_id": "map_003_067",
+          "map_name": "Route 1",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 13,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 15,
+      "id": "scr_1F2F5EA",
+      "technical_status": "HOLD_POINTER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "あしに うで、 もう ひとつの あたま、\nなんでも いい。\n\nこの にもつに ひつような しなものが\nすべて そろって いるかぎり、\\lさくせんの ため かがくしゃが つくる、\\lははの のぞむ かずだけ てあしを。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_067_level_condition_01E82DBC",
+          "map_id": "map_003_067",
+          "map_name": "Route 1",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005011",
+            "value": 13,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 17,
+      "id": "scr_1FA54AC",
+      "technical_status": "HOLD_RENDERER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "その ポケモンは\n[green]つららのどうくつ[black]へ むかうようだ。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_003_068_level_condition_01EAA6DF",
+          "map_id": "map_003_068",
+          "map_name": "Bellin Town",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x00005019",
+            "value": 1,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": true,
+      "route_hint": "序章/初期イベント候補",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 19,
+      "id": "scr_1F460E7",
+      "technical_status": "HOLD_SEMANTIC",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "さけめのどうくつ\\.\\CC0818 ということは\\.！\n\nもとの せかいに もどった ようだ！\n\nでも、 どうして\\.？\n\n\\.\n\nああ、 そうか。 さけめのどうくつも\nげんじつの ほうそくに そむくと いう。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_034_level_condition_01E82AF4",
+          "map_id": "map_001_034",
+          "map_name": "Rift Cave",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 67,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 20,
+      "id": "scr_1F46179",
+      "technical_status": "HOLD_BUFFER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "とにかく、 なんとか ここまで これたし\nさっそく つづきに もどろう。\n\n[player]\\.\\CC0818 ボイドいせきで\nなにが あったんだ？\n\n\\.\n\nアクラブ\\.\n\nだとすると、 いまは\nぐずぐず している ひまは ない！",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_034_level_condition_01E82AF4",
+          "map_id": "map_001_034",
+          "map_name": "Rift Cave",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 67,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "NEW GAMEの7文字最大幅Latin名、FD01展開、Latin→Japanese復元と次行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 21,
+      "id": "scr_1F46217",
+      "technical_status": "HOLD_RENDERER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "いや\\. こんどは そうは いかない\\.",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_034_level_condition_01E82AF4",
+          "map_id": "map_001_034",
+          "map_name": "Rift Cave",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 67,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "後続承認時のみ19→23 bytes relocation、全ownerと旧pointer残存を再検査"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 22,
+      "id": "scr_1F4622A",
+      "technical_status": "HOLD_BUFFER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "[player]、 あそこに とじこめられて\nいろんな ことを まなんだ\\.\n\nでも いちばん だいじなのは、\nポケモンなしでは むりょくだと しった。\n\nもう にどと だれかの\nやくに たたない じぶんは ごめんだ。\n\nビビルタウンで あおう。\n\nやくそくする。 ポケモンも じぶんも\nこんどは ちゃんと じゅんびする。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_034_level_condition_01E82AF4",
+          "map_id": "map_001_034",
+          "map_name": "Rift Cave",
+          "trigger_kind": "level_condition",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 67,
+            "condition_semantics": "Map script variable/value table; required progression not established"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "NEW GAMEの7文字最大幅Latin名、FD01展開、Latin→Japanese復元と次行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 28,
+      "id": "scr_1F3EC74",
+      "technical_status": "HOLD_BUFFER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "また わたしを だませると おもったか、\nにせものめ？ あいつ みたいに？\n\nかめんの したに かぶった かおが\n[player]の ものだと わかるが\\.\n\nそれでも ほんものには\nとても およばない！\n\nアクラブの もとへ おいかえした あと、\nかれに ことづてを とどけて もらう\\lわたしの かわりに！\n\nかれに つたえろ\\.\\CC0820 ひとり のこらず\nゆるされない つみで くるしむと！",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較",
+        "NEW GAMEの7文字最大幅Latin名、FD01展開、Latin→Japanese復元と次行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 29,
+      "id": "scr_1F3EDA8",
+      "technical_status": "HOLD_BUFFER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "この たたかいかた\\.\\CC0818 この オーラ\\.\\CC0818\nありえない\\.\\CC0818 ほんとうに\\l[player]\\. なのか！？\n\nいや、 こんな はずが ない！",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較",
+        "NEW GAMEの7文字最大幅Latin名、FD01展開、Latin→Japanese復元と次行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 31,
+      "id": "scr_1F3EED6",
+      "technical_status": "HOLD_SEMANTIC",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "ありがとう。\nさて\\.\n\nなにを けいかく している、 ゼフ？\n\nきくかぎり、 われわれは しゅうげきを\nしかける のだな、 はめつのひかりの\\lあたらしい きょてんに？",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較",
+        "はめつのひかりの早期完成を再レビュー。保留解除前に日本語ROMを作らない"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 32,
+      "id": "scr_1F3EF60",
+      "technical_status": "HOLD_OFFICIAL_NAME",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "そのとおりだ\\.\n\nのこって いる かがくしゃたちに\nかれらの きょてんを さがさせて いる。\n\nみつけだせたら、 われわれは\nはめつのひかりを\\lふいうちで ほろぼす。\n\nしゅりょくが ゆらいだ ところで、\nいましめのツボを とりかえし、\\lのこりの シャドウせんしも\\lかれらの てもとから とりかえす。\n\nただ、 みつけるのに\nどれだけ かかるかは まだ わからない\\.\n\nそして ざんねんな ことに、\nじかんに おわれて いる。\n\nいま アクラブは フェイと いっしょに\nフェイは フーパを しらべて いる。\n\nかのじょが おえたら、 アクラブは\nちからを ボーリウスに むける つもり\\.\n\nかれが いない あいだに\nかれの きょてんを つぶせれば、\\lもどる ところを ふいうち、 ふうじる、\\lフーパの ちからを もういちど。\n\nそれが なければ、 アクラブの ちからは\nだいはばに よわまる。",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 35,
+      "id": "scr_1F3F3C9",
+      "technical_status": "HOLD_BUFFER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "わたしの かんがえでは、 けいかくを\nとどこおりなく すすめる ためには\\lひとでは ありったけ ひつようだ、\\lあつめられる かぎり。\n\nそこで ていあんだが、 [player]も\nつれて いっては どうだろう？",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較",
+        "NEW GAMEの7文字最大幅Latin名、FD01展開、Latin→Japanese復元と次行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 40,
+      "id": "scr_1F3F846",
+      "technical_status": "HOLD_SEMANTIC",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "では、 [player]\\. わたしたちに\nちからを かして もらえるか？\n\nあつめられる しげんを あつめ、\nはめつのひかりを ねらう つもりだ、\\lちょくせつ。\n\n\\.\n\nああ、 わかって いる。 あなたと\nシャドウズは\\.\\CC0818 いつも\\lいけんが あった わけでは ないな？\n\nでは、 われわれの だいじな ひみつを\nあなたに うちあけたら、\\lそれで じゅうぶんか？\n\nそれなら、 われわれの ほんとうの\nもくてきを はなそう\\.\n\nシャドウズの ほんとうの もくてき\\.",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較",
+        "はめつのひかりの早期完成を再レビュー。保留解除前に日本語ROMを作らない",
+        "NEW GAMEの7文字最大幅Latin名、FD01展開、Latin→Japanese復元と次行"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 48,
+      "id": "scr_1F3FC2A",
+      "technical_status": "HOLD_RENDERER",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "すぐれた かがくしゃ なのだから\\.\\CC0818\nためそうと おもった ことは あるか、\\lかれを よみがえらせる ことを？",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    },
+    {
+      "batch_index": 49,
+      "id": "scr_1F3FC84",
+      "technical_status": "HOLD_SEMANTIC",
+      "japanese_applied_this_pass": false,
+      "candidate_only": "もちろんだ\\.\n\nかがくしゃとして おもった、\nだれかが ほうほうを みつけるなら\\lそれは われわれだと。\n\nざんねんだが、 しんだ ものを\nよみがえらせる ほうほうは ない。\n\nわれわれは さきへ すすもうと\nする しか なかった。\n\nそして 1ねんまえ、 アイボリーが\nふたごを うんだ\\.\n\nそれは われわれの じんせいで\nいちばん しあわせな ときの ひとつだ。\n\nもちろん さいしょの こも こいしいが、\nだが あたらしい こどもたちが おおいに\\lこころの あなを うめて くれた\\.",
+      "map_event_conditions": [
+        {
+          "root_id": "map_001_045_coord_00BAFEA4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEB4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        },
+        {
+          "root_id": "map_001_045_coord_00BAFEC4",
+          "map_id": "map_001_045",
+          "map_name": "Shadow Base",
+          "trigger_kind": "coord",
+          "entry_condition": {
+            "variable": "0x0000500C",
+            "value": 43,
+            "condition_semantics": "CoordEvent trigger/index fields; engine behavior not independently traced"
+          },
+          "visibility_flag_fields": null,
+          "mandatory_progression": "NOT_ESTABLISHED"
+        }
+      ],
+      "route_status": "STATIC_LOCATION_ONLY",
+      "actual_route_and_required_save_flags": "UNKNOWN",
+      "new_game_early_candidate": false,
+      "route_hint": "記録したmapのイベント条件を満たす検証saveを別途用意",
+      "checks": [
+        "正しいentryの発火を英文で特定",
+        "font/window/X/Y/spacingを記録",
+        "FE/FBの表示と進行",
+        "FA前後で入力停止と1行scroll",
+        "各wait_phaseの重要名詞・述語の初出順を比較"
+      ],
+      "runtime_test_performed": false
+    }
+  ]
+}

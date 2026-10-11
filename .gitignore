@@ -14,3 +14,4 @@ out/*.bps
 
 # Local ROM graphics inspection artifacts
 /out/graphics-audit/
+/out/phase7/ja_story_scene_index.json

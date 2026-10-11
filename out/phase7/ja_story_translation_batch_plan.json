@@ -1,0 +1,2798 @@
+{
+  "metadata": {
+    "eligible_unique_entries": 706,
+    "recommended_batches": 16,
+    "normal_target": "120..160 entries; tails/groups may be smaller",
+    "fa_heavy_cap": 40,
+    "maximum_visible_characters": 16000,
+    "no_translation_started": true,
+    "entry_order_is_not_story_order": true,
+    "summary": {
+      "canonical_entries": 25044,
+      "raw_entries": 25045,
+      "unresolved_mapping": 1,
+      "applied": 2403,
+      "phase6_remaining": 774,
+      "event_associated_entries": 4450,
+      "reference_counts": {
+        "DIRECT_REFERENCE": 4153,
+        "INDIRECT_REFERENCE": 307,
+        "HEURISTIC_CANDIDATE": 15452,
+        "UNKNOWN_REFERENCE": 5132
+      },
+      "story_counts": {
+        "MAIN_STORY_VERIFIED": 0,
+        "MAIN_STORY_CANDIDATE": 717,
+        "MANDATORY_GAMEPLAY_UI": 5,
+        "IMPORTANT_SIDE_EVENT": 0,
+        "OPTIONAL_NPC": 0,
+        "POSTGAME": 0,
+        "NON_DIALOGUE": 9677,
+        "UNKNOWN": 14645
+      },
+      "priority_counts": {
+        "P0": 722,
+        "P1": 869,
+        "P2": 12606,
+        "P3": 10847
+      },
+      "priority_confidence": {
+        "P0": {
+          "PROVISIONAL": 717,
+          "SUPPORTED": 2,
+          "VERIFIED": 3
+        },
+        "P1": {
+          "SUPPORTED": 869
+        },
+        "P2": {
+          "SUPPORTED": 12606
+        },
+        "P3": {
+          "UNKNOWN": 10847
+        }
+      },
+      "readiness_counts": {
+        "READY_FOR_CLAUDE": 10430,
+        "NEEDS_EVENT_CONTEXT": 10489,
+        "NEEDS_BUFFER_ANALYSIS": 1659,
+        "NEEDS_OFFICIAL_TERM": 58,
+        "NEEDS_TECHNICAL_REVIEW": 5,
+        "ALREADY_APPLIED": 2403
+      },
+      "P0_P1_state_counts": {
+        "P0": {
+          "exclusive_status": {
+            "APPLIED_JAPANESE": 172,
+            "CONTEXT_HOLD": 24,
+            "TECHNICAL_HOLD": 85,
+            "UNTRANSLATED": 441
+          },
+          "readiness": {
+            "ALREADY_APPLIED": 172,
+            "NEEDS_BUFFER_ANALYSIS": 76,
+            "NEEDS_EVENT_CONTEXT": 5,
+            "NEEDS_OFFICIAL_TERM": 2,
+            "READY_FOR_CLAUDE": 467
+          },
+          "phase6_remaining": 109
+        },
+        "P1": {
+          "exclusive_status": {
+            "APPLIED_JAPANESE": 277,
+            "CONTEXT_HOLD": 49,
+            "TECHNICAL_HOLD": 199,
+            "UNTRANSLATED": 344
+          },
+          "readiness": {
+            "ALREADY_APPLIED": 277,
+            "NEEDS_BUFFER_ANALYSIS": 348,
+            "NEEDS_OFFICIAL_TERM": 5,
+            "READY_FOR_CLAUDE": 239
+          },
+          "phase6_remaining": 240
+        }
+      },
+      "content_unknown_before": 15209,
+      "content_unknown_after": 10849,
+      "unknown_reduction_is_event_reference_not_main_story_proof": true,
+      "preserved_proven_speaker_entries": 155,
+      "preserved_plausible_speaker_entries": 38,
+      "major_npc_supported_entries": 3,
+      "unsupported_speaker_promotions": 0,
+      "unsupported_main_story_verified": 0,
+      "maps": 645,
+      "event_roots": 7290,
+      "instruction_nodes": 60932,
+      "exact_duplicate_groups": 2205,
+      "exact_duplicate_redundant_members": 3020,
+      "ready_P0_P1": 706,
+      "recommended_batches": 16
+    }
+  },
+  "batches": [
+    {
+      "batch_id": "P7B_plan_001",
+      "entry_ids": [
+        "scr_1EFEC34",
+        "scr_1F2D4F0",
+        "scr_1F2DF13",
+        "scr_1F2DF20",
+        "scr_1F2DF7C",
+        "scr_1F2DFA4",
+        "scr_1F2E027",
+        "scr_1F2E048",
+        "scr_1F2E150",
+        "scr_1F2E1D2",
+        "scr_1F2E1FA",
+        "scr_1F2E311",
+        "scr_1F2E3CF",
+        "scr_1F2E479",
+        "scr_1F2E491",
+        "scr_1F2F718",
+        "scr_1F2F759",
+        "scr_1F2F896",
+        "scr_1F3129D",
+        "scr_1F3356E",
+        "scr_1F336B1",
+        "scr_1F336C0",
+        "scr_1F349E6",
+        "scr_1F34C15",
+        "scr_1F34C4B",
+        "scr_1F36341",
+        "scr_1F3680C",
+        "scr_1F3683C",
+        "scr_1F36947",
+        "scr_1F36988",
+        "scr_1F369ED",
+        "scr_1F36A1D",
+        "scr_1F36A45",
+        "scr_1F36A6B",
+        "scr_1F36AAB",
+        "scr_1F36AC7",
+        "scr_1F36AE3",
+        "scr_1F36B1A",
+        "scr_1F36B4B",
+        "scr_1F36B8D"
+      ],
+      "count": 40,
+      "visible_source_characters": 3997,
+      "fa_entries": 12,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_002",
+      "entry_ids": [
+        "scr_1F36CD3",
+        "scr_1F36E21",
+        "scr_1F36EB1",
+        "scr_1F374A2",
+        "scr_1F37E91",
+        "scr_1F37FAE",
+        "scr_1F380EB",
+        "scr_1F38196",
+        "scr_1F381E1",
+        "scr_1F382ED",
+        "scr_1F38317",
+        "scr_1F3832D",
+        "scr_1F3853F",
+        "scr_1F3EA65",
+        "scr_1F3EB13",
+        "scr_1F3EBBA",
+        "scr_1F3EBEB",
+        "scr_1F3EC74",
+        "scr_1F3EDA8",
+        "scr_1F3EE0A",
+        "scr_1F3EED6",
+        "scr_1F3EF60",
+        "scr_1F3F216",
+        "scr_1F3F277",
+        "scr_1F3F3C9",
+        "scr_1F3F514",
+        "scr_1F3F64A",
+        "scr_1F3F6F5",
+        "scr_1F3F771",
+        "scr_1F3F846",
+        "scr_1F3F9C8",
+        "scr_1F3FA54",
+        "scr_1F3FAB5",
+        "scr_1F3FB1C",
+        "scr_1F3FB5E",
+        "scr_1F3FBAF",
+        "scr_1F3FBE4",
+        "scr_1F3FC2A",
+        "scr_1F3FC84",
+        "scr_1F3FE01"
+      ],
+      "count": 40,
+      "visible_source_characters": 7865,
+      "fa_entries": 24,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_003",
+      "entry_ids": [
+        "scr_1F3FE2F",
+        "scr_1F3FEA3",
+        "scr_1F40014",
+        "scr_1F40045",
+        "scr_1F40099",
+        "scr_1F401B6",
+        "scr_1F402C4",
+        "scr_1F40320",
+        "scr_1F403B9",
+        "scr_1F40462",
+        "scr_1F40559",
+        "scr_1F405AD",
+        "scr_1F406A5",
+        "scr_1F4075D",
+        "scr_1F407E3",
+        "scr_1F40954",
+        "scr_1F4096B",
+        "scr_1F4099D",
+        "scr_1F409D8",
+        "scr_1F40A03",
+        "scr_1F40AFC",
+        "scr_1F40B2B",
+        "scr_1F40B56",
+        "scr_1F40B88",
+        "scr_1F40BD9",
+        "scr_1F40C19",
+        "scr_1F40C1F",
+        "scr_1F40C4D",
+        "scr_1F40C6C",
+        "scr_1F40C71",
+        "scr_1F40D24",
+        "scr_1F40D68",
+        "scr_1F40EE9",
+        "scr_1F40FA8",
+        "scr_1F41136",
+        "scr_1F4129B",
+        "scr_1F41447",
+        "scr_1F41615",
+        "scr_1F416BC",
+        "scr_1F4172E"
+      ],
+      "count": 40,
+      "visible_source_characters": 6148,
+      "fa_entries": 20,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_004",
+      "entry_ids": [
+        "scr_1F417A4",
+        "scr_1F41873",
+        "scr_1F418B4",
+        "scr_1F4196F",
+        "scr_1F419E6",
+        "scr_1F41C1E",
+        "scr_1F41CA1",
+        "scr_1F42454",
+        "scr_1F42501",
+        "scr_1F450F7",
+        "scr_1F45205",
+        "scr_1F45259",
+        "scr_1F452D4",
+        "scr_1F45409",
+        "scr_1F4544C",
+        "scr_1F45460",
+        "scr_1F4B2D7",
+        "scr_1F5172E",
+        "scr_1F522DA",
+        "scr_1F528C9",
+        "scr_1F529CF",
+        "scr_1F59F4D",
+        "scr_1F751D8",
+        "scr_1F8B36E",
+        "scr_1F8B3C7",
+        "scr_1F8B3F6",
+        "scr_1F8BE56",
+        "scr_1F9260F",
+        "scr_1F92658",
+        "scr_1F9D295",
+        "scr_1F9D2C9",
+        "scr_1F9D66C",
+        "scr_1F9E13D",
+        "scr_1F9E225",
+        "scr_1F9E2A9",
+        "scr_1F9E3FB",
+        "scr_1FA20B1",
+        "scr_1FA214C",
+        "scr_1FA2199",
+        "scr_1FA41FE"
+      ],
+      "count": 40,
+      "visible_source_characters": 4506,
+      "fa_entries": 9,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_005",
+      "entry_ids": [
+        "scr_1FA54E9",
+        "scr_1FA9F54",
+        "scr_1FAB20F",
+        "scr_1FAB25F",
+        "scr_1FAB2E7",
+        "scr_1FAB32C",
+        "scr_1FAB38B",
+        "scr_1FACD78",
+        "scr_1FACF13",
+        "scr_1FAD518",
+        "scr_1FAD535",
+        "scr_1FAD677",
+        "scr_1F460D1",
+        "scr_1F460E7",
+        "scr_1F46179",
+        "scr_1F46217",
+        "scr_1F4622A",
+        "scr_1EEBA8C",
+        "scr_1F3102E",
+        "scr_1F3D2FD",
+        "scr_1F3DACA",
+        "scr_1F3DEBD",
+        "scr_1EEBA9F",
+        "scr_1F3DFF5",
+        "scr_1F3E173",
+        "scr_1F3E2FE",
+        "scr_1F45572",
+        "scr_1EFED09",
+        "scr_1EFED2E",
+        "scr_1F4B2E0",
+        "scr_1F4B586",
+        "scr_1F4B5B6",
+        "scr_1F4B75A",
+        "scr_1F4B80A",
+        "scr_1F4BADE",
+        "scr_1FA5E02",
+        "scr_1FA5E25",
+        "scr_1FA5E2E",
+        "scr_1FA5E3A",
+        "scr_1FA5E66"
+      ],
+      "count": 40,
+      "visible_source_characters": 5936,
+      "fa_entries": 14,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_006",
+      "entry_ids": [
+        "scr_1F815A4",
+        "scr_1F432A9",
+        "scr_1F432CA",
+        "scr_1F4332B",
+        "scr_1F43384",
+        "scr_1F42F06",
+        "scr_1F42F8E",
+        "scr_1F43039",
+        "scr_1F43069",
+        "scr_1F430AF",
+        "scr_1F430C7",
+        "scr_1F430E2",
+        "scr_1F43107",
+        "scr_1F4312B",
+        "scr_1F43667",
+        "scr_1F4367F",
+        "scr_1F4369A",
+        "scr_1F436D1",
+        "scr_1F436EF",
+        "scr_1F433B7",
+        "scr_1F43417",
+        "scr_1F43468",
+        "scr_1F4370B",
+        "scr_1F43745",
+        "scr_1F874DB",
+        "scr_1F874F4",
+        "scr_1F4D699",
+        "scr_1F39326",
+        "scr_1F39377",
+        "scr_1F39418",
+        "scr_1F39495",
+        "scr_1F394C0",
+        "scr_1F394CB",
+        "scr_1F39530",
+        "scr_1F395B2",
+        "scr_1F395B9",
+        "scr_1F39608",
+        "scr_1F3961E",
+        "scr_1F39664"
+      ],
+      "count": 39,
+      "visible_source_characters": 2844,
+      "fa_entries": 5,
+      "priority_counts": {
+        "P0": 39
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_007",
+      "entry_ids": [
+        "scr_1F399A0",
+        "scr_1F39A54",
+        "scr_1F39A87",
+        "scr_1F39A8D",
+        "scr_1F39B06",
+        "scr_1F38DCD",
+        "scr_1F38E6B",
+        "scr_1F38EA9",
+        "scr_1F38EEF",
+        "scr_1F38FA1",
+        "scr_1F39010",
+        "scr_1F3902F",
+        "scr_1F390D6",
+        "scr_1F3911D",
+        "scr_1F391C9"
+      ],
+      "count": 15,
+      "visible_source_characters": 1590,
+      "fa_entries": 4,
+      "priority_counts": {
+        "P0": 15
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_008",
+      "entry_ids": [
+        "scr_1F39C0D",
+        "scr_1F39C40",
+        "scr_1F39C6E",
+        "scr_1F39CCC",
+        "scr_1F39D2F",
+        "scr_1F39E20",
+        "scr_1F39EC5",
+        "scr_1F39F06",
+        "scr_1F39FE5",
+        "scr_1F3A00F",
+        "scr_1F3A036",
+        "scr_1F3A061",
+        "scr_1F3A0CC",
+        "scr_1F3A16B",
+        "scr_1F3A1AE",
+        "scr_1F3A1E6",
+        "scr_1F3A1F3",
+        "scr_1F3A247",
+        "scr_1F3A29D",
+        "scr_1F3A2CD",
+        "scr_1F3A389",
+        "scr_1F3A3B5",
+        "scr_1F3A61D",
+        "scr_1F3A661",
+        "scr_1F3A685",
+        "scr_1F3A69F",
+        "scr_1F3A8E7",
+        "scr_1F3A922",
+        "scr_1F3A94D",
+        "scr_1F3A9CF",
+        "scr_1F3A9F2",
+        "scr_1F3AA87",
+        "scr_1F3AA96",
+        "scr_1F3AB0D",
+        "scr_1F3AB89",
+        "scr_1F3AD0F",
+        "scr_1F3AD8B",
+        "scr_1F3AED2",
+        "scr_1F3AEDD",
+        "scr_1F3B018"
+      ],
+      "count": 40,
+      "visible_source_characters": 4337,
+      "fa_entries": 9,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_009",
+      "entry_ids": [
+        "scr_1F3B10F",
+        "scr_1F3B1E1",
+        "scr_1F397B5",
+        "scr_1F3924B",
+        "scr_1F3BBF1",
+        "scr_1F3BD5C",
+        "scr_1F3BE76",
+        "scr_1F3BF66",
+        "scr_1F3C508",
+        "scr_1F3C6E8",
+        "scr_1F3CB76",
+        "scr_1F3CD22",
+        "scr_1F3CE79",
+        "scr_1FA98A0",
+        "scr_1FA991E",
+        "scr_1FA998A",
+        "scr_1FA9A33",
+        "scr_1FA96DA",
+        "scr_1F8D3CC",
+        "scr_1F8C803",
+        "scr_1FA9A88",
+        "scr_1FA9ABE",
+        "scr_1FA9ACA",
+        "scr_1FA9AFE",
+        "scr_1FA9B26",
+        "scr_1FA9B77",
+        "scr_1F47351",
+        "scr_1F47376",
+        "scr_1F4739D",
+        "scr_1F47446",
+        "scr_1F474C3",
+        "scr_1F8E87E",
+        "scr_1F8E893",
+        "scr_1F8E90F",
+        "scr_1F8E976",
+        "scr_1F8EEFE",
+        "scr_1F68919",
+        "scr_1EF377C"
+      ],
+      "count": 38,
+      "visible_source_characters": 5253,
+      "fa_entries": 13,
+      "priority_counts": {
+        "P0": 38
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_010",
+      "entry_ids": [
+        "scr_1F2E8E9",
+        "scr_1F2EB85",
+        "scr_1F2EC73",
+        "scr_1F4BC44",
+        "scr_1F2F468",
+        "scr_1F2F493",
+        "scr_1F2F4A4",
+        "scr_1F2F4C3",
+        "scr_1F2F55D",
+        "scr_1F2F5BE",
+        "scr_1F2F5EA",
+        "scr_1F2F69E",
+        "scr_1FA54AC",
+        "scr_1F2FB19",
+        "scr_1F2FB92",
+        "scr_1F2FCA4",
+        "scr_1F61B26",
+        "scr_1F30FFC",
+        "scr_1F347B9",
+        "scr_1F34804",
+        "scr_1F3487E",
+        "scr_1F11C5F",
+        "scr_1F389BB",
+        "scr_1F38C8F",
+        "scr_1FAC88C",
+        "scr_1F2D07E",
+        "scr_1F2D124",
+        "scr_1F2D162",
+        "scr_1F2D192",
+        "scr_1F2D1D7",
+        "scr_1F2D28B",
+        "scr_1F2D2F9",
+        "scr_1F2D3B2"
+      ],
+      "count": 33,
+      "visible_source_characters": 4405,
+      "fa_entries": 12,
+      "priority_counts": {
+        "P0": 33
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_011",
+      "entry_ids": [
+        "scr_1F2D80A",
+        "scr_1F2D84C",
+        "scr_1F2D8C0",
+        "scr_1F2D90E",
+        "scr_1F2D942",
+        "scr_1F2DA1D",
+        "scr_1F2DAAB",
+        "scr_1F2DB6D",
+        "scr_1F2DB7D",
+        "scr_1F2DBB6",
+        "scr_1F2DC2E",
+        "scr_1F2CC98",
+        "scr_1F2CEB3",
+        "scr_1F2CEC2",
+        "scr_1F2CEC8",
+        "scr_1F2CBB6",
+        "scr_1F2F24D",
+        "scr_1F2F2F2",
+        "scr_1F9DA54",
+        "scr_1F9DAA7",
+        "scr_1F9DB17",
+        "scr_1F9DBBE",
+        "scr_1F9DD50",
+        "scr_1F9DD7E",
+        "scr_1F9DE57",
+        "scr_1F9DF34",
+        "scr_1F9DFA1",
+        "scr_1F325DE",
+        "scr_1F3275F",
+        "scr_1F31FED",
+        "scr_1EFD969",
+        "scr_1F79B8A",
+        "scr_1F79297",
+        "scr_1F792EF",
+        "scr_1F7931A",
+        "scr_1FA48E0",
+        "scr_1FA48E8",
+        "scr_1FA4976",
+        "scr_1FA49E0",
+        "scr_1FA4B07"
+      ],
+      "count": 40,
+      "visible_source_characters": 4623,
+      "fa_entries": 13,
+      "priority_counts": {
+        "P0": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_012",
+      "entry_ids": [
+        "scr_1FA428F",
+        "scr_1FA429D",
+        "scr_1FA43D8",
+        "scr_1F1A3A9",
+        "scr_1F113ED",
+        "scr_1F11594",
+        "scr_1F1184B",
+        "scr_1F11864",
+        "scr_1F11CFD",
+        "scr_1F47086",
+        "scr_1F470F7",
+        "scr_1F4725D",
+        "scr_1F4728D",
+        "scr_1F2B7DE",
+        "scr_1F2B7FA",
+        "scr_1F2B858",
+        "scr_1F2B8E4",
+        "scr_1F2B8F2",
+        "scr_1F2B901",
+        "scr_1F2B949",
+        "scr_1F2B95E",
+        "scr_1F2B98B",
+        "scr_1F2B9AA",
+        "scr_1F2B9E4",
+        "scr_1F2BA07",
+        "scr_1F2BA20",
+        "scr_1F2BA3C",
+        "scr_1F2BA7A",
+        "scr_1F2BAB6",
+        "scr_1F2BAC7",
+        "scr_1F2BAE7",
+        "scr_1F2BB31",
+        "scr_1F206C0",
+        "scr_1F207BE",
+        "scr_1F209D0",
+        "scr_1F318B2",
+        "scr_1F3371D",
+        "scr_1F338A2"
+      ],
+      "count": 38,
+      "visible_source_characters": 3643,
+      "fa_entries": 8,
+      "priority_counts": {
+        "P0": 38
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_013",
+      "entry_ids": [
+        "scr_1F34CD4",
+        "scr_1F34D94",
+        "scr_1F34E4D",
+        "scr_1F34ED3",
+        "scr_1F34F2E",
+        "scr_1F34F7C",
+        "scr_1F3506D",
+        "scr_1F350B8",
+        "scr_1F35149",
+        "scr_1F351DD",
+        "scr_1F35222",
+        "scr_1F3525E",
+        "scr_1F35293",
+        "scr_1F7E524",
+        "scr_1F364C0",
+        "scr_1F365B2",
+        "scr_1FACD42",
+        "scr_1FACD81",
+        "scr_1FACDD1",
+        "scr_1FACE06",
+        "scr_1FACE36",
+        "scr_1FACE7F",
+        "scr_1FACEEA",
+        "scr_1FACF01"
+      ],
+      "count": 24,
+      "visible_source_characters": 2208,
+      "fa_entries": 5,
+      "priority_counts": {
+        "P0": 24
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_014",
+      "entry_ids": [
+        "scr_1EEA888",
+        "scr_1EEA892",
+        "scr_1EEA89C",
+        "scr_1EEDA96",
+        "scr_1EF6184",
+        "scr_1F12064",
+        "scr_1F1F8AB",
+        "scr_1F26096",
+        "scr_1F581D8",
+        "scr_1F63D86",
+        "scr_1F65E88",
+        "scr_1F6C9BF",
+        "scr_1F6C9CC",
+        "scr_1F6C9DB",
+        "scr_1F7E1D7",
+        "scr_1F8283D",
+        "scr_1F87B58",
+        "scr_1F93C9F",
+        "scr_1F9C840",
+        "scr_1F9CDF4",
+        "scr_1F9EAE4",
+        "scr_1F9F081",
+        "scr_1FA0D43",
+        "scr_1FA58D0",
+        "scr_1FA9BBC",
+        "scr_1FAA33C",
+        "scr_1FADF38",
+        "scr_1FAFC94",
+        "tbl_battle_messages_00000_3FB500",
+        "tbl_battle_messages_00000_883590",
+        "tbl_battle_messages_00000_8BD155",
+        "tbl_battle_messages_00000_A37710",
+        "tbl_battle_messages_00000_A4AEE1",
+        "tbl_battle_messages_00000_A4C515",
+        "tbl_battle_messages_00000_A4C603",
+        "tbl_battle_messages_00001_8835A0",
+        "tbl_battle_messages_00001_A4C610",
+        "tbl_battle_messages_00001_A4C640",
+        "tbl_battle_messages_00002_3FB283",
+        "tbl_battle_messages_00002_A4C64C",
+        "tbl_battle_messages_00003_A4A98C",
+        "tbl_battle_messages_00003_A4C659",
+        "tbl_battle_messages_00004_A4C587",
+        "tbl_battle_messages_00004_A4C666",
+        "tbl_battle_messages_00005_A4C5A3",
+        "tbl_battle_messages_00005_A4C66B",
+        "tbl_battle_messages_00006_A4C5B1",
+        "tbl_battle_messages_00007_A4C5C8",
+        "tbl_battle_messages_00007_A4C689",
+        "tbl_battle_messages_00011_A4C790",
+        "tbl_battle_messages_00012_A4C859",
+        "tbl_battle_messages_00013_A4C86D",
+        "tbl_battle_messages_00018_A4C8D2",
+        "tbl_battle_messages_00053_3FB9D6",
+        "tbl_battle_messages_00056_3FBA2C",
+        "tbl_battle_messages_00204_3FC92C",
+        "tbl_battle_messages_00214_3FCA27",
+        "tbl_battle_messages_00235_3FCBE4",
+        "tbl_battle_messages_00262_3FCE78",
+        "tbl_battle_messages_00263_3FCE90",
+        "tbl_battle_messages_00264_3FCEA8",
+        "tbl_battle_messages_00265_3FCEBA",
+        "tbl_battle_messages_00266_3FCECE",
+        "tbl_battle_messages_00267_3FCEE3",
+        "tbl_battle_messages_00268_3FCEFB",
+        "tbl_battle_messages_00269_3FCF14",
+        "tbl_battle_messages_00270_3FCF2C",
+        "tbl_battle_messages_00271_3FCF40",
+        "tbl_battle_messages_00272_3FCF54",
+        "tbl_battle_messages_00273_3FCF6C",
+        "tbl_battle_messages_00274_3FCF7E",
+        "tbl_battle_messages_00275_3FCFA0",
+        "tbl_battle_messages_00276_3FCFC2",
+        "tbl_battle_messages_00277_3FCFE4",
+        "tbl_battle_messages_00278_3FD006",
+        "tbl_battle_messages_00279_3FD022",
+        "tbl_battle_messages_00280_3FD048",
+        "tbl_battle_messages_00281_3FD068",
+        "tbl_battle_messages_00282_3FD077",
+        "tbl_battle_messages_00283_3FD0A7",
+        "tbl_battle_messages_00284_3FD0CA",
+        "tbl_battle_messages_00297_3FD218",
+        "tbl_battle_messages_00298_3FD232",
+        "tbl_battle_messages_00299_3FD23F",
+        "tbl_battle_messages_00300_3FD24D",
+        "tbl_battle_messages_00301_3FD284",
+        "tbl_battle_messages_00302_3FD297",
+        "tbl_battle_messages_00303_3FD2AA",
+        "tbl_battle_messages_00305_3FD2D9",
+        "tbl_battle_messages_00306_3FD30D",
+        "tbl_battle_messages_00307_3FD322",
+        "tbl_battle_messages_00308_3FD34D",
+        "tbl_battle_messages_00309_3FD361",
+        "tbl_battle_messages_00321_3FD45E",
+        "tbl_battle_messages_00335_3FD555",
+        "tbl_battle_messages_00336_3FD55B",
+        "tbl_battle_messages_00337_3FD560",
+        "tbl_battle_messages_00338_3FD564",
+        "tbl_battle_messages_00339_3FD569",
+        "tbl_battle_messages_00340_3FD56D",
+        "tbl_battle_messages_00341_3FD572",
+        "tbl_battle_messages_00342_3FD576",
+        "tbl_battle_messages_00344_3FD590",
+        "tbl_battle_messages_00345_3FD593",
+        "tbl_battle_messages_00346_3FD59A",
+        "tbl_battle_messages_00347_3FD5A2",
+        "tbl_battle_messages_00348_3FD5A8",
+        "tbl_battle_messages_00349_3FD5B0",
+        "tbl_battle_messages_00350_3FD5B8",
+        "tbl_battle_messages_00351_3FD5C1",
+        "tbl_battle_messages_00352_3FD5EF",
+        "tbl_battle_messages_00353_3FD5FF",
+        "tbl_battle_messages_00354_3FD60C",
+        "tbl_battle_messages_00355_3FD61B",
+        "tbl_battle_messages_00356_3FD62B",
+        "tbl_battle_messages_00361_3FD697",
+        "tbl_battle_messages_00362_3FD6B5",
+        "tbl_battle_messages_00363_3FD6C7",
+        "tbl_battle_messages_00364_3FD700",
+        "tbl_battle_messages_00365_3FD718",
+        "tbl_battle_messages_00366_3FD738",
+        "tbl_battle_messages_00367_3FD757",
+        "tbl_battle_messages_00368_3FD76D",
+        "tbl_battle_messages_00373_3FD81A",
+        "tbl_battle_messages_00374_3FD824",
+        "tbl_battle_messages_00376_3FD850",
+        "tbl_battle_messages_00377_3FD85F",
+        "tbl_battle_messages_00378_3FD876",
+        "tbl_battle_messages_00379_3FD8A2",
+        "tbl_battle_messages_00380_3FD8AF",
+        "tbl_battle_messages_00393_3FDA02",
+        "tbl_battle_messages_00398_3FDA8C",
+        "tbl_battle_messages_00399_3FDAB1"
+      ],
+      "count": 133,
+      "visible_source_characters": 2315,
+      "fa_entries": 0,
+      "priority_counts": {
+        "P1": 133
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_015",
+      "entry_ids": [
+        "tbl_battle_messages_00401_3FDB92",
+        "tbl_battle_messages_00402_3FDBEF",
+        "tbl_battle_messages_00403_3FDC58",
+        "tbl_battle_messages_00404_3FDC95",
+        "tbl_battle_messages_00405_3FDCD2",
+        "tbl_battle_messages_00406_3FDD23",
+        "tbl_battle_messages_00407_3FDD64",
+        "tbl_battle_messages_00414_3FE6FA",
+        "tbl_battle_messages_00415_3FE714",
+        "tbl_battle_messages_00416_3FE766",
+        "tbl_battle_messages_00417_3FE76A",
+        "tbl_menu_battle_00001_3FE747",
+        "tbl_menu_battle_00004_4169C2",
+        "tbl_menu_battle_00018_1F94275",
+        "tbl_menu_battle_00019_1F94282",
+        "tbl_menu_battle_00020_1F94294",
+        "tbl_menu_battle_00021_1F942A8",
+        "tbl_menu_battle_00022_1F942B8",
+        "tbl_menu_battle_00023_1F942C3",
+        "tbl_menu_battle_00024_1F942CA",
+        "tbl_menu_battle_00025_1F942DA",
+        "tbl_menu_battle_00026_1F942E8",
+        "tbl_menu_battle_00027_1F942FC",
+        "tbl_menu_battle_00028_1F94310",
+        "tbl_menu_battle_00029_1F9432D",
+        "tbl_menu_battle_00030_1F9433E",
+        "tbl_menu_battle_00031_1F9434D",
+        "tbl_menu_battle_00032_1F94360",
+        "tbl_menu_battle_00033_1F9437B",
+        "tbl_menu_battle_00034_1F94386",
+        "tbl_menu_battle_00035_1F94397",
+        "tbl_menu_battle_00036_1F943AE",
+        "tbl_menu_battle_00037_1F943BE",
+        "tbl_menu_battle_00038_1F943D0",
+        "tbl_menu_battle_00039_1F943DE",
+        "tbl_menu_battle_00040_1F943E7",
+        "tbl_menu_battle_00041_1F943F1",
+        "tbl_menu_battle_00042_1F9440F",
+        "tbl_menu_battle_00043_1F94416",
+        "tbl_menu_battle_00044_1F94419"
+      ],
+      "count": 40,
+      "visible_source_characters": 1020,
+      "fa_entries": 1,
+      "priority_counts": {
+        "P1": 40
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    },
+    {
+      "batch_id": "P7B_plan_016",
+      "entry_ids": [
+        "tbl_menu_battle_00045_1F9441D",
+        "tbl_menu_battle_00046_1F94426",
+        "tbl_menu_battle_00047_1F9443E",
+        "tbl_menu_battle_00048_1F94454",
+        "tbl_menu_battle_00049_1F9446A",
+        "tbl_menu_options_00011_419E28",
+        "tbl_menu_options_00016_419E46",
+        "tbl_menu_options_00017_419E4B",
+        "tbl_menu_options_00018_419E4F",
+        "tbl_menu_options_00019_419E52",
+        "tbl_menu_options_00020_419C5A",
+        "tbl_menu_pokemon_00023_4172C2",
+        "tbl_menu_pokemon_00024_4172D5",
+        "tbl_menu_pokemon_00025_41737F",
+        "tbl_mission_log_00001_1F5604A",
+        "tbl_mission_log_00007_1F56082",
+        "tbl_mission_log_00008_1F56089",
+        "tbl_mission_log_00009_1F5608F",
+        "tbl_mission_log_00011_1F5609A",
+        "tbl_mission_log_00012_1F5609F",
+        "tbl_mission_log_00018_1F560FF",
+        "tbl_mission_objectives_00022_1F56532",
+        "tbl_mission_objectives_00034_1F56766",
+        "tbl_mission_objectives_00036_1F567CF",
+        "tbl_mission_objectives_00037_1F567F6",
+        "tbl_mission_objectives_00038_1F5683B",
+        "tbl_mission_objectives_00039_1F5684D",
+        "tbl_mission_objectives_00040_1F5686A",
+        "tbl_mission_objectives_00041_1F56883",
+        "tbl_mission_objectives_00042_1F5689C",
+        "tbl_mission_objectives_00043_1F568B7",
+        "tbl_mission_objectives_00044_1F568F7",
+        "tbl_mission_objectives_00045_1F56930",
+        "tbl_mission_objectives_00046_1F5694A",
+        "tbl_mission_objectives_00047_1F56986",
+        "tbl_mission_objectives_00048_1F569C7",
+        "tbl_mission_objectives_00049_1F569FB",
+        "tbl_mission_objectives_00051_1F56A49",
+        "tbl_mission_objectives_00052_1F56A64",
+        "tbl_mission_objectives_00053_1F56AA0",
+        "tbl_mission_objectives_00054_1F56AB8",
+        "tbl_mission_objectives_00055_1F56AF0",
+        "tbl_mission_objectives_00056_1F56B36",
+        "tbl_start_menu_labels_00001_A4E4E4",
+        "tbl_start_menu_labels_00004_A4E504",
+        "tbl_start_menu_labels_00005_A4E50D",
+        "scr_1FA92E8",
+        "scr_1FAAD50",
+        "scr_1F26B52",
+        "scr_1F2816F",
+        "scr_1EFF75B",
+        "scr_1F7BE61",
+        "scr_1FA4E10",
+        "scr_1F14CD2",
+        "scr_1F4F9AA",
+        "scr_1F06B10",
+        "scr_1F0920D",
+        "scr_1F08DE6",
+        "scr_1F60F28",
+        "scr_1F53440",
+        "scr_1F5344F",
+        "scr_1F5345E",
+        "scr_1F54276",
+        "scr_1FA64DC",
+        "scr_1F5948C",
+        "scr_1F855F0"
+      ],
+      "count": 66,
+      "visible_source_characters": 1502,
+      "fa_entries": 0,
+      "priority_counts": {
+        "P1": 66
+      },
+      "split_reason": "160-entry normal / 40-entry FA-heavy / 16000-character caps; final tail may be smaller",
+      "requires_human_context_review": true,
+      "claude_invoked": false
+    }
+  ],
+  "group_splits": [
+    {
+      "group": "scene:map_001_110_coord_00BB86B8",
+      "entries": 42,
+      "reason": "Group exceeds safe review batch cap; retain shared context in all chunks."
+    }
+  ],
+  "deferred_P0_P1": [
+    {
+      "id": "tbl_battle_messages_00005_905C25",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00006_905C40",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00007_905E9A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00011_906540",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_menu_battle_00004_A4C7DA",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "tbl_menu_battle_00005_A4C807",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "tbl_menu_battle_00006_A4C82B",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "tbl_menu_pause_00005_800FC0",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "tbl_battle_messages_00004_3FB545",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00008_3FB592",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00010_3FB5BC",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00014_3FB610",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00016_3FB641",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00018_3FB663",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00022_3FB6BF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00026_3FB70F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00028_3FB76A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00030_3FB7A3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00034_3FB806",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00035_3FB826",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00036_3FB844",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00039_3FB885",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00041_3FB8AE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00042_3FB8C5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00043_3FB8E0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00066_3FBAF3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00067_3FBB11",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00068_3FBB2F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00069_3FBB4C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00070_3FBB62",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00071_3FBB71",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00072_3FBB83",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00075_3FBBD0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00076_3FBBE9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00077_3FBBFF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00079_3FBC2B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00080_3FBC4C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00082_3FBC74",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00085_3FBCBE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00087_3FBCDD",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00090_3FBD2B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00092_3FBD53",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00093_3FBD74",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00095_3FBDA3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00096_3FBDC4",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00098_3FBE00",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00102_3FBE61",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00106_3FBEBE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00111_3FBF39",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00115_3FBF89",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00116_3FBF99",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00118_3FBFD3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00121_3FC02B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00123_3FC072",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00129_3FC132",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00141_3FC26D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00143_3FC2AA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00144_3FC2C7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00146_3FC2FA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00166_3FC53D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00172_3FC5E8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00174_3FC631",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00184_3FC745",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00222_3FCB0C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00230_3FCB75",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00239_3FCC39",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "tbl_battle_messages_00245_3FCCD2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00246_3FCCE4",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00247_3FCCF8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00248_3FCD0F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00249_3FCD27",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00250_3FCD41",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00251_3FCD66",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00253_3FCD9F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00288_3FD135",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00292_3FD186",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00294_3FD1C7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00304_3FD2BF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00312_3FD397",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00322_3FD466",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00324_3FD47D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00325_3FD488",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00326_3FD497",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00330_3FD4FA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00358_3FD65C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00359_3FD671",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00369_3FD7A2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00370_3FD7C0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00371_3FD7E0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00372_3FD804",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00400_3FDAE2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00408_3FDDEB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00409_3FE672",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00411_3FE6B5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00412_3FE6D5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00413_3FE6E6",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_800880",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00001_A4A941",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00002_A4A96A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00004_A4A9A2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00014_A4B3B2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00002_A4C54D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00006_A4C670",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1EFED64",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F20AD0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F20CF2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2CBDA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2CC17",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2CC7E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2CD70",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2CDA7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2DB8B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2E221",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2E4F2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2E593",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2E742",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2ECD5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2F123",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F2F9B9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3145D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3174B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F31781",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F317F2",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "scr_1F31AF5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F31B80",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32141",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32300",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32527",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32861",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3296E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F329AE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F329FD",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32A8E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32BB7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32E7E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32EB9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F32F75",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F33815",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F33916",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F33E17",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F33EE0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F33F05",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3403C",
+      "reason": "NEEDS_EVENT_CONTEXT"
+    },
+    {
+      "id": "scr_1F3463C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F36150",
+      "reason": "NEEDS_OFFICIAL_TERM"
+    },
+    {
+      "id": "scr_1F362D1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3632A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F38DB0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3932D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3A6F8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3ADE9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3B86F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3B901",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3B920",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3B9B3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3BA27",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3C5F8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3C91A",
+      "reason": "NEEDS_EVENT_CONTEXT"
+    },
+    {
+      "id": "scr_1F3CCC5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3D021",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3D0AA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3D5D1",
+      "reason": "NEEDS_EVENT_CONTEXT"
+    },
+    {
+      "id": "scr_1F3DB1C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3DC49",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3DCD7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3DD42",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3DF64",
+      "reason": "NEEDS_EVENT_CONTEXT"
+    },
+    {
+      "id": "scr_1F3E248",
+      "reason": "NEEDS_EVENT_CONTEXT"
+    },
+    {
+      "id": "scr_1F3E5B3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3E675",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F3F468",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F41BFB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F41D4C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F41F58",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F420E2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F425C7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F45482",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F45FDA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F4BDA6",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F4BEF9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F4C192",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_1F68219",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00001_1F6822D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00002_1F6825B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F6F397",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F750DA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F926C3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1F9DBD7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "scr_1FA5E48",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00003_3FB534",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00005_3FB555",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00006_3FB565",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00009_3FB5A8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00011_3FB5CD",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00015_3FB626",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00017_3FB650",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00020_3FB692",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00021_3FB6A7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00023_3FB6D3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00024_3FB6E5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00025_3FB6F7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00031_3FB7BF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00032_3FB7D5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00033_3FB7EE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00037_3FB854",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00038_3FB871",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00040_3FB89D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00044_3FB8F3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00045_3FB914",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00046_3FB921",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00047_3FB935",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00048_3FB946",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00049_3FB95E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00050_3FB97F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00051_3FB997",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00052_3FB9B8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00054_3FB9D9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00055_3FB9FF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00057_3FBA2F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00058_3FBA41",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00059_3FBA5E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00060_3FBA79",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00061_3FBA8E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00062_3FBAB2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00063_3FBAC3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00064_3FBAD2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00065_3FBAE5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00073_3FBB99",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00074_3FBBB4",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00078_3FBC16",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00081_3FBC62",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00083_3FBC83",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00084_3FBC99",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00086_3FBCD1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00088_3FBCFC",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00089_3FBD16",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00091_3FBD43",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00094_3FBD86",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00097_3FBDE2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00099_3FBE16",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00100_3FBE2B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00101_3FBE4E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00103_3FBE73",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00104_3FBE8B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00105_3FBEA1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00107_3FBEE2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00108_3FBEFA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00109_3FBF0C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00110_3FBF23",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00112_3FBF51",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00113_3FBF63",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00114_3FBF76",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00117_3FBFBF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00119_3FBFEA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00120_3FC011",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00122_3FC048",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00125_3FC0DC",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00126_3FC0EE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00127_3FC10C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00128_3FC11E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00130_3FC140",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00131_3FC168",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00132_3FC185",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00133_3FC19D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00134_3FC1C6",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00135_3FC1DB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00136_3FC1F1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00137_3FC208",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00138_3FC224",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00139_3FC231",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00140_3FC254",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00142_3FC28A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00145_3FC2E3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00147_3FC312",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00148_3FC337",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00149_3FC347",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00150_3FC357",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00151_3FC377",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00152_3FC38A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00153_3FC39A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00154_3FC3AF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00155_3FC3C5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00156_3FC3EB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00157_3FC40E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00158_3FC421",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00159_3FC439",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00160_3FC461",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00161_3FC483",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00162_3FC4AB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00163_3FC4D6",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00164_3FC4F0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00165_3FC518",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00169_3FC591",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00173_3FC60C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00177_3FC670",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00178_3FC687",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00179_3FC69D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00180_3FC6D6",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00181_3FC6F8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00182_3FC715",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00183_3FC72B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00185_3FC75D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00186_3FC780",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00187_3FC79D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00188_3FC7B6",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00189_3FC7D3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00190_3FC7EF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00191_3FC809",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00192_3FC825",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00193_3FC841",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00194_3FC860",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00195_3FC873",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00196_3FC87B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00197_3FC895",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00198_3FC8B1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00199_3FC8C2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00200_3FC8D5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00201_3FC8ED",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00202_3FC900",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00203_3FC913",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00205_3FC935",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00206_3FC955",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00207_3FC979",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00208_3FC993",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00209_3FC9AA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00210_3FC9C7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00212_3FCA03",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00213_3FCA13",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00215_3FCA2C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00216_3FCA49",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00217_3FCA71",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00218_3FCA8E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00219_3FCAAA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00220_3FCAD1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00221_3FCAEF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00228_3FCB5F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00229_3FCB6A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00231_3FCB8F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00232_3FCB9A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00233_3FCBA5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00234_3FCBC5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00243_3FCCA0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00244_3FCCBB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00252_3FCD92",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00285_3FD0F1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00286_3FD111",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00287_3FD124",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00289_3FD14B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00290_3FD15A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00291_3FD16A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00293_3FD1B8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00295_3FD1DF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00296_3FD1FA",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00310_3FD366",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00311_3FD383",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00313_3FD3B1",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00314_3FD3C7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00315_3FD3E4",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00316_3FD3F7",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00317_3FD407",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00318_3FD41E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00319_3FD43E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00320_3FD44E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00323_3FD475",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00327_3FD4B5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00328_3FD4CD",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00329_3FD4EB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00331_3FD50D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00332_3FD522",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00333_3FD535",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00334_3FD545",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00357_3FD64F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00360_3FD688",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00375_3FD82B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00381_3FD8B9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00382_3FD8D2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00383_3FD8E8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00384_3FD901",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00385_3FD917",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00386_3FD937",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00387_3FD95C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00388_3FD97A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00389_3FD999",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00390_3FD9B2",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00391_3FD9CC",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00392_3FD9E9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00394_3FDA0B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00395_3FDA33",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00396_3FDA4D",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00397_3FDA7A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_A4B23C",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00001_A4B24E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00002_A4B26B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00003_A4B28B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00004_A4B2A5",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00005_A4B2BF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00006_A4B2DC",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00007_A4B2F9",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00008_A4B312",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00009_A4B32E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00011_A4B363",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00012_A4B383",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00013_A4B39A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00015_A4B3F3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00016_A4B414",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00017_A4B42B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00018_A4B440",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00019_A4B460",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00020_A4B480",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00021_A4B4AB",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00014_A4C88B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00015_A4C898",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00016_A4C8A3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00017_A4C8BD",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00001_3FB265",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00012_3FB36B",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00013_3FB37F",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00014_3FB394",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00015_3FB3AF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00016_3FB3D3",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00019_3FB41A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00020_3FB433",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00021_3FB451",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00023_3FB4BE",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_9066D0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_906D20",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_965BE8",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00001_965C00",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00002_965C16",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00003_965C2E",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00004_965C46",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00005_965C69",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00006_965C83",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00007_965C9A",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00000_9678F0",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    },
+    {
+      "id": "tbl_battle_messages_00001_A4AEFF",
+      "reason": "NEEDS_BUFFER_ANALYSIS"
+    }
+  ]
+}

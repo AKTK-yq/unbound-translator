@@ -222,10 +222,116 @@ def test_original_909_files_preserved_and_no_existing_validator_edit():
     assert proof['files'] == 909 and proof['aggregate_sha256'] == m.INITIAL_SNAPSHOT
 
 
+def test_gitignore_exception_is_exact_and_preserves_original_hash():
+    path = m.ROOT / '.gitignore'
+    approved = path.read_bytes()
+    rule = b'/out/phase7/ja_story_scene_index.json\r\n'
+    assert approved.endswith(rule) and approved.count(rule) == 1
+    assert m.digest(approved) == m.GITIGNORE_LOCAL_SCENE_INDEX_SHA256
+    assert m.digest(approved[:-len(rule)]) == m.GITIGNORE_ORIGINAL_SHA256
+    assert m.protected_file_digest(path) == m.GITIGNORE_ORIGINAL_SHA256
+    assert m.protected_snapshot()['hashes']['.gitignore'] == m.GITIGNORE_ORIGINAL_SHA256
+
+
+@pytest.mark.parametrize('mutation', ('removed', 'duplicate', 'directory', 'wildcard', 'extra', 'existing'))
+def test_gitignore_exception_rejects_any_unapproved_delta(monkeypatch, mutation):
+    path = m.ROOT / '.gitignore'
+    approved = path.read_bytes()
+    rule = b'/out/phase7/ja_story_scene_index.json\r\n'
+    if mutation == 'removed':
+        # The historical original remains valid; no unapproved data is ignored.
+        candidate = approved[:-len(rule)]
+    elif mutation == 'duplicate':
+        candidate = approved + rule
+    elif mutation == 'directory':
+        candidate = approved.replace(rule, b'/out/phase7/\n')
+    elif mutation == 'wildcard':
+        candidate = approved.replace(rule, b'/out/phase7/*.json\n')
+    elif mutation == 'extra':
+        candidate = approved + b'/out/phase7/unapproved.json\n'
+    else:
+        candidate = approved.replace(b'.idea', b'.other', 1)
+    real_read = type(path).read_bytes
+    monkeypatch.setattr(type(path), 'read_bytes', lambda p: candidate if p == path else real_read(p))
+    if mutation == 'removed':
+        assert m.protected_file_digest(path) == m.GITIGNORE_ORIGINAL_SHA256
+        assert m.protected_snapshot()['files'] == 909
+    else:
+        with pytest.raises(AssertionError):
+            m.protected_snapshot()
+
+
+def test_gitignore_exception_cannot_apply_to_another_path(tmp_path, monkeypatch):
+    approved = (m.ROOT / '.gitignore').read_bytes()
+    monkeypatch.setattr(m, 'ROOT', tmp_path)
+    other = tmp_path / 'unapproved.txt'
+    other.write_bytes(approved)
+    assert m.protected_file_digest(other) == m.GITIGNORE_LOCAL_SCENE_INDEX_SHA256
+    assert m.protected_file_digest(other) != m.GITIGNORE_ORIGINAL_SHA256
+
+
 def test_later_stage_allow_list_is_exact_and_detection_is_preserved(monkeypatch):
     allowed = m.LATER_STAGE_PATHS
     assert not any(ch in p for p in allowed for ch in '*?[')
-    assert all('batch04' in p for p in allowed) and not allowed & m.NEW_PATHS
+    assert all('batch04' in p or p in m.PHASE7A_PATHS | m.PHASE7B_PATHS | m.PHASE7C1_PATHS | m.PHASE7C2_PATHS | m.PHASE7C3_PATHS for p in allowed)
+    assert not allowed & m.NEW_PATHS
+    # The existing input stays in the protected 909, never allow-listed.
+    assert 'out/phase6/ja_phase6_cleanup_batch04_for_claude.json' not in allowed
+    path = 'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json'
+    if (m.ROOT / path).exists():
+        monkeypatch.setattr(m, 'LATER_STAGE_PATHS', allowed - {path})
+        with pytest.raises(AssertionError):
+            m.protected_snapshot()
+
+
+def test_phase7c_review_and_integration_exact_paths_removal_and_stray(monkeypatch):
+    review = frozenset({
+        'tests/fixtures/ja_phase7_story_batch01_claude_review.json',
+        'tests/fixtures/ja_phase7_story_batch01_translation_audit.json',
+        'docs/ja-phase7-story-batch01-claude-review.md',
+    })
+    technical = frozenset({
+        'docs/ja-phase7-story-batch01-technical.md',
+        'out/phase7/ja_story_batch01_technical_holds.json',
+        'out/phase7/ja_story_batch01_validation.json',
+        'out/phase7/ja_story_batch01_binary_audit.json',
+        'tests/fixtures/ja_phase7_story_batch01_runtime_qa.json',
+        'scripts/build_ja_phase7_story_batch01.py',
+        'tests/test_ja_phase7_story_batch01.py',
+    })
+    assert m.PHASE7C2_PATHS == review and m.PHASE7C3_PATHS == technical
+    assert review | technical <= m.LATER_STAGE_PATHS
+    assert not any(c in p for p in review | technical for c in '*?[')
+    assert m.protected_snapshot()['files'] == 909
+    for relative in ('tests/fixtures/ja_phase7_story_batch01_claude_review.json',
+                     'out/phase7/ja_story_batch01_validation.json'):
+        path = m.ROOT / relative
+        created = not path.exists()
+        if created:
+            with path.open('x', encoding='utf-8') as stream:
+                stream.write('{}\n')
+        try:
+            with monkeypatch.context() as patch:
+                patch.setattr(m, 'LATER_STAGE_PATHS', m.LATER_STAGE_PATHS - {relative})
+                with pytest.raises(AssertionError):
+                    m.protected_snapshot()
+        finally:
+            if created:
+                path.unlink()
+    stray = m.ROOT / 'out/phase7/_unlisted_phase7c3_probe.json'
+    assert not stray.exists()
+    with stray.open('x', encoding='utf-8') as stream:
+        stream.write('{}\n')
+    try:
+        with pytest.raises(AssertionError):
+            m.protected_snapshot()
+    finally:
+        stray.unlink()
+
+
+def test_later_stage_allow_list_remaining_invariants(monkeypatch):
+    allowed = m.LATER_STAGE_PATHS
+    assert not allowed & m.NEW_PATHS
     # The pre-existing 4I handoff input is part of the protected 909, never allow-listed.
     assert 'out/phase6/ja_phase6_cleanup_batch04_for_claude.json' not in allowed
     path = 'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json'
@@ -236,6 +342,35 @@ def test_later_stage_allow_list_is_exact_and_detection_is_preserved(monkeypatch)
             m.protected_snapshot()
 
 
+def test_phase7a_allow_list_is_exact_and_removing_one_path_fails(monkeypatch):
+    expected = frozenset({
+        'docs/ja-phase7-full-localization-master-plan.md',
+        'out/phase7/ja_full_localization_inventory.json',
+        'out/phase7/ja_full_localization_category_stats.json',
+        'out/phase7/ja_full_localization_priority_queue.json',
+        'out/phase7/ja_full_localization_technical_blockers.json',
+        'scripts/build_ja_phase7_inventory.py',
+        'tests/test_ja_phase7_inventory.py',
+    })
+    assert m.PHASE7A_PATHS == expected and expected <= m.LATER_STAGE_PATHS
+    assert not any(ch in p for p in expected for ch in '*?[')
+    relative = 'out/phase7/ja_full_localization_category_stats.json'
+    path = m.ROOT / relative
+    created = not path.exists()
+    if created:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open('x', encoding='utf-8') as handle:
+            handle.write('{}\n')
+    try:
+        assert m.protected_snapshot()['files'] == 909
+        monkeypatch.setattr(m, 'LATER_STAGE_PATHS', m.LATER_STAGE_PATHS - {relative})
+        with pytest.raises(AssertionError):
+            m.protected_snapshot()
+    finally:
+        if created:
+            path.unlink()
+
+
 def test_runtime_qa_does_not_invent_maps_or_reachability():
     qa = m.read(m.FIX / (m.PREFIX + 'runtime_qa.json'))
     assert 15 <= qa['metadata']['count'] == len(qa['entries']) <= 25
@@ -243,3 +378,81 @@ def test_runtime_qa_does_not_invent_maps_or_reachability():
     assert all(x['map'] == x['event'] == 'UNKNOWN' for x in qa['entries'])
     assert any(x['decision'] == 'APPLY' for x in qa['entries'])
     assert any(x['decision'] == 'HOLD' for x in qa['entries'])
+
+
+def test_phase7b_exact_allow_list_removal_and_stray_detection(monkeypatch):
+    expected = frozenset({
+        'docs/ja-phase7-story-event-attribution.md',
+        'out/phase7/ja_story_scene_index.json',
+        'out/phase7/ja_story_priority_queue.json',
+        'out/phase7/ja_story_evidence_gaps.json',
+        'out/phase7/ja_story_translation_batch_plan.json',
+        'tests/fixtures/ja_phase7_story_attribution_manifest.json',
+        'scripts/build_ja_phase7_story_attribution.py',
+        'tests/test_ja_phase7_story_attribution.py',
+    })
+    assert m.PHASE7B_PATHS == expected and expected <= m.LATER_STAGE_PATHS
+    assert not any(c in p for p in expected for c in '*?[')
+    relative = 'out/phase7/ja_story_evidence_gaps.json'
+    path = m.ROOT / relative
+    created = not path.exists()
+    if created:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open('x', encoding='utf-8') as stream:
+            stream.write('{}\n')
+    try:
+        assert m.protected_snapshot()['files'] == 909
+        with monkeypatch.context() as patch:
+            patch.setattr(m, 'LATER_STAGE_PATHS', m.LATER_STAGE_PATHS - {relative})
+            with pytest.raises(AssertionError):
+                m.protected_snapshot()
+        # An arbitrary file in the same output directory must remain forbidden.
+        stray = m.ROOT / 'out/phase7/_unlisted_phase7b_probe.json'
+        assert not stray.exists()
+        with stray.open('x', encoding='utf-8') as stream:
+            stream.write('{}\n')
+        try:
+            with pytest.raises(AssertionError):
+                m.protected_snapshot()
+        finally:
+            stray.unlink()
+    finally:
+        if created:
+            path.unlink()
+
+
+def test_phase7c1_exact_allow_list_removal_and_stray_detection(monkeypatch):
+    expected = frozenset({
+        'out/phase7/ja_story_translation_batch_manifest.json',
+        'out/phase7/ja_story_translation_batch01_for_claude.json',
+        'out/phase7/ja_story_translation_style_handoff.json',
+        'docs/ja-phase7-story-translation-batches.md',
+        'scripts/build_ja_phase7_story_translation_batches.py',
+        'tests/test_ja_phase7_story_translation_batches.py',
+    })
+    assert m.PHASE7C1_PATHS == expected and expected <= m.LATER_STAGE_PATHS
+    assert not any(c in p for p in expected for c in '*?[')
+    relative = 'out/phase7/ja_story_translation_batch_manifest.json'
+    path = m.ROOT / relative
+    created = not path.exists()
+    if created:
+        with path.open('x', encoding='utf-8') as stream:
+            stream.write('{}\n')
+    try:
+        assert m.protected_snapshot()['files'] == 909
+        with monkeypatch.context() as patch:
+            patch.setattr(m, 'LATER_STAGE_PATHS', m.LATER_STAGE_PATHS - {relative})
+            with pytest.raises(AssertionError):
+                m.protected_snapshot()
+        stray = m.ROOT / 'out/phase7/_unlisted_phase7c1_probe.json'
+        assert not stray.exists()
+        with stray.open('x', encoding='utf-8') as stream:
+            stream.write('{}\n')
+        try:
+            with pytest.raises(AssertionError):
+                m.protected_snapshot()
+        finally:
+            stray.unlink()
+    finally:
+        if created:
+            path.unlink()

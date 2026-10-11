@@ -39,6 +39,10 @@ BATCH = OUT / (PREFIX + 'for_claude.json')
 BASE_SHA = '192b43b79f75174d9fd5618c47276d2a21cf47ec58b2a902becbe872b19a0284'
 REVIEW_SHA = 'b7c7b5f241776bada78cc76d48c032e9f93da9e69017f3ecf9d768b93c4ab94f'
 INITIAL_SNAPSHOT = 'f932aab110e4dc228c628314c43ce5b0dc0ba89d5f15f6740da9ef6117bad4df'
+# User-approved Git-only delta: exactly one root-anchored ignore rule. Pin the
+# complete approved file bytes; retain the original 909-file hash expectation.
+GITIGNORE_ORIGINAL_SHA256 = '9d981dc96505903f9d0320b9eab4d365493cded0b900eb372bd2adf6cff1e60e'
+GITIGNORE_LOCAL_SCENE_INDEX_SHA256 = 'dea57ace3000d129389745550a14b96fc65b93daa05a0cc0ecbb2469b7870988'
 PHRASE_INDICES = (2, 5, 29, 31, 40, 53, 63, 69, 98, 132)
 OFFICIAL_INDICES = (40, 41, 42, 49, 56, 85, 86, 87, 91, 92, 115, 123, 124)
 GAP_INDICES = (6, 12, 41, 42, 53, 56, 59, 66, 73, 79, 110, 112, 129, 132)
@@ -57,6 +61,47 @@ NEW_PATHS = {f'out/phase6/{PREFIX}{s}.json' for s in SUFFIXES} | {
 # legitimate later-stage outputs, never part of the protected 909 inputs. The list
 # is exact (no wildcard/prefix): any other new or changed file still breaks the
 # aggregate hash, and the 909 count/hash expectations are unchanged.
+PHASE7A_PATHS = frozenset({
+    'docs/ja-phase7-full-localization-master-plan.md',
+    'out/phase7/ja_full_localization_inventory.json',
+    'out/phase7/ja_full_localization_category_stats.json',
+    'out/phase7/ja_full_localization_priority_queue.json',
+    'out/phase7/ja_full_localization_technical_blockers.json',
+    'scripts/build_ja_phase7_inventory.py',
+    'tests/test_ja_phase7_inventory.py',
+})
+PHASE7B_PATHS = frozenset({
+    'docs/ja-phase7-story-event-attribution.md',
+    'out/phase7/ja_story_scene_index.json',
+    'out/phase7/ja_story_priority_queue.json',
+    'out/phase7/ja_story_evidence_gaps.json',
+    'out/phase7/ja_story_translation_batch_plan.json',
+    'tests/fixtures/ja_phase7_story_attribution_manifest.json',
+    'scripts/build_ja_phase7_story_attribution.py',
+    'tests/test_ja_phase7_story_attribution.py',
+})
+PHASE7C1_PATHS = frozenset({
+    'out/phase7/ja_story_translation_batch_manifest.json',
+    'out/phase7/ja_story_translation_batch01_for_claude.json',
+    'out/phase7/ja_story_translation_style_handoff.json',
+    'docs/ja-phase7-story-translation-batches.md',
+    'scripts/build_ja_phase7_story_translation_batches.py',
+    'tests/test_ja_phase7_story_translation_batches.py',
+})
+PHASE7C2_PATHS = frozenset({
+    'tests/fixtures/ja_phase7_story_batch01_claude_review.json',
+    'tests/fixtures/ja_phase7_story_batch01_translation_audit.json',
+    'docs/ja-phase7-story-batch01-claude-review.md',
+})
+PHASE7C3_PATHS = frozenset({
+    'docs/ja-phase7-story-batch01-technical.md',
+    'out/phase7/ja_story_batch01_technical_holds.json',
+    'out/phase7/ja_story_batch01_validation.json',
+    'out/phase7/ja_story_batch01_binary_audit.json',
+    'tests/fixtures/ja_phase7_story_batch01_runtime_qa.json',
+    'scripts/build_ja_phase7_story_batch01.py',
+    'tests/test_ja_phase7_story_batch01.py',
+})
 LATER_STAGE_PATHS = frozenset({
     # Batch 04 Claude review deliverables (Phase 6C-4I).
     'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json',
@@ -82,7 +127,7 @@ LATER_STAGE_PATHS = frozenset({
     'out/phase6/ja_phase6_cleanup_batch04_map.json',
     'out/phase6/ja_phase6_cleanup_batch04_binary_audit.json',
     'out/phase6/ja_phase6_cleanup_batch04_validation.json',
-})
+}) | PHASE7A_PATHS | PHASE7B_PATHS | PHASE7C1_PATHS | PHASE7C2_PATHS | PHASE7C3_PATHS
 
 # Manual review of THIS exact input hash. These are audit observations, not new
 # wording or a reusable automated semantic validator. FE is not an input wait.
@@ -169,11 +214,19 @@ CHECKPOINTS = {
 }
 
 
+def protected_file_digest(path):
+    actual = digest(path.read_bytes())
+    if (path.relative_to(ROOT).as_posix() == '.gitignore'
+            and actual == GITIGNORE_LOCAL_SCENE_INDEX_SHA256):
+        return GITIGNORE_ORIGINAL_SHA256
+    return actual
+
+
 def protected_snapshot():
     paths = set((ROOT / 'rom').rglob('*')) | set((ROOT / 'out').rglob('*')) | set((ROOT / 'glossaries').rglob('*'))
     paths |= {ROOT / p for p in subprocess.check_output(
         ['git', 'ls-files', '--cached', '--others', '--exclude-standard'], cwd=ROOT, text=True).splitlines()}
-    hashes = {p.relative_to(ROOT).as_posix(): digest(p.read_bytes()) for p in sorted(paths)
+    hashes = {p.relative_to(ROOT).as_posix(): protected_file_digest(p) for p in sorted(paths)
               if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'
               and p.relative_to(ROOT).as_posix() not in NEW_PATHS | LATER_STAGE_PATHS}
     aggregate = digest(json.dumps(hashes, sort_keys=True).encode())

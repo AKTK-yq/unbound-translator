@@ -1,0 +1,1972 @@
+{
+  "metadata": {
+    "phase": "7C-2",
+    "batch": "P7C_batch_01",
+    "review_file": "tests/fixtures/ja_phase7_story_batch01_claude_review.json",
+    "review_source": "claude_cli",
+    "all_53_reviewed_by_claude": true,
+    "other_model_used": false,
+    "unprocessed_entries": 0,
+    "input_sha256": {
+      "out/phase7/ja_story_translation_batch01_for_claude.json": "6868f808fd8d023ae7cd0864a51a8c478f4e027d2e161394b535b5e4f3692d7c",
+      "out/phase7/ja_story_translation_batch_manifest.json": "a26223cadde01f4cbc28fb4ff1f23c09ffae0fa056568c2831a2d0a07921bf39",
+      "out/phase7/ja_story_translation_style_handoff.json": "d13aed8dea447e27d62c7222fe50b68b62de0e8bb2754ff69c1525e89cfa5f03",
+      "glossaries/ja.json": "d5fd815806dfc8ab4c584bb117df19a413f53e0c63ae28977d5722601523f296"
+    },
+    "baseline_rom": "out/unbound-ja-phase6-cleanup-batch04.gba",
+    "baseline_rom_sha256": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+    "rom_generated": false,
+    "injection_approved": false,
+    "main_story_verified_promotions": 0,
+    "speaker_identity_promotions": 0
+  },
+  "input_ids": [
+    "scr_1F113ED",
+    "scr_1F11594",
+    "scr_1F1184B",
+    "scr_1F11864",
+    "scr_1F11CFD",
+    "scr_1F2F718",
+    "scr_1F2E8E9",
+    "scr_1F2EB85",
+    "scr_1F2EC73",
+    "scr_1F2F468",
+    "scr_1F2F493",
+    "scr_1F2F4A4",
+    "scr_1F2F4C3",
+    "scr_1F2F55D",
+    "scr_1F2F5BE",
+    "scr_1F2F5EA",
+    "scr_1F2F69E",
+    "scr_1FA54AC",
+    "scr_1F460D1",
+    "scr_1F460E7",
+    "scr_1F46179",
+    "scr_1F46217",
+    "scr_1F4622A",
+    "scr_1F751D8",
+    "scr_1F3EA65",
+    "scr_1F3EB13",
+    "scr_1F3EBBA",
+    "scr_1F3EBEB",
+    "scr_1F3EC74",
+    "scr_1F3EDA8",
+    "scr_1F3EE0A",
+    "scr_1F3EED6",
+    "scr_1F3EF60",
+    "scr_1F3F216",
+    "scr_1F3F277",
+    "scr_1F3F3C9",
+    "scr_1F3F514",
+    "scr_1F3F64A",
+    "scr_1F3F6F5",
+    "scr_1F3F771",
+    "scr_1F3F846",
+    "scr_1F3F9C8",
+    "scr_1F3FA54",
+    "scr_1F3FAB5",
+    "scr_1F3FB1C",
+    "scr_1F3FB5E",
+    "scr_1F3FBAF",
+    "scr_1F3FBE4",
+    "scr_1F3FC2A",
+    "scr_1F3FC84",
+    "scr_1F3FE01",
+    "scr_1F3FE2F",
+    "scr_1F3FEA3"
+  ],
+  "input_validation": {
+    "unique_ids": 53,
+    "duplicates": 0,
+    "missing": 0,
+    "manifest_match": true,
+    "originals_unchanged": true,
+    "previous_candidates_unchanged": true,
+    "scene_event_metadata_unchanged": true,
+    "speaker_confidence_unchanged": true,
+    "priority_confidence_unchanged": true,
+    "control_metadata_unchanged": true,
+    "protected_tokens_unchanged": true,
+    "categories": {
+      "scripts": 50,
+      "plain_scripts": 3
+    }
+  },
+  "status_counts": {
+    "confirmed": 53
+  },
+  "candidate_disposition": {
+    "previous_candidate_revised": 5,
+    "previous_candidate_wording_maintained_layout_padding_added": 3,
+    "previous_candidate_maintained": 1,
+    "newly_translated": 44
+  },
+  "existing_candidates": {
+    "present": 9,
+    "maintained_wording": [
+      "scr_1F1184B",
+      "scr_1F11864",
+      "scr_1F11CFD",
+      "scr_1F2F718"
+    ],
+    "revised": [
+      "scr_1F113ED",
+      "scr_1F11594",
+      "scr_1F2E8E9",
+      "scr_1F2EB85",
+      "scr_1F2EC73"
+    ],
+    "new_translations": 44,
+    "unresolved": 0
+  },
+  "glossary": {
+    "glossary_changed": false,
+    "approved_terms_used": [
+      "Aklove=アクラブ",
+      "Aros=アロス",
+      "Borrius=ボーリウス",
+      "Cube Space=キューブスペース",
+      "Frozen Heights=フローズンハイツ",
+      "Icicle Cave=つららのどうくつ",
+      "Ivory=アイボリー",
+      "Light of Ruin=はめつのひかり",
+      "Marlon=マーロン",
+      "Ultimate Weapon=さいしゅうへいき",
+      "Vivill Town=ビビルタウン",
+      "Zeph=ゼフ",
+      "journey=たび"
+    ],
+    "entries_with_scope_warning": [
+      "scr_1F2F468",
+      "scr_1F46179",
+      "scr_1F3EA65",
+      "scr_1F3EE0A",
+      "scr_1F3EF60",
+      "scr_1F3F216",
+      "scr_1F3F277",
+      "scr_1F3F514",
+      "scr_1F3F64A",
+      "scr_1F3F6F5",
+      "scr_1F3F846",
+      "scr_1F3F9C8",
+      "scr_1F3FE2F",
+      "scr_1F3FEA3"
+    ],
+    "scope_warning_terms": [
+      "Cube=キューブ",
+      "Euler=オイラー",
+      "Euler=オイラー / Log",
+      "Fey=フェイ",
+      "Guardian of Borrius=ボーリウスの しゅごしゃ",
+      "Hoenn=ホウエン",
+      "Hoopa=フーパ",
+      "Log=ログ",
+      "Mart=フレンドリィショップ",
+      "Ruins of Void=ボイドいせき",
+      "Shadow Warriors=シャドウせんし",
+      "Shadows=シャドウズ"
+    ],
+    "scope_extension_by_claude": 0,
+    "note": "scope外のproject_standard語は同一entityの候補としてwarning付きで使用。承認済みglossary適用としては扱っていない。"
+  },
+  "official_names": {
+    "verified_exact_pokeapi": [
+      "Cacnea=サボネア (PokeAPI cache, pokemon-species/cacnea, verified_exact)",
+      "Cut=いあいぎり (PokeAPI cache, move/cut, verified_exact)",
+      "Hoopa=フーパ (PokeAPI cache, pokemon-species/hoopa, verified_exact)",
+      "Prison Bottle=いましめのツボ (PokeAPI cache, item/prison-bottle, verified_exact)"
+    ],
+    "official_name_verification_required": [
+      {
+        "id": "scr_1F460E7",
+        "warnings": [
+          "Rift Cave=さけめのどうくつ: glossary未登録のUnbound地名。既存の洞窟名の型と『rift=さけめ』に合わせた仮表記。official_name_verification_required"
+        ]
+      },
+      {
+        "id": "scr_1F3EF60",
+        "warnings": [
+          "Prison Bottle=いましめのツボ: 適用済みのどうぐ名(公式名)と英語が完全一致。ただしUnboundの『Prison Bottle』が同じ物かは独立に証明されていない。official_name_verification_required"
+        ]
+      }
+    ],
+    "pending_count": 2,
+    "note": "Rift Cave(仮表記)は未検証。Prison Bottleは適用済みどうぐ名と英語が一致するがUnboundでの同一性は未証明。"
+  },
+  "fa_entries": [
+    {
+      "id": "scr_1F113ED",
+      "review_index": 0,
+      "status": "confirmed",
+      "segments": 8,
+      "wait_phases": 5,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Ultimate Weapon",
+          "japanese": "さいしゅうへいき",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "turned his machine",
+          "japanese": "つくりかえた",
+          "english_segment": 4,
+          "japanese_segment": 4,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "The king",
+          "japanese": "おうは",
+          "english_segment": 6,
+          "japanese_segment": 6,
+          "waits_before_english": 4,
+          "waits_before_japanese": 4,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『turned his machine into a giant / weapon, the Ultimate Weapon』は、日本語で述語を前の待機区間に残すため『きょだいに つくりかえた、/ ぶき、 さいしゅうへいきへと。』と倒置した。主述語『つくりかえた』は原文と同じ待機区間、『weapon / Ultimate Weapon』は原文と同じ最終区間に残した。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "But this traumatic event left him / scarred and filled with anger.",
+          "japanese": "しかし この いたましい できごとは / かれに きずと いかりを のこした。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "Unable to forgive the world that / had hurt his precious Pokémon, he",
+          "japanese": "たいせつな ポケモンを きずつけた / せかいを ゆるせず、 かれは"
+        },
+        {
+          "wait_phase": 2,
+          "english": "turned his machine into a giant",
+          "japanese": "きかいを きょだいに つくりかえた、"
+        },
+        {
+          "wait_phase": 3,
+          "english": "weapon, the Ultimate Weapon.",
+          "japanese": "ぶき、 さいしゅうへいきへと。"
+        },
+        {
+          "wait_phase": 4,
+          "english": "The king became a bringer of / destruction that ended the war.",
+          "japanese": "おうは はかいを もたらすものと なり、 / せんそうを おわらせたのだ。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F11594",
+      "review_index": 1,
+      "status": "confirmed",
+      "segments": 8,
+      "wait_phases": 6,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Borrian king",
+          "japanese": "ボーリウスの おうに",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "coup",
+          "japanese": "クーデター",
+          "english_segment": 7,
+          "japanese_segment": 7,
+          "waits_before_english": 5,
+          "waits_before_japanese": 5,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "compensation",
+          "japanese": "ほしょう",
+          "english_segment": 2,
+          "japanese_segment": 2,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『the dark / force』は英語がFAをまたいで分かれるが、日本語『やみの ちから』は分けられないため待機区間P3に全体を置いた(『force』が1待機分早い)。"
+        },
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『wished / for ample compensation / from the Borrian king』は述語を先に置く倒置で、待機区間ごとの要素(wished / compensation / Borrian king)を保った。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Enraged over the fruitless war / fought, survivors of the war wished",
+          "japanese": "むなしい せんそうに いかる / せんそうの いきのこりは もとめた、"
+        },
+        {
+          "wait_phase": 1,
+          "english": "for ample compensation from the",
+          "japanese": "じゅうぶんな ほしょうを"
+        },
+        {
+          "wait_phase": 2,
+          "english": "Borrian king.",
+          "japanese": "ボーリウスの おうに。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "When he had nothing to offer them, / they began to manipulate the dark",
+          "japanese": "さしだす ものが なく、 いきのこりは / やみの ちからを あやつりはじめ、"
+        },
+        {
+          "wait_phase": 4,
+          "english": "force to attack the Borrian kingdom",
+          "japanese": "ボーリウスおうこくを おそい、"
+        },
+        {
+          "wait_phase": 5,
+          "english": "in an attempted coup.",
+          "japanese": "クーデターを くわだてた。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F2E8E9",
+      "review_index": 6,
+      "status": "confirmed",
+      "segments": 8,
+      "wait_phases": 5,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "You may be my \\qolegal guardian\\qc or / whatever in Borrius, but you sure",
+          "japanese": "\\qoほうてきな ほごしゃ\\qcだか / ボーリウスの なんだか しらないけど、"
+        },
+        {
+          "wait_phase": 1,
+          "english": "don’t know anything about me!",
+          "japanese": "なにも わかって ないくせに！"
+        },
+        {
+          "wait_phase": 2,
+          "english": "I’m strong! / Strong enough to fend for myself!",
+          "japanese": "つよいんだ！ / ひとりで やっていける くらい つよい！"
+        },
+        {
+          "wait_phase": 3,
+          "english": "And when I see my parents, they’ll / see just how strong I really am!",
+          "japanese": "りょうしんに あったとき、 / どれだけ つよいか わかるはず！"
+        },
+        {
+          "wait_phase": 4,
+          "english": "Just like you’re about to!",
+          "japanese": "そして いま、 みせてやる！"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F2F4C3",
+      "review_index": 12,
+      "status": "confirmed",
+      "segments": 6,
+      "wait_phases": 4,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [
+        {
+          "english": "avoid a confrontation",
+          "japanese": "たたかいは さけ",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "followed",
+          "japanese": "つけられ",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "I was, sir.",
+          "japanese": "はい、 ぬかりは ありません。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "I even ran into one of the two I / let escape from the warehouse, but",
+          "japanese": "そうこから にがした ふたりの ひとりに / ばったり あいましたが、"
+        },
+        {
+          "wait_phase": 2,
+          "english": "I chose to avoid a confrontation.",
+          "japanese": "あえて たたかいは さけました。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "As far as I’m aware, I wasn’t / followed.",
+          "japanese": "わたしの しるかぎり、 / つけられては いません。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F2F55D",
+      "review_index": 13,
+      "status": "confirmed",
+      "segments": 4,
+      "wait_phases": 3,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "joined us",
+          "japanese": "くわわった",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『whatever you asked for when you joined us』は、日本語の修飾順だと『くわわった とき』が先になるため、原文の待機区間に合わせて末尾に付け足す形(『…くわわった ときに ね。』)にした。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Good work.",
+          "japanese": "ごくろうだった。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "I’d say you’re back on the road to / earning whatever you asked for",
+          "japanese": "これで、 のぞんだ ものを えるための / みちに もどったと いえるな、"
+        },
+        {
+          "wait_phase": 2,
+          "english": "when you joined us.",
+          "japanese": "われわれに くわわった ときに ね。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F2F5EA",
+      "review_index": 15,
+      "status": "confirmed",
+      "segments": 6,
+      "wait_phases": 4,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "operation",
+          "japanese": "さくせん",
+          "english_segment": 4,
+          "japanese_segment": 4,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "limbs",
+          "japanese": "てあし",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『the scientists will build / as many limbs as your mother wants』は、述語『つくる』を原文と同じ区間(P2)に残し、目的語『てあし』を最終区間へ置く倒置にした。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Legs, arms, another head, / whatever.",
+          "japanese": "あしに うで、 もう ひとつの あたま、 / なんでも いい。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "As long as this package contains all / of the goods that we need for the",
+          "japanese": "この にもつに ひつような しなものが / すべて そろって いるかぎり、"
+        },
+        {
+          "wait_phase": 2,
+          "english": "operation, the scientists will build",
+          "japanese": "さくせんの ため かがくしゃが つくる、"
+        },
+        {
+          "wait_phase": 3,
+          "english": "as many limbs as your mother wants.",
+          "japanese": "ははの のぞむ かずだけ てあしを。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3EA65",
+      "review_index": 24,
+      "status": "confirmed",
+      "segments": 6,
+      "wait_phases": 4,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [
+        {
+          "english": "Aklove",
+          "japanese": "アクラブ",
+          "english_segment": 1,
+          "japanese_segment": 1,
+          "waits_before_english": 0,
+          "waits_before_japanese": 0,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "miracle",
+          "japanese": "きせき",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Marlon",
+          "japanese": "マーロン",
+          "english_segment": 2,
+          "japanese_segment": 2,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "\\.and so Fey ordered the grunts / to join Aklove’s \\qoLight of Ruin\\qc.",
+          "japanese": "\\.そして フェイは したっぱに めいじた / アクラブの\\qoはめつのひかり\\qcへはいれと。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "You understand now, Marlon?",
+          "japanese": "わかったか、 マーロン？"
+        },
+        {
+          "wait_phase": 2,
+          "english": "Frankly, the fact any grunts and / scientists were allowed to remain",
+          "japanese": "ほんとうは したっぱや かがくしゃが / のこる ことを ゆるされた こと"
+        },
+        {
+          "wait_phase": 3,
+          "english": "is a miracle\\.",
+          "japanese": "それ じたい きせきだ\\."
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3EC74",
+      "review_index": 28,
+      "status": "confirmed",
+      "segments": 11,
+      "wait_phases": 6,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [
+        {
+          "english": "Aklove",
+          "japanese": "アクラブ",
+          "english_segment": 7,
+          "japanese_segment": 6,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": false
+        },
+        {
+          "english": "real deal",
+          "japanese": "ほんもの",
+          "english_segment": 5,
+          "japanese_segment": 4,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": false
+        },
+        {
+          "english": "message",
+          "japanese": "ことづて",
+          "english_segment": 7,
+          "japanese_segment": 7,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "You thought you could fool me / again, faker? Like he did?",
+          "japanese": "また わたしを だませると おもったか、 / にせものめ？ あいつ みたいに？"
+        },
+        {
+          "wait_phase": 1,
+          "english": "Even though I see that you wear / [player]’s face under the mask\\.",
+          "japanese": "かめんの したに かぶった かおが / [player]の ものだと わかるが\\."
+        },
+        {
+          "wait_phase": 2,
+          "english": "You are still a far cry from the / real deal!",
+          "japanese": "それでも ほんものには / とても およばない！"
+        },
+        {
+          "wait_phase": 3,
+          "english": "Once I’ve sent you running back to / Aklove, deliver a message to him",
+          "japanese": "アクラブの もとへ おいかえした あと、 / かれに ことづてを とどけて もらう"
+        },
+        {
+          "wait_phase": 4,
+          "english": "for me!",
+          "japanese": "わたしの かわりに！"
+        },
+        {
+          "wait_phase": 5,
+          "english": "Tell him\\.\\CC0820 that you’ll all suffer for / your irredeemable sins!",
+          "japanese": "かれに つたえろ\\.\\CC0820 ひとり のこらず / ゆるされない つみで くるしむと！"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3EDA8",
+      "review_index": 29,
+      "status": "confirmed",
+      "segments": 4,
+      "wait_phases": 3,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "This battle style\\.\\CC0818 this aura\\.\\CC0818 / it cannot be\\.\\CC0818 are you really",
+          "japanese": "この たたかいかた\\.\\CC0818 この オーラ\\.\\CC0818 / ありえない\\.\\CC0818 ほんとうに"
+        },
+        {
+          "wait_phase": 1,
+          "english": "[player]\\.!?",
+          "japanese": "[player]\\. なのか！？"
+        },
+        {
+          "wait_phase": 2,
+          "english": "No, this can’t be true!",
+          "japanese": "いや、 こんな はずが ない！"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3EE0A",
+      "review_index": 30,
+      "status": "confirmed",
+      "segments": 9,
+      "wait_phases": 5,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Light of Ruin",
+          "japanese": "はめつのひかり",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Zeph",
+          "japanese": "ゼフ",
+          "english_segment": 0,
+          "japanese_segment": 0,
+          "waits_before_english": 0,
+          "waits_before_japanese": 0,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『I'll be assuming command / of what remains of the Shadows』は、主述語『しきを とる』を原文と同じ区間(P3)に残し『のこりの シャドウズの。』を後ろへ置く倒置にした。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Zeph! / Enough!",
+          "japanese": "ゼフ！ / そこまでだ！"
+        },
+        {
+          "wait_phase": 1,
+          "english": "We don’t have time for infighting / right now!",
+          "japanese": "いまは うちわもめを している / ひまなど ない！"
+        },
+        {
+          "wait_phase": 2,
+          "english": "[player] isn’t the enemy - the / Light of Ruin is!",
+          "japanese": "[player]は てきじゃ ない、 / はめつのひかりこそ てきだ！"
+        },
+        {
+          "wait_phase": 3,
+          "english": "And you can either accept that fact, / or else I’ll be assuming command",
+          "japanese": "この じじつを うけいれるか、 / さもなくば わたしが しきを とる、"
+        },
+        {
+          "wait_phase": 4,
+          "english": "of what remains of the Shadows.",
+          "japanese": "のこりの シャドウズの。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3EED6",
+      "review_index": 31,
+      "status": "confirmed",
+      "segments": 6,
+      "wait_phases": 4,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Light of",
+          "japanese": "はめつのひかり",
+          "english_segment": 4,
+          "japanese_segment": 4,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "attack",
+          "japanese": "しゅうげき",
+          "english_segment": 4,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": false
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "英語が『the Light of / Ruin's new base』とFAをまたぐ『Light of Ruin』は、承認済み語『はめつのひかり』を分割できないため、待機区間P2に全体を置いた。述語『しゅうげきを しかける』は原文と同じP2。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Thank you. / Now then\\.",
+          "japanese": "ありがとう。 / さて\\."
+        },
+        {
+          "wait_phase": 1,
+          "english": "What have you been planning, Zeph?",
+          "japanese": "なにを けいかく している、 ゼフ？"
+        },
+        {
+          "wait_phase": 2,
+          "english": "From what I gathered, we’ll be / staging an attack on the Light of",
+          "japanese": "きくかぎり、 われわれは しゅうげきを / しかける のだな、 はめつのひかりの"
+        },
+        {
+          "wait_phase": 3,
+          "english": "Ruin’s new base?",
+          "japanese": "あたらしい きょてんに？"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3EF60",
+      "review_index": 32,
+      "status": "confirmed",
+      "segments": 24,
+      "wait_phases": 15,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Prison Bottle",
+          "japanese": "いましめのツボ",
+          "english_segment": 7,
+          "japanese_segment": 7,
+          "waits_before_english": 4,
+          "waits_before_japanese": 4,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Aklove",
+          "japanese": "アクラブ",
+          "english_segment": 14,
+          "japanese_segment": 14,
+          "waits_before_english": 9,
+          "waits_before_japanese": 9,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Hoopa",
+          "japanese": "フーパ",
+          "english_segment": 15,
+          "japanese_segment": 15,
+          "waits_before_english": 9,
+          "waits_before_japanese": 9,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Borrius",
+          "japanese": "ボーリウス",
+          "english_segment": 17,
+          "japanese_segment": 17,
+          "waits_before_english": 10,
+          "waits_before_japanese": 10,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Light of Ruin",
+          "japanese": "はめつのひかり",
+          "english_segment": 4,
+          "japanese_segment": 4,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『and what remaining Shadow Warriors / they have left』は、述語が前の『steal back』と共通の省略のため『とりかえし、/ のこりの シャドウせんしも / かれらの てもとから とりかえす。』と動詞を最終区間で繰り返した。"
+        },
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『catch him off / guard when he returns, and seal』は慣用句がFAをまたぐため『ふいを つき、 ふうじる、』を同じ区間P12に置き、目的語『フーパの ちから』をP13にした。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "That’s right\\.",
+          "japanese": "そのとおりだ\\."
+        },
+        {
+          "wait_phase": 1,
+          "english": "I’m having our remaining scientists / locate their base.",
+          "japanese": "のこって いる かがくしゃたちに / かれらの きょてんを さがさせて いる。"
+        },
+        {
+          "wait_phase": 2,
+          "english": "Once they’ve managed to find it, / we’ll take the Light of Ruin by",
+          "japanese": "みつけだせたら、 われわれは / はめつのひかりを"
+        },
+        {
+          "wait_phase": 3,
+          "english": "surprise and destroy it.",
+          "japanese": "ふいうちで ほろぼす。"
+        },
+        {
+          "wait_phase": 4,
+          "english": "With their main force left reeling, / we’ll steal back the Prison Bottle",
+          "japanese": "しゅりょくが ゆらいだ ところで、 / いましめのツボを とりかえし、"
+        },
+        {
+          "wait_phase": 5,
+          "english": "and what remaining Shadow Warriors",
+          "japanese": "のこりの シャドウせんしも"
+        },
+        {
+          "wait_phase": 6,
+          "english": "they have left.",
+          "japanese": "かれらの てもとから とりかえす。"
+        },
+        {
+          "wait_phase": 7,
+          "english": "However, I’m still unsure as to how / long it will take to locate them\\.",
+          "japanese": "ただ、 みつけるのに / どれだけ かかるかは まだ わからない\\."
+        },
+        {
+          "wait_phase": 8,
+          "english": "And unfortunately, we’re pressed for / time.",
+          "japanese": "そして ざんねんな ことに、 / じかんに おわれて いる。"
+        },
+        {
+          "wait_phase": 9,
+          "english": "Right now, Aklove is with Fey as / she studies Hoopa.",
+          "japanese": "いま アクラブは フェイと いっしょに / フェイは フーパを しらべて いる。"
+        },
+        {
+          "wait_phase": 10,
+          "english": "When she finishes, Aklove intends to / turn its power on Borrius\\.",
+          "japanese": "かのじょが おえたら、 アクラブは / ちからを ボーリウスに むける つもり\\."
+        },
+        {
+          "wait_phase": 11,
+          "english": "If we can take out his base while / he’s gone, we can catch him off",
+          "japanese": "かれが いない あいだに / かれの きょてんを つぶせれば、"
+        },
+        {
+          "wait_phase": 12,
+          "english": "guard when he returns, and seal",
+          "japanese": "もどる ところを ふいうち、 ふうじる、"
+        },
+        {
+          "wait_phase": 13,
+          "english": "Hoopa’s power away once again.",
+          "japanese": "フーパの ちからを もういちど。"
+        },
+        {
+          "wait_phase": 14,
+          "english": "Without it, Aklove’s power will be / greatly diminished.",
+          "japanese": "それが なければ、 アクラブの ちからは / だいはばに よわまる。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F216",
+      "review_index": 33,
+      "status": "confirmed",
+      "segments": 4,
+      "wait_phases": 3,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [
+        {
+          "english": "Fey",
+          "japanese": "フェイ",
+          "english_segment": 1,
+          "japanese_segment": 1,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "take action",
+          "japanese": "うごいて",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Roger that, Zeph.",
+          "japanese": "りょうかいだ、 ゼフ。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "And I take it you’re certain Fey / won’t retaliate against us if we",
+          "japanese": "フェイが ほうふくして こないと / たしかなんだな、 われわれが"
+        },
+        {
+          "wait_phase": 2,
+          "english": "take action?",
+          "japanese": "うごいても？"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F277",
+      "review_index": 34,
+      "status": "confirmed",
+      "segments": 12,
+      "wait_phases": 8,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Aklove",
+          "japanese": "アクラブ",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "goals",
+          "japanese": "もくてき",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『could not care less』の慣用句がFAをまたぐため、『きに して いない、/ アクラブの もくてきなど。』と述語を前の区間P1に、目的語『アクラブの もくてき』を原文と同じP2に置いた。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "I’m certain, Marlon.",
+          "japanese": "まちがいない、 マーロン。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "From talking with some of our / scientists, Fey could not care",
+          "japanese": "うちの かがくしゃと はなした かぎり、 / フェイは まったく きに して いない、"
+        },
+        {
+          "wait_phase": 2,
+          "english": "less about Aklove’s goals.",
+          "japanese": "アクラブの もくてきなど。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "All she wants is to study that / Pokémon’s power.",
+          "japanese": "かのじょが のぞむのは あの / ポケモンの ちからを しらべたいだけだ。"
+        },
+        {
+          "wait_phase": 4,
+          "english": "She’ll give him her support, of / course, but for the most part,",
+          "japanese": "もちろん、 かのじょは アクラブを / しえん するが、 おおむね"
+        },
+        {
+          "wait_phase": 5,
+          "english": "it is up to Aklove as to whether",
+          "japanese": "すべては アクラブしだいだ、"
+        },
+        {
+          "wait_phase": 6,
+          "english": "or not he succeeds.",
+          "japanese": "かれが せいこうするか どうかは。"
+        },
+        {
+          "wait_phase": 7,
+          "english": "Of course, we shouldn’t make light of / how dangerous he is alone\\.",
+          "japanese": "もちろん、 かれ ひとりでも / きけんだと あなどっては ならない\\."
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F3C9",
+      "review_index": 35,
+      "status": "confirmed",
+      "segments": 6,
+      "wait_phases": 4,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "manpower",
+          "japanese": "ひとで",
+          "english_segment": 2,
+          "japanese_segment": 2,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "[player]",
+          "japanese": "[player]",
+          "english_segment": 4,
+          "japanese_segment": 4,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "原文でP1の先頭にある『hitch』(without a hitch)の意味は、日本語『とどこおりなく』としてP0に含めた。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Then it seems to me that in order / for our plan to go off without a",
+          "japanese": "わたしの かんがえでは、 けいかくを / とどこおりなく すすめる ためには"
+        },
+        {
+          "wait_phase": 1,
+          "english": "hitch, we’ll need all the manpower",
+          "japanese": "ひとでは ありったけ ひつようだ、"
+        },
+        {
+          "wait_phase": 2,
+          "english": "we can muster.",
+          "japanese": "あつめられる かぎり。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "So, I suggest we bring [player] / along, as well.",
+          "japanese": "そこで ていあんだが、 [player]も / つれて いっては どうだろう？"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F514",
+      "review_index": 36,
+      "status": "confirmed",
+      "segments": 11,
+      "wait_phases": 7,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [
+        {
+          "english": "Cube Space",
+          "japanese": "キューブスペース",
+          "english_segment": 1,
+          "japanese_segment": 1,
+          "waits_before_english": 0,
+          "waits_before_japanese": 0,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Shadow Warriors",
+          "japanese": "シャドウせんし",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "remain trapped",
+          "japanese": "とらわれた",
+          "english_segment": 10,
+          "japanese_segment": 10,
+          "waits_before_english": 6,
+          "waits_before_japanese": 6,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "We were imprisoned together in the / Cube Space, Zeph.",
+          "japanese": "われわれは ふたりで とじこめられた、 / キューブスペースに、 ゼフ。"
+        },
+        {
+          "wait_phase": 1,
+          "english": "And while we were there, we made a / promise to someone.",
+          "japanese": "そこに いる あいだに、 ある ひとと / やくそくを かわした。"
+        },
+        {
+          "wait_phase": 2,
+          "english": "We promised we would destroy the / remaining Shadow Warriors and set",
+          "japanese": "わたしたちは ちかった、 のこりの / シャドウせんしを たおし、"
+        },
+        {
+          "wait_phase": 3,
+          "english": "their souls free.",
+          "japanese": "かれらの たましいを かいほうすると。"
+        },
+        {
+          "wait_phase": 4,
+          "english": "And [player] knows that as long as / the Light of Ruin is holding onto",
+          "japanese": "そして [player]は しっている、 / はめつのひかりが おさえる かぎり、"
+        },
+        {
+          "wait_phase": 5,
+          "english": "the Shadow Warriors, their souls",
+          "japanese": "シャドウせんしの たましいは"
+        },
+        {
+          "wait_phase": 6,
+          "english": "will remain trapped.",
+          "japanese": "とらわれたままだと。"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F64A",
+      "review_index": 37,
+      "status": "confirmed",
+      "segments": 6,
+      "wait_phases": 4,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Cube",
+          "japanese": "キューブ",
+          "english_segment": 2,
+          "japanese_segment": 2,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "Shadow Warriors",
+          "japanese": "シャドウせんし",
+          "english_segment": 5,
+          "japanese_segment": 4,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": false
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『survive a trip inside / the Cube』の『trip inside』は、日本語では『なかに』として次の区間P1の『キューブの なかに』に含めた(『inside』の意味はP1で表れる)。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Are you saying that not only did / both of you survive a trip inside",
+          "japanese": "つまり、 ふたりが ぶじに / かえって きた ばかりか、"
+        },
+        {
+          "wait_phase": 1,
+          "english": "the Cube, but someone else was",
+          "japanese": "キューブの なかに ほかにも だれかが"
+        },
+        {
+          "wait_phase": 2,
+          "english": "there, too?",
+          "japanese": "いたと いうのか？"
+        },
+        {
+          "wait_phase": 3,
+          "english": "Someone who knew about the existence / of the Shadow Warriors?",
+          "japanese": "シャドウせんしの そんざいを / しって いた ひとが？"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F771",
+      "review_index": 39,
+      "status": "confirmed",
+      "segments": 8,
+      "wait_phases": 5,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Aros!? I see\\.\\CC0818 so that’s what became / of him\\.",
+          "japanese": "アロス！？ なるほど\\.\\CC0818 かれの その / ゆくえは そう だったのか\\."
+        },
+        {
+          "wait_phase": 1,
+          "english": "Well, I’m not surprised then.",
+          "japanese": "それなら おどろかないな。"
+        },
+        {
+          "wait_phase": 2,
+          "english": "He was always quick to identify bugs / in any system.",
+          "japanese": "かれは どんな しくみの / バグも すぐ みぬく ひとだった。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "If anyone could figure out a way / out, no matter how flawed, it",
+          "japanese": "だれかが ぬけみちを みつけられるなら、 / たとえ ふかんぜんでも、 それは"
+        },
+        {
+          "wait_phase": 4,
+          "english": "would surely be him\\.",
+          "japanese": "まちがいなく かれだろう\\."
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3F846",
+      "review_index": 40,
+      "status": "confirmed",
+      "segments": 15,
+      "wait_phases": 10,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "Light of",
+          "japanese": "はめつのひかり",
+          "english_segment": 3,
+          "japanese_segment": 3,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "directly",
+          "japanese": "ちょくせつ",
+          "english_segment": 4,
+          "japanese_segment": 4,
+          "waits_before_english": 2,
+          "waits_before_japanese": 2,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "let me explain",
+          "japanese": "はなそう",
+          "english_segment": 12,
+          "japanese_segment": 13,
+          "waits_before_english": 8,
+          "waits_before_japanese": 8,
+          "same_wait_phase": true,
+          "same_segment": false
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『go for the Light of / Ruin directly』は、承認済み語『はめつのひかり』を分けられないためP1に置き、『directly』は最終区間に『ちょくせつ。』として残した。"
+        },
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『we haven't always seen / eye-to-eye』は『ずっと / いけんが あって きた わけでは ない』と分けた(always=P4、eye-to-eye相当=P5)。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "So, [player]\\. would you be willing / to lend us your aid?",
+          "japanese": "では、 [player]\\. わたしたちに / ちからを かして もらえるか？"
+        },
+        {
+          "wait_phase": 1,
+          "english": "We intend to gather what resources / we can, and go for the Light of",
+          "japanese": "あつめられる しげんを あつめ、 / はめつのひかりを ねらう つもりだ、"
+        },
+        {
+          "wait_phase": 2,
+          "english": "Ruin directly.",
+          "japanese": "ちょくせつ。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "\\.",
+          "japanese": "\\."
+        },
+        {
+          "wait_phase": 4,
+          "english": "Yes, I’m aware - you and the / Shadows\\.\\CC0818 we haven’t always seen",
+          "japanese": "ああ、 わかって いる。 あなたと / シャドウズは\\.\\CC0818 いつも"
+        },
+        {
+          "wait_phase": 5,
+          "english": "eye-to-eye, have we?",
+          "japanese": "いけんが あった わけでは ないな？"
+        },
+        {
+          "wait_phase": 6,
+          "english": "Then, if I trusted you with our / most important secrets, would that",
+          "japanese": "では、 われわれの だいじな ひみつを / あなたに うちあけたら、"
+        },
+        {
+          "wait_phase": 7,
+          "english": "be enough?",
+          "japanese": "それで じゅうぶんか？"
+        },
+        {
+          "wait_phase": 8,
+          "english": "In that case, let me explain what / our true purpose was\\.",
+          "japanese": "それなら、 われわれの ほんとうの / もくてきを はなそう\\."
+        },
+        {
+          "wait_phase": 9,
+          "english": "The true purpose of the Shadows\\.",
+          "japanese": "シャドウズの ほんとうの もくてき\\."
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3FC2A",
+      "review_index": 48,
+      "status": "confirmed",
+      "segments": 3,
+      "wait_phases": 2,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_WITH_PHRASE_BOUNDARY_NOTE",
+      "key_reveals": [
+        {
+          "english": "bring him back",
+          "japanese": "よみがえらせる",
+          "english_segment": 2,
+          "japanese_segment": 2,
+          "waits_before_english": 1,
+          "waits_before_japanese": 1,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [
+        {
+          "code": "FA_PHRASE_BOUNDARY_NOTE",
+          "note": "『thought about trying / to bring him back』は『…おもった ことは あるか、 / かれを よみがえらせる ことを？』と倒置にした(目的語を最終区間に残した)。"
+        }
+      ],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "You are knowledgable scientists\\.\\CC0818 / have you ever thought about trying",
+          "japanese": "すぐれた かがくしゃ なのだから\\.\\CC0818 / ためそうと おもった ことは あるか、"
+        },
+        {
+          "wait_phase": 1,
+          "english": "to bring him back?",
+          "japanese": "かれを よみがえらせる ことを？"
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    },
+    {
+      "id": "scr_1F3FC84",
+      "review_index": 49,
+      "status": "confirmed",
+      "segments": 15,
+      "wait_phases": 9,
+      "control_sequence_preserved": true,
+      "protected_tokens_per_segment_preserved": true,
+      "fa_semantic_status": "PASS_SEGMENTS_MIRROR_SOURCE",
+      "key_reveals": [
+        {
+          "english": "Ivory",
+          "japanese": "アイボリー",
+          "english_segment": 8,
+          "japanese_segment": 8,
+          "waits_before_english": 5,
+          "waits_before_japanese": 5,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "twins",
+          "japanese": "ふたご",
+          "english_segment": 9,
+          "japanese_segment": 9,
+          "waits_before_english": 5,
+          "waits_before_japanese": 5,
+          "same_wait_phase": true,
+          "same_segment": true
+        },
+        {
+          "english": "revive the dead",
+          "japanese": "よみがえらせる",
+          "english_segment": 5,
+          "japanese_segment": 5,
+          "waits_before_english": 3,
+          "waits_before_japanese": 3,
+          "same_wait_phase": true,
+          "same_segment": true
+        }
+      ],
+      "phrase_boundary_notes": [],
+      "phase_view": [
+        {
+          "wait_phase": 0,
+          "english": "Of course\\.",
+          "japanese": "もちろんだ\\."
+        },
+        {
+          "wait_phase": 1,
+          "english": "As scientists, we thought that if / anyone could find a way, it would",
+          "japanese": "かがくしゃとして おもった、 / だれかが ほうほうを みつけるなら"
+        },
+        {
+          "wait_phase": 2,
+          "english": "be us.",
+          "japanese": "それは われわれだと。"
+        },
+        {
+          "wait_phase": 3,
+          "english": "Sadly, there are no known methods / to truly revive the dead.",
+          "japanese": "ざんねんだが、 しんだ ものを / よみがえらせる ほうほうは ない。"
+        },
+        {
+          "wait_phase": 4,
+          "english": "We had no choice but to try and / move on.",
+          "japanese": "われわれは さきへ すすもうと / する しか なかった。"
+        },
+        {
+          "wait_phase": 5,
+          "english": "Then, a year ago, Ivory gave birth / to twins\\.",
+          "japanese": "そして 1ねんまえ、 アイボリーが / ふたごを うんだ\\."
+        },
+        {
+          "wait_phase": 6,
+          "english": "It was one of the happiest moments / of our lives.",
+          "japanese": "それは われわれの じんせいで / いちばん しあわせな ときの ひとつだ。"
+        },
+        {
+          "wait_phase": 7,
+          "english": "Of course we miss our first child, / but our new ones have done much",
+          "japanese": "もちろん さいしょの こも こいしいが、 / だが あたらしい こどもたちが おおいに"
+        },
+        {
+          "wait_phase": 8,
+          "english": "to fill the voids in our hearts\\.",
+          "japanese": "こころの あなを うめて くれた\\."
+        }
+      ],
+      "fa_layout_approval_required": true,
+      "result": "completed_per_segment"
+    }
+  ],
+  "fa_summary": {
+    "fa_entries": 21,
+    "completed": 21,
+    "held": 0,
+    "completed_segments": 180,
+    "fa_added_removed_moved": 0,
+    "segments_merged_or_split": 0,
+    "buffers_moved": 0,
+    "entries_with_phrase_note": [
+      "scr_1F113ED",
+      "scr_1F11594",
+      "scr_1F2F55D",
+      "scr_1F2F5EA",
+      "scr_1F3EE0A",
+      "scr_1F3EED6",
+      "scr_1F3EF60",
+      "scr_1F3F277",
+      "scr_1F3F3C9",
+      "scr_1F3F64A",
+      "scr_1F3F846",
+      "scr_1F3FC2A"
+    ],
+    "semantic_boundary_warnings": [],
+    "note": "待機区間ごとの対訳を目視で比較し、重要語と主述語が原文と同じ待機区間にあることを確認した。注記付きの移動は軽微と判断したが、注記のみで安全とは認定していない。独立した意味境界レビューをCodex側でも行うこと。"
+  },
+  "name_buffer_entries": [
+    {
+      "id": "scr_1F46179",
+      "review_index": 20,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "とにかく、 なんとか ここまで これたし\nさっそく つづきに もどろう。\n\n[player]\\.\\CC0818 ボイドいせきで\nなにが あったんだ？\n\n\\.\n\nアクラブ\\.\n\nだとすると、 いまは\nぐずぐず している ひまは ない！"
+    },
+    {
+      "id": "scr_1F4622A",
+      "review_index": 22,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "[player]、 あそこに とじこめられて\nいろんな ことを まなんだ\\.\n\nでも いちばん だいじなのは、\nポケモンなしでは むりょくだと しった。\n\nもう にどと だれかの\nやくに たたない じぶんは ごめんだ。\n\nビビルタウンで あおう。\n\nやくそくする。 ポケモンも じぶんも\nこんどは ちゃんと じゅんびする。"
+    },
+    {
+      "id": "scr_1F3EBBA",
+      "review_index": 26,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "なっ\\.\n\nそれは わたしの せいふくだ！\n\n[player]\\.\\CC0818 なのか？"
+    },
+    {
+      "id": "scr_1F3EC74",
+      "review_index": 28,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "また わたしを だませると おもったか、\nにせものめ？ あいつ みたいに？\n\nかめんの したに かぶった かおが\n[player]の ものだと わかるが\\.\n\nそれでも ほんものには\nとても およばない！\n\nアクラブの もとへ おいかえした あと、\nかれに ことづてを とどけて もらう\\lわたしの かわりに！\n\nかれに つたえろ\\.\\CC0820 ひとり のこらず\nゆるされない つみで くるしむと！"
+    },
+    {
+      "id": "scr_1F3EDA8",
+      "review_index": 29,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "この たたかいかた\\.\\CC0818 この オーラ\\.\\CC0818\nありえない\\.\\CC0818 ほんとうに\\l[player]\\. なのか！？\n\nいや、 こんな はずが ない！"
+    },
+    {
+      "id": "scr_1F3EE0A",
+      "review_index": 30,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "ゼフ！\nそこまでだ！\n\nいまは うちわもめを している\nひまなど ない！\n\n[player]は てきじゃ ない、\nはめつのひかりこそ てきだ！\n\nこの じじつを うけいれるか、\nさもなくば わたしが しきを とる、\\lのこりの シャドウズの。"
+    },
+    {
+      "id": "scr_1F3F3C9",
+      "review_index": 35,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "わたしの かんがえでは、 けいかくを\nとどこおりなく すすめる ためには\\lひとでは ありったけ ひつようだ、\\lあつめられる かぎり。\n\nそこで ていあんだが、 [player]も\nつれて いっては どうだろう？"
+    },
+    {
+      "id": "scr_1F3F514",
+      "review_index": 36,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "われわれは ふたりで とじこめられた、\nキューブスペースに、 ゼフ。\n\nそこに いる あいだに、 ある ひとと\nやくそくを かわした。\n\nわたしたちは ちかった、 のこりの\nシャドウせんしを たおし、\\lかれらの たましいを かいほうすると。\n\nそして [player]は しっている、\nはめつのひかりが おさえる かぎり、\\lシャドウせんしの たましいは\\lとらわれたままだと。"
+    },
+    {
+      "id": "scr_1F3F6F5",
+      "review_index": 38,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "アロスだった、 ゼフ。\n\n16ねんまえ、 フェイが\nあそこに とじこめたんだ。\n\nそれだけじゃ ない、 アロスは\n[player]の ちちおやでも ある。"
+    },
+    {
+      "id": "scr_1F3F846",
+      "review_index": 40,
+      "tokens": [
+        "[player]"
+      ],
+      "writer": "UNKNOWN",
+      "maximum_width": null,
+      "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF",
+      "particle_and_honorific": "『[player]の / [player]は / [player]なのか』のように助詞を直後に置き、敬称は付けていない。値(人名・性別・人数)は仮定していない",
+      "translation_depends_on_value": false,
+      "decision": "訳文は値に依存せず成立するためconfirmed。writer・最大幅・展開後ページ状態は未証明のまま技術警告として残す(注入可否はCodex)",
+      "status": "confirmed",
+      "reviewed_japanese": "では、 [player]\\. わたしたちに\nちからを かして もらえるか？\n\nあつめられる しげんを あつめ、\nはめつのひかりを ねらう つもりだ、\\lちょくせつ。\n\n\\.\n\nああ、 わかって いる。 あなたと\nシャドウズは\\.\\CC0818 いつも\\lいけんが あった わけでは ないな？\n\nでは、 われわれの だいじな ひみつを\nあなたに うちあけたら、\\lそれで じゅうぶんか？\n\nそれなら、 われわれの ほんとうの\nもくてきを はなそう\\.\n\nシャドウズの ほんとうの もくてき\\."
+    }
+  ],
+  "unknown_buffer_values": 0,
+  "control_mismatches": {
+    "protected_token": 0,
+    "control_order": 0,
+    "segment_token_placement": 0,
+    "fa_added_removed_moved": 0
+  },
+  "pcs": {
+    "confirmed_encode_errors": 0,
+    "kanji": 0,
+    "unsupported_glyph": 0,
+    "max_static_line_px": 200,
+    "lines_over_208px": 0,
+    "lines_over_200px": 0,
+    "dynamic_width_uncertain_entries": [
+      "scr_1F46179",
+      "scr_1F4622A",
+      "scr_1F3EBBA",
+      "scr_1F3EC74",
+      "scr_1F3EDA8",
+      "scr_1F3EE0A",
+      "scr_1F3F3C9",
+      "scr_1F3F514",
+      "scr_1F3F6F5",
+      "scr_1F3F846"
+    ],
+    "relocation_candidates": [
+      {
+        "id": "scr_1F46217",
+        "encoded": 23,
+        "slot": 19
+      }
+    ]
+  },
+  "tone_corrections": [
+    {
+      "id": "scr_1F2E8E9",
+      "review_index": 6,
+      "note": "既存候補の語を維持。1行(204px)だけ短縮。"
+    },
+    {
+      "id": "scr_1F2EB85",
+      "review_index": 7,
+      "note": "既存候補の不要な二人称『きみ』を外し、FE/FB構造を原文に合わせた(ためらいがちな評価)。"
+    },
+    {
+      "id": "scr_1F2EC73",
+      "review_index": 8,
+      "note": "既存候補の『こだ』(子どもと断定)と『のかね』(年配めいた語尾)を外し、『かれ』と中立の皮肉にした。"
+    },
+    {
+      "id": "scr_1F2F493",
+      "review_index": 10,
+      "note": "『sir』は敬語(です・ます)で表し、固有の一人称・呼称を足していない。"
+    },
+    {
+      "id": "scr_1F2F4C3",
+      "review_index": 12,
+      "note": "同上。報告の丁寧さを原文の『sir』に対応させた。"
+    },
+    {
+      "id": "scr_1F2F55D",
+      "review_index": 13,
+      "note": "上位者の冷たいねぎらいを『だ・な』の常体で表し、方言・老人語は使っていない。"
+    },
+    {
+      "id": "scr_1F2F5BE",
+      "review_index": 14,
+      "note": "同上。"
+    },
+    {
+      "id": "scr_1F4622A",
+      "review_index": 22,
+      "note": "一人称は原文の『I / me / my』に対応する最小限の『じぶん』。性別・年齢は示さない。"
+    },
+    {
+      "id": "scr_1F3EBEB",
+      "review_index": 27,
+      "note": "『you』は人物への呼びかけとして必要なため『あなた』。『おまえ』『きさま』など根拠のない荒い二人称は使っていない。"
+    }
+  ],
+  "second_person_uses": [
+    {
+      "id": "scr_1F3EBEB",
+      "review_index": 27,
+      "reason": "原文にyouがあり、呼びかけとして必要"
+    },
+    {
+      "id": "scr_1F3F846",
+      "review_index": 40,
+      "reason": "原文にyouがあり、呼びかけとして必要"
+    }
+  ],
+  "notes_for_later_batches": [
+    "日本語の幅は1マス≒10px(空白も10px)。FE/FA/FB区切りごとが1行で、約20マス(200px)以下に収める必要がある。わかちがきの空白も幅に含まれる。",
+    "『dark force』は適用済みの近接文脈に合わせて『やみの ちから』を使用(Phase 6C Batch 04未適用レビューは『あんこくの ちから』で不一致。統合時に整える)。",
+    "『Shadow Warriors』『Shadows』『Fey』『Euler』『Hoenn』『Cube』などは承認済みだがscopeがentry単位。後続Batchでscope拡張の提案を一括で審査したい。",
+    "『Rift Cave』『Prison Bottle』など未検証の名称は official_name_verification_required。Batch 02以降の同一場面で表記を揃える。",
+    "Batch 02はShadow Base参照groupの後半43件。同じ場面の続きだが、話者は不明(UNKNOWN)のまま。Marlon / Zeph / Ivoryなどの名前の言及だけで話者を同定しない。",
+    "plain_scripts(時代表記)の先頭空白は位置合わせの提案。plain-script rendererの実幅は未検証で、Codexが確認すること。",
+    "FAの重要語が分割される語(Light of / Ruin)は承認済み語を分けられないため、待機区間の片方に全体を置いた。注記を残した。"
+  ],
+  "width_driven_nuance_losses": [
+    {
+      "review_index": 1,
+      "english": "the fruitless war fought",
+      "japanese": "むなしい せんそう",
+      "loss": "『fought』を独立した語として訳していない"
+    },
+    {
+      "review_index": 19,
+      "english": "We must be back in our world",
+      "japanese": "もとの せかいに もどった ようだ",
+      "loss": "『our』が『もとの』、『must be』が『ようだ』になった(推量は残した)"
+    },
+    {
+      "review_index": 24,
+      "english": "Frankly",
+      "japanese": "ほんとうは",
+      "loss": "『率直に言えば』の語気が弱い"
+    },
+    {
+      "review_index": 40,
+      "english": "our most important secrets",
+      "japanese": "われわれの だいじな ひみつ",
+      "loss": "『most』(最上級)を落とした"
+    },
+    {
+      "review_index": 16,
+      "english": "my current status",
+      "japanese": "いまの ようす",
+      "loss": "『my』を省略(話者の状況と読める)"
+    },
+    {
+      "review_index": 41,
+      "english": "to visit him",
+      "japanese": "たずねた",
+      "loss": "目的語『かれを』を省略(直前文脈から読める)"
+    },
+    {
+      "review_index": 47,
+      "english": "much too young",
+      "japanese": "わかくして",
+      "loss": "『too』の度合いが弱い"
+    }
+  ],
+  "limits": {
+    "runtime_verified": false,
+    "injection_approved": false,
+    "tests": "別途 pytest を実行(報告書に記載)"
+  }
+}

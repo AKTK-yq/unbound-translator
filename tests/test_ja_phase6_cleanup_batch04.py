@@ -28,7 +28,7 @@ def test_existing_snapshot_fix_keeps_909_and_separates_new_artifacts():
     proof = b3.protected_snapshot()
     assert proof['files'] == 909 and proof['aggregate_sha256'] == b3.INITIAL_SNAPSHOT
     # The allow-list in the Batch 03 script is exactly this stage's artifacts, no wildcard, nothing else.
-    assert b3.LATER_STAGE_PATHS == frozenset(m.NEW_PATHS | {
+    assert b3.LATER_STAGE_PATHS == frozenset(m.NEW_PATHS | b3.PHASE7A_PATHS | b3.PHASE7B_PATHS | b3.PHASE7C1_PATHS | b3.PHASE7C2_PATHS | b3.PHASE7C3_PATHS | {
         'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json',
         'tests/fixtures/ja_phase6_cleanup_batch04_voice_audit.json',
         'docs/ja-phase6-final-cleanup-batch04-claude-review.md'})

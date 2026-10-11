@@ -1,0 +1,1424 @@
+{
+  "summary": {
+    "canonical_entries": 25044,
+    "raw_entries": 25045,
+    "applied": 2403,
+    "phase6_scope": 3177,
+    "phase6_remaining": 774,
+    "cleanup_569_applied": 142,
+    "cleanup_569_remaining": 427,
+    "other_phase6_remaining": 347,
+    "outside_phase6_scope": 21867,
+    "status_counts": {
+      "APPLIED_JAPANESE": 2403,
+      "CONTEXT_HOLD": 217,
+      "KEEP_ENGLISH_APPROVED": 3,
+      "TECHNICAL_HOLD": 596,
+      "UNTRANSLATED": 21825
+    },
+    "translation_state_counts": {
+      "APPLIED_REVIEWED": 2403,
+      "DRAFT_UNAPPROVED": 324,
+      "NONE": 22011,
+      "REVIEWED_NOT_APPLIED": 306
+    },
+    "context_hold": 217,
+    "technical_hold": 794,
+    "hold_union": 813,
+    "unused_proven": 0,
+    "no_recorded_pointer_candidates": 5132,
+    "legacy_debug_table_candidates": 176,
+    "independent_wording_lower_bound_conditional": 22024,
+    "physical_translation_work_units_provisional": [
+      25044,
+      25045
+    ],
+    "remaining_canonical_rom_targets": 22638,
+    "untranslated_no_draft": 22008,
+    "with_existing_draft_or_review": 3033,
+    "reviewed_not_applied": 306,
+    "draft_not_applied": 324,
+    "claude_batches_category_upper_bound": 189,
+    "unapplied_visible_characters": 1308036
+  },
+  "categories": [
+    {
+      "category": "ability_descriptions",
+      "target_count": 252,
+      "applied": 31,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 34,
+      "untranslated_no_draft": 218,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 3,
+      "technical_hold": 3,
+      "context_hold": 0,
+      "average_visible_characters": 25.76,
+      "total_visible_characters": 6492,
+      "control_complexity": {
+        "LOW": 252
+      },
+      "priorities": {
+        "P2": 252
+      },
+      "remaining": 221,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 2,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "ability_names",
+      "target_count": 293,
+      "applied": 49,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 49,
+      "untranslated_no_draft": 244,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 9.71,
+      "total_visible_characters": 2845,
+      "control_complexity": {
+        "LOW": 293
+      },
+      "priorities": {
+        "P2": 293
+      },
+      "remaining": 244,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 2,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "battle_messages",
+      "target_count": 536,
+      "applied": 71,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 247,
+      "untranslated_no_draft": 289,
+      "reviewed_not_applied": 43,
+      "draft_not_applied": 133,
+      "technical_hold": 215,
+      "context_hold": 45,
+      "average_visible_characters": 21.41,
+      "total_visible_characters": 11474,
+      "control_complexity": {
+        "HIGH": 411,
+        "LOW": 82,
+        "MEDIUM": 43
+      },
+      "priorities": {
+        "P1": 532,
+        "P3": 4
+      },
+      "remaining": 465,
+      "claude_batch_size": 120,
+      "batches_upper_bound": 4,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "credits_text",
+      "target_count": 6,
+      "applied": 0,
+      "approved_english": 3,
+      "with_existing_draft_or_review": 0,
+      "untranslated_no_draft": 3,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 19.0,
+      "total_visible_characters": 114,
+      "control_complexity": {
+        "MEDIUM": 6
+      },
+      "priorities": {
+        "P2": 6
+      },
+      "remaining": 3,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "day_names",
+      "target_count": 7,
+      "applied": 0,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 0,
+      "untranslated_no_draft": 7,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 5,
+      "context_hold": 0,
+      "average_visible_characters": 3.0,
+      "total_visible_characters": 21,
+      "control_complexity": {
+        "LOW": 7
+      },
+      "priorities": {
+        "P1": 7
+      },
+      "remaining": 7,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "gendered_dialogue_fragments",
+      "target_count": 54,
+      "applied": 0,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 0,
+      "untranslated_no_draft": 54,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 5,
+      "context_hold": 5,
+      "average_visible_characters": 3.83,
+      "total_visible_characters": 207,
+      "control_complexity": {
+        "LOW": 54
+      },
+      "priorities": {
+        "P2": 54
+      },
+      "remaining": 54,
+      "claude_batch_size": 120,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "habitat_names",
+      "target_count": 9,
+      "applied": 3,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 6,
+      "untranslated_no_draft": 3,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 3,
+      "technical_hold": 3,
+      "context_hold": 3,
+      "average_visible_characters": 15.11,
+      "total_visible_characters": 136,
+      "control_complexity": {
+        "LOW": 9
+      },
+      "priorities": {
+        "P2": 9
+      },
+      "remaining": 6,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "item_descriptions",
+      "target_count": 704,
+      "applied": 53,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 53,
+      "untranslated_no_draft": 651,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 81.53,
+      "total_visible_characters": 57395,
+      "control_complexity": {
+        "LOW": 3,
+        "MEDIUM": 701
+      },
+      "priorities": {
+        "P2": 704
+      },
+      "remaining": 651,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 4,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "item_names",
+      "target_count": 729,
+      "applied": 76,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 80,
+      "untranslated_no_draft": 649,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 4,
+      "technical_hold": 4,
+      "context_hold": 4,
+      "average_visible_characters": 9.29,
+      "total_visible_characters": 6774,
+      "control_complexity": {
+        "LOW": 729
+      },
+      "priorities": {
+        "P2": 729
+      },
+      "remaining": 653,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 4,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "map_names",
+      "target_count": 109,
+      "applied": 33,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 33,
+      "untranslated_no_draft": 76,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 11.54,
+      "total_visible_characters": 1258,
+      "control_complexity": {
+        "LOW": 109
+      },
+      "priorities": {
+        "P1": 109
+      },
+      "remaining": 76,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_battle",
+      "target_count": 65,
+      "applied": 28,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 33,
+      "untranslated_no_draft": 32,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 5,
+      "technical_hold": 5,
+      "context_hold": 3,
+      "average_visible_characters": 12.97,
+      "total_visible_characters": 843,
+      "control_complexity": {
+        "HIGH": 9,
+        "LOW": 56
+      },
+      "priorities": {
+        "P1": 65
+      },
+      "remaining": 37,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_common",
+      "target_count": 36,
+      "applied": 30,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 35,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 5,
+      "technical_hold": 6,
+      "context_hold": 1,
+      "average_visible_characters": 16.72,
+      "total_visible_characters": 602,
+      "control_complexity": {
+        "HIGH": 6,
+        "LOW": 23,
+        "MEDIUM": 7
+      },
+      "priorities": {
+        "P1": 36
+      },
+      "remaining": 6,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_cube",
+      "target_count": 5,
+      "applied": 3,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 3,
+      "untranslated_no_draft": 2,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 9.0,
+      "total_visible_characters": 45,
+      "control_complexity": {
+        "LOW": 5
+      },
+      "priorities": {
+        "P1": 5
+      },
+      "remaining": 2,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_cube_system",
+      "target_count": 28,
+      "applied": 19,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 19,
+      "untranslated_no_draft": 9,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 11.39,
+      "total_visible_characters": 319,
+      "control_complexity": {
+        "HIGH": 5,
+        "LOW": 22,
+        "MEDIUM": 1
+      },
+      "priorities": {
+        "P1": 28
+      },
+      "remaining": 9,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_game_settings",
+      "target_count": 81,
+      "applied": 43,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 47,
+      "untranslated_no_draft": 34,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 4,
+      "technical_hold": 4,
+      "context_hold": 1,
+      "average_visible_characters": 33.78,
+      "total_visible_characters": 2736,
+      "control_complexity": {
+        "HIGH": 9,
+        "LOW": 66,
+        "MEDIUM": 6
+      },
+      "priorities": {
+        "P1": 81
+      },
+      "remaining": 38,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_item_storage",
+      "target_count": 18,
+      "applied": 14,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 18,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 4,
+      "technical_hold": 4,
+      "context_hold": 0,
+      "average_visible_characters": 20.39,
+      "total_visible_characters": 367,
+      "control_complexity": {
+        "HIGH": 7,
+        "LOW": 8,
+        "MEDIUM": 3
+      },
+      "priorities": {
+        "P1": 18
+      },
+      "remaining": 4,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_link_controls",
+      "target_count": 60,
+      "applied": 17,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 19,
+      "untranslated_no_draft": 41,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 2,
+      "technical_hold": 3,
+      "context_hold": 1,
+      "average_visible_characters": 15.93,
+      "total_visible_characters": 956,
+      "control_complexity": {
+        "HIGH": 4,
+        "LOW": 39,
+        "MEDIUM": 17
+      },
+      "priorities": {
+        "P1": 60
+      },
+      "remaining": 43,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_list_labels",
+      "target_count": 180,
+      "applied": 39,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 47,
+      "untranslated_no_draft": 133,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 8,
+      "technical_hold": 8,
+      "context_hold": 5,
+      "average_visible_characters": 9.54,
+      "total_visible_characters": 1718,
+      "control_complexity": {
+        "HIGH": 40,
+        "LOW": 140
+      },
+      "priorities": {
+        "P1": 180
+      },
+      "remaining": 141,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_mining",
+      "target_count": 1,
+      "applied": 1,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 1,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 216.0,
+      "total_visible_characters": 216,
+      "control_complexity": {
+        "HIGH": 1
+      },
+      "priorities": {
+        "P1": 1
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_multiplayer",
+      "target_count": 4,
+      "applied": 4,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 4,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 12.0,
+      "total_visible_characters": 48,
+      "control_complexity": {
+        "MEDIUM": 4
+      },
+      "priorities": {
+        "P1": 4
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_options",
+      "target_count": 21,
+      "applied": 15,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 20,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 5,
+      "technical_hold": 5,
+      "context_hold": 0,
+      "average_visible_characters": 5.48,
+      "total_visible_characters": 115,
+      "control_complexity": {
+        "LOW": 21
+      },
+      "priorities": {
+        "P0": 21
+      },
+      "remaining": 6,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pause",
+      "target_count": 11,
+      "applied": 10,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 10,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 1,
+      "context_hold": 1,
+      "average_visible_characters": 5.18,
+      "total_visible_characters": 57,
+      "control_complexity": {
+        "HIGH": 1,
+        "LOW": 10
+      },
+      "priorities": {
+        "P0": 11
+      },
+      "remaining": 1,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pc",
+      "target_count": 88,
+      "applied": 45,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 46,
+      "untranslated_no_draft": 42,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 1,
+      "technical_hold": 1,
+      "context_hold": 1,
+      "average_visible_characters": 14.12,
+      "total_visible_characters": 1243,
+      "control_complexity": {
+        "HIGH": 1,
+        "LOW": 76,
+        "MEDIUM": 11
+      },
+      "priorities": {
+        "P1": 88
+      },
+      "remaining": 43,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pcoptions",
+      "target_count": 3,
+      "applied": 3,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 3,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 9.0,
+      "total_visible_characters": 27,
+      "control_complexity": {
+        "LOW": 3
+      },
+      "priorities": {
+        "P1": 3
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pokedex",
+      "target_count": 1,
+      "applied": 1,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 1,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 7.0,
+      "total_visible_characters": 7,
+      "control_complexity": {
+        "MEDIUM": 1
+      },
+      "priorities": {
+        "P1": 1
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pokemon",
+      "target_count": 23,
+      "applied": 20,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 20,
+      "untranslated_no_draft": 3,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 20.09,
+      "total_visible_characters": 462,
+      "control_complexity": {
+        "HIGH": 1,
+        "LOW": 22
+      },
+      "priorities": {
+        "P1": 23
+      },
+      "remaining": 3,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pokemon_options",
+      "target_count": 7,
+      "applied": 5,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 5,
+      "untranslated_no_draft": 2,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 5.43,
+      "total_visible_characters": 38,
+      "control_complexity": {
+        "LOW": 7
+      },
+      "priorities": {
+        "P1": 7
+      },
+      "remaining": 2,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_pokemon_summary",
+      "target_count": 29,
+      "applied": 16,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 21,
+      "untranslated_no_draft": 8,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 5,
+      "technical_hold": 5,
+      "context_hold": 1,
+      "average_visible_characters": 37.24,
+      "total_visible_characters": 1080,
+      "control_complexity": {
+        "LOW": 6,
+        "MEDIUM": 23
+      },
+      "priorities": {
+        "P1": 29
+      },
+      "remaining": 13,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_save",
+      "target_count": 10,
+      "applied": 10,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 10,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 10.2,
+      "total_visible_characters": 102,
+      "control_complexity": {
+        "HIGH": 2,
+        "LOW": 6,
+        "MEDIUM": 2
+      },
+      "priorities": {
+        "P0": 10
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_save_prompts",
+      "target_count": 1,
+      "applied": 1,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 1,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 32.0,
+      "total_visible_characters": 32,
+      "control_complexity": {
+        "LOW": 1
+      },
+      "priorities": {
+        "P0": 1
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_saving_messages",
+      "target_count": 6,
+      "applied": 5,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 5,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 31.67,
+      "total_visible_characters": 190,
+      "control_complexity": {
+        "LOW": 2,
+        "MEDIUM": 4
+      },
+      "priorities": {
+        "P1": 6
+      },
+      "remaining": 1,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_shop",
+      "target_count": 5,
+      "applied": 4,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 4,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 1,
+      "context_hold": 1,
+      "average_visible_characters": 10.8,
+      "total_visible_characters": 54,
+      "control_complexity": {
+        "HIGH": 1,
+        "LOW": 4
+      },
+      "priorities": {
+        "P1": 5
+      },
+      "remaining": 1,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_standalone_labels",
+      "target_count": 1,
+      "applied": 0,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 0,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 7.0,
+      "total_visible_characters": 7,
+      "control_complexity": {
+        "LOW": 1
+      },
+      "priorities": {
+        "P1": 1
+      },
+      "remaining": 1,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "menu_trainer_card",
+      "target_count": 33,
+      "applied": 19,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 19,
+      "untranslated_no_draft": 14,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 8.61,
+      "total_visible_characters": 284,
+      "control_complexity": {
+        "HIGH": 1,
+        "LOW": 32
+      },
+      "priorities": {
+        "P1": 33
+      },
+      "remaining": 14,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "mission_descriptions",
+      "target_count": 82,
+      "applied": 43,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 52,
+      "untranslated_no_draft": 30,
+      "reviewed_not_applied": 2,
+      "draft_not_applied": 7,
+      "technical_hold": 9,
+      "context_hold": 2,
+      "average_visible_characters": 77.62,
+      "total_visible_characters": 6365,
+      "control_complexity": {
+        "HIGH": 25,
+        "MEDIUM": 57
+      },
+      "priorities": {
+        "P1": 82
+      },
+      "remaining": 39,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "mission_log",
+      "target_count": 23,
+      "applied": 16,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 22,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 6,
+      "technical_hold": 7,
+      "context_hold": 0,
+      "average_visible_characters": 10.74,
+      "total_visible_characters": 247,
+      "control_complexity": {
+        "HIGH": 7,
+        "LOW": 14,
+        "MEDIUM": 2
+      },
+      "priorities": {
+        "P1": 23
+      },
+      "remaining": 7,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "mission_names",
+      "target_count": 85,
+      "applied": 37,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 49,
+      "untranslated_no_draft": 36,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 12,
+      "technical_hold": 12,
+      "context_hold": 0,
+      "average_visible_characters": 15.88,
+      "total_visible_characters": 1350,
+      "control_complexity": {
+        "LOW": 85
+      },
+      "priorities": {
+        "P1": 85
+      },
+      "remaining": 48,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "mission_objectives",
+      "target_count": 57,
+      "applied": 35,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 36,
+      "untranslated_no_draft": 21,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 1,
+      "technical_hold": 1,
+      "context_hold": 0,
+      "average_visible_characters": 44.81,
+      "total_visible_characters": 2554,
+      "control_complexity": {
+        "HIGH": 3,
+        "LOW": 18,
+        "MEDIUM": 36
+      },
+      "priorities": {
+        "P1": 57
+      },
+      "remaining": 22,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "move_descriptions",
+      "target_count": 991,
+      "applied": 46,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 46,
+      "untranslated_no_draft": 945,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 69.09,
+      "total_visible_characters": 68466,
+      "control_complexity": {
+        "LOW": 1,
+        "MEDIUM": 990
+      },
+      "priorities": {
+        "P2": 819,
+        "P3": 172
+      },
+      "remaining": 945,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 5,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "move_learning",
+      "target_count": 9,
+      "applied": 8,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 8,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 24.78,
+      "total_visible_characters": 223,
+      "control_complexity": {
+        "HIGH": 5,
+        "LOW": 4
+      },
+      "priorities": {
+        "P1": 9
+      },
+      "remaining": 1,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "move_names",
+      "target_count": 923,
+      "applied": 79,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 79,
+      "untranslated_no_draft": 844,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 9.37,
+      "total_visible_characters": 8644,
+      "control_complexity": {
+        "LOW": 923
+      },
+      "priorities": {
+        "P2": 923
+      },
+      "remaining": 844,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 5,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "nature_names",
+      "target_count": 25,
+      "applied": 23,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 23,
+      "untranslated_no_draft": 2,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 5.48,
+      "total_visible_characters": 137,
+      "control_complexity": {
+        "LOW": 25
+      },
+      "priorities": {
+        "P2": 25
+      },
+      "remaining": 2,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "plain_scripts",
+      "target_count": 14,
+      "applied": 11,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 14,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 3,
+      "technical_hold": 3,
+      "context_hold": 0,
+      "average_visible_characters": 97.71,
+      "total_visible_characters": 1368,
+      "control_complexity": {
+        "HIGH": 1,
+        "LOW": 4,
+        "MEDIUM": 9
+      },
+      "priorities": {
+        "P1": 14
+      },
+      "remaining": 3,
+      "claude_batch_size": 120,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": true
+    },
+    {
+      "category": "pointer_texts",
+      "target_count": 3307,
+      "applied": 5,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 5,
+      "untranslated_no_draft": 3302,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 2,
+      "context_hold": 0,
+      "average_visible_characters": 26.58,
+      "total_visible_characters": 87889,
+      "control_complexity": {
+        "HIGH": 414,
+        "LOW": 1928,
+        "MEDIUM": 965
+      },
+      "priorities": {
+        "P3": 3307
+      },
+      "remaining": 3302,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 17,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "pokedex_descriptions",
+      "target_count": 993,
+      "applied": 32,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 32,
+      "untranslated_no_draft": 961,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 95.56,
+      "total_visible_characters": 94891,
+      "control_complexity": {
+        "MEDIUM": 993
+      },
+      "priorities": {
+        "P2": 993
+      },
+      "remaining": 961,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 5,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "pokedex_form_names",
+      "target_count": 19,
+      "applied": 0,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 0,
+      "untranslated_no_draft": 19,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 5,
+      "average_visible_characters": 8.32,
+      "total_visible_characters": 158,
+      "control_complexity": {
+        "LOW": 19
+      },
+      "priorities": {
+        "P2": 19
+      },
+      "remaining": 19,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "pokedex_species",
+      "target_count": 904,
+      "applied": 15,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 16,
+      "untranslated_no_draft": 888,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 1,
+      "technical_hold": 1,
+      "context_hold": 1,
+      "average_visible_characters": 7.51,
+      "total_visible_characters": 6792,
+      "control_complexity": {
+        "LOW": 904
+      },
+      "priorities": {
+        "P2": 904
+      },
+      "remaining": 889,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 5,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "pokemon_names",
+      "target_count": 1294,
+      "applied": 77,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 79,
+      "untranslated_no_draft": 1215,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 2,
+      "technical_hold": 2,
+      "context_hold": 2,
+      "average_visible_characters": 7.39,
+      "total_visible_characters": 9557,
+      "control_complexity": {
+        "LOW": 1294
+      },
+      "priorities": {
+        "P2": 1294
+      },
+      "remaining": 1217,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 7,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "scripts",
+      "target_count": 11979,
+      "applied": 1233,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 1593,
+      "untranslated_no_draft": 10386,
+      "reviewed_not_applied": 260,
+      "draft_not_applied": 100,
+      "technical_hold": 463,
+      "context_hold": 134,
+      "average_visible_characters": 86.76,
+      "total_visible_characters": 1039276,
+      "control_complexity": {
+        "HIGH": 5269,
+        "LOW": 2051,
+        "MEDIUM": 4659
+      },
+      "priorities": {
+        "P0": 3,
+        "P1": 11976
+      },
+      "remaining": 10746,
+      "claude_batch_size": 120,
+      "batches_upper_bound": 90,
+      "context_proof_required_before_scene_grouping": true
+    },
+    {
+      "category": "setting_names",
+      "target_count": 32,
+      "applied": 18,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 19,
+      "untranslated_no_draft": 13,
+      "reviewed_not_applied": 1,
+      "draft_not_applied": 0,
+      "technical_hold": 1,
+      "context_hold": 0,
+      "average_visible_characters": 12.25,
+      "total_visible_characters": 392,
+      "control_complexity": {
+        "LOW": 32
+      },
+      "priorities": {
+        "P1": 32
+      },
+      "remaining": 14,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "start_menu_labels",
+      "target_count": 10,
+      "applied": 7,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 9,
+      "untranslated_no_draft": 1,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 2,
+      "technical_hold": 2,
+      "context_hold": 0,
+      "average_visible_characters": 10.7,
+      "total_visible_characters": 107,
+      "control_complexity": {
+        "LOW": 8,
+        "MEDIUM": 2
+      },
+      "priorities": {
+        "P0": 10
+      },
+      "remaining": 3,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "trade_messages",
+      "target_count": 7,
+      "applied": 7,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 7,
+      "untranslated_no_draft": 0,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 0,
+      "context_hold": 0,
+      "average_visible_characters": 38.14,
+      "total_visible_characters": 267,
+      "control_complexity": {
+        "LOW": 2,
+        "MEDIUM": 5
+      },
+      "priorities": {
+        "P2": 7
+      },
+      "remaining": 0,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 0,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "trainer_classes",
+      "target_count": 107,
+      "applied": 15,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 17,
+      "untranslated_no_draft": 90,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 2,
+      "technical_hold": 2,
+      "context_hold": 1,
+      "average_visible_characters": 8.98,
+      "total_visible_characters": 961,
+      "control_complexity": {
+        "LOW": 107
+      },
+      "priorities": {
+        "P2": 107
+      },
+      "remaining": 92,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "trainer_names",
+      "target_count": 743,
+      "applied": 23,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 23,
+      "untranslated_no_draft": 720,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 0,
+      "technical_hold": 5,
+      "context_hold": 0,
+      "average_visible_characters": 5.47,
+      "total_visible_characters": 4062,
+      "control_complexity": {
+        "LOW": 743
+      },
+      "priorities": {
+        "P2": 743
+      },
+      "remaining": 720,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 4,
+      "context_proof_required_before_scene_grouping": false
+    },
+    {
+      "category": "type_names",
+      "target_count": 24,
+      "applied": 5,
+      "approved_english": 0,
+      "with_existing_draft_or_review": 11,
+      "untranslated_no_draft": 13,
+      "reviewed_not_applied": 0,
+      "draft_not_applied": 6,
+      "technical_hold": 6,
+      "context_hold": 0,
+      "average_visible_characters": 4.08,
+      "total_visible_characters": 98,
+      "control_complexity": {
+        "LOW": 24
+      },
+      "priorities": {
+        "P2": 24
+      },
+      "remaining": 19,
+      "claude_batch_size": 200,
+      "batches_upper_bound": 1,
+      "context_proof_required_before_scene_grouping": false
+    }
+  ],
+  "content_families": {
+    "BATTLE_MESSAGES": 545,
+    "ITEMS": 1433,
+    "MAP_NAMES": 109,
+    "MENUS_SETTINGS": 766,
+    "MISSIONS": 247,
+    "NEW_GAME_REQUIRED_UI": 3,
+    "NPC_DIALOGUE": 18,
+    "POKEDEX": 1916,
+    "POKEMON_MOVE_ABILITY_NAMES": 2559,
+    "REFERENCE_DESCRIPTIONS": 1252,
+    "TRAINER_DIALOGUE": 137,
+    "TRAINER_NAMES_CLASSES": 850,
+    "UNKNOWN": 15209
+  }
+}

@@ -1,0 +1,3370 @@
+{
+  "metadata": {
+    "phase": "7C-1",
+    "translation_started": false,
+    "claude_invoked": false,
+    "rom_generated": false,
+    "existing_translation_changes": 0,
+    "canonical_count": 25044,
+    "raw_count": 25045,
+    "applied_count": 2403,
+    "phase6_hold_count": 774,
+    "baseline_rom": "out/unbound-ja-phase6-cleanup-batch04.gba",
+    "baseline_sha256": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+    "protected_files": {
+      "files": 909,
+      "aggregate_sha256": "f932aab110e4dc228c628314c43ce5b0dc0ba89d5f15f6740da9ef6117bad4df"
+    },
+    "input_sha256": {
+      "docs/ja-phase6-fa-bottleneck-investigation.md": "d52e1ef2a3f69b1984a91e1a3aa1cb5c62858e81cad0d7a32b4c8d68b54a4c4a",
+      "docs/ja-phase7-full-localization-master-plan.md": "d39ac623fdc9d2b98cc896dcddeecfa9fa82cf812c7f1450f90d8f6410883a50",
+      "docs/ja-phase7-story-event-attribution.md": "850aaab08ec3be6d8420eb314eb9e76e9eade1d8cd1e5d23f2c10b7d267887eb",
+      "glossaries/ja.json": "d5fd815806dfc8ab4c584bb117df19a413f53e0c63ae28977d5722601523f296",
+      "out/phase6/ja_phase6_cleanup_batch01_reviewed.json": "6f3cd574df4aefca1f3749d4a40396f7b21eb159421445e9d3f1d19a78cbbb57",
+      "out/phase6/ja_phase6_cleanup_batch02_reviewed.json": "d4b239c49d27273e97814f1893f24212c3efe6179576efa5f29bf6a44f3cd4b9",
+      "out/phase6/ja_phase6_cleanup_batch03_reviewed.json": "d151b500db4263cbe5d82e0a586419074c7d96e5d9c8107bd0fb0e7b6c62472e",
+      "out/phase6/ja_phase6_cleanup_batch04_reviewed.json": "8abc3c49285625baf720f1e393a451022f6711c2a91d9813a9420d45b6360ef6",
+      "out/phase6/ja_phase6_cleanup_translation_style_handoff.json": "160d955da783ef8941eb2bf05767e1750bf70e2e5385c70c2739be700df6eccc",
+      "out/phase6/ja_phase6_final_cleanup_inventory_v3.json": "35aa809bc4ea0bc508f312d7c7cc1a3e72ed21e710531788ccad43ab6a4beadc",
+      "out/phase7/ja_full_localization_category_stats.json": "ace333b93af94dcf1d97c36e9775a43180bda5d2b02fc306655abe4b0e405ede",
+      "out/phase7/ja_full_localization_inventory.json": "616127f95f192b2b391ddf4c7f3655f939557820b49ae044ce33df7784b1dda0",
+      "out/phase7/ja_full_localization_priority_queue.json": "9f91f3c419044d165ed834c0dadd67f7379dc649bee1d86c2dcd73689a4cacd2",
+      "out/phase7/ja_full_localization_technical_blockers.json": "a723ff157c3083934b01844a9433b088e45c6847d08efbff9fa8dccec368df54",
+      "out/phase7/ja_story_evidence_gaps.json": "afd61330cb09ba7d45f7baf92008bd3520161ac4afb3395efd6b88366ec43ced",
+      "out/phase7/ja_story_priority_queue.json": "e337a51ef167a56852cfe16afb8a4318fe4f9dfa1690e28fe881fa7ef0979c49",
+      "out/phase7/ja_story_scene_index.json": "106068a615b486d56b43e40558c607186ffe08a56e459d591ed5a9ecc79132da",
+      "out/phase7/ja_story_translation_batch_plan.json": "18bf5c357ac833ef17640038b8a13f37d9dc7ecac528884c2ab58a007b545124",
+      "out/unbound-ja-phase6-cleanup-batch04.gba": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+      "rom/unbound.gba": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+      "scripts/build_ja_phase7_inventory.py": "3f93320534930c4b7535d067f4159325bcfac014b99bfd782192052921431016",
+      "scripts/build_ja_phase7_story_attribution.py": "49c7a0c722278588318506b50da8e29049319adb5322288de41452573398818a",
+      "tests/fixtures/ja_phase6_voice_profiles_claude.json": "717fe9c8217ec3e3072c1ba2b79ff8033b33df8e187153725dfa84a0215ea5e7",
+      "tests/fixtures/ja_phase7_story_attribution_manifest.json": "6a612a4b0f1ef1a6a10bda800cebb4c3b7a74470e955c39511daf52f7d41788e",
+      "tests/test_ja_phase7_inventory.py": "e8ca558d574d0af30ee2ff298f2946ff617a74736004c2ba34e5f5b0e7a5bd22",
+      "tests/test_ja_phase7_story_attribution.py": "249822afc75ebe1a3934216ba6dceb61519722e6e2bc71bfb96d025acb202e7a"
+    },
+    "main_story_verified": 0,
+    "missing_ids": 0,
+    "duplicate_ids": 0,
+    "applied_target_entries": 0,
+    "confidence_promotions": 0,
+    "unresolved_raw_mapping_preserved": [
+      "tbl_menu_game_settings_00000_1F4E274"
+    ]
+  },
+  "summary": {
+    "count": 706,
+    "english_visible_characters": 62192,
+    "english_original_string_characters": 70110,
+    "priority_counts": {
+      "P0": 467,
+      "P1": 239
+    },
+    "fa_entries": 149,
+    "fa_waits": 273,
+    "unknown_buffer_entries": 13,
+    "unknown_buffer_writer_entries": 64,
+    "dynamic_name_entries": 51,
+    "speaker_profile_entries": 0,
+    "category_counts": {
+      "battle_messages": 116,
+      "menu_battle": 34,
+      "menu_options": 6,
+      "menu_pokemon": 3,
+      "mission_log": 7,
+      "mission_names": 48,
+      "mission_objectives": 22,
+      "plain_scripts": 3,
+      "scripts": 464,
+      "start_menu_labels": 3
+    }
+  },
+  "algorithm": {
+    "version": 1,
+    "batch_count": 16,
+    "min_entries": 30,
+    "max_entries": 60,
+    "work_score": "visible chars + 120*FA + 30*FC + 60*FD; balanced by ordered DP",
+    "priority_first": true,
+    "tie_breaker": "exact group key then stable ID, NOT story order",
+    "early_candidates": [
+      "map_031_005_level_condition_01E702B7",
+      "map_031_005_level_condition_01E702BF",
+      "map_031_005_level_condition_01E702C7"
+    ],
+    "story_chronology_proven": false
+  },
+  "batches": [
+    {
+      "batch_id": "P7C_batch_01",
+      "entry_ids": [
+        "scr_1F113ED",
+        "scr_1F11594",
+        "scr_1F1184B",
+        "scr_1F11864",
+        "scr_1F11CFD",
+        "scr_1F2F718",
+        "scr_1F2E8E9",
+        "scr_1F2EB85",
+        "scr_1F2EC73",
+        "scr_1F2F468",
+        "scr_1F2F493",
+        "scr_1F2F4A4",
+        "scr_1F2F4C3",
+        "scr_1F2F55D",
+        "scr_1F2F5BE",
+        "scr_1F2F5EA",
+        "scr_1F2F69E",
+        "scr_1FA54AC",
+        "scr_1F460D1",
+        "scr_1F460E7",
+        "scr_1F46179",
+        "scr_1F46217",
+        "scr_1F4622A",
+        "scr_1F751D8",
+        "scr_1F3EA65",
+        "scr_1F3EB13",
+        "scr_1F3EBBA",
+        "scr_1F3EBEB",
+        "scr_1F3EC74",
+        "scr_1F3EDA8",
+        "scr_1F3EE0A",
+        "scr_1F3EED6",
+        "scr_1F3EF60",
+        "scr_1F3F216",
+        "scr_1F3F277",
+        "scr_1F3F3C9",
+        "scr_1F3F514",
+        "scr_1F3F64A",
+        "scr_1F3F6F5",
+        "scr_1F3F771",
+        "scr_1F3F846",
+        "scr_1F3F9C8",
+        "scr_1F3FA54",
+        "scr_1F3FAB5",
+        "scr_1F3FB1C",
+        "scr_1F3FB5E",
+        "scr_1F3FBAF",
+        "scr_1F3FBE4",
+        "scr_1F3FC2A",
+        "scr_1F3FC84",
+        "scr_1F3FE01",
+        "scr_1F3FE2F",
+        "scr_1F3FEA3"
+      ],
+      "count": 53,
+      "english_visible_characters": 7336,
+      "english_original_string_characters": 8263,
+      "priority_counts": {
+        "P0": 53
+      },
+      "fa_entries": 21,
+      "fa_waits": 39,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 10,
+      "dynamic_name_entries": 10,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "plain_scripts": 3,
+        "scripts": 50
+      },
+      "payload_created": true,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_02",
+      "entry_ids": [
+        "scr_1F40014",
+        "scr_1F40045",
+        "scr_1F40099",
+        "scr_1F401B6",
+        "scr_1F402C4",
+        "scr_1F40320",
+        "scr_1F403B9",
+        "scr_1F40462",
+        "scr_1F40559",
+        "scr_1F405AD",
+        "scr_1F406A5",
+        "scr_1F4075D",
+        "scr_1F407E3",
+        "scr_1F40954",
+        "scr_1F4096B",
+        "scr_1F4099D",
+        "scr_1F409D8",
+        "scr_1F40A03",
+        "scr_1F40AFC",
+        "scr_1F40B2B",
+        "scr_1F40B56",
+        "scr_1F40B88",
+        "scr_1F40BD9",
+        "scr_1F40C19",
+        "scr_1F40C1F",
+        "scr_1F40C4D",
+        "scr_1F40C6C",
+        "scr_1F40C71",
+        "scr_1F40D24",
+        "scr_1F40D68",
+        "scr_1F40EE9",
+        "scr_1F40FA8",
+        "scr_1F41136",
+        "scr_1F4129B",
+        "scr_1F41447",
+        "scr_1F41615",
+        "scr_1F416BC",
+        "scr_1F4172E",
+        "scr_1F417A4",
+        "scr_1F41873",
+        "scr_1F418B4",
+        "scr_1F4196F",
+        "scr_1F419E6"
+      ],
+      "count": 43,
+      "english_visible_characters": 6485,
+      "english_original_string_characters": 7290,
+      "priority_counts": {
+        "P0": 43
+      },
+      "fa_entries": 22,
+      "fa_waits": 46,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 5,
+      "dynamic_name_entries": 5,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 43
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_03",
+      "entry_ids": [
+        "scr_1F3129D",
+        "scr_1EEBA8C",
+        "scr_1F3102E",
+        "scr_1F3D2FD",
+        "scr_1F3DACA",
+        "scr_1F3DEBD",
+        "scr_1EEBA9F",
+        "scr_1F3DFF5",
+        "scr_1F3E173",
+        "scr_1F3E2FE",
+        "scr_1F45572",
+        "scr_1EFED09",
+        "scr_1EFED2E",
+        "scr_1FA20B1",
+        "scr_1FA214C",
+        "scr_1FA2199",
+        "scr_1F4B2E0",
+        "scr_1F4B586",
+        "scr_1F4B5B6",
+        "scr_1F4B75A",
+        "scr_1F4B80A",
+        "scr_1F4B2D7",
+        "scr_1F5172E",
+        "scr_1F522DA",
+        "scr_1F528C9",
+        "scr_1F529CF",
+        "scr_1F4BADE",
+        "scr_1FA5E02",
+        "scr_1FA5E25",
+        "scr_1FA5E2E",
+        "scr_1FA5E3A",
+        "scr_1FA5E66",
+        "scr_1F815A4",
+        "scr_1F432A9",
+        "scr_1F432CA",
+        "scr_1F4332B",
+        "scr_1F43384"
+      ],
+      "count": 37,
+      "english_visible_characters": 5729,
+      "english_original_string_characters": 6412,
+      "priority_counts": {
+        "P0": 37
+      },
+      "fa_entries": 12,
+      "fa_waits": 30,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 8,
+      "dynamic_name_entries": 8,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 37
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_04",
+      "entry_ids": [
+        "scr_1F42F06",
+        "scr_1F42F8E",
+        "scr_1F43039",
+        "scr_1F43069",
+        "scr_1F430AF",
+        "scr_1F430C7",
+        "scr_1F430E2",
+        "scr_1F43107",
+        "scr_1F4312B",
+        "scr_1F43667",
+        "scr_1F4367F",
+        "scr_1F4369A",
+        "scr_1F436D1",
+        "scr_1F436EF",
+        "scr_1F433B7",
+        "scr_1F43417",
+        "scr_1F43468",
+        "scr_1F4370B",
+        "scr_1F43745",
+        "scr_1F874DB",
+        "scr_1F874F4",
+        "scr_1F450F7",
+        "scr_1F45205",
+        "scr_1F45259",
+        "scr_1F452D4",
+        "scr_1F45409",
+        "scr_1F4544C",
+        "scr_1F45460",
+        "scr_1F4D699",
+        "scr_1F39326",
+        "scr_1F39377",
+        "scr_1F39418",
+        "scr_1F39495",
+        "scr_1F394C0",
+        "scr_1F394CB",
+        "scr_1F39530",
+        "scr_1F395B2",
+        "scr_1F395B9",
+        "scr_1F39608",
+        "scr_1F3961E",
+        "scr_1F39664",
+        "scr_1F399A0",
+        "scr_1F39A54",
+        "scr_1F39A87",
+        "scr_1F39A8D",
+        "scr_1F39B06",
+        "scr_1F38DCD",
+        "scr_1F38E6B",
+        "scr_1F38EA9",
+        "scr_1F38EEF",
+        "scr_1F38FA1",
+        "scr_1F39010",
+        "scr_1F3902F",
+        "scr_1F390D6",
+        "scr_1F3911D",
+        "scr_1F391C9"
+      ],
+      "count": 56,
+      "english_visible_characters": 4851,
+      "english_original_string_characters": 5631,
+      "priority_counts": {
+        "P0": 56
+      },
+      "fa_entries": 11,
+      "fa_waits": 15,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 7,
+      "dynamic_name_entries": 7,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 56
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_05",
+      "entry_ids": [
+        "scr_1F39C0D",
+        "scr_1F39C40",
+        "scr_1F39C6E",
+        "scr_1F39CCC",
+        "scr_1F39D2F",
+        "scr_1F39E20",
+        "scr_1F39EC5",
+        "scr_1F39F06",
+        "scr_1F39FE5",
+        "scr_1F3A00F",
+        "scr_1F3A036",
+        "scr_1F3A061",
+        "scr_1F3A0CC",
+        "scr_1F3A16B",
+        "scr_1F3A1AE",
+        "scr_1F3A1E6",
+        "scr_1F3A1F3",
+        "scr_1F3A247",
+        "scr_1F3A29D",
+        "scr_1F3A2CD",
+        "scr_1F3A389",
+        "scr_1F3A3B5",
+        "scr_1F3A61D",
+        "scr_1F3A661",
+        "scr_1F3A685",
+        "scr_1F3A69F",
+        "scr_1F3A8E7",
+        "scr_1F3A922",
+        "scr_1F3A94D",
+        "scr_1F3A9CF",
+        "scr_1F3A9F2",
+        "scr_1F3AA87",
+        "scr_1F3AA96",
+        "scr_1F3AB0D",
+        "scr_1F3AB89",
+        "scr_1F3AD0F",
+        "scr_1F3AD8B",
+        "scr_1F3AED2",
+        "scr_1F3AEDD",
+        "scr_1F3B018",
+        "scr_1F3B10F",
+        "scr_1F3B1E1"
+      ],
+      "count": 42,
+      "english_visible_characters": 4710,
+      "english_original_string_characters": 5305,
+      "priority_counts": {
+        "P0": 42
+      },
+      "fa_entries": 10,
+      "fa_waits": 23,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 2,
+      "dynamic_name_entries": 2,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 42
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_06",
+      "entry_ids": [
+        "scr_1F397B5",
+        "scr_1F3924B",
+        "scr_1F3BBF1",
+        "scr_1F3BD5C",
+        "scr_1F3BE76",
+        "scr_1F3BF66",
+        "scr_1F3C508",
+        "scr_1F3C6E8",
+        "scr_1F3CB76",
+        "scr_1F3CD22",
+        "scr_1F3CE79",
+        "scr_1FA98A0",
+        "scr_1FA991E",
+        "scr_1FA998A",
+        "scr_1FA9A33",
+        "scr_1FA96DA",
+        "scr_1F8D3CC",
+        "scr_1F8B3C7",
+        "scr_1F8B3F6",
+        "scr_1F8BE56",
+        "scr_1F8C803",
+        "scr_1F9260F",
+        "scr_1F92658",
+        "scr_1F8B36E",
+        "scr_1FA9A88",
+        "scr_1FA9ABE",
+        "scr_1FA9ACA",
+        "scr_1FA9AFE",
+        "scr_1FA9B26",
+        "scr_1FA9B77"
+      ],
+      "count": 30,
+      "english_visible_characters": 3853,
+      "english_original_string_characters": 4213,
+      "priority_counts": {
+        "P0": 30
+      },
+      "fa_entries": 9,
+      "fa_waits": 19,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 0,
+      "dynamic_name_entries": 0,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 30
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_07",
+      "entry_ids": [
+        "scr_1F47351",
+        "scr_1F47376",
+        "scr_1F4739D",
+        "scr_1F47446",
+        "scr_1F474C3",
+        "scr_1FAB2E7",
+        "scr_1FAB20F",
+        "scr_1FAB25F",
+        "scr_1FAB32C",
+        "scr_1FAB38B",
+        "scr_1F8E87E",
+        "scr_1F8E893",
+        "scr_1F8E90F",
+        "scr_1F8E976",
+        "scr_1F8EEFE",
+        "scr_1F68919",
+        "scr_1F59F4D",
+        "scr_1EF377C",
+        "scr_1F4BC44",
+        "scr_1F2FB19",
+        "scr_1F2FB92",
+        "scr_1F2FCA4",
+        "scr_1F61B26",
+        "scr_1F30FFC",
+        "scr_1F3356E",
+        "scr_1F336B1",
+        "scr_1F336C0",
+        "scr_1F9D2C9",
+        "scr_1F9D295",
+        "scr_1FA9F54",
+        "scr_1F349E6",
+        "scr_1F34C15",
+        "scr_1F34C4B",
+        "scr_1F347B9",
+        "scr_1F34804",
+        "scr_1F3487E",
+        "scr_1FA41FE"
+      ],
+      "count": 37,
+      "english_visible_characters": 4286,
+      "english_original_string_characters": 4825,
+      "priority_counts": {
+        "P0": 37
+      },
+      "fa_entries": 13,
+      "fa_waits": 20,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 4,
+      "dynamic_name_entries": 4,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 37
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_08",
+      "entry_ids": [
+        "scr_1F36341",
+        "scr_1F374A2",
+        "scr_1F37E91",
+        "scr_1F37FAE",
+        "scr_1F380EB",
+        "scr_1F38196",
+        "scr_1F381E1",
+        "scr_1F382ED",
+        "scr_1F38317",
+        "scr_1F3832D",
+        "scr_1F3853F",
+        "scr_1F11C5F",
+        "scr_1F41C1E",
+        "scr_1F41CA1",
+        "scr_1F42454",
+        "scr_1F42501",
+        "scr_1F389BB",
+        "scr_1F38C8F",
+        "scr_1FAC88C",
+        "scr_1F2F759",
+        "scr_1F2F896",
+        "scr_1F2D4F0",
+        "scr_1F2D07E",
+        "scr_1F2D124",
+        "scr_1F2D162",
+        "scr_1F2D192",
+        "scr_1F2D1D7",
+        "scr_1F2D28B",
+        "scr_1F2D2F9",
+        "scr_1F2D3B2"
+      ],
+      "count": 30,
+      "english_visible_characters": 6026,
+      "english_original_string_characters": 6743,
+      "priority_counts": {
+        "P0": 30
+      },
+      "fa_entries": 15,
+      "fa_waits": 31,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 3,
+      "dynamic_name_entries": 3,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 30
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_09",
+      "entry_ids": [
+        "scr_1F2D80A",
+        "scr_1F2D84C",
+        "scr_1F2D8C0",
+        "scr_1F2D90E",
+        "scr_1F2D942",
+        "scr_1F2DA1D",
+        "scr_1F2DAAB",
+        "scr_1F2DB6D",
+        "scr_1F2DB7D",
+        "scr_1F2DBB6",
+        "scr_1F2DC2E",
+        "scr_1F2CC98",
+        "scr_1F2CEB3",
+        "scr_1F2CEC2",
+        "scr_1F2CEC8",
+        "scr_1F2DF13",
+        "scr_1F2DF20",
+        "scr_1F2DF7C",
+        "scr_1F2DFA4",
+        "scr_1F2E027",
+        "scr_1F2E048",
+        "scr_1F2E150",
+        "scr_1F2E1D2",
+        "scr_1F2E1FA",
+        "scr_1F2E311",
+        "scr_1F2E3CF",
+        "scr_1F2E479",
+        "scr_1F2E491",
+        "scr_1F2CBB6",
+        "scr_1F2F24D",
+        "scr_1F2F2F2"
+      ],
+      "count": 31,
+      "english_visible_characters": 2849,
+      "english_original_string_characters": 3114,
+      "priority_counts": {
+        "P0": 31
+      },
+      "fa_entries": 6,
+      "fa_waits": 12,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 3,
+      "dynamic_name_entries": 3,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 31
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_10",
+      "entry_ids": [
+        "scr_1F9DA54",
+        "scr_1F9DAA7",
+        "scr_1F9DB17",
+        "scr_1F9DBBE",
+        "scr_1F9DD50",
+        "scr_1F9DD7E",
+        "scr_1F9DE57",
+        "scr_1F9DF34",
+        "scr_1F9DFA1",
+        "scr_1F9D66C",
+        "scr_1F325DE",
+        "scr_1F3275F",
+        "scr_1F31FED",
+        "scr_1EFD969",
+        "scr_1F79B8A",
+        "scr_1F79297",
+        "scr_1F792EF",
+        "scr_1F7931A",
+        "scr_1FA48E0",
+        "scr_1FA48E8",
+        "scr_1FA4976",
+        "scr_1FA49E0",
+        "scr_1FA4B07",
+        "scr_1FA428F",
+        "scr_1FA429D",
+        "scr_1FA43D8",
+        "scr_1F1A3A9",
+        "scr_1F47086",
+        "scr_1F470F7",
+        "scr_1F4725D",
+        "scr_1F4728D"
+      ],
+      "count": 31,
+      "english_visible_characters": 4228,
+      "english_original_string_characters": 4669,
+      "priority_counts": {
+        "P0": 31
+      },
+      "fa_entries": 14,
+      "fa_waits": 19,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 7,
+      "dynamic_name_entries": 7,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 31
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_11",
+      "entry_ids": [
+        "scr_1FAD518",
+        "scr_1FAD535",
+        "scr_1FAD677",
+        "scr_1F2B7DE",
+        "scr_1F2B7FA",
+        "scr_1F2B858",
+        "scr_1F2B8E4",
+        "scr_1F2B8F2",
+        "scr_1F2B901",
+        "scr_1F2B949",
+        "scr_1F2B95E",
+        "scr_1F2B98B",
+        "scr_1F2B9AA",
+        "scr_1F2B9E4",
+        "scr_1F2BA07",
+        "scr_1F2BA20",
+        "scr_1F2BA3C",
+        "scr_1F2BA7A",
+        "scr_1F2BAB6",
+        "scr_1F2BAC7",
+        "scr_1F2BAE7",
+        "scr_1F2BB31",
+        "scr_1F206C0",
+        "scr_1F207BE",
+        "scr_1F209D0",
+        "scr_1FA54E9",
+        "scr_1EFEC34",
+        "scr_1F318B2",
+        "scr_1F9E13D",
+        "scr_1F9E225",
+        "scr_1F9E2A9",
+        "scr_1F9E3FB",
+        "scr_1F3371D",
+        "scr_1F338A2"
+      ],
+      "count": 34,
+      "english_visible_characters": 2894,
+      "english_original_string_characters": 3309,
+      "priority_counts": {
+        "P0": 34
+      },
+      "fa_entries": 6,
+      "fa_waits": 7,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 1,
+      "dynamic_name_entries": 1,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 34
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_12",
+      "entry_ids": [
+        "scr_1F34CD4",
+        "scr_1F34D94",
+        "scr_1F34E4D",
+        "scr_1F34ED3",
+        "scr_1F34F2E",
+        "scr_1F34F7C",
+        "scr_1F3506D",
+        "scr_1F350B8",
+        "scr_1F35149",
+        "scr_1F351DD",
+        "scr_1F35222",
+        "scr_1F3525E",
+        "scr_1F35293",
+        "scr_1F3683C",
+        "scr_1F36947",
+        "scr_1F36988",
+        "scr_1F369ED",
+        "scr_1F36A1D",
+        "scr_1F36A45",
+        "scr_1F36A6B",
+        "scr_1F36AAB",
+        "scr_1F36AC7",
+        "scr_1F36AE3",
+        "scr_1F36B1A",
+        "scr_1F36B4B",
+        "scr_1F36B8D",
+        "scr_1F36CD3",
+        "scr_1F36E21",
+        "scr_1F36EB1",
+        "scr_1F3680C",
+        "scr_1F7E524",
+        "scr_1F364C0",
+        "scr_1F365B2",
+        "scr_1FACD42",
+        "scr_1FACD81",
+        "scr_1FACDD1",
+        "scr_1FACE06",
+        "scr_1FACE36",
+        "scr_1FACE7F",
+        "scr_1FACEEA",
+        "scr_1FACF01",
+        "scr_1FACD78"
+      ],
+      "count": 42,
+      "english_visible_characters": 4004,
+      "english_original_string_characters": 4548,
+      "priority_counts": {
+        "P0": 42
+      },
+      "fa_entries": 8,
+      "fa_waits": 10,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 1,
+      "dynamic_name_entries": 1,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "scripts": 42
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_13",
+      "entry_ids": [
+        "scr_1FACF13",
+        "scr_1FA58D0",
+        "scr_1F7E1D7",
+        "scr_1F581D8",
+        "scr_1FA92E8",
+        "scr_1FAAD50",
+        "scr_1F26B52",
+        "scr_1F2816F",
+        "scr_1FADF38",
+        "scr_1F12064",
+        "scr_1FAA33C",
+        "scr_1EFF75B",
+        "scr_1F7BE61",
+        "scr_1FA4E10",
+        "scr_1F87B58",
+        "scr_1F14CD2",
+        "scr_1FAFC94",
+        "scr_1F4F9AA",
+        "scr_1F06B10",
+        "scr_1F0920D",
+        "scr_1F08DE6",
+        "scr_1FA9BBC",
+        "scr_1F9EAE4",
+        "scr_1F6C9BF",
+        "scr_1F6C9CC",
+        "scr_1F6C9DB",
+        "scr_1F60F28",
+        "scr_1F53440",
+        "scr_1F5344F",
+        "scr_1F5345E",
+        "scr_1F54276",
+        "scr_1FA64DC",
+        "scr_1F5948C",
+        "scr_1F855F0",
+        "tbl_battle_messages_00000_3FB500",
+        "tbl_battle_messages_00000_883590",
+        "tbl_battle_messages_00000_8BD155",
+        "tbl_battle_messages_00000_A37710",
+        "tbl_battle_messages_00000_A4AEE1",
+        "tbl_battle_messages_00000_A4C515",
+        "tbl_battle_messages_00000_A4C603",
+        "tbl_battle_messages_00001_8835A0",
+        "tbl_battle_messages_00001_A4C610",
+        "tbl_battle_messages_00001_A4C640",
+        "tbl_battle_messages_00002_3FB283",
+        "tbl_battle_messages_00002_A4C64C",
+        "tbl_battle_messages_00003_A4A98C",
+        "tbl_battle_messages_00003_A4C659",
+        "tbl_battle_messages_00004_A4C587",
+        "tbl_battle_messages_00004_A4C666",
+        "tbl_battle_messages_00005_A4C5A3",
+        "tbl_battle_messages_00005_A4C66B",
+        "tbl_battle_messages_00006_A4C5B1",
+        "tbl_battle_messages_00007_A4C5C8",
+        "tbl_battle_messages_00007_A4C689",
+        "tbl_battle_messages_00011_A4C790",
+        "tbl_battle_messages_00012_A4C859",
+        "tbl_battle_messages_00013_A4C86D",
+        "tbl_battle_messages_00018_A4C8D2",
+        "tbl_battle_messages_00053_3FB9D6"
+      ],
+      "count": 60,
+      "english_visible_characters": 1040,
+      "english_original_string_characters": 1291,
+      "priority_counts": {
+        "P0": 1,
+        "P1": 59
+      },
+      "fa_entries": 1,
+      "fa_waits": 1,
+      "unknown_buffer_entries": 5,
+      "unknown_buffer_writer_entries": 5,
+      "dynamic_name_entries": 0,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "battle_messages": 26,
+        "mission_names": 33,
+        "scripts": 1
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_14",
+      "entry_ids": [
+        "tbl_battle_messages_00056_3FBA2C",
+        "tbl_battle_messages_00204_3FC92C",
+        "tbl_battle_messages_00214_3FCA27",
+        "tbl_battle_messages_00235_3FCBE4",
+        "tbl_battle_messages_00262_3FCE78",
+        "tbl_battle_messages_00263_3FCE90",
+        "tbl_battle_messages_00264_3FCEA8",
+        "tbl_battle_messages_00265_3FCEBA",
+        "tbl_battle_messages_00266_3FCECE",
+        "tbl_battle_messages_00267_3FCEE3",
+        "tbl_battle_messages_00268_3FCEFB",
+        "tbl_battle_messages_00269_3FCF14",
+        "tbl_battle_messages_00270_3FCF2C",
+        "tbl_battle_messages_00271_3FCF40",
+        "tbl_battle_messages_00272_3FCF54",
+        "tbl_battle_messages_00273_3FCF6C",
+        "tbl_battle_messages_00274_3FCF7E",
+        "tbl_battle_messages_00275_3FCFA0",
+        "tbl_battle_messages_00276_3FCFC2",
+        "tbl_battle_messages_00277_3FCFE4",
+        "tbl_battle_messages_00278_3FD006",
+        "tbl_battle_messages_00279_3FD022",
+        "tbl_battle_messages_00280_3FD048",
+        "tbl_battle_messages_00281_3FD068",
+        "tbl_battle_messages_00282_3FD077",
+        "tbl_battle_messages_00283_3FD0A7",
+        "tbl_battle_messages_00284_3FD0CA",
+        "tbl_battle_messages_00297_3FD218",
+        "tbl_battle_messages_00298_3FD232",
+        "tbl_battle_messages_00299_3FD23F",
+        "tbl_battle_messages_00300_3FD24D",
+        "tbl_battle_messages_00301_3FD284",
+        "tbl_battle_messages_00302_3FD297",
+        "tbl_battle_messages_00303_3FD2AA",
+        "tbl_battle_messages_00305_3FD2D9",
+        "tbl_battle_messages_00306_3FD30D",
+        "tbl_battle_messages_00307_3FD322",
+        "tbl_battle_messages_00308_3FD34D",
+        "tbl_battle_messages_00309_3FD361",
+        "tbl_battle_messages_00321_3FD45E",
+        "tbl_battle_messages_00335_3FD555",
+        "tbl_battle_messages_00336_3FD55B",
+        "tbl_battle_messages_00337_3FD560",
+        "tbl_battle_messages_00338_3FD564",
+        "tbl_battle_messages_00339_3FD569",
+        "tbl_battle_messages_00340_3FD56D",
+        "tbl_battle_messages_00341_3FD572",
+        "tbl_battle_messages_00342_3FD576",
+        "tbl_battle_messages_00344_3FD590",
+        "tbl_battle_messages_00345_3FD593",
+        "tbl_battle_messages_00346_3FD59A",
+        "tbl_battle_messages_00347_3FD5A2",
+        "tbl_battle_messages_00348_3FD5A8",
+        "tbl_battle_messages_00349_3FD5B0",
+        "tbl_battle_messages_00350_3FD5B8",
+        "tbl_battle_messages_00351_3FD5C1",
+        "tbl_battle_messages_00352_3FD5EF",
+        "tbl_battle_messages_00353_3FD5FF",
+        "tbl_battle_messages_00354_3FD60C",
+        "tbl_battle_messages_00355_3FD61B"
+      ],
+      "count": 60,
+      "english_visible_characters": 1033,
+      "english_original_string_characters": 1257,
+      "priority_counts": {
+        "P1": 60
+      },
+      "fa_entries": 0,
+      "fa_waits": 0,
+      "unknown_buffer_entries": 8,
+      "unknown_buffer_writer_entries": 8,
+      "dynamic_name_entries": 0,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "battle_messages": 60
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_15",
+      "entry_ids": [
+        "tbl_battle_messages_00356_3FD62B",
+        "tbl_battle_messages_00361_3FD697",
+        "tbl_battle_messages_00362_3FD6B5",
+        "tbl_battle_messages_00363_3FD6C7",
+        "tbl_battle_messages_00364_3FD700",
+        "tbl_battle_messages_00365_3FD718",
+        "tbl_battle_messages_00366_3FD738",
+        "tbl_battle_messages_00367_3FD757",
+        "tbl_battle_messages_00368_3FD76D",
+        "tbl_battle_messages_00373_3FD81A",
+        "tbl_battle_messages_00374_3FD824",
+        "tbl_battle_messages_00376_3FD850",
+        "tbl_battle_messages_00377_3FD85F",
+        "tbl_battle_messages_00378_3FD876",
+        "tbl_battle_messages_00379_3FD8A2",
+        "tbl_battle_messages_00380_3FD8AF",
+        "tbl_battle_messages_00393_3FDA02",
+        "tbl_battle_messages_00398_3FDA8C",
+        "tbl_battle_messages_00399_3FDAB1",
+        "tbl_battle_messages_00401_3FDB92",
+        "tbl_battle_messages_00402_3FDBEF",
+        "tbl_battle_messages_00403_3FDC58",
+        "tbl_battle_messages_00404_3FDC95",
+        "tbl_battle_messages_00405_3FDCD2",
+        "tbl_battle_messages_00406_3FDD23",
+        "tbl_battle_messages_00407_3FDD64",
+        "tbl_battle_messages_00414_3FE6FA",
+        "tbl_battle_messages_00415_3FE714",
+        "tbl_battle_messages_00416_3FE766",
+        "tbl_battle_messages_00417_3FE76A",
+        "tbl_menu_battle_00001_3FE747",
+        "tbl_menu_battle_00004_4169C2",
+        "tbl_menu_battle_00018_1F94275",
+        "tbl_menu_battle_00019_1F94282",
+        "tbl_menu_battle_00020_1F94294",
+        "tbl_menu_battle_00021_1F942A8",
+        "tbl_menu_battle_00022_1F942B8",
+        "tbl_menu_battle_00023_1F942C3",
+        "tbl_menu_battle_00024_1F942CA",
+        "tbl_menu_battle_00025_1F942DA",
+        "tbl_menu_battle_00026_1F942E8",
+        "tbl_menu_battle_00027_1F942FC",
+        "tbl_menu_battle_00028_1F94310",
+        "tbl_menu_battle_00029_1F9432D",
+        "tbl_menu_battle_00030_1F9433E",
+        "tbl_menu_battle_00031_1F9434D",
+        "tbl_menu_battle_00032_1F94360",
+        "tbl_menu_battle_00033_1F9437B",
+        "tbl_menu_battle_00034_1F94386",
+        "tbl_menu_battle_00035_1F94397",
+        "tbl_menu_battle_00036_1F943AE",
+        "tbl_menu_battle_00037_1F943BE",
+        "tbl_menu_battle_00038_1F943D0",
+        "tbl_menu_battle_00039_1F943DE",
+        "tbl_menu_battle_00040_1F943E7",
+        "tbl_menu_battle_00041_1F943F1",
+        "tbl_menu_battle_00042_1F9440F",
+        "tbl_menu_battle_00043_1F94416",
+        "tbl_menu_battle_00044_1F94419",
+        "tbl_menu_battle_00045_1F9441D"
+      ],
+      "count": 60,
+      "english_visible_characters": 1470,
+      "english_original_string_characters": 1705,
+      "priority_counts": {
+        "P1": 60
+      },
+      "fa_entries": 1,
+      "fa_waits": 1,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 0,
+      "dynamic_name_entries": 0,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "battle_messages": 30,
+        "menu_battle": 30
+      },
+      "payload_created": false,
+      "injection_approved": false
+    },
+    {
+      "batch_id": "P7C_batch_16",
+      "entry_ids": [
+        "tbl_menu_battle_00046_1F94426",
+        "tbl_menu_battle_00047_1F9443E",
+        "tbl_menu_battle_00048_1F94454",
+        "tbl_menu_battle_00049_1F9446A",
+        "tbl_menu_options_00011_419E28",
+        "tbl_menu_options_00016_419E46",
+        "tbl_menu_options_00017_419E4B",
+        "tbl_menu_options_00018_419E4F",
+        "tbl_menu_options_00019_419E52",
+        "tbl_menu_options_00020_419C5A",
+        "tbl_menu_pokemon_00023_4172C2",
+        "tbl_menu_pokemon_00024_4172D5",
+        "tbl_menu_pokemon_00025_41737F",
+        "tbl_mission_log_00001_1F5604A",
+        "tbl_mission_log_00007_1F56082",
+        "tbl_mission_log_00008_1F56089",
+        "tbl_mission_log_00009_1F5608F",
+        "tbl_mission_log_00011_1F5609A",
+        "tbl_mission_log_00012_1F5609F",
+        "tbl_mission_log_00018_1F560FF",
+        "scr_1EEA888",
+        "scr_1EEA892",
+        "scr_1EEA89C",
+        "scr_1EEDA96",
+        "scr_1EF6184",
+        "scr_1F1F8AB",
+        "scr_1F26096",
+        "scr_1F63D86",
+        "scr_1F65E88",
+        "scr_1F8283D",
+        "scr_1F93C9F",
+        "scr_1F9C840",
+        "scr_1F9CDF4",
+        "scr_1F9F081",
+        "scr_1FA0D43",
+        "tbl_mission_objectives_00022_1F56532",
+        "tbl_mission_objectives_00034_1F56766",
+        "tbl_mission_objectives_00036_1F567CF",
+        "tbl_mission_objectives_00037_1F567F6",
+        "tbl_mission_objectives_00038_1F5683B",
+        "tbl_mission_objectives_00039_1F5684D",
+        "tbl_mission_objectives_00040_1F5686A",
+        "tbl_mission_objectives_00041_1F56883",
+        "tbl_mission_objectives_00042_1F5689C",
+        "tbl_mission_objectives_00043_1F568B7",
+        "tbl_mission_objectives_00044_1F568F7",
+        "tbl_mission_objectives_00045_1F56930",
+        "tbl_mission_objectives_00046_1F5694A",
+        "tbl_mission_objectives_00047_1F56986",
+        "tbl_mission_objectives_00048_1F569C7",
+        "tbl_mission_objectives_00049_1F569FB",
+        "tbl_mission_objectives_00051_1F56A49",
+        "tbl_mission_objectives_00052_1F56A64",
+        "tbl_mission_objectives_00053_1F56AA0",
+        "tbl_mission_objectives_00054_1F56AB8",
+        "tbl_mission_objectives_00055_1F56AF0",
+        "tbl_mission_objectives_00056_1F56B36",
+        "tbl_start_menu_labels_00001_A4E4E4",
+        "tbl_start_menu_labels_00004_A4E504",
+        "tbl_start_menu_labels_00005_A4E50D"
+      ],
+      "count": 60,
+      "english_visible_characters": 1398,
+      "english_original_string_characters": 1535,
+      "priority_counts": {
+        "P1": 60
+      },
+      "fa_entries": 0,
+      "fa_waits": 0,
+      "unknown_buffer_entries": 0,
+      "unknown_buffer_writer_entries": 0,
+      "dynamic_name_entries": 0,
+      "speaker_profile_entries": 0,
+      "category_counts": {
+        "menu_battle": 4,
+        "menu_options": 6,
+        "menu_pokemon": 3,
+        "mission_log": 7,
+        "mission_names": 15,
+        "mission_objectives": 22,
+        "start_menu_labels": 3
+      },
+      "payload_created": false,
+      "injection_approved": false
+    }
+  ],
+  "group_splits": [
+    {
+      "group_key": [
+        "P0",
+        "STATIC_ROOT_SET",
+        "map_001_045_coord_00BAFEA4",
+        "map_001_045_coord_00BAFEB4",
+        "map_001_045_coord_00BAFEC4"
+      ],
+      "entry_ids": [
+        "scr_1F3EA65",
+        "scr_1F3EB13",
+        "scr_1F3EBBA",
+        "scr_1F3EBEB",
+        "scr_1F3EC74",
+        "scr_1F3EDA8",
+        "scr_1F3EE0A",
+        "scr_1F3EED6",
+        "scr_1F3EF60",
+        "scr_1F3F216",
+        "scr_1F3F277",
+        "scr_1F3F3C9",
+        "scr_1F3F514",
+        "scr_1F3F64A",
+        "scr_1F3F6F5",
+        "scr_1F3F771",
+        "scr_1F3F846",
+        "scr_1F3F9C8",
+        "scr_1F3FA54",
+        "scr_1F3FAB5",
+        "scr_1F3FB1C",
+        "scr_1F3FB5E",
+        "scr_1F3FBAF",
+        "scr_1F3FBE4",
+        "scr_1F3FC2A",
+        "scr_1F3FC84",
+        "scr_1F3FE01",
+        "scr_1F3FE2F",
+        "scr_1F3FEA3",
+        "scr_1F40014",
+        "scr_1F40045",
+        "scr_1F40099",
+        "scr_1F401B6",
+        "scr_1F402C4",
+        "scr_1F40320",
+        "scr_1F403B9",
+        "scr_1F40462",
+        "scr_1F40559",
+        "scr_1F405AD",
+        "scr_1F406A5",
+        "scr_1F4075D",
+        "scr_1F407E3",
+        "scr_1F40954",
+        "scr_1F4096B",
+        "scr_1F4099D",
+        "scr_1F409D8",
+        "scr_1F40A03",
+        "scr_1F40AFC",
+        "scr_1F40B2B",
+        "scr_1F40B56",
+        "scr_1F40B88",
+        "scr_1F40BD9",
+        "scr_1F40C19",
+        "scr_1F40C1F",
+        "scr_1F40C4D",
+        "scr_1F40C6C",
+        "scr_1F40C71",
+        "scr_1F40D24",
+        "scr_1F40D68",
+        "scr_1F40EE9",
+        "scr_1F40FA8",
+        "scr_1F41136",
+        "scr_1F4129B",
+        "scr_1F41447",
+        "scr_1F41615",
+        "scr_1F416BC",
+        "scr_1F4172E",
+        "scr_1F417A4",
+        "scr_1F41873",
+        "scr_1F418B4",
+        "scr_1F4196F",
+        "scr_1F419E6"
+      ],
+      "batches": [
+        1,
+        2
+      ],
+      "reason": "30..60 count / text-control workload; not scene chronology",
+      "is_scene_or_speaker_group": true
+    },
+    {
+      "group_key": [
+        "P1",
+        "STRUCTURED_CATEGORY",
+        "battle_messages"
+      ],
+      "entry_ids": [
+        "tbl_battle_messages_00000_3FB500",
+        "tbl_battle_messages_00000_883590",
+        "tbl_battle_messages_00000_8BD155",
+        "tbl_battle_messages_00000_A37710",
+        "tbl_battle_messages_00000_A4AEE1",
+        "tbl_battle_messages_00000_A4C515",
+        "tbl_battle_messages_00000_A4C603",
+        "tbl_battle_messages_00001_8835A0",
+        "tbl_battle_messages_00001_A4C610",
+        "tbl_battle_messages_00001_A4C640",
+        "tbl_battle_messages_00002_3FB283",
+        "tbl_battle_messages_00002_A4C64C",
+        "tbl_battle_messages_00003_A4A98C",
+        "tbl_battle_messages_00003_A4C659",
+        "tbl_battle_messages_00004_A4C587",
+        "tbl_battle_messages_00004_A4C666",
+        "tbl_battle_messages_00005_A4C5A3",
+        "tbl_battle_messages_00005_A4C66B",
+        "tbl_battle_messages_00006_A4C5B1",
+        "tbl_battle_messages_00007_A4C5C8",
+        "tbl_battle_messages_00007_A4C689",
+        "tbl_battle_messages_00011_A4C790",
+        "tbl_battle_messages_00012_A4C859",
+        "tbl_battle_messages_00013_A4C86D",
+        "tbl_battle_messages_00018_A4C8D2",
+        "tbl_battle_messages_00053_3FB9D6",
+        "tbl_battle_messages_00056_3FBA2C",
+        "tbl_battle_messages_00204_3FC92C",
+        "tbl_battle_messages_00214_3FCA27",
+        "tbl_battle_messages_00235_3FCBE4",
+        "tbl_battle_messages_00262_3FCE78",
+        "tbl_battle_messages_00263_3FCE90",
+        "tbl_battle_messages_00264_3FCEA8",
+        "tbl_battle_messages_00265_3FCEBA",
+        "tbl_battle_messages_00266_3FCECE",
+        "tbl_battle_messages_00267_3FCEE3",
+        "tbl_battle_messages_00268_3FCEFB",
+        "tbl_battle_messages_00269_3FCF14",
+        "tbl_battle_messages_00270_3FCF2C",
+        "tbl_battle_messages_00271_3FCF40",
+        "tbl_battle_messages_00272_3FCF54",
+        "tbl_battle_messages_00273_3FCF6C",
+        "tbl_battle_messages_00274_3FCF7E",
+        "tbl_battle_messages_00275_3FCFA0",
+        "tbl_battle_messages_00276_3FCFC2",
+        "tbl_battle_messages_00277_3FCFE4",
+        "tbl_battle_messages_00278_3FD006",
+        "tbl_battle_messages_00279_3FD022",
+        "tbl_battle_messages_00280_3FD048",
+        "tbl_battle_messages_00281_3FD068",
+        "tbl_battle_messages_00282_3FD077",
+        "tbl_battle_messages_00283_3FD0A7",
+        "tbl_battle_messages_00284_3FD0CA",
+        "tbl_battle_messages_00297_3FD218",
+        "tbl_battle_messages_00298_3FD232",
+        "tbl_battle_messages_00299_3FD23F",
+        "tbl_battle_messages_00300_3FD24D",
+        "tbl_battle_messages_00301_3FD284",
+        "tbl_battle_messages_00302_3FD297",
+        "tbl_battle_messages_00303_3FD2AA",
+        "tbl_battle_messages_00305_3FD2D9",
+        "tbl_battle_messages_00306_3FD30D",
+        "tbl_battle_messages_00307_3FD322",
+        "tbl_battle_messages_00308_3FD34D",
+        "tbl_battle_messages_00309_3FD361",
+        "tbl_battle_messages_00321_3FD45E",
+        "tbl_battle_messages_00335_3FD555",
+        "tbl_battle_messages_00336_3FD55B",
+        "tbl_battle_messages_00337_3FD560",
+        "tbl_battle_messages_00338_3FD564",
+        "tbl_battle_messages_00339_3FD569",
+        "tbl_battle_messages_00340_3FD56D",
+        "tbl_battle_messages_00341_3FD572",
+        "tbl_battle_messages_00342_3FD576",
+        "tbl_battle_messages_00344_3FD590",
+        "tbl_battle_messages_00345_3FD593",
+        "tbl_battle_messages_00346_3FD59A",
+        "tbl_battle_messages_00347_3FD5A2",
+        "tbl_battle_messages_00348_3FD5A8",
+        "tbl_battle_messages_00349_3FD5B0",
+        "tbl_battle_messages_00350_3FD5B8",
+        "tbl_battle_messages_00351_3FD5C1",
+        "tbl_battle_messages_00352_3FD5EF",
+        "tbl_battle_messages_00353_3FD5FF",
+        "tbl_battle_messages_00354_3FD60C",
+        "tbl_battle_messages_00355_3FD61B",
+        "tbl_battle_messages_00356_3FD62B",
+        "tbl_battle_messages_00361_3FD697",
+        "tbl_battle_messages_00362_3FD6B5",
+        "tbl_battle_messages_00363_3FD6C7",
+        "tbl_battle_messages_00364_3FD700",
+        "tbl_battle_messages_00365_3FD718",
+        "tbl_battle_messages_00366_3FD738",
+        "tbl_battle_messages_00367_3FD757",
+        "tbl_battle_messages_00368_3FD76D",
+        "tbl_battle_messages_00373_3FD81A",
+        "tbl_battle_messages_00374_3FD824",
+        "tbl_battle_messages_00376_3FD850",
+        "tbl_battle_messages_00377_3FD85F",
+        "tbl_battle_messages_00378_3FD876",
+        "tbl_battle_messages_00379_3FD8A2",
+        "tbl_battle_messages_00380_3FD8AF",
+        "tbl_battle_messages_00393_3FDA02",
+        "tbl_battle_messages_00398_3FDA8C",
+        "tbl_battle_messages_00399_3FDAB1",
+        "tbl_battle_messages_00401_3FDB92",
+        "tbl_battle_messages_00402_3FDBEF",
+        "tbl_battle_messages_00403_3FDC58",
+        "tbl_battle_messages_00404_3FDC95",
+        "tbl_battle_messages_00405_3FDCD2",
+        "tbl_battle_messages_00406_3FDD23",
+        "tbl_battle_messages_00407_3FDD64",
+        "tbl_battle_messages_00414_3FE6FA",
+        "tbl_battle_messages_00415_3FE714",
+        "tbl_battle_messages_00416_3FE766",
+        "tbl_battle_messages_00417_3FE76A"
+      ],
+      "batches": [
+        13,
+        14,
+        15
+      ],
+      "reason": "30..60 count / text-control workload; not scene chronology",
+      "is_scene_or_speaker_group": false
+    },
+    {
+      "group_key": [
+        "P1",
+        "STRUCTURED_CATEGORY",
+        "menu_battle"
+      ],
+      "entry_ids": [
+        "tbl_menu_battle_00001_3FE747",
+        "tbl_menu_battle_00004_4169C2",
+        "tbl_menu_battle_00018_1F94275",
+        "tbl_menu_battle_00019_1F94282",
+        "tbl_menu_battle_00020_1F94294",
+        "tbl_menu_battle_00021_1F942A8",
+        "tbl_menu_battle_00022_1F942B8",
+        "tbl_menu_battle_00023_1F942C3",
+        "tbl_menu_battle_00024_1F942CA",
+        "tbl_menu_battle_00025_1F942DA",
+        "tbl_menu_battle_00026_1F942E8",
+        "tbl_menu_battle_00027_1F942FC",
+        "tbl_menu_battle_00028_1F94310",
+        "tbl_menu_battle_00029_1F9432D",
+        "tbl_menu_battle_00030_1F9433E",
+        "tbl_menu_battle_00031_1F9434D",
+        "tbl_menu_battle_00032_1F94360",
+        "tbl_menu_battle_00033_1F9437B",
+        "tbl_menu_battle_00034_1F94386",
+        "tbl_menu_battle_00035_1F94397",
+        "tbl_menu_battle_00036_1F943AE",
+        "tbl_menu_battle_00037_1F943BE",
+        "tbl_menu_battle_00038_1F943D0",
+        "tbl_menu_battle_00039_1F943DE",
+        "tbl_menu_battle_00040_1F943E7",
+        "tbl_menu_battle_00041_1F943F1",
+        "tbl_menu_battle_00042_1F9440F",
+        "tbl_menu_battle_00043_1F94416",
+        "tbl_menu_battle_00044_1F94419",
+        "tbl_menu_battle_00045_1F9441D",
+        "tbl_menu_battle_00046_1F94426",
+        "tbl_menu_battle_00047_1F9443E",
+        "tbl_menu_battle_00048_1F94454",
+        "tbl_menu_battle_00049_1F9446A"
+      ],
+      "batches": [
+        15,
+        16
+      ],
+      "reason": "30..60 count / text-control workload; not scene chronology",
+      "is_scene_or_speaker_group": false
+    }
+  ],
+  "existing_candidate_linkage": [
+    {
+      "id": "tbl_start_menu_labels_00001_A4E4E4",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch01_reviewed.json",
+      "holds": {
+        "primary_reason": "review_needs_technical_fit",
+        "secondary_reasons": [
+          "fixed_or_no_relocation_overflow"
+        ],
+        "primary_family": "text slot capacity",
+        "all_families": [
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch01_reviewed.json",
+        "potential_unassessed_gates": [
+          "text slot capacity"
+        ]
+      },
+      "candidate_sha256": "4df08d541e94f40fa2655984de918109ff49fb75a99b9b264e67e624a6486b18"
+    },
+    {
+      "id": "tbl_start_menu_labels_00004_A4E504",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "CONTEXT_REQUIRED",
+          "review_status:needs_technical_fit",
+          "known_structured_constraint"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": [
+          "text slot capacity"
+        ]
+      },
+      "candidate_sha256": "e871c1bbabacdf3e9154a1fe89a00d60f0357393b6adc2ee541ed2e195ec0e67"
+    },
+    {
+      "id": "tbl_menu_battle_00001_3FE747",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "CONTEXT_REQUIRED",
+          "review_status:needs_technical_fit",
+          "known_structured_constraint",
+          "two_column_cursor_margin_unproved"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "76b892db67faa69b093ac9cacf7317e7a1900e267b251032cd89e0429589886e"
+    },
+    {
+      "id": "tbl_menu_options_00011_419E28",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "options_shared_row_column_unproved"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "ff975e0a51d9963f23006591e8c49b415a3d3d48d70ba5d7b001c8a724989b5f"
+    },
+    {
+      "id": "tbl_menu_options_00016_419E46",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "CONTEXT_REQUIRED",
+          "review_status:needs_technical_fit",
+          "options_shared_row_column_unproved"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "5f13bfd60a0a27ae72b13cc3a64f7ca28dc2ec1ac740eec6bcf6bbe832fb069b"
+    },
+    {
+      "id": "tbl_menu_options_00017_419E4B",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "options_shared_row_column_unproved",
+          "no_japanese_change"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "aaebc1da12b7102874e4db3fef0aecf1c48fefa4401579ee52d4e3290774446b"
+    },
+    {
+      "id": "tbl_menu_options_00018_419E4F",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "known_structured_constraint",
+          "options_shared_row_column_unproved",
+          "no_japanese_change"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "6bafbdaded5ca5fbc6222d492f16efa3a8fabb81ef1135e6d7b5fb1e854ce8f2"
+    },
+    {
+      "id": "tbl_menu_options_00019_419E52",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "STRUCTURED_UI",
+        "secondary_reasons": [
+          "known_structured_constraint",
+          "options_shared_row_column_unproved"
+        ],
+        "primary_family": "renderer consumer",
+        "all_families": [
+          "other",
+          "renderer consumer"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "c30a56332998fcf07b1aeb521d05a99d6c8145a9d5a2fc4f4275e964db8ddf47"
+    },
+    {
+      "id": "scr_1EEA888",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "00d5b4074227d59f00738a1ce6ebbe16fa1e90e9624e561f96fd9c18d3b25097"
+    },
+    {
+      "id": "scr_1EEA892",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "a34f145b13a9b0f021639ec48763b925a958bf98a6ff4739cd323b62e5af14eb"
+    },
+    {
+      "id": "scr_1EEA89C",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "c04485b1a4a6120221b4a8f91455b7eccdd4b3cb2c990949051a468fd996b5f1"
+    },
+    {
+      "id": "scr_1EEDA96",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "56105e502b8613de4e24500d81f27fd3351b14e6542d45517bf25212dc2b726f"
+    },
+    {
+      "id": "scr_1EF6184",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "8777e813fbae1eb10a153375b0bcc2264c3b4d6da5a992216f39a99f47ad70c6"
+    },
+    {
+      "id": "scr_1EFF75B",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "5d0e79699b1f359f11d0dfe576e74aaf86eaa6ba502460e66fc562855269fd44"
+    },
+    {
+      "id": "scr_1F06B10",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "505cff85bb5dbe443d41592b10a7c7f7ba1ed0f6a9e6d9987a5c120ecf9425bf"
+    },
+    {
+      "id": "scr_1F08DE6",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "159d2e8c8339d2825b5b7a7ff9ecf7a7da66a992c6602078db8099040e140d73"
+    },
+    {
+      "id": "scr_1F0920D",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "ed0940754cacec08f2807e1453149eb6a9c3a8a2021dc7cd94158222d4c47349"
+    },
+    {
+      "id": "scr_1F113ED",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch02_reviewed.json",
+      "holds": {
+        "primary_reason": "CONTROL_BOUNDARY_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "field_208px_overflow",
+          "fa_source_width_envelope_exceeded",
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "incomplete pointer ownership",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch02_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "1719c55c6ad9455664073883fd2bb520ddc43959a6161c30d2836cdcdb24d12a"
+    },
+    {
+      "id": "scr_1F11594",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "FA_LAYOUT",
+        "secondary_reasons": [
+          "needs_technical_fit",
+          "unresolved_fa_placement",
+          "terminal_fa_without_source_boundary",
+          "technical_fit_unapproved"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "86391f8dfac2effa587e0ce525089404e01fdb0775ba6b0067aa044ef1686278"
+    },
+    {
+      "id": "scr_1F1184B",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "OTHER",
+        "secondary_reasons": [
+          "needs_technical_fit",
+          "technical_fit_unapproved"
+        ],
+        "primary_family": "other",
+        "all_families": [
+          "other",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "96ea24d6f17f5e315a138854d9047b3ad1c561e9bb6f0955072e0b5073767e6b"
+    },
+    {
+      "id": "scr_1F11864",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "OTHER",
+        "secondary_reasons": [
+          "needs_technical_fit",
+          "technical_fit_unapproved"
+        ],
+        "primary_family": "other",
+        "all_families": [
+          "other",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "eeef4b48d880800719330f2b8d1652082dab39960e1a34df73e15b98830a9858"
+    },
+    {
+      "id": "scr_1F11C5F",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "OTHER",
+        "secondary_reasons": [
+          "needs_technical_fit",
+          "technical_fit_unapproved"
+        ],
+        "primary_family": "other",
+        "all_families": [
+          "other",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "9650edb9dddc794f87a34adf0336b1ee0a17f148df3e032242faca340b5da6de"
+    },
+    {
+      "id": "scr_1F11CFD",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "OTHER",
+        "secondary_reasons": [
+          "needs_technical_fit",
+          "technical_fit_unapproved"
+        ],
+        "primary_family": "other",
+        "all_families": [
+          "other",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "e37edd3f5c557c76d74b90a74bf2b3c7bd420635a6ff1dce8cf3173f84dc5929"
+    },
+    {
+      "id": "scr_1F12064",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "56f6739749cb20841daa97a903223c66bc6dc295a07683378625269236c96fb8"
+    },
+    {
+      "id": "scr_1F14CD2",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "e9c577f86c5cff931d595e7ce313472b03c5ae6d588560e5a8d1c70649d40c7d"
+    },
+    {
+      "id": "scr_1F1F8AB",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "GLOSSARY_APPROVAL",
+        "secondary_reasons": [
+          "WIDTH_LAYOUT",
+          "mission_title_glossary_proposal_not_approved",
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "9267e341294a92f9c341c9f94e49f7e409c81d55fa583b7f9db2954ddd6f9e34"
+    },
+    {
+      "id": "scr_1F2E8E9",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "fa_source_width_envelope_exceeded",
+        "secondary_reasons": [
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "incomplete pointer ownership",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "51b46d485db7f99b45c3ccaaec1017a47ee95faf3d95ef75fc6038d1ee47db1b"
+    },
+    {
+      "id": "scr_1F2EB85",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "SPEAKER_REQUIRED",
+          "script_width_unproved"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "other",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "2bba759fb4688e4fce8ad014c364971275db343b806dbbdea1636e5509e8f5fa"
+    },
+    {
+      "id": "scr_1F2EC73",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "SPEAKER_REQUIRED",
+          "script_width_unproved"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "other",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "05fc1bcd1325196508b3ddc6ec3240fe22ade9e7326768a8be1e24d50382b54e"
+    },
+    {
+      "id": "scr_1F2F24D",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "SPEAKER_REQUIRED",
+          "script_width_unproved"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "other",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "910c2d309d390d0e82912d6367a373718e274648f945a757c1af87b0ee446ba8"
+    },
+    {
+      "id": "scr_1F2F2F2",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "8a10db7a4f3b137167356911d43f93fc4b0479dbc0cfbf52268beec581b5844e"
+    },
+    {
+      "id": "scr_1F2F718",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "e027104f421b298445417070e1e38f5bd67203094c7a895540a2040ce461eec3"
+    },
+    {
+      "id": "scr_1F2F759",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "fe021171c547b33babf36fe1bab275e2b7f0be10a8bce399774f994afc146808"
+    },
+    {
+      "id": "scr_1F2F896",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "82a853be37565dc1d2ec4a579bbf35095ad3431feaf1b2f444634e0adbf418b7"
+    },
+    {
+      "id": "scr_1F3102E",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "e61118a1cf6ae598b1363a15ffbda2db8cdd4606a7a2aea796c75e8853a4654f"
+    },
+    {
+      "id": "scr_1F3129D",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "fa_source_width_envelope_exceeded",
+        "secondary_reasons": [],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "88e2265351b44867ead5ea0953bf1ad67ba930a045b64f41c480f4ef7d55996e"
+    },
+    {
+      "id": "scr_1F318B2",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "fa_source_width_envelope_exceeded",
+        "secondary_reasons": [
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "incomplete pointer ownership",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "4f6ad1c9e0b747984b259fbac5ce7479bb9811710352372d0ec0c0fbfb52fb97"
+    },
+    {
+      "id": "scr_1F31FED",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "glossary_scope_or_target_unapproved",
+        "secondary_reasons": [
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope",
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "aae210982b595cefbb1b529866462675f030d94880584d2ca852fddb03b6fda6"
+    },
+    {
+      "id": "scr_1F325DE",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "5049a42b3c653d80f87066a675c7d357575cdfaaf1e1de123f1850cbe8f98427"
+    },
+    {
+      "id": "scr_1F3275F",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+      "holds": {
+        "primary_reason": "fa_source_width_envelope_exceeded",
+        "secondary_reasons": [],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch03_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "b960a70e8616d0e7a5737bf2f9746343516c957f90725e5d6b55558a49ca78a5"
+    },
+    {
+      "id": "scr_1F3371D",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "glossary_scope_or_target_unapproved",
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "bc7f6ab09e5e4c626d249309db453bcb7ce01fb23a7dc55dc2f664469d989459"
+    },
+    {
+      "id": "scr_1F338A2",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "1d425b643424bc879328dd207ffbfde1087e8a75a5adbf24fad11b2a68097165"
+    },
+    {
+      "id": "scr_1F36341",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "57c296bd702c2a92e379cff7cd5ecdaeb378e27658a5c181cde90f2601cadf46"
+    },
+    {
+      "id": "scr_1F389BB",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "20d6ee9685ec3fe656fb32ca9a011e828e528421347ee5bc9b90212f343c512d"
+    },
+    {
+      "id": "scr_1F38C8F",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "f6e4b51609e150482025a2ada169ef93f96c84126b81cc4fdbbd97da28b3c2bb"
+    },
+    {
+      "id": "scr_1F3BBF1",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "fb02eb8e5a97e438eb1c653381ead4f86727f309573804788f01c6094481fa44"
+    },
+    {
+      "id": "scr_1F3BD5C",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "glossary_scope_or_target_unapproved"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "glossary scope"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "e190acdb92321bdd3de81c44bfdb852a97b5dfcab2910df8ddfec78f9bf61d00"
+    },
+    {
+      "id": "scr_1F3BE76",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "12dc98431e13004633c6384759784710a2c1cead37d9675b433d67fb2267868c"
+    },
+    {
+      "id": "scr_1F3BF66",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "5f6a286c0a92da4e73bb6092e2310f2699877d87400e612b97115772b058d8e8"
+    },
+    {
+      "id": "scr_1F3C508",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "fa_source_width_envelope_exceeded",
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "incomplete pointer ownership",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "201def35932c8074387eeb3356beebecf1807130b19dfa62d9a326879e9836bb"
+    },
+    {
+      "id": "scr_1F3C6E8",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "f235f50809458842eb4ed6683b2591ef704f1bbd0bca10f8180e4ffa522fc0a5"
+    },
+    {
+      "id": "scr_1F3CB76",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "9bae08c887f4460d3814174d2aa7f7018141c0d31c47431ea9ad057dd9449c9a"
+    },
+    {
+      "id": "scr_1F3CD22",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "CLAUDE_WORDING_REVIEW_REQUIRED",
+        "secondary_reasons": [],
+        "primary_family": "other",
+        "all_families": [
+          "other"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "6f9af4ded3bed9ede3ecead7313a709390b7818014058245719af9ddb8208fd7"
+    },
+    {
+      "id": "scr_1F3CE79",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "45da07c885f3526d472bb14193011e3ff96ac3b9cf52c988da19c39d54547545"
+    },
+    {
+      "id": "scr_1F3D2FD",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "glossary_scope_or_target_unapproved",
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "glossary scope",
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "9128ee9e71cc0505d061b763a921bf94e8f1916efb141144a329b875e9dea20f"
+    },
+    {
+      "id": "scr_1F3DACA",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "review_needs_technical_fit",
+        "secondary_reasons": [
+          "incomplete_pointer_ownership",
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "text slot capacity",
+        "all_families": [
+          "incomplete pointer ownership",
+          "text slot capacity"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "804c33c9f346ba88a0a2f595cb524cdbdd11c6121f374340d53f036f6c0bdc55"
+    },
+    {
+      "id": "scr_1F3DEBD",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "e8ae64778389db5f7537da35ae9d5bf8d05a2c2ee3a90a768c5208983ff243ad"
+    },
+    {
+      "id": "scr_1F3DFF5",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "owner_incomplete_or_interior",
+        "secondary_reasons": [],
+        "primary_family": "incomplete pointer ownership",
+        "all_families": [
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "83c28f4d4a6b4a7617b48ba214dc435827e97c9a633b217d9ff447181dc93855"
+    },
+    {
+      "id": "scr_1F3E173",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "fd1cb034b3782d258b1b2a3a0f5d353c657f0497985a99189db57320c1bb3f9a"
+    },
+    {
+      "id": "scr_1F3E2FE",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "owner_incomplete_or_interior"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "incomplete pointer ownership"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "4109a9d0769a90797d54c773ed517fd1f663b6a4d790218c312d6f77ed595d2e"
+    },
+    {
+      "id": "scr_1F41C1E",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "8327245e8e168a5c96020330303ac22e9bc6bd6392d174f662de0b100366138e"
+    },
+    {
+      "id": "scr_1F41CA1",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "glossary_scope_or_target_unapproved",
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "fb846662574ce9f050c57996296f19886c999588b46b452427b98155c46e32b6"
+    },
+    {
+      "id": "scr_1F42454",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "FA_SEMANTIC_REVIEW_REQUIRED",
+        "secondary_reasons": [
+          "glossary_scope_or_target_unapproved",
+          "fa_source_width_envelope_exceeded"
+        ],
+        "primary_family": "FA semantic boundary",
+        "all_families": [
+          "FA semantic boundary",
+          "glossary scope",
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "61474b1dda04c55ac7d0e00ac0a629020528658d74d74d24d2208c01a34d9118"
+    },
+    {
+      "id": "scr_1F42501",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "fa_source_width_envelope_exceeded",
+        "secondary_reasons": [],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "eda93d61c260470416530c1c3f9215f804d03c7438f62175fbc786713356880d"
+    },
+    {
+      "id": "scr_1F45572",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "fa_source_width_envelope_exceeded",
+        "secondary_reasons": [],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "cddbfd65a5b7d3d0bf09b74be571c5683e182c7ac097fec3e21bea29ecd5f4ee"
+    },
+    {
+      "id": "scr_1F4BC44",
+      "translation_state": "REVIEWED_NOT_APPLIED",
+      "candidate_source": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+      "holds": {
+        "primary_reason": "glossary_scope_or_target_unapproved",
+        "secondary_reasons": [],
+        "primary_family": "glossary scope",
+        "all_families": [
+          "glossary scope"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_cleanup_batch04_reviewed.json",
+        "potential_unassessed_gates": [
+          "FA semantic boundary"
+        ]
+      },
+      "candidate_sha256": "e96d991e72ede81cd7acd6d916c07ba510c154d5b8c283b0714389364145f5b3"
+    },
+    {
+      "id": "tbl_mission_log_00007_1F56082",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "cebcc03db6873c0de6fbc5c680222078d67be7aac366c007c7d9f52563148633"
+    },
+    {
+      "id": "tbl_mission_log_00008_1F56089",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "aeb73c49ca6d3e92797c24ce87d893d868fe6d5a2f17bce486007064855b9daa"
+    },
+    {
+      "id": "tbl_mission_log_00009_1F5608F",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "ee32e0f2ecfc66d336f15c9cfa3be9d5d210fe39ab6cfff074e372d110043dfb"
+    },
+    {
+      "id": "tbl_mission_log_00011_1F5609A",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "96f77598f9eee4722f0f2590b9acbd303ae43a8d50fef24258cd605444d15aa1"
+    },
+    {
+      "id": "tbl_mission_log_00012_1F5609F",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "8f592a0c6aae72b16c850603f30c68bca620b41b25d0b0188aa31b650a7c11af"
+    },
+    {
+      "id": "tbl_mission_log_00018_1F560FF",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "1376d253b7f527f793e91c703eabca7ea3b7f5cb011184bef457ace066524f28"
+    },
+    {
+      "id": "tbl_mission_objectives_00022_1F56532",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "WIDTH_LAYOUT",
+        "secondary_reasons": [
+          "width_unproved:layout_ambiguous"
+        ],
+        "primary_family": "width overflow",
+        "all_families": [
+          "width overflow"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "f1cbeeb7707706eccfdfdbbad69332745c13bbc66c39d5d72b948993ed241688"
+    },
+    {
+      "id": "tbl_menu_battle_00004_4169C2",
+      "translation_state": "DRAFT_UNAPPROVED",
+      "candidate_source": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+      "holds": {
+        "primary_reason": "english_retention_proposed_not_approved_for_full_localization",
+        "secondary_reasons": [],
+        "primary_family": "other",
+        "all_families": [
+          "other"
+        ],
+        "context_hold": false,
+        "technical_hold": true,
+        "provenance": "out/phase6/ja_phase6_final_cleanup_inventory_v3.json",
+        "potential_unassessed_gates": []
+      },
+      "candidate_sha256": "deec481bac8028c649c0cb94f2eab6ee11c4d970ef30bdc0cb13d8da9f1fe982"
+    }
+  ],
+  "buffer_context_warnings": [
+    {
+      "id": "tbl_battle_messages_00297_3FD218",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD218",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00298_3FD232",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD232",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00299_3FD23F",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD23F",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00302_3FD297",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD29C",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00303_3FD2AA",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD2AF",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00308_3FD34D",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD35B",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00006_A4C5B1",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x00A4C5B8",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00007_A4C5C8",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x00A4C5CF",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00013_A4C86D",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x00A4C86D",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00301_3FD284",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD289",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00321_3FD45E",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x003FD462",
+          "bytes": "fd 05",
+          "token": "[kun]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00000_A4C515",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x00A4C51C",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    },
+    {
+      "id": "tbl_battle_messages_00005_A4C5A3",
+      "category": "battle_messages",
+      "buffer_metadata": [
+        {
+          "kind": "FD",
+          "rom_offset": "0x00A4C5A3",
+          "bytes": "fd 06",
+          "token": "[rival]",
+          "semantic_type": "UNKNOWN",
+          "value_semantics_known": false,
+          "consumer": "battle_messages",
+          "codec_label_is_not_runtime_semantics": true,
+          "writer_status": "UNKNOWN",
+          "writer": null,
+          "full_value_set": null,
+          "maximum_width": null,
+          "page_state_after_expansion": "REQUIRES_RUNTIME_PROOF"
+        }
+      ],
+      "prior_translation_readiness": "READY_FOR_CLAUDE",
+      "new_injection_approval": false,
+      "required_action": "Prove consumer/writer semantics before translating buffer-dependent meaning; return needs_context, never interpret field codec alias as a battle value"
+    }
+  ],
+  "prior_plan_id_set_identical": true,
+  "warning": "Static event roots are not confirmed scenes or mandatory story. All original holds persist."
+}
