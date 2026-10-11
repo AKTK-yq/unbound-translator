@@ -1,0 +1,50 @@
+{
+  "baseline": "out/unbound-ja-phase6-cleanup-batch04.gba",
+  "sha256": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+  "isolation": "Copy baseline to new temporary folder; savegamePath/savestatePath there; autoload=0; no old saves.",
+  "launch": "mGBA.exe -g -C autoload=0 -C cheatAutoload=0 -C cheatAutosave=0 -C savegamePath=TEMP -C savestatePath=TEMP TEMP/baseline.gba",
+  "security": "Prefer GDB GUI bind127.0.0.1. Never expose network listener; no M/X/P/G packets.",
+  "capture": "python scripts/investigate_ja_phase7_runtime_trace.py --interactive --output TEMP/new-capture.json --label field",
+  "commands": [
+    "b 08008FCC",
+    "b 080F6D7C",
+    "b 080F6D44",
+    "c",
+    "u (remove breakpoint before step)",
+    "s",
+    "b 08003014",
+    "c",
+    "r",
+    "q"
+  ],
+  "GUI": "Enter=START, X=A. If short automated input fails, hold manually. Stop at breakpoint is intentional.",
+  "continuation": [
+    "Record expander r1 exact source; reject interior/proximity matches.",
+    "F6D44: r0 template pointer; capture font/window/x/y/spacing.",
+    "CopyGlyph: r0 live printer; render/control handlers: r6 live printer.",
+    "FE 08005880/0800589E; FA 08005C98/08005CD0/08005D40; FB 08005C6C.",
+    "Player expansion 08009018/08009120: capture FD01 and writer, full child bytes and language controls.",
+    "Use fresh capture filenames; q clears breakpoints; Ctrl+C also preserves log in finally.",
+    "If reconnect times out, restart GDB server in Qt; do not overwrite saved captures."
+  ],
+  "remaining": {
+    "FA_semantic_hold": [
+      1,
+      31,
+      40
+    ],
+    "player_indices": [
+      20,
+      22,
+      26,
+      28,
+      29,
+      30,
+      35,
+      36,
+      38,
+      40
+    ]
+  },
+  "approval": "No translation injection approval; no global name-width bound from one input."
+}
