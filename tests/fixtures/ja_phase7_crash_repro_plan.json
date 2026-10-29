@@ -1,0 +1,125 @@
+{
+  "phase": "7C-6",
+  "inputs": {
+    "rom/unbound.gba": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+    "out/unbound-ja-phase6-cleanup-batch04.gba": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+    "out/unbound-texts.json": "37848077b252646f7bf44810a9ae2f968fa84b941eee207b03820fbd0375e83f",
+    "out/phase6/ja_phase6_cleanup_batch04_combined_controlfix.json": "5819570fa4485f82bd5bcdc3696a06495f45495712c12d0c55599558275ad0a2",
+    "out/phase6/ja_phase6_cleanup_batch04_map.json": "eb0046cb17e7fee488ee7dac6ea93986f177e3c939753c2ebc891aca414d99ac",
+    "out/phase6/ja_phase6_cleanup_batch04_technical_holds.json": "b648f9d0c11e380cc63b36e4448b54979e6395bb7557278ddedac11c9441cda8",
+    "out/phase7/ja_renderer_runtime_trace_log.json": "2b740d1f9cfa5229d590d1e1b078d843279a5ab4c49628d978380875d8a4bceb",
+    "out/phase7/ja_renderer_runtime_proof_matrix.json": "0bbcc54146509659dfa08b6c6c75b74e77228c7aff9c127cd4fec9f266601245",
+    "docs/ja-phase7-renderer-runtime-trace.md": "05d90ffed437bdf039536372f96061037d166425990a7803b2b363cee0762cda"
+  },
+  "global_config": {
+    "C:\\Users\\liosf\\AppData\\Roaming\\mGBA\\config.ini": "c35606735f1f43b356a8a0f1db5a3a69ec3586c0ab64242b49569fd79863c085",
+    "C:\\Users\\liosf\\AppData\\Roaming\\mGBA\\qt.ini": "131dbd6c2b4332df37afe5a17a65dc0e499ce94a8f1c36943e7b342d0e6023b0"
+  },
+  "saves_in_protected_909": {
+    "out/unbound-ja-multi-poc.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "out/unbound-ja-phase4-reviewed.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "out/unbound-ja-phase5b.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "out/unbound-ja-phase5c.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "out/unbound-ja-phase6-batch04.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "out/unbound-ja-poc.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "out/unbound-ja-poc2.sav": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260"
+  },
+  "protected909": {
+    "files": 909,
+    "aggregate_sha256": "f932aab110e4dc228c628314c43ce5b0dc0ba89d5f15f6740da9ef6117bad4df"
+  },
+  "current_automatic_input_permission": false,
+  "approval_history": [
+    "Initially forbidden by phase request",
+    "User allowed ordinary Enter/X keys",
+    "User revoked automatic operation; no further automated keys"
+  ],
+  "mgba": {
+    "version": "Qt 0.10.5",
+    "portable_isolation": "Copy installed mGBA.exe into each new trial folder; portable.ini beside copied executable makes config.ini/qt.ini local. Original config never opened for writes.",
+    "sources": [
+      "https://github.com/mgba-emu/mgba/blob/0.10.5/src/core/config.c",
+      "https://github.com/mgba-emu/mgba/blob/0.10.5/src/platform/qt/ConfigController.cpp",
+      "https://github.com/mgba-emu/mgba/blob/0.10.5/src/debugger/gdb-stub.c",
+      "https://github.com/pret/pokefirered/blob/master/src/scanline_effect.c",
+      "https://github.com/pret/pokefirered/blob/master/include/scanline_effect.h"
+    ]
+  },
+  "observed_trial": {
+    "trial_id": "B2",
+    "condition": "B",
+    "variant": "ja",
+    "rom_relative": "out/unbound-ja-phase6-cleanup-batch04.gba",
+    "temporary_directory": "C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2",
+    "temporary_rom": "C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/B2-ja.gba",
+    "rom_sha256": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+    "executable": "C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/mGBA.exe",
+    "process_id_at_launch": 9612,
+    "argv": [
+      "-C",
+      "autoload=0",
+      "-C",
+      "cheatAutoload=0",
+      "-C",
+      "cheatAutosave=0",
+      "-C",
+      "savegamePath=C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/save",
+      "-C",
+      "savestatePath=C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/save",
+      "-C",
+      "cheatsPath=C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/save",
+      "-C",
+      "patchPath=C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/save",
+      "-C",
+      "rewindEnable=0",
+      "-C",
+      "volume=0",
+      "-C",
+      "width=720",
+      "-C",
+      "height=480",
+      "C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/B2-ja.gba"
+    ],
+    "debugger_started": false,
+    "listener_2345_before_gameplay": false,
+    "debugger_connection": false,
+    "save_before_launch": "Empty new save directory; no savestate; autoload=0",
+    "save_after": "C:/Users/liosf/AppData/Local/Temp/unbound-phase7c6-6ce6fbfd114d4853b59580435e3dc683/B2/save/B2-ja.sav",
+    "save_after_bytes": 131072,
+    "controls": "Human boot; one authorized automated X press during early intro; authorization subsequently revoked. Remaining exact human input sequence UNKNOWN.",
+    "last_observed_text": "はるか むかし…",
+    "last_observed_scene": "Hoopa with legendary birds during opening",
+    "last_precrash_text": "UNKNOWN",
+    "crash_scene": "Opening bridge; exact frame/time UNKNOWN",
+    "result": "CRASH_OBSERVED",
+    "reported_error": "Jumped to invalid address: E3E800D8",
+    "evidence": {
+      "method": "User-supplied screenshot and user crash report; launch commandline previously checked via Win32_Process; port2345 absent at launch",
+      "image_path": "C:/Users/liosf/AppData/Local/Temp/codex-clipboard-7fa58f7e-a160-4095-bac8-6e674dadc3e8.png",
+      "image_sha256": "261bdfd162fa38eaa9b6a041a43ea061ecb0528e03be7b26bbf88542d7b74a70"
+    },
+    "runtime_registers": "NOT_CAPTURED_NO_DEBUGGER",
+    "ended_state": "No mGBA process remained when later checked; closure reason UNKNOWN"
+  },
+  "setup_only": {
+    "trial_id": "B1",
+    "result": "SETUP_ABORTED_HIDDEN_WINDOW",
+    "newgame_progression": false,
+    "count_as_reproduction": false,
+    "notes": "Task-owned hidden launch stopped; new B2 directory/save used. No files deleted."
+  },
+  "future_manual_steps": [
+    "No automatic key input is currently authorized.",
+    "For A: create a fresh portable trial with original English ROM and the same common options. No -g/-d/-t/-p/-c.",
+    "Manually press Enter (START), choose NEW GAME, use X (A) through the opening; do not load save/savestate.",
+    "Preserve dialog/error and last visible text. Record whether the bridge scene was reached and passed.",
+    "Repeat A/B in new folders if feasible; reaching only title/Hoopa is not a negative crash result.",
+    "C/D are separate GDB trials. Use the same game input sequence and clearly record breakpoint/step/detach schedule.",
+    "Only after useful comparison, confirm write-watchpoint support experimentally. Watch 02039610..13 with separate address watchpoints; packet length alone is not evidence of coverage.",
+    "Record first invalid write PC/LR/SP/registers/address/size/old/new. Do not infer writer from final bx or an interior text match."
+  ],
+  "no_rom_injection": true,
+  "no_translation_changes": true,
+  "no_glossary_changes": true,
+  "no_validator_gate_changes": true
+}

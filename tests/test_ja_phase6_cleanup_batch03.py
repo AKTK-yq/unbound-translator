@@ -273,7 +273,7 @@ def test_gitignore_exception_cannot_apply_to_another_path(tmp_path, monkeypatch)
 def test_later_stage_allow_list_is_exact_and_detection_is_preserved(monkeypatch):
     allowed = m.LATER_STAGE_PATHS
     assert not any(ch in p for p in allowed for ch in '*?[')
-    assert all('batch04' in p or p in m.PHASE7A_PATHS | m.PHASE7B_PATHS | m.PHASE7C1_PATHS | m.PHASE7C2_PATHS | m.PHASE7C3_PATHS | m.PHASE7C4_PATHS | m.PHASE7C5_PATHS for p in allowed)
+    assert all('batch04' in p or p in m.PHASE7A_PATHS | m.PHASE7B_PATHS | m.PHASE7C1_PATHS | m.PHASE7C2_PATHS | m.PHASE7C3_PATHS | m.PHASE7C4_PATHS | m.PHASE7C5_PATHS | m.PHASE7C6_PATHS for p in allowed)
     assert not allowed & m.NEW_PATHS
     # The existing input stays in the protected 909, never allow-listed.
     assert 'out/phase6/ja_phase6_cleanup_batch04_for_claude.json' not in allowed

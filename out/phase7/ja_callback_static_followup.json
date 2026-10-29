@@ -1,0 +1,327 @@
+{
+  "phase": "7C-6 static follow-up",
+  "no_screen_capture": true,
+  "no_UI_or_emulator_started": true,
+  "new_runtime_trials": 0,
+  "prior_sha256": {
+    "rom/unbound.gba": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+    "out/unbound-ja-phase6-cleanup-batch04.gba": "0d1d00e7b0f4f113514abbcf1907e6d8949fd12b9193bf2cb0ad764ace5559d8",
+    "docs/ja-phase7-runtime-crash-isolation.md": "771f69f5902b9150004ded3c8bd82bfe3500787bacbf1e9c88a623e66d037066",
+    "out/phase7/ja_runtime_crash_isolation_matrix.json": "7880d72f8479936b73dfdf8a21104c59a1efd47c24baf927694f354d4cbdc656",
+    "out/phase7/ja_callback_writer_trace.json": "e82b16e43c56c1024b1cbb59c1cf7a7edee58476affc0a963a5ae21a1f849f93",
+    "scripts/investigate_ja_phase7_crash_isolation.py": "bc9f2217f44d2ae14c02a7d9cc9ed02f86ca269863547304a55616e28f155189",
+    "tests/test_ja_phase7_crash_isolation.py": "88c8c263e5dbe92b11b9491f8b4309558d29023d1e7c22845483c0441362a76c",
+    "tests/fixtures/ja_phase7_crash_repro_plan.json": "b518d27ab91a6727099810e858f98d8719f867b25a05dbafcde5858cd6fa2199"
+  },
+  "protected909": {
+    "files": 909,
+    "aggregate_sha256": "f932aab110e4dc228c628314c43ce5b0dc0ba89d5f15f6740da9ef6117bad4df"
+  },
+  "routes": {
+    "confidence": "STATIC_PROVEN_RELEVANT_BRANCHES",
+    "relevant_english_ja_bytes_equal": true,
+    "field_copy": {
+      "function": {
+        "rom_offset": "0x000694C8",
+        "gba_address": "0x080694C8"
+      },
+      "destination_literal_owner": {
+        "rom_offset": "0x000694E0",
+        "gba_address": "0x080694E0"
+      },
+      "destination": "0x02021D18",
+      "call_expander": {
+        "rom_offset": "0x000694CE",
+        "gba_address": "0x080694CE"
+      }
+    },
+    "expander": {
+      "entry": {
+        "rom_offset": "0x00008FCC",
+        "gba_address": "0x08008FCC"
+      },
+      "ordinary_store": {
+        "rom_offset": "0x000090A6",
+        "gba_address": "0x080090A6"
+      },
+      "FD_dispatch": {
+        "rom_offset": "0x00009004",
+        "gba_address": "0x08009004"
+      },
+      "recursive_call": {
+        "rom_offset": "0x00009010",
+        "gba_address": "0x08009010"
+      },
+      "FF_store": {
+        "rom_offset": "0x000090AE",
+        "gba_address": "0x080090AE"
+      },
+      "capacity_parameter": false
+    },
+    "buffer3": {
+      "factory_table_owner": {
+        "rom_offset": "0x00231E80",
+        "gba_address": "0x08231E80"
+      },
+      "factory": {
+        "rom_offset": "0x0000913C",
+        "gba_address": "0x0800913C"
+      },
+      "ram_literal_owner": {
+        "rom_offset": "0x00009140",
+        "gba_address": "0x08009140"
+      },
+      "ram": "0x02021D04",
+      "bytes_before_field_destination": 20
+    },
+    "script_preparation": {
+      "call_owner": {
+        "rom_offset": "0x01E70929",
+        "gba_address": "0x09E70929"
+      },
+      "helper": {
+        "rom_offset": "0x01E709DB",
+        "gba_address": "0x09E709DB"
+      },
+      "gender_handler": {
+        "rom_offset": "0x0006C4F0",
+        "gba_address": "0x0806C4F0"
+      },
+      "gender_source": "*RAM0300500C +8, raw u8",
+      "branches": [
+        {
+          "gender_result": 0,
+          "copies": [
+            {
+              "command": {
+                "rom_offset": "0x01E709F3",
+                "gba_address": "0x09E709F3"
+              },
+              "index": 0,
+              "destination": "0x02021CD0",
+              "source": {
+                "rom_offset": "0x01FA764E",
+                "gba_address": "0x09FA764E"
+              },
+              "text": "him",
+              "bytes_including_FF": 4
+            },
+            {
+              "command": {
+                "rom_offset": "0x01E709F9",
+                "gba_address": "0x09E709F9"
+              },
+              "index": 1,
+              "destination": "0x02021CF0",
+              "source": {
+                "rom_offset": "0x01F8DD33",
+                "gba_address": "0x09F8DD33"
+              },
+              "text": "he",
+              "bytes_including_FF": 3
+            },
+            {
+              "command": {
+                "rom_offset": "0x01E709FF",
+                "gba_address": "0x09E709FF"
+              },
+              "index": 2,
+              "destination": "0x02021D04",
+              "source": {
+                "rom_offset": "0x01F41B0E",
+                "gba_address": "0x09F41B0E"
+              },
+              "text": "son",
+              "bytes_including_FF": 4
+            }
+          ]
+        },
+        {
+          "gender_result": 1,
+          "copies": [
+            {
+              "command": {
+                "rom_offset": "0x01E70A06",
+                "gba_address": "0x09E70A06"
+              },
+              "index": 0,
+              "destination": "0x02021CD0",
+              "source": {
+                "rom_offset": "0x01FA7652",
+                "gba_address": "0x09FA7652"
+              },
+              "text": "her",
+              "bytes_including_FF": 4
+            },
+            {
+              "command": {
+                "rom_offset": "0x01E70A0C",
+                "gba_address": "0x09E70A0C"
+              },
+              "index": 1,
+              "destination": "0x02021CF0",
+              "source": {
+                "rom_offset": "0x01F8BEE7",
+                "gba_address": "0x09F8BEE7"
+              },
+              "text": "she",
+              "bytes_including_FF": 4
+            },
+            {
+              "command": {
+                "rom_offset": "0x01E70A12",
+                "gba_address": "0x09E70A12"
+              },
+              "index": 2,
+              "destination": "0x02021D04",
+              "source": {
+                "rom_offset": "0x01F41B12",
+                "gba_address": "0x09F41B12"
+              },
+              "text": "daughter",
+              "bytes_including_FF": 9
+            }
+          ]
+        }
+      ],
+      "other_gender_values": "Return without these buffer writes; actual bridge value UNKNOWN",
+      "runtime_executed": false
+    },
+    "intervening_header": {
+      "native_call_owner": {
+        "rom_offset": "0x01E70934",
+        "gba_address": "0x09E70934"
+      },
+      "function": {
+        "rom_offset": "0x01EB59D0",
+        "gba_address": "0x09EB59D0"
+      },
+      "copy_source": {
+        "rom_offset": "0x01F2CAE8",
+        "gba_address": "0x09F2CAE8"
+      },
+      "source_text": "???",
+      "bytes_including_FF": 4,
+      "notes": "This local source/header is unchanged, not the 437-byte body."
+    }
+  },
+  "models": {
+    "normal_male": {
+      "method": "BOUNDED_SYNTHETIC_PCS_MODEL_NOT_CPU_OR_GAME_EXECUTION",
+      "returned": true,
+      "end_pointer": "0x02021ECE",
+      "writes": 442,
+      "max_depth": 1,
+      "stop_reason": null,
+      "state_bytes": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 e1 7f 08 08 00 00 00 00",
+      "callback_writes": [],
+      "initial_callback_assumed_not_observed": "0x08087FE1",
+      "runtime_writer_captured": false
+    },
+    "normal_female": {
+      "method": "BOUNDED_SYNTHETIC_PCS_MODEL_NOT_CPU_OR_GAME_EXECUTION",
+      "returned": true,
+      "end_pointer": "0x02021ED4",
+      "writes": 448,
+      "max_depth": 1,
+      "stop_reason": null,
+      "state_bytes": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 e1 7f 08 08 00 00 00 00",
+      "callback_writes": [],
+      "initial_callback_assumed_not_observed": "0x08087FE1",
+      "runtime_writer_captured": false
+    },
+    "unterminated_buffer3": {
+      "method": "BOUNDED_SYNTHETIC_PCS_MODEL_NOT_CPU_OR_GAME_EXECUTION",
+      "returned": false,
+      "end_pointer": null,
+      "writes": 96512,
+      "max_depth": 1,
+      "stop_reason": "TARGET_RANGE_CAPTURED",
+      "state_bytes": "fe e8 dc d5 e2 00 dd da 00 ed e3 e9 00 eb d9 e6 d9 00 e8 e3 00 e6 d9 e1",
+      "callback_writes": [
+        {
+          "address": "0x02039610",
+          "size": 1,
+          "byte": "D9",
+          "before": "0x08087FE1",
+          "after": "0x08087FD9",
+          "status": "SYNTHETIC_NOT_OBSERVED",
+          "static_store_candidate": {
+            "rom_offset": "0x000090A6",
+            "gba_address": "0x080090A6"
+          },
+          "observed_pc": null
+        },
+        {
+          "address": "0x02039611",
+          "size": 1,
+          "byte": "00",
+          "before": "0x08087FD9",
+          "after": "0x080800D9",
+          "status": "SYNTHETIC_NOT_OBSERVED",
+          "static_store_candidate": {
+            "rom_offset": "0x000090A6",
+            "gba_address": "0x080090A6"
+          },
+          "observed_pc": null
+        },
+        {
+          "address": "0x02039612",
+          "size": 1,
+          "byte": "E8",
+          "before": "0x080800D9",
+          "after": "0x08E800D9",
+          "status": "SYNTHETIC_NOT_OBSERVED",
+          "static_store_candidate": {
+            "rom_offset": "0x000090A6",
+            "gba_address": "0x080090A6"
+          },
+          "observed_pc": null
+        },
+        {
+          "address": "0x02039613",
+          "size": 1,
+          "byte": "E3",
+          "before": "0x08E800D9",
+          "after": "0xE3E800D9",
+          "status": "SYNTHETIC_NOT_OBSERVED",
+          "static_store_candidate": {
+            "rom_offset": "0x000090A6",
+            "gba_address": "0x080090A6"
+          },
+          "observed_pc": null
+        }
+      ],
+      "initial_callback_assumed_not_observed": "0x08087FE1",
+      "runtime_writer_captured": false
+    }
+  },
+  "alias_hypothesis": {
+    "status": "CONDITIONAL_EXACT_MATCH_NOT_RUNTIME_PROVEN",
+    "precondition": "buffer3 has no terminator/control recursion in its 20-byte prefix; first FD04 is reached",
+    "first_FD04_text_offset": 283,
+    "gap_to_destination": 20,
+    "repeat_period_bytes": 303,
+    "callback_state_phase": 154,
+    "matching_entry_byte_offset": 134,
+    "matched_bytes": 24,
+    "predicted": "fe e8 dc d5 e2 00 dd da 00 ed e3 e9 00 eb d9 e6 d9 00 e8 e3 00 e6 d9 e1",
+    "historical_observed": "fe e8 dc d5 e2 00 dd da 00 ed e3 e9 00 eb d9 e6 d9 00 e8 e3 00 e6 d9 e1",
+    "predicted_callback_thumb": "0xE3E800D9",
+    "predicted_pc_after_bx": "0xE3E800D8",
+    "observed_live_writer": null,
+    "root_cause": "UNKNOWN",
+    "why_buffer3_unterminated": "UNKNOWN; static 0/1 preparation normally supplies FF"
+  },
+  "next_trace_only_when_user_available": [
+    "At 08008FCC r1=09F1194E, capture buffer1/2/3 and FIELD before expansion.",
+    "At 08009004 for first FD04, capture r4 destination, r5 source and RAM02021D04..17.",
+    "Trace helper 09E709DB, gender handler0806C4F0 and bufferstring writer0806BF14; record raw gender.",
+    "Conditional store breakpoint080090A6 with r4=02039610; capture r2, LR, SP and before/after.",
+    "A valid buffer3 FF before first FD04 rules out THIS synthetic precondition; inspect other writers, do not force hypothesis.",
+    "English/no-GDB comparison still NOT_RUN. No runtime PASS or Batch01 approval."
+  ],
+  "writer_captured": false,
+  "japanese_causality": "UNKNOWN",
+  "ROM_patch": false
+}

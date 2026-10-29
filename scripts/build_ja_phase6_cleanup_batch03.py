@@ -118,6 +118,18 @@ PHASE7C5_PATHS = frozenset({
     'scripts/investigate_ja_phase7_runtime_trace.py',
     'tests/test_ja_phase7_runtime_trace.py',
 })
+PHASE7C6_PATHS = frozenset({
+    'docs/ja-phase7-runtime-crash-isolation.md',
+    'out/phase7/ja_runtime_crash_isolation_matrix.json',
+    'out/phase7/ja_callback_writer_trace.json',
+    'tests/fixtures/ja_phase7_crash_repro_plan.json',
+    'scripts/investigate_ja_phase7_crash_isolation.py',
+    'tests/test_ja_phase7_crash_isolation.py',
+    'docs/ja-phase7-runtime-crash-static-followup.md',
+    'out/phase7/ja_callback_static_followup.json',
+    'scripts/investigate_ja_phase7_crash_static_followup.py',
+    'tests/test_ja_phase7_crash_static_followup.py',
+})
 LATER_STAGE_PATHS = frozenset({
     # Batch 04 Claude review deliverables (Phase 6C-4I).
     'tests/fixtures/ja_phase6_cleanup_batch04_claude_review.json',
@@ -143,7 +155,7 @@ LATER_STAGE_PATHS = frozenset({
     'out/phase6/ja_phase6_cleanup_batch04_map.json',
     'out/phase6/ja_phase6_cleanup_batch04_binary_audit.json',
     'out/phase6/ja_phase6_cleanup_batch04_validation.json',
-}) | PHASE7A_PATHS | PHASE7B_PATHS | PHASE7C1_PATHS | PHASE7C2_PATHS | PHASE7C3_PATHS | PHASE7C4_PATHS | PHASE7C5_PATHS
+}) | PHASE7A_PATHS | PHASE7B_PATHS | PHASE7C1_PATHS | PHASE7C2_PATHS | PHASE7C3_PATHS | PHASE7C4_PATHS | PHASE7C5_PATHS | PHASE7C6_PATHS
 
 # Manual review of THIS exact input hash. These are audit observations, not new
 # wording or a reusable automated semantic validator. FE is not an input wait.

@@ -1,0 +1,227 @@
+{
+  "phase": "7C-6",
+  "static_lifecycle": {
+    "confidence": "STATIC_PROVEN_ROM_SEMANTICS",
+    "decomp_correlated_structure": "ScanlineEffect (DMA first-scanline callback)",
+    "structure_ram": "0x02039600",
+    "callback_ram": "0x02039610",
+    "state_ram": "0x02039615",
+    "source_index_ram": "0x02039614",
+    "clear": {
+      "rom_offset": "0x00087EA4",
+      "gba_address": "0x08087EA4",
+      "callback_field_cleared": false,
+      "notes": "Clears DMA src/dest/control and state. Leaves +10 callback retained, inactive state prevents call."
+    },
+    "set_params": {
+      "rom_offset": "0x00087EE4",
+      "gba_address": "0x08087EE4",
+      "write": {
+        "rom_offset": "0x00087F28",
+        "gba_address": "0x08087F28"
+      },
+      "instruction": "str r1,[r0,#0x10]",
+      "bytes": "01 61",
+      "width_bytes": 4,
+      "destination": "0x02039610",
+      "normal_candidates": [
+        {
+          "value": "0x08087FE1",
+          "target": "0x08087FE0",
+          "mode": "Thumb",
+          "region": "CARTRIDGE_ROM_INCLUDING_MIRRORS",
+          "alignment_valid": true,
+          "location_plausible": true,
+          "executable_code_proven": false
+        },
+        {
+          "value": "0x08088001",
+          "target": "0x08088000",
+          "mode": "Thumb",
+          "region": "CARTRIDGE_ROM_INCLUDING_MIRRORS",
+          "alignment_valid": true,
+          "location_plausible": true,
+          "executable_code_proven": false
+        }
+      ],
+      "normal_candidates_confidence": "STATIC_PROVEN_NOT_OBSERVED_LIVE",
+      "mode16_literal": {
+        "rom_offset": "0x00087F08",
+        "gba_address": "0x08087F08",
+        "value": "0xA2600001"
+      },
+      "mode16_callback_literal": {
+        "rom_offset": "0x00087F14",
+        "gba_address": "0x08087F14"
+      },
+      "mode32_callback_literal": {
+        "rom_offset": "0x00087F50",
+        "gba_address": "0x08087F50"
+      }
+    },
+    "reader": {
+      "rom_offset": "0x01ED13F4",
+      "gba_address": "0x09ED13F4",
+      "load": {
+        "rom_offset": "0x01ED1440",
+        "gba_address": "0x09ED1440"
+      },
+      "instruction": "ldr r3,[r4,#0x10]",
+      "call": {
+        "rom_offset": "0x01ED1442",
+        "gba_address": "0x09ED1442"
+      },
+      "trampoline": {
+        "rom_offset": "0x01ED1466",
+        "gba_address": "0x09ED1466"
+      },
+      "jump": "bx r3",
+      "gate": "state0 return; state3 stop DMA; other state invokes callback",
+      "dma_register_base": "0x040000B0",
+      "hook": {
+        "rom_offset": "0x00087F54",
+        "gba_address": "0x08087F54",
+        "target_thumb": "0x09ED13F5"
+      }
+    },
+    "code_unchanged": true,
+    "first_write": "UNKNOWN",
+    "normal_live_values": [],
+    "first_invalid_write": "NOT_CAPTURED",
+    "writer_pc": null,
+    "watchpoint_support": {
+      "source_verified": true,
+      "runtime_validated_this_phase": false,
+      "source": "https://github.com/mgba-emu/mgba/blob/0.10.5/src/debugger/gdb-stub.c",
+      "source_semantics": "Z2 sets WRITE_CHANGE or WRITE; GDB size argument not consumed in _setBreakpoint.",
+      "plan": "Experimentally verify four separate watch addresses 02039610/11/12/13; record before/after and first invalid write."
+    }
+  },
+  "historical_bad_ram": {
+    "registers": {
+      "r0": "0xD5DCE8FE",
+      "r1": "0xE9E3ED00",
+      "r2": "0xE6D9EB00",
+      "r3": "0xE3E800D9",
+      "r4": "0x02039600",
+      "r5": "0x030030F0",
+      "r6": "0xB30030E4",
+      "r7": "0x030030F0",
+      "r8": "0x00000000",
+      "r9": "0x00000000",
+      "r10": "0x00000000",
+      "r11": "0x00000000",
+      "r12": "0x00000010",
+      "sp": "0x03007DB0",
+      "lr": "0x09ED1447",
+      "pc": "0xE3E800D8",
+      "cpsr": "0x4000003F"
+    },
+    "state_address": "0x02039600",
+    "state_bytes": "fe e8 dc d5 e2 00 dd da 00 ed e3 e9 00 eb d9 e6 d9 00 e8 e3 00 e6 d9 e1",
+    "packet_transcript": [
+      {
+        "direction": "sent",
+        "payload": "g"
+      },
+      {
+        "direction": "received",
+        "payload": "fee8dcd500ede3e900ebd9e6d900e8e300960302f0300003e43000b3f03000030000000000000000000000000000000010000000b07d00034714ed09d800e8e33f000040",
+        "checksum": "16"
+      },
+      {
+        "direction": "sent",
+        "payload": "m2039600,18"
+      },
+      {
+        "direction": "received",
+        "payload": "fee8dcd5e200ddda00ede3e900ebd9e6d900e8e300e6d9e1",
+        "checksum": "6a"
+      }
+    ],
+    "gui_error": "Jumped to invalid address: E3E800D8",
+    "gui_method": "sky accessibility + dialog screenshot",
+    "observed_after": "capture04 breakpoint removal / debugger detach",
+    "cause": "UNRESOLVED",
+    "confidence": "OBSERVED",
+    "callback_load": "ROM01ED1440/GBA09ED1440: ldr r3,[r4,#0x10]",
+    "indirect_jump": "ROM01ED1466/GBA09ED1466: bx r3",
+    "callback_code_unchanged_from_source": true,
+    "RAM_PCS_decode": "\nthan if you were to rem",
+    "matching_ROM_offset": "0x01F119D4",
+    "matching_GBA_address": "0x09F119D4",
+    "containing_entry": "scr_1F1194E",
+    "identity_status": "BYTE_PROVENANCE_ONLY_NOT_RENDERER_ENTRY_PROOF",
+    "writer": "UNKNOWN",
+    "provenance": "Phase7C5 only; NOT B2 memory measurement",
+    "target_check": {
+      "value": "0xE3E800D9",
+      "target": "0xE3E800D8",
+      "mode": "Thumb",
+      "region": "INVALID_CALLBACK_REGION",
+      "alignment_valid": true,
+      "location_plausible": false,
+      "executable_code_proven": false
+    },
+    "state_byte": "0xE6"
+  },
+  "PCS_comparison": {
+    "entry_id": "scr_1F1194E",
+    "location": {
+      "rom_offset": "0x01F1194E",
+      "gba_address": "0x09F1194E"
+    },
+    "slot_bytes": 437,
+    "source_encoded_bytes": 437,
+    "source_text": "That’s why, my friend, you must\ngo into hiding.\n\nI’ll send your Poké Ball adrift,\namidst the waves\\.\n\nYou’ll surely be safer lost at sea,\nthan if you were to remain with me.\n\nIf I’m wrong, and nothing happens,\nI’ll call you back.\n\nBut if this is to be our final time\ntogether\\.\n\nProtect my [buffer3] if [buffer2] is\never in danger.\n\nAnd in turn, should the wrong sort\ntry to force your true power free\\.\n\nThen trust [buffer1] to protect you.\n\nFarewell, my good friend.",
+    "source_sha256": "e3944a9fe0787f81529fca219127c1bab55ba97a11d77088d4c434c63f10f4df",
+    "baseline_sha256": "e3944a9fe0787f81529fca219127c1bab55ba97a11d77088d4c434c63f10f4df",
+    "slot_unchanged": true,
+    "pointer_owner": {
+      "rom_offset": "0x01E7093B",
+      "gba_address": "0x09E7093B"
+    },
+    "pointer_bytes": "4e 19 f1 09",
+    "owner_unchanged": true,
+    "owner_neighborhood": "0f 00 4e 19 f1 09 09 06",
+    "source_controls": {
+      "FE": 7,
+      "FA": 0,
+      "FB": 8,
+      "FC": 0,
+      "FD": 3
+    },
+    "terminator": "FF",
+    "codec_roundtrip": true,
+    "match": {
+      "rom_offset": "0x01F119D4",
+      "gba_address": "0x09F119D4",
+      "entry_byte_offset": 134,
+      "byte_count": 24,
+      "bytes": "fe e8 dc d5 e2 00 dd da 00 ed e3 e9 00 eb d9 e6 d9 00 e8 e3 00 e6 d9 e1",
+      "decode": "\nthan if you were to rem"
+    },
+    "copy_writer": "UNKNOWN",
+    "buffer_overflow_proven": false,
+    "runtime_destination_inference": "No destination inferred from interior match",
+    "source_to_ram_identity": "BYTE_PROVENANCE_NOT_EXECUTION_OR_CAUSAL_PROOF",
+    "present_in_applied_2403": false
+  },
+  "current_live_write_observations": [],
+  "current_normal_ram_observations": [],
+  "first_invalid_write_captured": false,
+  "writer_pc": null,
+  "writer_function": "UNKNOWN",
+  "causality": "UNKNOWN",
+  "no_patch_proposed": true,
+  "next_steps": [
+    "No automatic key input is currently authorized.",
+    "For A: create a fresh portable trial with original English ROM and the same common options. No -g/-d/-t/-p/-c.",
+    "Manually press Enter (START), choose NEW GAME, use X (A) through the opening; do not load save/savestate.",
+    "Preserve dialog/error and last visible text. Record whether the bridge scene was reached and passed.",
+    "Repeat A/B in new folders if feasible; reaching only title/Hoopa is not a negative crash result.",
+    "C/D are separate GDB trials. Use the same game input sequence and clearly record breakpoint/step/detach schedule.",
+    "Only after useful comparison, confirm write-watchpoint support experimentally. Watch 02039610..13 with separate address watchpoints; packet length alone is not evidence of coverage.",
+    "Record first invalid write PC/LR/SP/registers/address/size/old/new. Do not infer writer from final bx or an interior text match."
+  ]
+}
